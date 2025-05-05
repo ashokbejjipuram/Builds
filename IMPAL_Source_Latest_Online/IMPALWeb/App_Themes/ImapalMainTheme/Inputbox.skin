@@ -1,0 +1,330 @@
+﻿<%-- Text Box Skins --%>
+<asp:TextBox   
+     SkinID="Login"   
+     runat="server"  
+     CssClass="ltextbox"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="GridViewTextBox"   
+     runat="server"  
+     CssClass="gridviewTextBox"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="GridViewTextBoxHidden"   
+     runat="server"  
+     CssClass="gridviewTextBoxHidden"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="GridViewTextBoxSmall"   
+     runat="server"  
+     CssClass="gridviewTextBoxSmall"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="GridViewTextBoxBig"   
+     runat="server"  
+     CssClass="gridviewTextBoxBig"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="GridViewTextBoxFooter"   
+     runat="server"  
+     CssClass="gridviewTextBoxFooter"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxNormal"   
+     runat="server"  
+     CssClass="textBoxNormal"
+     >  
+</asp:TextBox>  
+
+<asp:TextBox   
+     SkinID="TextBoxFocused"   
+     runat="server"  
+     CssClass="textBoxFocused"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxDisabled"   
+     runat="server"  
+     CssClass="textBoxDisabled"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxNormalSmall"   
+     runat="server"  
+     CssClass="textBoxNormalSmall"
+     >  
+</asp:TextBox>  
+
+<asp:TextBox   
+     SkinID="TextBoxFocusedSmall"   
+     runat="server"  
+     CssClass="textBoxFocusedSmall"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxDisabledSmall"   
+     runat="server"  
+     CssClass="textBoxDisabledSmall"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxNormalBig"   
+     runat="server"  
+     CssClass="textBoxNormalBig"
+     >  
+</asp:TextBox>  
+
+<asp:TextBox   
+     SkinID="TextBoxFocusedBig"   
+     runat="server"  
+     CssClass="textBoxFocusedBig"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxDisabledBig"   
+     runat="server"  
+     CssClass="textBoxDisabledBig"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxNormalPopup"   
+     runat="server"  
+     CssClass="textBoxNormalPopup"
+     >  
+</asp:TextBox>  
+
+<asp:TextBox   
+     SkinID="TextBoxFocusedPopup"   
+     runat="server"  
+     CssClass="textBoxFocusedPopup"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxDisabledPopup"   
+     runat="server"  
+     CssClass="textBoxDisabledPopup"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxMultilineNormal"   
+     runat="server"  
+     CssClass="textBoxMultilineNormal" 
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxMultilineFocused"   
+     runat="server"  
+     CssClass="textBoxMultilineFocused"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxMultilineDisable"   
+     runat="server"  
+     CssClass="textBoxMultilineDisable"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxMultilineNormalFiveColBig"   
+     runat="server"  
+     CssClass="textBoxMultilineNormalFiveColBig"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxMultilineFocusedFiveColBig"   
+     runat="server"  
+     CssClass="textBoxMultilineFocusedFiveColBig"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxMultilineDisableFiveColBig"   
+     runat="server"  
+     CssClass="textBoxMultilineDisableFiveColBig"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxCalendarExtenderNormal"   
+     runat="server"  
+     CssClass="textBoxCalendarExtenderNormal"
+     >  
+</asp:TextBox>  
+
+<asp:TextBox   
+     SkinID="TextBoxCalendarExtenderFocused"   
+     runat="server"  
+     CssClass="textBoxCalendarExtenderFocused"
+     >  
+</asp:TextBox> 
+
+<asp:TextBox   
+     SkinID="TextBoxCalendarExtenderDisabled"   
+     runat="server"  
+     CssClass="textBoxCalendarExtenderDisabled"
+     >  
+</asp:TextBox> 
+
+<%-- Drop Down List Box Skins --%>
+<asp:DropDownList   
+     SkinID="Login"   
+     runat="server"  
+     CssClass="lselect"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="GridViewDropDownList"   
+     runat="server"  
+     CssClass="gridviewDropDownList"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="GridViewDropDownListEscape"   
+     runat="server"  
+     CssClass="gridviewDropDownListEscape"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="GridViewDropDownListFooter"   
+     runat="server"  
+     CssClass="gridviewDropDownListFooter"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="DropDownListNormal"   
+     runat="server"  
+     CssClass="dropDownListNormal"
+     >  
+</asp:DropDownList>  
+
+<asp:DropDownList   
+     SkinID="DropDownListFocused"   
+     runat="server"  
+     CssClass="dropDownListFocused"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="DropDownListDisabled"   
+     runat="server"  
+     CssClass="dropDownListDisabled"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="DropDownListNormalSmall"   
+     runat="server"  
+     CssClass="dropDownListNormalSmall"
+     >  
+</asp:DropDownList>  
+
+<asp:DropDownList   
+     SkinID="DropDownListFocusedSmall"   
+     runat="server"  
+     CssClass="dropDownListFocusedSmall"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="DropDownListDisabledSmall"   
+     runat="server"  
+     CssClass="dropDownListDisabledSmall"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="DropDownListNormalBig"   
+     runat="server"  
+     CssClass="dropDownListNormalBig"
+     >  
+</asp:DropDownList>  
+
+<asp:DropDownList   
+     SkinID="DropDownListFocusedBig"   
+     runat="server"  
+     CssClass="dropDownListFocusedBig"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="DropDownListDisabledBig"   
+     runat="server"  
+     CssClass="dropDownListDisabledBig"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="DropDownListNormalPopup"   
+     runat="server"  
+     CssClass="dropDownListNormalPopup"
+     >  
+</asp:DropDownList>  
+
+<asp:DropDownList   
+     SkinID="DropDownListFocusedPopup"   
+     runat="server"  
+     CssClass="dropDownListFocusedPopup"
+     >  
+</asp:DropDownList> 
+
+<asp:DropDownList   
+     SkinID="DropDownListDisabledPopup"   
+     runat="server"  
+     CssClass="dropDownListDisabledPopup"
+     >  
+</asp:DropDownList> 
+
+<%-- List Box Skins --%>
+<asp:ListBox 
+    SkinID="ListBoxNormal"
+    runat="server" 
+    SelectionMode="Multiple" 
+    Rows="5" 
+    CssClass="listBoxNormal" 
+    >
+</asp:ListBox>
+
+<asp:ListBox 
+    SkinID="ListBoxFocused"
+    runat="server" 
+    SelectionMode="Multiple" 
+    Rows="5" 
+    CssClass="listBoxFocused" 
+    >
+</asp:ListBox>
+
+<asp:ListBox 
+    SkinID="ListBoxDisabled"
+    runat="server" 
+    SelectionMode="Multiple" 
+    Rows="5" 
+    CssClass="listBoxDisabled" 
+    >
+</asp:ListBox>

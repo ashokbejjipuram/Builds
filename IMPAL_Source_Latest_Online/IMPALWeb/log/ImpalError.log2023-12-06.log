@@ -1,0 +1,7 @@
+
+ 2023-12-06 17:52:58,208   [12]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Impal_Archive.dbo.outstanding_report'.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetPaymentPatternDetails(String BranchCode, String CustomerCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 395
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 270
+ClientConnectionId:8670bd1e-4880-4c01-89b0-41fa1f8eeb72
+Error Number:208,State:1,Class:16

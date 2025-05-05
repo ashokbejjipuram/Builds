@@ -1,0 +1,24 @@
+﻿<%-- Register AjaxControlToolkit with TagPrefix as ajaxToolkit --%>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<%-- Ajax Combo Box Skins --%>
+<ajaxToolkit:ComboBox 
+    SkinID = "ComboBoxNormal"
+    runat="server" 
+    CssClass="comboBoxNormal" 
+    >
+</ajaxToolkit:ComboBox>
+
+<ajaxToolkit:ComboBox 
+    SkinID = "ComboBoxFocused"
+    runat="server" 
+    CssClass="comboBoxFocused" 
+    >
+</ajaxToolkit:ComboBox>
+
+<ajaxToolkit:ComboBox 
+    SkinID = "ComboBoxDisabled"
+    runat="server" 
+    CssClass="comboBoxDisabled" 
+    >
+</ajaxToolkit:ComboBox>

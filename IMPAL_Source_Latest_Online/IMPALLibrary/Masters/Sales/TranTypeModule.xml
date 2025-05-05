@@ -1,0 +1,10 @@
+﻿<Root>
+	<TRANTYPE>
+		<MODULE Desc="-- Select --" Code="0" />
+		<MODULE Desc="Finance" Code="F" />
+		<MODULE Desc="Ordering" Code="O" />
+		<MODULE Desc="Inventory" Code="I" />
+		<MODULE Desc="Sales" Code="S" />
+		<MODULE Desc="MIS" Code="M" />
+	</TRANTYPE>
+</Root>

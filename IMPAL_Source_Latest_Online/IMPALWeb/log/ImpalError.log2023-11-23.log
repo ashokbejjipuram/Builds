@@ -1,0 +1,114 @@
+
+ 2023-11-23 12:57:33,855   [5]   ERROR  WriteException  IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.ExportDataSetToExcel(DataSet ds, String strReportName) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 588
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.btnReport_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 540
+
+ 2023-11-23 12:59:46,860   [10]   ERROR  WriteException  IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.ExportDataSetToExcel(DataSet ds, String strReportName) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 588
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.btnReport_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 540
+
+ 2023-11-23 13:11:11,901   [24]   ERROR  WriteException  IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.ExportDataSetToExcel(DataSet ds, String strReportName) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 588
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.btnReport_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 540
+
+ 2023-11-23 15:08:36,052   [21]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Supplier_Name'.
+Invalid column name 'Supplier_Name'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at IMPALLibrary.Suppliers.GetSupplierForTODGeneration(String BranchCode) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Supplier\Suppliers.cs:line 634
+   at IMPALWeb.TODGeneration.Page_Load(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 74
+ClientConnectionId:c1fd5d0d-2db9-42f2-bc67-d8e8092d3617
+Error Number:207,State:1,Class:16
+
+ 2023-11-23 15:11:41,123   [29]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Supplier_Name'.
+Invalid column name 'Supplier_Name'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at IMPALLibrary.Suppliers.GetSupplierForTODGeneration(String BranchCode) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Supplier\Suppliers.cs:line 634
+   at IMPALWeb.TODGeneration.Page_Load(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 74
+ClientConnectionId:c1fd5d0d-2db9-42f2-bc67-d8e8092d3617
+Error Number:207,State:1,Class:16
+
+ 2023-11-23 15:12:13,065   [10]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Supplier_Name'.
+Invalid column name 'Supplier_Name'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at IMPALLibrary.Suppliers.GetSupplierForTODGeneration(String BranchCode) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Supplier\Suppliers.cs:line 634
+   at IMPALWeb.TODGeneration.Page_Load(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 74
+ClientConnectionId:c1fd5d0d-2db9-42f2-bc67-d8e8092d3617
+Error Number:207,State:1,Class:16
+
+ 2023-11-23 17:19:17,192   [61]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier 
+System.IndexOutOfRangeException: Plant_Code
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at IMPALLibrary.Transactions.Finance.DebitCredit.ViewDebitCreditNoteGST(String BranchCode, String DocumentNumber) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 523
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier.BindDebitCredit(String DocumentNumber) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteSupplier.aspx.cs:line 642
+
+ 2023-11-23 17:19:17,283   [61]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier 
+System.IndexOutOfRangeException: Plant_Code
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier.BindDebitCredit(String DocumentNumber) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteSupplier.aspx.cs:line 692
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier.ddlDocumentNumber_SelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteSupplier.aspx.cs:line 825
+
+ 2023-11-23 18:37:15,684   [20]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '2023/' to data type int.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddCreditNoteTOD(TODGenerationEntity& todGenerationEntity, String MonthYear) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 1204
+   at IMPALWeb.TODGeneration.SubmitHeaderAndItems() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 871
+   at IMPALWeb.TODGeneration.BtnSubmit_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 338
+ClientConnectionId:42542d46-7107-41ed-b626-d70d261cd93f
+Error Number:245,State:1,Class:16
+
+ 2023-11-23 18:43:57,712   [20]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '2023/' to data type int.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddCreditNoteTOD(TODGenerationEntity& todGenerationEntity, String MonthYear) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 1204
+   at IMPALWeb.TODGeneration.SubmitHeaderAndItems() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 871
+   at IMPALWeb.TODGeneration.BtnSubmit_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 338
+ClientConnectionId:32543c41-1cac-442c-a80c-7e7cb6d9ad4b
+Error Number:245,State:1,Class:16

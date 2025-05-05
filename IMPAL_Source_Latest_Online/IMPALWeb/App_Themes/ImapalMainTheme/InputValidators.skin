@@ -1,0 +1,32 @@
+﻿<%-- Required Validator Skins --%>
+<asp:RequiredFieldValidator   
+     SkinID="Error"   
+     runat="server"  
+     CssClass="llabelError"
+     >  
+</asp:RequiredFieldValidator> 
+
+<asp:RequiredFieldValidator   
+     SkinID="GridViewLabelError"   
+     runat="server"  
+     CssClass="gridviewLabelError"
+     >  
+</asp:RequiredFieldValidator> 
+
+<asp:CustomValidator 
+     SkinID="GridViewLabelError"   
+     runat="server"  
+     CssClass="gridviewLabelError">
+</asp:CustomValidator> 
+
+<asp:RegularExpressionValidator
+     SkinID="GridViewLabelError"   
+     runat="server"  
+     CssClass="gridviewLabelError">
+</asp:RegularExpressionValidator> 
+
+<asp:CompareValidator
+     SkinID="GridViewLabelError"   
+     runat="server"  
+     CssClass="gridviewLabelError">
+</asp:CompareValidator> 

@@ -1,0 +1,8 @@
+
+ 2024-10-30 14:24:37,259   [96]   ERROR  WriteException  IMPALWeb.SalesInvoiceEntry 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.SalesInvoiceEntry.Page_Load(Object sender, EventArgs e) in E:\Ashok Builds\Builds\MyProjects\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\sales\SalesInvoice.aspx.cs:line 101
+
+ 2024-10-30 14:33:13,126   [21]   ERROR  WriteException  IMPALWeb.SalesInvoiceEntry 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.SalesInvoiceEntry.Page_Load(Object sender, EventArgs e) in E:\Ashok Builds\Builds\MyProjects\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\sales\SalesInvoice.aspx.cs:line 95

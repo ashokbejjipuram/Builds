@@ -1,0 +1,406 @@
+﻿/* Generic Styles */
+
+/* 
+   Only Colors for the new themes for the same Main.css IDs, classes needs to added here
+*/
+
+/* CSS Reset */
+body {
+}
+
+/* Header */
+#loginHeader {
+}
+
+/* Login Content */
+#login .loginRight .llabel {
+    color: #323232;
+}
+#login .loginRight .lselect {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+#login .loginRight .ltextbox {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+#login .loginRight .lbutton {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+}
+
+/* Master Content */
+#contentArea .contentPanel {
+	margin: 0;
+	min-width: 720px;
+    min-height: 530px;
+	border-top: 1px solid #dfdede;
+	border-bottom: 1px solid #dfdede;
+    background-color: #f7f8fb;
+	vertical-align: top;
+}
+#contentArea .contentPanel .contentPanelBox{
+    border: 1px solid #dfdede;
+	text-align: left;
+}
+
+/* GridView Edit Control Style */
+.gridviewLabel  {
+    color: #323232;
+}
+.gridviewLabelEmptyRow {
+    color: #323232;
+}
+.gridviewLabelError {
+    margin-top: 5px;
+    color: #bf1d38;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewTextBox {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.gridviewTextBoxHidden {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.gridviewTextBoxSmall {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.gridviewTextBoxBig {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.gridviewTextBoxFooter {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    background-color: #fff;
+}
+.gridviewDropDownList {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.gridviewDropDownListFooter {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.gridviewButton {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+}
+.gridviewButtonFooter {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+}
+.gridviewLinkButton {
+}
+.gridviewImageEdit {
+}
+
+.gridviewRadioButton {
+    color: #323232;
+}
+.gridviewRadioButton label{
+    padding-left: 5px;
+}
+.gridviewRadioButton input[type="radio"] {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+}
+
+/* Controls */
+.labelNormal {
+    color: #323232;
+}
+.labelNormalPopup {
+    color: #323232;
+}
+.labelSubTitle {
+    color: #1818a1;
+}
+
+.textBoxNormal {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.textBoxFocused {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.textBoxDisabled {
+    border: 1px solid #d4d4d4;
+    background-color: #ededdf;
+    color: #323232;
+}
+.textBoxNormalPopup {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.textBoxFocusedPopup {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.textBoxDisabledPopup {
+    border: 1px solid #d4d4d4;
+    background-color: #ededdf;
+    color: #323232;
+}
+
+.textBoxMultilineNormal {
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fef9ce;
+    color: #323232;
+}
+.textBoxMultilineFocused {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.textBoxMultilineDisabled {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+
+.textBoxMultilineNormalFiveColBig {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.textBoxMultilineFocusedFiveColBig {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.textBoxMultilineDisabledFiveColBig {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+
+.textBoxCalendarExtenderNormal {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.textBoxCalendarExtenderFocused {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.textBoxCalendarExtenderDisabled {
+    border: 1px solid #d4d4d4;
+    background-color: #ededdf;
+    color: #323232;
+}
+
+.dropDownListNormal {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.dropDownListFocused {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.dropDownListDisabled {
+    border: 1px solid #d4d4d4;
+    background-color: #ededdf;
+    color: #323232;
+}
+.dropDownListNormalPopup {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.dropDownListFocusedPopup {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.dropDownListDisabledPopup {
+    border: 1px solid #d4d4d4;
+    background-color: #ededdf;
+    color: #323232;
+}
+
+.comboBoxNormal {
+}
+.comboBoxFocused {
+}
+.comboBoxDisabled {
+}
+.comboBoxNormal .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input,
+.comboBoxFocused .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input,
+.comboBoxDisabled .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;    
+}
+.comboBoxDisabled .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input {
+    background-color: #ededdf;
+}
+.comboBoxNormal .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button,
+.comboBoxFocused .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button,
+.comboBoxDisabled .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button {
+    border: 1px solid #ccc;
+}
+.comboBoxNormal .ajax__combobox_itemlist,
+.comboBoxFocused .ajax__combobox_itemlist,
+.comboBoxDisabled .ajax__combobox_itemlist {
+    background-color: #fff;
+    color: #323232;
+}
+.comboBoxDisabled .ajax__combobox_itemlist {
+    background-color: #ededdf;
+}
+
+.listBoxNormal {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.listBoxFocused {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+.listBoxDisabled {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+}
+
+.buttonNormal {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+}
+.buttonNormalBig {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+}
+.buttonNormalPopup {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+}
+.buttonArrowLeft {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+}
+.buttonArrowRight {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+}
+.buttonViewReport {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+}
+
+.radioButtonNormal {
+    color: #323232;
+}
+.radioButtonNormal input[type="radio"] {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+}
+
+/* Transaction Screen */
+.subFormTitle {
+    width: 100%;
+    background-color: #3b68b5;
+    color: #fff;
+}
+.subFormTitleExtender250 {
+    width: 100%;
+}
+.subFormTitleExtender300 {
+    width: 100%;
+}
+.subFormTitleExtender350 {
+    width: 100%;
+}
+.subFormTitleExtender450 {
+    width: 100%;
+}
+.subFormTitleExtender550 {
+    width: 100%;
+}
+
+/* Modal Popup Screen */
+.divPopup {
+    border: 6px solid #d4d4d4;
+    background-color: #f7f8fb;
+}
+
+.modalExtenderTitle {
+    width: 100%;
+    background-color: #3b68b5;
+    color: #fff;
+}
+.modalExtenderTitleExtender250 {
+    width: 100%;
+}
+.modalExtenderTitleExtender300 {
+    width: 100%;
+}
+.modalExtenderTitleExtender350 {
+    width: 100%;
+}
+.modalExtenderTitleExtender450 {
+    width: 100%;
+}
+.modalExtenderTitleExtender550 {
+    width: 100%;
+}
+
+.modalExtenderTable td {
+    background-color: #3b68b5;
+}
+
+/* Reports Screen */
+.reportFormTitle {
+    width: 100%;
+    background-color: #3b68b5;
+    color: #fff;
+}
+.reportFormTitleExtender250 {
+    width: 100%;
+}
+.reportFormTitleExtender300 {
+    width: 100%;
+}
+.reportFormTitleExtender350 {
+    width: 100%;
+}
+.reportFormTitleExtender450 {
+    width: 100%;
+}
+.reportFormTitleExtender550 {
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+
+ 2024-10-15 11:00:29,979   [10]   ERROR  WriteException  IMPALWeb.PurchaseReturnEDP 
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at IMPALLibrary.Transactions.StockTransferTransactions.GetPurchaseReturnDetails(String BranchCode, String PurchaseReturnNumber) in E:\Ashok Builds\Builds\MyProjects\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Inventory\StockTransfer.cs:line 1506
+   at IMPALWeb.PurchaseReturnEDP.ddlPurchaseReturnNumber_OnSelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok Builds\Builds\MyProjects\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\PurchaseReturnEDP.aspx.cs:line 517

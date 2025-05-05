@@ -1,0 +1,38 @@
+﻿<%-- TagPrefix Registration --%>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+
+<%-- TreeView Skins --%>
+<asp:TreeView    
+    runat="server"    
+    SkinID="MainMenu"   
+    CssClass="treeviewMain" 
+    NodeIndent="10" 
+    ShowLines="true"  
+    ShowExpandCollapse="true"
+    ImageSet="Msdn"
+    >  
+    <NodeStyle CssClass="treeviewNodeStyle" />
+    <RootNodeStyle CssClass="treeviewRootNodeStyle" ImageUrl="~/images/iinfo.png" />
+    <ParentNodeStyle CssClass="treeviewParentNodeStyle" />
+    <LeafNodeStyle CssClass="treeviewLeafNodeStyle" />
+    <HoverNodeStyle CssClass="treeviewHoverNodeStyle" />
+    <SelectedNodeStyle CssClass="treeviewSelectedNodeStyle" />
+    <LevelStyles>
+        <asp:TreeNodeStyle CssClass="treeviewTreeNodeStyleLevel1" />
+        <asp:TreeNodeStyle CssClass="treeviewTreeNodeStyleLevel2" />
+        <asp:TreeNodeStyle CssClass="treeviewTreeNodeStyleLevel3" />
+        <asp:TreeNodeStyle CssClass="treeviewTreeNodeStyleLevel4" />
+        <asp:TreeNodeStyle CssClass="treeviewTreeNodeStyleLevel5" />
+    </LevelStyles>
+</asp:TreeView>  
+
+<%-- Accordion Skins --%>
+<asp:Accordion 
+    runat="server"  
+    SkinID="MainMenu" 
+    SuppressHeaderPostbacks="true" 
+    CssClass="accordion" 
+    HeaderCssClass="header"
+    >
+</asp:Accordion>

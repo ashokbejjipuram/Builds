@@ -1,0 +1,231 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using IMPALLibrary.Masters;
+using IMPALLibrary;
+using Microsoft.Practices.EnterpriseLibrary.Data;
+using System.Data.Common;
+using System.Data;
+using System.Web.Services;
+using IMPALWeb.UserControls;
+
+namespace IMPALWeb.Transactions.Finance.Payable
+{
+    public partial class HOSFLPayment : System.Web.UI.Page
+    {
+        IMPALLibrary.Payable objPayable = new IMPALLibrary.Payable();
+        string strBranchCode = string.Empty;
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            Type Source = System.Reflection.MethodBase.GetCurrentMethod().DeclaringType;
+            try
+            {
+                if (Session["BranchCode"] != null)
+                    strBranchCode = (string)Session["BranchCode"];
+
+                if (!IsPostBack)
+                {
+                    btnProcess.Enabled = false;
+
+                    btnProcess.Attributes.Add("OnClick", "javascript:return ValidateClick(2);");
+
+                    if (Session["Confirmstat"] == null)
+                        objPayable.DeleteHoPymtTable(Session["BranchCode"].ToString());
+                    else
+                    {
+                        txtInvoiceFromDate.Text = Session["InvFromDate"].ToString();
+                        txtInvoiceToDate.Text = Session["InvToDate"].ToString();
+                        ddlSupplier.SelectedValue = Session["ddlSupplier"].ToString();
+                        txtTotalAmount.Text = Session["hdnTotVal"].ToString();
+                        ddlSupplier.Enabled = false;
+                    }
+                }
+            }
+            catch (Exception exp)
+            {
+                Log.WriteException(Source, exp);
+            }
+        }
+
+        protected void btnClick_Click(object sender, EventArgs e)
+        {
+            Type Source = System.Reflection.MethodBase.GetCurrentMethod().DeclaringType;
+            try
+            {
+                List<PaymentProcessTemp> lstDetail = objPayable.LoadCorporateHOPymtBranchTotalTemp(ddlSupplier.SelectedValue, txtInvoiceFromDate.Text, txtInvoiceToDate.Text, ddlZone.SelectedValue, strBranchCode);
+                grvHOSFLPaymentDetails.DataSource = lstDetail;
+                grvHOSFLPaymentDetails.DataBind();
+
+                btnProcess.Attributes.Remove("OnClick");
+
+                int ZoneCnt = ddlZone.Items.Count;
+
+                if (ZoneCnt == 1 || ZoneCnt == 2)
+                {
+                    btnProcess.Attributes.Add("OnClick", "javascript:return ValidateClick(3);");
+                }
+                else
+                    btnProcess.Attributes.Add("OnClick", "javascript:return ValidateClick(2);");
+
+                btnProcess.Enabled = true;
+                btnClick.Enabled = false;
+            }
+            catch (Exception exp)
+            {
+                Log.WriteException(Source, exp);
+            }
+        }
+
+        protected void btnProcess_Click(object sender, EventArgs e)
+        {
+            Type Source = System.Reflection.MethodBase.GetCurrentMethod().DeclaringType;
+            try
+            {
+                PaymentProcessTempForBranches pymt = new PaymentProcessTempForBranches();
+                pymt.paymentProcessTempForBranch = new List<PaymentProcessTempForBranch>();
+
+                PaymentProcessTempForBranch pymtDetails = null;
+
+                foreach (GridViewRow gr in grvHOSFLPaymentDetails.Rows)
+                {
+                    pymtDetails = new PaymentProcessTempForBranch();
+
+                    CheckBox IsCheck = (CheckBox)gr.Cells[1].FindControl("chkSelected");
+                    TextBox txtBranch = (TextBox)gr.Cells[2].FindControl("txtBranch");
+                    TextBox txtInvoiceAmount = (TextBox)gr.Cells[3].FindControl("txtInvoiceAmount");
+                    TextBox txtCDAmount = (TextBox)gr.Cells[4].FindControl("txtCDAmount");
+                    pymtDetails.Selected = IsCheck.Checked;
+                    pymtDetails.Supplier = ddlSupplier.SelectedValue;
+                    pymtDetails.Branch = txtBranch.Text;
+                    pymtDetails.BranchAmount = Convert.ToDecimal(txtInvoiceAmount.Text);
+                    pymtDetails.CDAmount = Convert.ToDecimal(txtCDAmount.Text);
+                    pymtDetails.FromDate = txtInvoiceFromDate.Text;
+                    pymtDetails.ToDate = txtInvoiceToDate.Text;
+                    pymtDetails.Zone = ddlZone.SelectedValue;
+                    pymt.paymentProcessTempForBranch.Add(pymtDetails);
+                }
+
+                objPayable.UpdateHOSFLPaymentProcess(ref pymt, Session["BranchCode"].ToString(), ddlSupplier.SelectedValue);
+
+                string confirmValue = HdnConfirmvalue.Value;
+
+                if (confirmValue == "No")
+                {
+                    string HoCCWHNumber = objPayable.SubmitHOSFLPaymentProcess(ref pymt, Session["BranchCode"].ToString(), ddlSupplier.SelectedValue);
+
+                    if (HoCCWHNumber != "" && HoCCWHNumber != null)
+                    {
+                        Session["HoCCWHNumber"] = HoCCWHNumber;
+                        Session["PrevURL"] = "HOSFLPayment.aspx";
+                        Server.ClearError();
+                        Response.Redirect("~/Reports/Finance/Accounts Payable/HOPaymentReport.aspx", false);
+                        Context.ApplicationInstance.CompleteRequest();
+                    }
+                    else
+                    {
+                        ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "IMPAL", "alert('Error in Data');", true);
+                    }
+                }
+                else
+                {
+                    Session["Confirmstat"] = "2";
+                    Session["ddlSupplier"] = ddlSupplier.SelectedValue;
+                    Session["InvFromDate"] = txtInvoiceFromDate.Text;
+                    Session["InvToDate"] = txtInvoiceToDate.Text;
+                    Server.ClearError();
+                    Response.Redirect("HOSFLPayment.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
+            }
+            catch (Exception exp)
+            {
+                Log.WriteException(Source, exp);
+            }
+        }
+
+        protected void btnReset_Click(object sender, EventArgs e)
+        {
+            Type Source = System.Reflection.MethodBase.GetCurrentMethod().DeclaringType;
+            try
+            {
+                Session["Confirmstat"] = null;
+                Session["InvFromDate"] = "";
+                Session["InvToDate"] = "";
+                Session["hdnTotVal"] = "0";
+                Server.ClearError();
+                Response.Redirect("HOSFLPayment.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            catch (Exception exp)
+            {
+                Log.WriteException(Source, exp);
+            }
+        }
+
+        [WebMethod]
+        public static void SetSessionvalues(string Branch, string Amount, string CdAmount, string Supplier, string FromDate, string ToDate)
+        {
+            Type Source = System.Reflection.MethodBase.GetCurrentMethod().DeclaringType;
+            try
+            {
+                Page objp = new Page();
+                objp.Session["hdnBranch"] = Branch;
+                objp.Session["hdnInvAmt"] = Amount;
+                objp.Session["hdnCdAmt"] = CdAmount;
+                objp.Session["hdnSupplier"] = Supplier;
+                objp.Session["hdnFromDt"] = FromDate;
+                objp.Session["hdnToDt"] = ToDate;
+            }
+            catch (Exception exp)
+            {
+                Log.WriteException(Source, exp);
+            }
+        }
+
+        [WebMethod]
+        public static void SetSessionTotvalue(string TotValue)
+        {
+            Type Source = System.Reflection.MethodBase.GetCurrentMethod().DeclaringType;
+            try
+            {
+                Page objp = new Page();
+                objp.Session["hdnTotVal"] = TotValue;
+            }
+            catch (Exception exp)
+            {
+                Log.WriteException(Source, exp);
+            }
+        }
+
+        protected void ucHoSFLPaymentInvDetails_SearchImageClicked(object sender, EventArgs e)
+        {
+            Type Source = System.Reflection.MethodBase.GetCurrentMethod().DeclaringType;
+            try
+            {
+                GridViewRow gvr = (GridViewRow)((HoSFLPaymentInvDetails)sender).Parent.Parent;
+                var txtBranch = (TextBox)gvr.FindControl("txtBranch");
+                var txtInvoiceAmount = (TextBox)gvr.FindControl("txtInvoiceAmount");
+                var txtCDAmount = (TextBox)gvr.FindControl("txtCDAmount");
+                var chkBox = (CheckBox)gvr.FindControl("chkSelected");
+                txtBranch.Text = Session["HOSFLPaymentBranch"].ToString();
+                txtInvoiceAmount.Text = Session["HOSFLPaymentInvAmt"].ToString();
+                txtCDAmount.Text = Session["HOSFLPaymentCdAmt"].ToString();
+
+                if (Convert.ToInt16(Session["HOhdnCnt"].ToString()) > 0)
+                    chkBox.Checked = true;
+                else
+                    chkBox.Checked = false;
+
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "Javascript", "javascript:CalculateTotal();", true);
+            }
+            catch (Exception exp)
+            {
+                Log.WriteException(Source, exp);
+            }
+        }
+    }
+}

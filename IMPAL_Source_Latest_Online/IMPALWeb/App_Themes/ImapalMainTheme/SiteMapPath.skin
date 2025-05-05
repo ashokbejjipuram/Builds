@@ -1,0 +1,11 @@
+﻿<%-- SiteMapPath Skins --%>
+<asp:SiteMapPath 
+    runat="server"  
+    SkinID="BreadCrumb" 
+    CssClass="SiteMapPath"
+    >
+    <RootNodeStyle CssClass="SiteMapPathRootNodeStyle" />
+    <NodeStyle CssClass="SiteMapPathNodeStyle" />
+    <CurrentNodeStyle CssClass="SiteMapPathCurrentNodeStyle" />
+    <PathSeparatorStyle CssClass="SiteMapPathPathSeparatorStyle" />
+</asp:SiteMapPath>

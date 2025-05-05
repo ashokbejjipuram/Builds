@@ -1,0 +1,39 @@
+
+ 2024-01-27 19:43:46,847   [9]   ERROR  WriteException  IMPALWeb.SalesInvoiceEntry 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.System.Data.IDataRecord.get_Item(Int32 i)
+   at IMPALLibrary.Masters.Customers.GetCustomerDetailsWithShippingAddress(String strBranchCode, String strCustomerCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\Customer.cs:line 386
+   at IMPALWeb.SalesInvoiceEntry.LoadCustomerDetails() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\sales\SalesInvoice.aspx.cs:line 1633
+   at IMPALWeb.SalesInvoiceEntry.ddlCustomerName_OnSelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\sales\SalesInvoice.aspx.cs:line 158
+
+ 2024-01-27 19:46:16,660   [19]   ERROR  WriteException  IMPALLibrary.Transactions.SalesEntity 
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'usp_GetTaxPercentageFor_Sales'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command)
+   at IMPALLibrary.Transactions.SalesTransactions.GetSalesTax(String strCustomerCode, String strItemCode, String strBranchCode, String SLBIndicator, String Transactiontype, String ProductGroupCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Sales\Sales.cs:line 1383
+ClientConnectionId:dd72f3e3-9795-4273-b399-84827b638fe1
+Error Number:2812,State:62,Class:16
+
+ 2024-01-27 19:46:16,693   [19]   ERROR  WriteException  IMPALWeb.SalesInvoiceEntry 
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'usp_GetTaxPercentageFor_Sales'.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALLibrary.Transactions.SalesTransactions.GetSalesTax(String strCustomerCode, String strItemCode, String strBranchCode, String SLBIndicator, String Transactiontype, String ProductGroupCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Sales\Sales.cs:line 1389
+   at IMPALWeb.SalesInvoiceEntry.ddlItemCode_OnSelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\sales\SalesInvoice.aspx.cs:line 2076
+ClientConnectionId:dd72f3e3-9795-4273-b399-84827b638fe1
+Error Number:2812,State:62,Class:16

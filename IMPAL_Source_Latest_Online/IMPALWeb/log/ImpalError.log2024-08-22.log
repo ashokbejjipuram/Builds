@@ -1,0 +1,25 @@
+
+ 2024-08-22 12:29:59,101   [10]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Object reference not set to an instance of an object.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-08-22 12:31:28,212   [10]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Index was outside the bounds of the array.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-08-22 12:35:17,970   [11]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Incorrect syntax near ','.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-08-22 12:38:22,485   [10]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Incorrect syntax near ','.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-08-22 12:39:05,311   [11]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Object reference not set to an instance of an object.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44

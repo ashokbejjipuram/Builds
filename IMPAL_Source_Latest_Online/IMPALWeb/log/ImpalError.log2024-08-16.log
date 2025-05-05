@@ -1,0 +1,55 @@
+
+ 2024-08-16 16:41:13,382   [32]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Debit_Credit_Not__779E30F4". The conflict occurred in database "Impal", table "dbo.Customer_Master".
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Debit_Credit_Not__7A60316F". The conflict occurred in database "Impal", table "dbo.Debit_Credit_Note_Header".
+The statement has been terminated.
+The statement has been terminated.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddNewDebitCreditNoteCustBranch(DebitCreditNoteEntityGST& DrCrNoteEntity) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 846
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.AddDebitCreditNote(GridView dataGrid) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 426
+ClientConnectionId:f167e305-d62a-48e9-8024-b95e1508b305
+Error Number:547,State:0,Class:16
+
+ 2024-08-16 16:41:13,510   [32]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Debit_Credit_Not__779E30F4". The conflict occurred in database "Impal", table "dbo.Customer_Master".
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Debit_Credit_Not__7A60316F". The conflict occurred in database "Impal", table "dbo.Debit_Credit_Note_Header".
+The statement has been terminated.
+The statement has been terminated.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.AddDebitCreditNote(GridView dataGrid) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 448
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 303
+ClientConnectionId:f167e305-d62a-48e9-8024-b95e1508b305
+Error Number:547,State:0,Class:16
+
+ 2024-08-16 16:55:33,854   [14]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddNewDebitCreditNoteCustBranch(DebitCreditNoteEntityGST& DrCrNoteEntity) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 846
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.AddDebitCreditNote(GridView dataGrid) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 426
+ClientConnectionId:a3bf8c66-5e34-44fc-9f9d-d637088d2454
+Error Number:515,State:2,Class:16
+
+ 2024-08-16 16:55:33,870   [14]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.AddDebitCreditNote(GridView dataGrid) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 448
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 303
+ClientConnectionId:a3bf8c66-5e34-44fc-9f9d-d637088d2454
+Error Number:515,State:2,Class:16
+
+ 2024-08-16 18:16:41,215   [59]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddNewDebitCreditNoteCustBranch(DebitCreditNoteEntityGST& DrCrNoteEntity) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 846
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.AddDebitCreditNote(GridView dataGrid) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 426
+ClientConnectionId:31e758e5-328e-4adf-b65a-5ab6f8a0e055
+Error Number:515,State:2,Class:16
+
+ 2024-08-16 18:16:41,259   [59]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.AddDebitCreditNote(GridView dataGrid) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 448
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 303
+ClientConnectionId:31e758e5-328e-4adf-b65a-5ab6f8a0e055
+Error Number:515,State:2,Class:16

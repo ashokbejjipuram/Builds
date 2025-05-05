@@ -1,0 +1,29 @@
+
+ 2023-12-04 13:32:43,183   [26]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Impal_Archive.dbo.outstanding_report'.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetPaymentPatternDetails(String BranchCode, String CustomerCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 395
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 297
+ClientConnectionId:6826c590-b373-40a9-84b1-25eaaa374678
+Error Number:208,State:1,Class:16
+
+ 2023-12-04 13:33:37,650   [8]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'outstanding_report'.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetPaymentPatternDetails(String BranchCode, String CustomerCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 395
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 297
+ClientConnectionId:6826c590-b373-40a9-84b1-25eaaa374678
+Error Number:208,State:1,Class:16
+
+ 2023-12-04 13:40:54,691   [10]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.AddECrdeitApplicationForm(ECreditApplicationCust ecreditAppln) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 220
+   at IMPALWeb.ECreditApplication.btnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 920
+ClientConnectionId:6826c590-b373-40a9-84b1-25eaaa374678
+Error Number:8152,State:30,Class:16
+
+ 2023-12-04 19:09:36,063   [48]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Impal_Archive.dbo.outstanding_report'.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetPaymentPatternDetails(String BranchCode, String CustomerCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 395
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 297
+ClientConnectionId:f2c6c2ef-929c-4c6e-9794-84dcef777cd6
+Error Number:208,State:1,Class:16

@@ -1,0 +1,115 @@
+﻿<Root>
+	<ECreditApplication>
+		<DealerFirmType Desc="-- Select --" Value="" />
+		<DealerFirmType Desc="AUTHORIZED SERVICE CENTRE" Value="AUTHORIZED SERVICE CENTRE" />
+		<DealerFirmType Desc="AUTHORIZED SERVICE DEALER" Value="AUTHORIZED SERVICE DEALER" />
+		<DealerFirmType Desc="COUNTER PURCHASER" Value="COUNTER PURCHASER" />
+		<DealerFirmType Desc="FLEET OWNER" Value="FLEET OWNER" />
+		<DealerFirmType Desc="DEEMED EXPORT" Value="DEEMED EXPORT" />
+		<DealerFirmType Desc="ELECTRICAL" Value="ELECTRICAL" />
+		<DealerFirmType Desc="INSTITUTION" Value="INSTITUTION" />
+		<DealerFirmType Desc="PARTNERSHIP " Value="PARTNERSHIP " />
+		<DealerFirmType Desc="PRIVATE LTD" Value="PRIVATE LTD" />
+		<DealerFirmType Desc="PROJECTS" Value="PROJECTS" />
+		<DealerFirmType Desc="PUBLIC LTD" Value="PUBLIC LTD" />
+		<DealerFirmType Desc="SOLE PROPRIETOR" Value="SOLE PROPRIETOR" />
+		<DealerFirmType Desc="STU" Value="STU" />
+		<DealerFirmType Desc="TVS GROUP" Value="TVS GROUP" />
+
+
+		<SalesManTour Desc="-- Select --" Value="" />
+		<SalesManTour Desc="Day Travel" Value="Day Travel" />
+		<SalesManTour Desc="Outstation " Value="Outstation " />
+
+		<DealerBusinessPlace Desc="-- Select --" Value="" />
+		<DealerBusinessPlace Desc="Other Towns" Value="Other Towns" />
+		<DealerBusinessPlace Desc="Same Town" Value="Same Town" />
+
+		<DealerVisitPlan Desc="-- Select --" Value="" />
+		<DealerVisitPlan Desc="Bi-Monthly" Value="Bi-Monthly" />
+		<DealerVisitPlan Desc="Bi-Weekly" Value="Bi-Weekly" />
+		<DealerVisitPlan Desc="Daily" Value="Daily" />
+		<DealerVisitPlan Desc="Fortnightly" Value="Fortnightly" />
+		<DealerVisitPlan Desc="Monthly" Value="Monthly" />
+		<DealerVisitPlan Desc="Telephone calls only" Value="Telephone calls only" />
+		<DealerVisitPlan Desc="Weekly" Value="Weekly" />
+
+		<LogicalAnswers Desc="-- Select --" Value="" />
+		<LogicalAnswers Desc="No" Value="N" />
+		<LogicalAnswers Desc="Yes" Value="Y" />
+
+		<DealerClassification Desc="-- Select --" Value="" />
+		<DealerClassification Desc="WHOLESALERS" Value="WHOLESALERS" />
+		<DealerClassification Desc="SEMI WHOLESALER" Value="SEMI WHOLESALER" />
+		<DealerClassification Desc="RETAILERS" Value="RETAILERS" />
+		<DealerClassification Desc="RETAIL CUM GARAGE" Value="RETAIL CUM GARAGE" />
+		<DealerClassification Desc="AUTHORIZED VEHICLE SERVICE CENTRE (MASS/TASS/LEYLAND/TATA ETC)" Value="AUTHORIZED VEHICLE SERVICE CENTRE (MASS/TASS/LEYLAND/TATA ETC)" />
+		<DealerClassification Desc="AUTHORIZED SPARES SERVICE CENTRE (TRW/WABCO/LUCAS/BRAKES INDIA ETC)" Value="AUTHORIZED SPARES SERVICE CENTRE (TRW/WABCO/LUCAS/BRAKES INDIA ETC)" />
+		<DealerClassification Desc="MULTI CAR/TRUCK SERVICE CENTRE" Value="MULTI CAR/TRUCK SERVICE CENTRE" />
+		<DealerClassification Desc="FLEET OWNER" Value="FLEET OWNER" />
+		<DealerClassification Desc="LUBRICANTS AND GREASE DEALER" Value="LUBRICANTS AND GREASE DEALER" />
+		<DealerClassification Desc="STU/GOVT. DEPARTMENT" Value="STU/GOVT. DEPARTMENT" />
+
+		<DealerGSTRegType Desc="-- Select --" Value="" />
+		<DealerGSTRegType Desc="Regular GST" Value="Regular GST" />
+		<DealerGSTRegType Desc="Composition GST" Value="Composition GST" />
+		<DealerGSTRegType Desc="Un-registered GST" Value="Un-registered GST" />
+		<DealerGSTRegType Desc="Cash &amp; Carry" Value="Cash &amp; Carry" />
+
+		<DealerGSTINlocation Desc="-- Select --" Value="" />
+		<DealerGSTINlocation Desc="GST billing within State " Value="GST billing within State " />
+		<DealerGSTINlocation Desc="GST billing outside State" Value="GST billing outside State" />
+
+		<DealerBankAccType Desc="-- Select --" Value="" />
+		<DealerBankAccType Desc="Savings" Value="Savings" />
+		<DealerBankAccType Desc="Current" Value="Current" />
+		<DealerBankAccType Desc="CC Account" Value="CC Account" />
+
+		<DealerSegmentsType Desc="-- Select --" Value="" />
+		<DealerSegmentsType Desc="ACCESSORIES" Value="ACCESSORIES" />
+		<DealerSegmentsType Desc="2/3 WHEELERS" Value="2/3 WHEELERS" />
+		<DealerSegmentsType Desc="PC/UV" Value="PC/UV" />
+		<DealerSegmentsType Desc="HCV" Value="HCV" />
+		<DealerSegmentsType Desc="LCV/SCV" Value="LCV/SCV" />
+		<DealerSegmentsType Desc="MULTI SEGMENT" Value="MULTI SEGMENT" />
+		<DealerSegmentsType Desc="FARM TRACTOR" Value="FARM TRACTOR" />
+		<DealerSegmentsType Desc="HARDWARE" Value="HARDWARE" />
+		<DealerSegmentsType Desc="INDUSTRIAL" Value="INDUSTRIAL" />
+		<DealerSegmentsType Desc="LUBRICANTS AND GREASE" Value="LUBRICANTS AND GREASE" />
+		<!--<DealerSegmentsType Desc="PASSENGER CARS/UTILITY VEHICLES" Value="PASSENGER CARS/UTILITY VEHICLES" />-->
+		<DealerSegmentsType Desc="OFF HIGHWAY" Value="OFF HIGHWAY" />
+
+
+		<ModeOfPayment Desc="-- Select --" Value="" />
+		<ModeOfPayment Desc="Cheque" Value="Cheque" />
+		<ModeOfPayment Desc="Cash" Value="Cash" />
+		<ModeOfPayment Desc="Demand Draft" Value="Demand Draft" />
+		<ModeOfPayment Desc="On Line Bank Transfer" Value="On Line Bank Transfer" />
+		<ModeOfPayment Desc="QR Code Pay" Value="QR Code Pay" />
+		<ModeOfPayment Desc="Mobile Phone Number" Value="Mobile Phone Number" />
+		<ModeOfPayment Desc="Credit/Debit Card" Value="Credit/Debit Card" />
+
+		<ReasonForClosure Desc="-- Select --" Value="" />
+		<ReasonForClosure Desc="Dealer Behaviour" Value="Dealer Behaviour" />
+		<ReasonForClosure Desc="Dealer Dispute" Value="Dealer Dispute" />
+		<ReasonForClosure Desc="GST Registration Cancellation" Value="GST Registration Cancellation" />
+		<ReasonForClosure Desc="Irregular Payment Pattern" Value="Irregular Payment Pattern" />
+		<ReasonForClosure Desc="Outstanding write off" Value="Outstanding write off" />
+		<ReasonForClosure Desc="Shop Closed" Value="Shop Closed" />
+
+		<TownClassification Desc="-- Select --" Value="" />
+		<TownClassification Desc="Local" Value="L" />
+		<TownClassification Desc="Out Station" Value="O" />
+
+		<!--<TownClassification Desc="B" Value="B" />
+		<TownClassification Desc="C" Value="C" />-->
+
+		<DealerServicedBy Desc="-- Select --" Value="" />
+		<DealerServicedBy Desc="Branch Salesman" Value="Branch Salesman" />
+		<DealerServicedBy Desc="Resident Representative" Value="Resident Representative" />
+
+		<FreightIndicator Desc="-- Select --" Value="" />
+		<FreightIndicator Desc="Paid" Value="Paid" />
+		<FreightIndicator Desc="To Pay" Value="To Pay" />
+	</ECreditApplication>
+</Root>

@@ -1,0 +1,12 @@
+
+ 2025-02-26 02:36:29,252   [6]   ERROR  WriteException  IMPALWeb.Finance.ChequeReturn 
+System.FormatException: Failed to convert parameter value from a String to a Decimal. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at IMPALLibrary.CashAndBankTransactions.AddChequeReturnDetails(CashAndBankEntity& cashandbankEntity, String ScreenMode) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\CashAndBank.cs:line 1345
+   at IMPALWeb.Finance.ChequeReturn.SubmitChequeReturn() in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\CashAndBank\ChequeReturn.aspx.cs:line 447
+   at IMPALWeb.Finance.ChequeReturn.BtnSubmit_Click(Object sender, EventArgs e) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\CashAndBank\ChequeReturn.aspx.cs:line 226

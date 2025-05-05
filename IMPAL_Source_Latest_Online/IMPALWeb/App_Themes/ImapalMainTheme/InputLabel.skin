@@ -1,0 +1,61 @@
+﻿<%-- Label Skins --%>
+<asp:Label   
+     SkinID="Login"   
+     runat="server"  
+     CssClass="llabel"
+     >  
+</asp:Label> 
+<asp:Label   
+     SkinID="Error"   
+     runat="server"  
+     CssClass="llabelError"
+     >  
+</asp:Label> 
+<asp:Label   
+     SkinID="Progress"   
+     runat="server"  
+     CssClass="labelProgressBar"
+     >  
+</asp:Label> 
+
+<asp:Label   
+     SkinID="GridViewLabel"   
+     runat="server"  
+     CssClass="gridviewLabel"
+     >  
+</asp:Label> 
+
+<asp:Label   
+     SkinID="GridViewLabelEmptyRow"   
+     runat="server"  
+     CssClass="gridviewLabelEmptyRow"
+     >  
+</asp:Label> 
+
+<asp:Label   
+     SkinID="LabelNormal"   
+     runat="server"  
+     CssClass="labelNormal"
+     >  
+</asp:Label>  
+
+<asp:Label   
+     SkinID="LabelNormalPopup"   
+     runat="server"  
+     CssClass="labelNormalPopup"
+     >  
+</asp:Label>   
+
+<asp:Label   
+     SkinID="LabelNormalPopupContent"   
+     runat="server"  
+     CssClass="labelNormalPopupContent"
+     >  
+</asp:Label>  
+
+<asp:Label   
+     SkinID="LabelSubTitle"   
+     runat="server"  
+     CssClass="labelSubTitle"
+     >  
+</asp:Label>  

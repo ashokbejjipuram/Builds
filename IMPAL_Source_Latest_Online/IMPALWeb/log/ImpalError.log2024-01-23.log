@@ -1,0 +1,58 @@
+
+ 2024-01-23 15:04:07,097   [31]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Customer_Credit___4FDF1C67". The conflict occurred in database "Impal", table "dbo.Customer_Master".
+The statement has been terminated.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.UpdECrdeitApplicationForm(ECreditApplicationCust ecreditAppln) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 261
+   at IMPALWeb.ECreditApplicationHO.btnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 441
+ClientConnectionId:aaadcfcd-5c44-491e-ab8d-ecbeef85a3fb
+Error Number:547,State:0,Class:16
+
+ 2024-01-23 16:23:11,773   [59]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.ArgumentOutOfRangeException: 'ddlAssignedSMRR' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at IMPALWeb.ECreditApplicationHO.PageReset() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 670
+   at IMPALWeb.ECreditApplicationHO.btnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 476
+
+ 2024-01-23 21:12:02,291   [59]   ERROR  WriteException  IMPALLibrary.Transactions.SalesEntity 
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function dbo.udf_GetListPrice has too many arguments specified.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at IMPALLibrary.Transactions.SalesTransactions.GetCustomerSalesReqDetails(String strSalesReqNumber, String strTransactionType, String strCashDiscountPer, String OSLSFilter, String TaxFilter, String strBranchCode, String TownCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Sales\Sales.cs:line 2020
+ClientConnectionId:a4ed9f5f-1f4e-464d-9214-7fca4d44f967
+Error Number:8144,State:2,Class:16
+
+ 2024-01-23 21:12:02,479   [59]   ERROR  WriteException  IMPALWeb.SalesInvoiceEntry 
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function dbo.udf_GetListPrice has too many arguments specified.
+The statement has been terminated.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALLibrary.Transactions.SalesTransactions.GetCustomerSalesReqDetails(String strSalesReqNumber, String strTransactionType, String strCashDiscountPer, String OSLSFilter, String TaxFilter, String strBranchCode, String TownCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Sales\Sales.cs:line 2072
+   at IMPALWeb.SalesInvoiceEntry.LoadGridItems(String OSLSFilter, String TaxFilter) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\sales\SalesInvoice.aspx.cs:line 537
+ClientConnectionId:a4ed9f5f-1f4e-464d-9214-7fca4d44f967
+Error Number:8144,State:2,Class:16
+
+ 2024-01-23 21:12:02,493   [59]   ERROR  WriteException  IMPALWeb.SalesInvoiceEntry 
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function dbo.udf_GetListPrice has too many arguments specified.
+The statement has been terminated.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.SalesInvoiceEntry.LoadGridItems(String OSLSFilter, String TaxFilter) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\sales\SalesInvoice.aspx.cs:line 806
+   at IMPALWeb.SalesInvoiceEntry.ddlSalesReqNumber_OnSelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\sales\SalesInvoice.aspx.cs:line 473
+ClientConnectionId:a4ed9f5f-1f4e-464d-9214-7fca4d44f967
+Error Number:8144,State:2,Class:16

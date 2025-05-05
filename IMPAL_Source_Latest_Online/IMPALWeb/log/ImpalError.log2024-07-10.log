@@ -1,0 +1,5 @@
+
+ 2024-07-10 18:44:38,712   [6]   ERROR  WriteException  IMPALWeb.Reports.QR_Codes.WarrantyClaimLucasReprintQR 
+System.Exception: Einvoicing JSON Data Upload Failed : 24/00004/WC/TVM : Error Msg : Invalid GSTIN .Please Conact Support and Onboard the GSTIN
+   at IMPALLibrary.EinvAuthGen.EinvoiceAuthentication(String JSONData, String BranchCode, String DocNumber, String Indicator, String Action, String SellerGSTIN, String DocType, String DocDate, DataSet ds) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Common\EinvAuthGen.cs:line 361
+   at IMPALWeb.Reports.QR_Codes.WarrantyClaimLucasReprintQR.btnReport_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Reports\QR Codes\WarrantyClaimLucasReprintQR.aspx.cs:line 89

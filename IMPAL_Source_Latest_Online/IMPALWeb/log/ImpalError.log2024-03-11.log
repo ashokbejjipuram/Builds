@@ -1,0 +1,49 @@
+
+ 2024-03-11 16:52:02,024   [37]   ERROR  WriteException  IMPALWeb.PDCRegister 
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'usp_AddPDC_Register'.
+   at IMPALLibrary.ReceiptTransactions.AddNewPDCRegister(ReceiptEntity& receiptEntity) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\ReceivableReceipts.cs:line 886
+   at IMPALWeb.PDCRegister.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\Receivable\PDCRegister.aspx.cs:line 292
+ClientConnectionId:fc3f2f2e-053b-4e45-9692-15d39ec4bac8
+Error Number:2812,State:62,Class:16
+
+ 2024-03-11 16:52:02,241   [37]   ERROR  WriteException  IMPALWeb.PDCRegister 
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'usp_AddPDC_Register'.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.PDCRegister.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\Receivable\PDCRegister.aspx.cs:line 313
+   at IMPALWeb.PDCRegister.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\Receivable\PDCRegister.aspx.cs:line 72
+ClientConnectionId:fc3f2f2e-053b-4e45-9692-15d39ec4bac8
+Error Number:2812,State:62,Class:16
+
+ 2024-03-11 17:07:14,110   [47]   ERROR  WriteException  IMPALWeb.PDCRegister 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__PDC_Register__3D57232F". The conflict occurred in database "Impal", table "dbo.Customer_Master".
+The statement has been terminated.
+   at IMPALLibrary.ReceiptTransactions.AddNewPDCRegister(ReceiptEntity& receiptEntity) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\ReceivableReceipts.cs:line 886
+   at IMPALWeb.PDCRegister.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\Receivable\PDCRegister.aspx.cs:line 292
+ClientConnectionId:918aacf1-e680-433e-91eb-8861c7f0d7c1
+Error Number:547,State:0,Class:16
+
+ 2024-03-11 17:07:14,178   [47]   ERROR  WriteException  IMPALWeb.PDCRegister 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__PDC_Register__3D57232F". The conflict occurred in database "Impal", table "dbo.Customer_Master".
+The statement has been terminated.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.PDCRegister.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\Receivable\PDCRegister.aspx.cs:line 313
+   at IMPALWeb.PDCRegister.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\Receivable\PDCRegister.aspx.cs:line 72
+ClientConnectionId:918aacf1-e680-433e-91eb-8861c7f0d7c1
+Error Number:547,State:0,Class:16
+
+ 2024-03-11 17:11:24,354   [28]   ERROR  WriteException  IMPALWeb.PDCRegister 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__PDC_Register__3D57232F". The conflict occurred in database "Impal", table "dbo.Customer_Master".
+The statement has been terminated.
+   at IMPALLibrary.ReceiptTransactions.AddNewPDCRegister(ReceiptEntity& receiptEntity) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\ReceivableReceipts.cs:line 886
+   at IMPALWeb.PDCRegister.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\Receivable\PDCRegister.aspx.cs:line 292
+ClientConnectionId:918aacf1-e680-433e-91eb-8861c7f0d7c1
+Error Number:547,State:0,Class:16
+
+ 2024-03-11 17:11:24,367   [28]   ERROR  WriteException  IMPALWeb.PDCRegister 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__PDC_Register__3D57232F". The conflict occurred in database "Impal", table "dbo.Customer_Master".
+The statement has been terminated.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.PDCRegister.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\Receivable\PDCRegister.aspx.cs:line 313
+   at IMPALWeb.PDCRegister.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\Receivable\PDCRegister.aspx.cs:line 72
+ClientConnectionId:918aacf1-e680-433e-91eb-8861c7f0d7c1
+Error Number:547,State:0,Class:16

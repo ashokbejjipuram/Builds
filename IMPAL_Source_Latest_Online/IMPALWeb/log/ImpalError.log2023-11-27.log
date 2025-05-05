@@ -1,0 +1,35 @@
+
+ 2023-11-27 13:10:08,132   [44]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.IndexOutOfRangeException: Freight_Paid_Indicator
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetCustDetailsEcreditForm(String BranchCode, String CustomerCode) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 461
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 196
+
+ 2023-11-27 16:39:45,143   [40]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.btnReject_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 447
+
+ 2023-11-27 16:41:40,169   [40]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'usp_upd_ECredit_Application_Form_Reject' expects parameter '@Userid', which was not supplied.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.UpdECrdeitApplicationFormReject(ECreditApplicationCust ecreditAppln) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 290
+   at IMPALWeb.ECreditApplicationHO.btnReject_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 445
+ClientConnectionId:d13f2261-583f-46d0-a3ff-47e51bd55928
+Error Number:201,State:4,Class:16
+
+ 2023-11-27 18:10:34,218   [36]   ERROR  WriteException  IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.ExportDataSetToExcel(DataSet ds, String strReportName) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 588
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.btnReport_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 540
+
+ 2023-11-27 18:12:50,432   [41]   ERROR  WriteException  IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.ExportDataSetToExcel(DataSet ds, String strReportName) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 588
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.btnReport_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 540

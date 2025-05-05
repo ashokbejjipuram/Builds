@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--This is used to populate the aging dropdown in the StockList-Branches page in Ordering-->
+<root>
+  <rootnode Type="StockValue" >
+    <rootitem DataType="int" Column="No_Of_Items"> </rootitem>
+    <rootitem DataType="Decimal" Column="Stock_Value"> </rootitem>
+    <rootitem DataType="Decimal" Column="%"> </rootitem>
+  </rootnode>
+  <rootnode Type="DateWiseSalesValue_HO" >
+    <rootitem DataType="Decimal" Column="Day Sales"> </rootitem>
+    <rootitem DataType="Decimal" Column="Day Sales Rs. in Lakhs"> </rootitem>
+    <rootitem DataType="Decimal" Column="Cumulative Sales"> </rootitem>
+    <rootitem DataType="Decimal" Column="Cumulative Sales Rs. in Lakhs"> </rootitem>
+  </rootnode>
+  <rootnode Type="LineWiseSalesValue_HO" >
+    <rootitem DataType="Decimal" Column="Day Sales"> </rootitem>
+    <rootitem DataType="Decimal" Column="Day Sales Rs. in Lakhs"> </rootitem>
+    <rootitem DataType="Decimal" Column="Cumulative Sales"> </rootitem>
+    <rootitem DataType="Decimal" Column="Cumulative Sales Rs. in Lakhs"> </rootitem>
+  </rootnode>
+  <rootnode Type="DateWiseSalesValue" >
+    <rootitem DataType="Decimal" Column="Cash"> </rootitem>
+    <rootitem DataType="Decimal" Column="Credit"> </rootitem>
+    <rootitem DataType="Decimal" Column="STDN"> </rootitem>
+    <rootitem DataType="Decimal" Column="STU"> </rootitem>
+    <rootitem DataType="Decimal" Column="Export"> </rootitem>
+    <rootitem DataType="Decimal" Column="CoalFields"> </rootitem>
+    <rootitem DataType="Decimal" Column="Govt"> </rootitem>
+    <rootitem DataType="Decimal" Column="Dist_Sales"> </rootitem>
+    <rootitem DataType="Decimal" Column="Dist_STDN"> </rootitem>
+    <rootitem DataType="Decimal" Column="Credit_Notes"> </rootitem>
+    <rootitem DataType="Decimal" Column="Debit_Notes"> </rootitem>
+    <rootitem DataType="Decimal" Column="Total"> </rootitem>
+  </rootnode>
+  <rootnode Type="LineWise" >
+    <rootitem DataType="Decimal" Column="Val"> </rootitem>
+  </rootnode>
+  <rootnode Type="LineWiseSales" >
+    <rootitem DataType="Decimal" Column="Cash"> </rootitem>
+    <rootitem DataType="Decimal" Column="Credit"> </rootitem>
+    <rootitem DataType="Decimal" Column="STDN"> </rootitem>
+    <rootitem DataType="Decimal" Column="STU"> </rootitem>
+    <rootitem DataType="Decimal" Column="Export"> </rootitem>
+    <rootitem DataType="Decimal" Column="CoalFields"> </rootitem>
+    <rootitem DataType="Decimal" Column="Govt"> </rootitem>
+    <rootitem DataType="Decimal" Column="Dist_Sales"> </rootitem>
+    <rootitem DataType="Decimal" Column="Dist_STDN"> </rootitem>
+    <rootitem DataType="Decimal" Column="Credit_Notes"> </rootitem>
+    <rootitem DataType="Decimal" Column="Debit_Notes"> </rootitem>
+    <rootitem DataType="Decimal" Column="Total"> </rootitem>
+  </rootnode>
+  <rootnode Type="StockList" >
+    <rootitem DataType="Decimal" Column="List_Price"> </rootitem>
+    <rootitem DataType="Decimal" Column="Balance_Quantity"> </rootitem>
+  </rootnode>
+  <rootnode Type="StockList_GST" >
+    <rootitem DataType="Decimal" Column="List_Price"> </rootitem>
+    <rootitem DataType="Decimal" Column="Balance_Quantity"> </rootitem>
+  </rootnode>
+  <rootnode Type="StockValue_Aging" >
+    <rootitem DataType="Decimal" Column="List_Price"> </rootitem>
+    <rootitem DataType="Decimal" Column="Balance_Quantity"> </rootitem>
+  </rootnode>
+  <rootnode Type="CustLineInvSales" >
+    <rootitem DataType="Decimal" Column="List_Price"> </rootitem>
+    <rootitem DataType="Decimal" Column="Item_Quantity"> </rootitem>
+    <rootitem DataType="Decimal" Column="SLB_Value"> </rootitem>
+    <rootitem DataType="Decimal" Column="Val"> </rootitem>
+  </rootnode>
+  <rootnode Type="SalesListing_ItemWise" >
+    <rootitem DataType="Decimal" Column="List_Price"> </rootitem>
+    <rootitem DataType="Decimal" Column="Item_Quantity"> </rootitem>
+    <rootitem DataType="Decimal" Column="SLB_Value"> </rootitem>
+    <rootitem DataType="Decimal" Column="Val"> </rootitem>
+  </rootnode>
+  <rootnode Type="SalesListing_CustWise" >
+    <rootitem DataType="Decimal" Column="List_Price"> </rootitem>
+    <rootitem DataType="Decimal" Column="Item_Quantity"> </rootitem>
+    <rootitem DataType="Decimal" Column="SLB_Value"> </rootitem>
+    <rootitem DataType="Decimal" Column="Val"> </rootitem>
+  </rootnode>
+  <rootnode Type="CancelledBills" >
+    <rootitem DataType="int" Column="Quantity"> </rootitem>
+    <rootitem DataType="Decimal" Column="Item_Value"> </rootitem>
+  </rootnode>
+  <rootnode Type="STNInwardOutward" >
+    <rootitem DataType="Decimal" Column="List_Price"> </rootitem>
+    <rootitem DataType="Decimal" Column="Item_Quantity"> </rootitem>
+    <rootitem DataType="Decimal" Column="SLB_Value"> </rootitem>
+    <rootitem DataType="Decimal" Column="Val"> </rootitem>
+  </rootnode>
+  <rootnode Type="CustomerWise" >
+    <rootitem DataType="Decimal" Column="List_Price"> </rootitem>
+    <rootitem DataType="Decimal" Column="Item_Quantity"> </rootitem>
+    <rootitem DataType="Decimal" Column="SLB_Value"> </rootitem>
+    <rootitem DataType="Decimal" Column="Val"> </rootitem>
+  </rootnode>
+  <rootnode Type="TownWise" >
+    <rootitem DataType="Decimal" Column="List_Price"> </rootitem>
+    <rootitem DataType="Decimal" Column="Item_Quantity"> </rootitem>
+    <rootitem DataType="Decimal" Column="SLB_Value"> </rootitem>
+    <rootitem DataType="Decimal" Column="Val"> </rootitem>
+  </rootnode>
+  <rootnode Type="SaleValue_Aging" >
+    <rootitem DataType="Decimal" Column="lessthan=15"> </rootitem>
+    <rootitem DataType="Decimal" Column="16 to 30"> </rootitem>
+    <rootitem DataType="Decimal" Column="31 to 60"> </rootitem>
+    <rootitem DataType="Decimal" Column="61 to 90"> </rootitem>
+    <rootitem DataType="Decimal" Column="morethan90"> </rootitem>
+    <rootitem DataType="Decimal" Column="Total"> </rootitem>
+  </rootnode>
+  <rootnode Type="ClassifiedOS_HO" >
+    <rootitem DataType="Decimal" Column="OS_Amt"> </rootitem>
+    <rootitem DataType="Decimal" Column="Credit_Balance"> </rootitem>
+    <rootitem DataType="Decimal" Column="curbal"> </rootitem>
+    <rootitem DataType="Decimal" Column="above30"> </rootitem>
+    <rootitem DataType="Decimal" Column="above61to75"> </rootitem>
+    <rootitem DataType="Decimal" Column="above76to90"> </rootitem>
+    <rootitem DataType="Decimal" Column="above90"> </rootitem>
+    <rootitem DataType="Decimal" Column="above120"> </rootitem>
+    <rootitem DataType="Decimal" Column="above150"> </rootitem>
+    <rootitem DataType="Decimal" Column="above180"> </rootitem>
+  </rootnode>
+  <rootnode Type="StockValue_HO" >
+    <rootitem DataType="Decimal" Column="Stock Value"> </rootitem>
+    <rootitem DataType="Decimal" Column="Rs. in Lakhs"> </rootitem>
+    <rootitem DataType="Decimal" Column="Share %"> </rootitem>
+  </rootnode>
+
+</root>

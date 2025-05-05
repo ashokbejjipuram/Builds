@@ -1,0 +1,13 @@
+
+ 2023-12-05 13:40:47,013   [10]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentException: Column 'Form_Number' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at IMPALWeb.ECreditApplication.btnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 924
+
+ 2023-12-05 20:44:53,375   [10]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Impal_Archive.dbo.outstanding_report'.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetPaymentPatternDetails(String BranchCode, String CustomerCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 395
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 297
+ClientConnectionId:a1932b0e-cc54-4b50-8d98-dc8350475c45
+Error Number:208,State:1,Class:16

@@ -1,0 +1,22 @@
+﻿
+<Root>
+  <SalesInvoice>
+    <TransactionType Desc="-- Select --" Code="0" />
+    <TransactionType Desc="Free Of Cost(171)" Code="171" />
+    <TransactionType Desc="GRN(201)" Code="201" />
+    <TransactionType Desc="Factory Direct Order(461)" Code="461" />
+
+    <FrieghtIndicator Desc="-- Select --" Code="0" />
+    <FrieghtIndicator Desc="To Pay" Code="1" />
+    <FrieghtIndicator Desc="Paid" Code="2" />
+
+    <Indicator Desc="-- Select --" Code="0" />
+    <Indicator Desc="OS" Code="OS" />
+    <Indicator Desc="LS" Code="LS" />
+
+    <ReasonForReturn Desc="-- Select --" Code="0" />
+    <ReasonForReturn Desc="Not Required" Code="1" />
+    <ReasonForReturn Desc="Damaged" Code="2" />
+
+  </SalesInvoice>
+</Root>

@@ -1,0 +1,162 @@
+﻿<%-- Button Skins --%>
+<asp:Button   
+     SkinID="Login"   
+     runat="server"  
+     CssClass="lbutton"
+     >  
+</asp:Button> 
+
+<asp:Button   
+     SkinID="GridViewButton"   
+     runat="server"  
+     CssClass="gridviewButton"
+     >  
+</asp:Button> 
+
+<asp:Button   
+     SkinID="GridViewButtonFooter"   
+     runat="server"  
+     CssClass="gridviewButtonFooter"
+     >  
+</asp:Button>  
+
+<asp:Button   
+     SkinID="ButtonNormal"   
+     runat="server"  
+     CssClass="buttonNormal"
+     >  
+</asp:Button>       
+
+<asp:Button   
+     SkinID="ButtonNormalBig"   
+     runat="server"  
+     CssClass="buttonNormalBig"
+     >  
+</asp:Button>   
+
+<asp:Button   
+     SkinID="ButtonNormalPopup"   
+     runat="server"  
+     CssClass="buttonNormalPopup"
+     >  
+</asp:Button> 
+
+<asp:Button   
+     SkinID="ButtonArrowLeft"   
+     runat="server"  
+     CssClass="buttonArrowLeft"
+     >  
+</asp:Button>   
+
+<asp:Button   
+     SkinID="ButtonArrowRight"   
+     runat="server"  
+     CssClass="buttonArrowRight"
+     >  
+</asp:Button>  
+
+<asp:Button   
+     SkinID="ButtonViewReport"   
+     runat="server"  
+     CssClass="buttonViewReport"
+     >  
+</asp:Button> 
+
+<%-- Link Button Skins --%>
+<asp:LinkButton   
+     SkinID="GridViewLinkButton"   
+     runat="server"  
+     CssClass="gridviewLinkButton"
+     >  
+</asp:LinkButton> 
+
+<%-- Image Button Skins --%>
+<asp:ImageButton   
+     SkinID="Logout"   
+     runat="server"  
+     CssClass="button"
+     >  
+</asp:ImageButton> 
+
+<asp:ImageButton   
+     SkinID="ImageButtonSearch"   
+     runat="server"  
+     CssClass="imageButtonSearch"
+     >  
+</asp:ImageButton> 
+
+<asp:ImageButton   
+     SkinID="ImageButtonSearchPopup"   
+     runat="server"  
+     CssClass="imageButtonSearchPopup"
+     >  
+</asp:ImageButton> 
+
+<asp:ImageButton   
+     SkinID="ImageButtonExitPopup"   
+     runat="server"  
+     CssClass="imageButtonExitPopup"
+     >  
+</asp:ImageButton> 
+
+<asp:ImageButton   
+     SkinID="ImageButtonEdit"   
+     runat="server"  
+     CssClass="imageButtonEdit"
+     >  
+</asp:ImageButton>  
+
+<asp:ImageButton   
+     SkinID="ImageButtonEditPopup"   
+     runat="server"  
+     CssClass="imageButtonEditPopup"
+     >  
+</asp:ImageButton>  
+
+<asp:ImageButton   
+     SkinID="ImageButtonCalendar"   
+     runat="server"  
+     CssClass="imageButtonCalendar"
+     >  
+</asp:ImageButton>   
+
+<asp:ImageButton   
+     SkinID="ImageButtonCalendarPopup"   
+     runat="server"  
+     CssClass="imageButtonCalendarPopup"
+     >  
+</asp:ImageButton> 
+
+<%-- Radio Button List Skins --%> 
+<asp:RadioButtonList 
+    SkinID="RadioButtonNormal"
+    runat="server" 
+    RepeatDirection="Horizontal"
+    CssClass="radioButtonNormal"
+    >
+</asp:RadioButtonList> 
+
+<%-- Radio Button Skins --%> 
+<asp:RadioButton
+    SkinID="GridViewRadioButton"
+    runat="server" 
+    RepeatDirection="Horizontal"
+    CssClass="gridviewRadioButton"
+    >
+</asp:RadioButton>   
+
+<%-- Image Skins --%>
+<asp:Image   
+     SkinID="ImageEdit"   
+     runat="server"  
+     CssClass="imageEdit"
+     />  
+     
+<asp:Image   
+     SkinID="GridViewImageEdit"   
+     runat="server"  
+     CssClass="gridviewImageEdit"
+     />  
+     
+     
+    

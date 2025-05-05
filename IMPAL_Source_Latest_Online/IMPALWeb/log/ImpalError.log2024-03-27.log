@@ -1,0 +1,66 @@
+
+ 2024-03-27 14:41:00,139   [5]   ERROR  WriteException  IMPALLibrary.Transactions.POIndentCWHTran 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   at IMPALLibrary.Transactions.POIndentCWHTran.SubmitPOIndentEPO(String sIndentNo, String sIndentType, String BranchCode, String SupplierCode, Int32 EPOtype, String Remarks, POIndentCWH objPOIndentCWH) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Ordering\POIndentCWH.cs:line 666
+ClientConnectionId:8b798f05-42f4-4547-a9b0-391058ff60e9
+Error Number:102,State:1,Class:15
+
+ 2024-03-27 14:41:00,191   [5]   ERROR  WriteException  IMPALWeb.ExtraPurchaseOrder 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALLibrary.Transactions.POIndentCWHTran.SubmitPOIndentEPO(String sIndentNo, String sIndentType, String BranchCode, String SupplierCode, Int32 EPOtype, String Remarks, POIndentCWH objPOIndentCWH) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Ordering\POIndentCWH.cs:line 684
+   at IMPALWeb.ExtraPurchaseOrder.BtnSubmit_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Ordering\ExtraPurchaseOrder.aspx.cs:line 1252
+ClientConnectionId:8b798f05-42f4-4547-a9b0-391058ff60e9
+Error Number:102,State:1,Class:15
+
+ 2024-03-27 14:43:56,714   [7]   ERROR  WriteException  IMPALLibrary.Transactions.POIndentCWHTran 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   at IMPALLibrary.Transactions.POIndentCWHTran.SubmitPOIndentEPO(String sIndentNo, String sIndentType, String BranchCode, String SupplierCode, Int32 EPOtype, String Remarks, POIndentCWH objPOIndentCWH) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Ordering\POIndentCWH.cs:line 675
+ClientConnectionId:74cfd0f6-6249-4448-b738-431905f2700f
+Error Number:102,State:1,Class:15
+
+ 2024-03-27 14:43:56,733   [7]   ERROR  WriteException  IMPALWeb.ExtraPurchaseOrder 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALLibrary.Transactions.POIndentCWHTran.SubmitPOIndentEPO(String sIndentNo, String sIndentType, String BranchCode, String SupplierCode, Int32 EPOtype, String Remarks, POIndentCWH objPOIndentCWH) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Ordering\POIndentCWH.cs:line 693
+   at IMPALWeb.ExtraPurchaseOrder.BtnSubmit_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Ordering\ExtraPurchaseOrder.aspx.cs:line 1252
+ClientConnectionId:74cfd0f6-6249-4448-b738-431905f2700f
+Error Number:102,State:1,Class:15
+
+ 2024-03-27 14:46:21,022   [16]   ERROR  WriteException  IMPALLibrary.Transactions.POIndentCWHTran 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   at IMPALLibrary.Transactions.POIndentCWHTran.SubmitPOIndentEPO(String sIndentNo, String sIndentType, String BranchCode, String SupplierCode, Int32 EPOtype, String Remarks, POIndentCWH objPOIndentCWH) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Ordering\POIndentCWH.cs:line 675
+ClientConnectionId:82b69137-d728-4ae3-ac2c-d05e6ef7368a
+Error Number:102,State:1,Class:15
+
+ 2024-03-27 14:46:21,068   [16]   ERROR  WriteException  IMPALWeb.ExtraPurchaseOrder 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALLibrary.Transactions.POIndentCWHTran.SubmitPOIndentEPO(String sIndentNo, String sIndentType, String BranchCode, String SupplierCode, Int32 EPOtype, String Remarks, POIndentCWH objPOIndentCWH) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Ordering\POIndentCWH.cs:line 693
+   at IMPALWeb.ExtraPurchaseOrder.BtnSubmit_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Ordering\ExtraPurchaseOrder.aspx.cs:line 1252
+ClientConnectionId:82b69137-d728-4ae3-ac2c-d05e6ef7368a
+Error Number:102,State:1,Class:15

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ADC04286-9215-4963-A637-5D30C238906E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IMPALLibrary</RootNamespace>
+    <AssemblyName>IMPALLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BrakesIndiaSecurity">
+      <HintPath>..\..\..\..\Work Tasks\Data Access to BI\BrakesIndiaSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML">
+      <HintPath>..\IMPALWeb\bin\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdParty Libraries\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms">
+      <HintPath>..\packages\Microsoft.ReportViewer.WebForms.10.0.40219.1\lib\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Compact">
+      <HintPath>..\IMPALWeb\bin\Newtonsoft.Json.Compact.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.3.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.4.3\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.6\lib\net40\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.6\lib\net40\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationLog\LogHandler.cs" />
+    <Compile Include="Common\chartAccCode.cs" />
+    <Compile Include="Common\Common.cs" />
+    <Compile Include="Common\CommonDashboard.cs" />
+    <Compile Include="Common\CommonDataMembers.cs" />
+    <Compile Include="Common\DataAccess.cs" />
+    <Compile Include="Common\EinvAuthGen.cs" />
+    <Compile Include="Common\GenerateJSON.cs" />
+    <Compile Include="Common\GenerateQRcode.cs" />
+    <Compile Include="Common\SendDataToBI.cs" />
+    <Compile Include="Common\SendSMS.cs" />
+    <Compile Include="Common\SupplierItemSearch.cs" />
+    <Compile Include="Common\Uitility.cs" />
+    <Compile Include="Masters\Bank\Bank.cs" />
+    <Compile Include="Masters\Branch\AreaManager.cs" />
+    <Compile Include="Masters\Branch\AreaManagerBranch.cs" />
+    <Compile Include="Masters\Branch\BranchClassification.cs" />
+    <Compile Include="Masters\Branch\Branches.cs" />
+    <Compile Include="Masters\Branch\BranchTarget.cs" />
+    <Compile Include="Masters\Branch\Branch_Master.cs" />
+    <Compile Include="Masters\Branch\Neighboring_Branch.cs" />
+    <Compile Include="Masters\Branch\StateMaster.cs" />
+    <Compile Include="Masters\Branch\Zone.cs" />
+    <Compile Include="Masters\Customer\Customer.cs" />
+    <Compile Include="Masters\Customer\CustomerDetails.cs" />
+    <Compile Include="Masters\Customer\ECreditApplication.cs" />
+    <Compile Include="Masters\Customer\Town.cs" />
+    <Compile Include="Masters\Finance\Finance.cs" />
+    <Compile Include="Masters\FixedAssets\Group.cs" />
+    <Compile Include="Masters\FixedAssets\Location.cs" />
+    <Compile Include="Masters\GeneralLedger\BudgetMaster.cs" />
+    <Compile Include="Masters\GeneralLedger\ChartOfAccount.cs" />
+    <Compile Include="Masters\GeneralLedger\GLAccMaster.cs" />
+    <Compile Include="Masters\GeneralLedger\GLAccountSetups.cs" />
+    <Compile Include="Masters\GeneralLedger\GLClassifications.cs" />
+    <Compile Include="Masters\GeneralLedger\GLGroups.cs" />
+    <Compile Include="Masters\GeneralLedger\GLMasters.cs" />
+    <Compile Include="Masters\GeneralLedger\GLSubMaster.cs" />
+    <Compile Include="Masters\Insurance\Classification.cs" />
+    <Compile Include="Masters\Insurance\ClassificationDocuments.cs" />
+    <Compile Include="Masters\Insurance\Documents.cs" />
+    <Compile Include="Masters\Insurance\Insurance.cs" />
+    <Compile Include="Masters\Item\ApplicationSegment.cs" />
+    <Compile Include="Masters\Item\BranchItemPrice.cs" />
+    <Compile Include="Masters\Item\ItemLocationDetails.cs" />
+    <Compile Include="Masters\Item\ItemMaster.cs" />
+    <Compile Include="Masters\Item\ItemRate.cs" />
+    <Compile Include="Masters\Item\ItemType.cs" />
+    <Compile Include="Masters\Item\ItemWorkSheet.cs" />
+    <Compile Include="Masters\Item\Item_wise_sales.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Masters\Item\ProductGroup.cs" />
+    <Compile Include="Masters\Item\VehilcleType.cs" />
+    <Compile Include="Masters\Others\CashDiscount.cs" />
+    <Compile Include="Masters\Others\ClearingAgent.cs" />
+    <Compile Include="Masters\Others\CustomerSlab.cs" />
+    <Compile Include="Masters\Others\PartyType.cs" />
+    <Compile Include="Masters\Others\TranTypeMaster.cs" />
+    <Compile Include="Masters\PONumber\PONumbers.cs" />
+    <Compile Include="Masters\SalesMan\SalesManMaster.cs" />
+    <Compile Include="Masters\SalesMan\SalesManTarget.cs" />
+    <Compile Include="Masters\SalesTax\BranchProduct_PurchaseTax.cs" />
+    <Compile Include="Masters\SalesTax\BranchProduct_SalesTax.cs" />
+    <Compile Include="Masters\SalesTax\BranchSalesTaxForms.cs" />
+    <Compile Include="Masters\SalesTax\SalesTax.cs" />
+    <Compile Include="Masters\Sales\AccountingPeriod.cs" />
+    <Compile Include="Masters\Sales\LineWiseSales.cs" />
+    <Compile Include="Masters\Sales\Salesbranch.cs" />
+    <Compile Include="Masters\Sales\SalesMen.cs" />
+    <Compile Include="Masters\Sales\SalesOrderHeader.cs" />
+    <Compile Include="Masters\Sales\Stock.cs" />
+    <Compile Include="Masters\Sales\Transaction.cs" />
+    <Compile Include="Masters\Sales\Vehicles.cs" />
+    <Compile Include="Masters\SLB\CustomerSLB.cs" />
+    <Compile Include="Masters\SLB\SLB.cs" />
+    <Compile Include="Masters\Supplier\Depot.cs" />
+    <Compile Include="Masters\Supplier\Product.cs" />
+    <Compile Include="Masters\Supplier\Suppliers.cs" />
+    <Compile Include="Masters\Vendor\VendorDetails.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\InventoryReports.cs" />
+    <Compile Include="Reports\ProcParam.cs" />
+    <Compile Include="Reports\ReportsData.cs" />
+    <Compile Include="Reports\SalesReport.cs" />
+    <Compile Include="Security\Parameter.cs" />
+    <Compile Include="Security\Roles.cs" />
+    <Compile Include="Security\Security.cs" />
+    <Compile Include="Security\Users.cs" />
+    <Compile Include="SysAdmin\Backup.cs" />
+    <Compile Include="Transactions\Finance\BusinessTrip.cs" />
+    <Compile Include="Transactions\Finance\CashAndBank.cs" />
+    <Compile Include="Transactions\Finance\CashDiscountDts.cs" />
+    <Compile Include="Transactions\Finance\ChequeSlip.cs" />
+    <Compile Include="Transactions\Finance\DebitCredit.cs" />
+    <Compile Include="Transactions\Finance\JournalVoucher.cs" />
+    <Compile Include="Transactions\Finance\Payable.cs" />
+    <Compile Include="Transactions\Finance\PettyCash.cs" />
+    <Compile Include="Transactions\Finance\ReceivableInvoice.cs" />
+    <Compile Include="Transactions\Finance\ReceivableReceipts.cs" />
+    <Compile Include="Transactions\Inventory\GRN.cs" />
+    <Compile Include="Transactions\Inventory\Inward.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transactions\Inventory\OSLSUpdation.cs" />
+    <Compile Include="Transactions\Inventory\Query\ConsignmentDetails.cs" />
+    <Compile Include="Transactions\Inventory\Query\ConsignmentSummary.cs" />
+    <Compile Include="Transactions\Inventory\Query\GoodsInTransitInward.cs" />
+    <Compile Include="Transactions\Inventory\Query\GoodsInTransitSupplier.cs" />
+    <Compile Include="Transactions\Inventory\Query\GoodsInTransitTransfer.cs" />
+    <Compile Include="Transactions\Inventory\StockAdjustment.cs" />
+    <Compile Include="Transactions\Inventory\StockDiversion.cs" />
+    <Compile Include="Transactions\Inventory\StockTransfer.cs" />
+    <Compile Include="Transactions\Ordering\Cancellation.cs" />
+    <Compile Include="Transactions\Ordering\DirectPurchaseOrders.cs" />
+    <Compile Include="Transactions\Ordering\InsuranceClaim.cs" />
+    <Compile Include="Transactions\Ordering\POIndentCWH.cs" />
+    <Compile Include="Transactions\Ordering\StockTranReq.cs" />
+    <Compile Include="Transactions\Sales\Sales.cs" />
+    <Compile Include="Transactions\Sales\STFormCollection.cs" />
+    <Compile Include="Transfer\Download.cs" />
+    <Compile Include="Transfer\Upload.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Masters\Item\ItemLocationDetails.resx">
+      <DependentUpon>ItemLocationDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="bin\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Microsoft.Practices.Unity.dll" />
+    <Content Include="bin\Microsoft.Practices.Unity.Interception.dll" />
+    <Content Include="bin\Newtonsoft.Json.Compact.dll" />
+    <Content Include="bin\Release\IMPALLibrary.dll" />
+    <Content Include="bin\Release\IMPALLibrary.pdb" />
+    <Content Include="bin\Release\log4net.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.Unity.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.Unity.Interception.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

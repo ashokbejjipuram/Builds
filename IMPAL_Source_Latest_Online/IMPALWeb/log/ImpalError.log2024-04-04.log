@@ -1,0 +1,90 @@
+
+ 2024-04-04 15:22:15,104   [31]   ERROR  WriteException  IMPALWeb.Finance.CashAndBankCancellation 
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK__Receipts_Cancellation_History'. Cannot insert duplicate key in object 'dbo.Receipts_Cancellation_History'. The duplicate key value is (PUN, 2024/00001/PUN).
+The statement has been terminated.
+   at IMPALLibrary.CashAndBankTransactions.UpdCashBankDetailsCancellation(CashAndBankEntity& cashandbankEntity) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\CashAndBank.cs:line 1701
+   at IMPALWeb.Finance.CashAndBankCancellation.SubmitCashAndBankCancellation() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\CashAndBank\CashAndBankCancellation.aspx.cs:line 208
+   at IMPALWeb.Finance.CashAndBankCancellation.BtnCancel_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\CashAndBank\CashAndBankCancellation.aspx.cs:line 123
+ClientConnectionId:d6364fbc-19d0-4b17-a4e2-d91ba576ddb5
+Error Number:2627,State:1,Class:14
+
+ 2024-04-04 20:11:35,705   [53]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Serial_Number', table 'Impal.dbo.general_ledger_detail'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Serial_Number', table 'Impal.dbo.general_ledger_detail'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Serial_Number', table 'Impal.dbo.general_ledger_detail'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddCreditNoteTOD(TODGenerationEntity& todGenerationEntity, String MonthYear) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 1211
+   at IMPALWeb.TODGeneration.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 921
+   at IMPALWeb.TODGeneration.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 338
+ClientConnectionId:abb94900-20d6-4199-a4c1-9fdbd5e8ad68
+Error Number:515,State:2,Class:16
+
+ 2024-04-04 20:15:24,008   [22]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Serial_Number', table 'Impal.dbo.general_ledger_detail'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Serial_Number', table 'Impal.dbo.general_ledger_detail'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Serial_Number', table 'Impal.dbo.general_ledger_detail'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'Chart_of_Account_Code', table 'Impal.dbo.general_ledger_summary'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddCreditNoteTOD(TODGenerationEntity& todGenerationEntity, String MonthYear) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 1211
+   at IMPALWeb.TODGeneration.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 921
+   at IMPALWeb.TODGeneration.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 338
+ClientConnectionId:abb94900-20d6-4199-a4c1-9fdbd5e8ad68
+Error Number:515,State:2,Class:16
+
+ 2024-04-04 20:21:51,967   [55]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddCreditNoteTOD(TODGenerationEntity& todGenerationEntity, String MonthYear) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 1211
+   at IMPALWeb.TODGeneration.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 921
+   at IMPALWeb.TODGeneration.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 338
+ClientConnectionId:abb94900-20d6-4199-a4c1-9fdbd5e8ad68
+Error Number:241,State:1,Class:16
+
+ 2024-04-04 20:25:13,254   [58]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddCreditNoteTOD(TODGenerationEntity& todGenerationEntity, String MonthYear) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 1211
+   at IMPALWeb.TODGeneration.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 921
+   at IMPALWeb.TODGeneration.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 338
+ClientConnectionId:abb94900-20d6-4199-a4c1-9fdbd5e8ad68
+Error Number:241,State:1,Class:16
+
+ 2024-04-04 20:26:43,094   [58]   ERROR  WriteException  IMPALWeb.TODGeneration 
+System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Debit_Credit_Not__7A60316F". The conflict occurred in database "Impal", table "dbo.Debit_Credit_Note_Header".
+The statement has been terminated.
+The statement has been terminated.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddCreditNoteTOD(TODGenerationEntity& todGenerationEntity, String MonthYear) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 1211
+   at IMPALWeb.TODGeneration.SubmitHeaderAndItems() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 921
+   at IMPALWeb.TODGeneration.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\TODGeneration.aspx.cs:line 338
+ClientConnectionId:abb94900-20d6-4199-a4c1-9fdbd5e8ad68
+Error Number:242,State:3,Class:16
+
+ 2024-04-04 21:21:03,115   [56]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: String or binary data would be truncated.
+The statement has been terminated.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-04-04 21:30:58,279   [59]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Supplier Part No # is not in the Text format to upload for Customer PO Number  and Line Item Number .Please Check and Modify the Excel File accordingly.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-04-04 21:35:37,470   [49]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Cannot find table 0.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44

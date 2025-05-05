@@ -1,0 +1,11 @@
+
+ 2023-11-14 00:04:43,109   [86]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentException: Column 'Emailid' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at IMPALWeb.ECreditApplication.btnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 811
+
+ 2023-11-14 02:26:33,356   [31]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.SendMails(String Branch_Code, String Branch_Name, String Indicator, String CustomerDetails, String FormNumber, String Emailid, String ApproverName, String ApproverDesignation, String OldLimit, String NewLimit) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 445
+   at IMPALWeb.ECreditApplicationHO.btnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 395

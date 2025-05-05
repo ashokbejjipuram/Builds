@@ -1,0 +1,27 @@
+
+ 2024-06-05 21:42:36,957   [21]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Incorrect syntax near ','.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-06-05 22:02:15,555   [45]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: String cannot be of zero length.
+Parameter name: oldValue
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-06-05 22:28:58,337   [56]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Incorrect syntax near ','.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-06-05 22:30:27,197   [56]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Incorrect syntax near ','.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44
+
+ 2024-06-05 22:32:07,502   [60]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Violation of PRIMARY KEY constraint 'PK_Supplier_Despatch_Details'. Cannot insert duplicate key in object 'dbo.Supplier_Despatch_Details'. The duplicate key value is (353, 1215433, 1010239528, 4).
+The statement has been terminated.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44

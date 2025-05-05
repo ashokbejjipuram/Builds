@@ -1,0 +1,246 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="IMPALWeb.Main" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- This comment keeps IE6/7 in the reliable quirks mode -->
+<!--DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>IMPAL - India Motor Parts & Accessories Limited</title>   
+    <!-- jQuery Section -->
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script-->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/jquery-1.11.0.min.js") %>"></script>
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/jquery-1.4.1.min.js") %>"></script>
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/jquery.min.js") %>"></script>
+
+    <!--script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/jquery-1.11.0.min.js") %>"></script-->
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/jquery-ui-1.11.opre.js") %>"></script>
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/jquery.easing.1.3.js") %>"></script>
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/jquery.roundabout.js") %>"></script>
+
+    <!-- GridView Scroll Utility -->
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/gridviewScroll.min.js") %>"></script>
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/gridViewFixedHeader.js") %>"></script>
+
+    <!-- IE Dropdown Fixed Width Issue Fix -->
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/jquery.ie-select-width.js") %>"></script>
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/ie-select-width.js") %>"></script>
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/jquery.autocomplete.js") %>"></script>
+
+    <!-- Common JS -->
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/common.js") %>"></script>    
+
+    <script type="text/javascript" src="<%# Page.ResolveClientUrl("~/Javascript/LoadDropDownAjax.js") %>"></script>
+
+</head>
+<body style="background-color: #EFEFEF;">
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager AsyncPostBackTimeout="600000" ID="MasterScriptManager"
+        EnablePageMethods="true" runat="server">
+    </asp:ToolkitScriptManager>
+    <!-- To Show / Hide Main Menu -->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#ctl00_ShowHideMenu').click(function() {
+                //$(".menuPanel").toggle("slide", { direction: 'left' });                
+                var panelFooter = $get('footer');
+                var grdwidth1 = "100%";
+                if ($('.menuPanel').position().left != 0) grdwidth1 = parseInt($('#blockWrapper').innerWidth()) + 'px';
+                panelFooter.style.width = grdwidth1;
+            });
+
+            $('#ctl00_CPHDetails_BtnSubmit').dblclick(function(e) {
+                e.preventDefault();
+                return false;
+            });
+            
+            $('#ctl00_CPHDetails_BtnSubmit').click(function () {                
+                e.preventDefault();
+                $('#ctl00_CPHDetails_BtnSubmit').attr('disabled', 'disabled');
+            }).dblclick(function() {
+                e.preventDefault();
+                $('#ctl00_CPHDetails_BtnSubmit').attr('disabled', 'disabled');
+            });
+        });
+
+        // To Handle Browser Back Button Press
+
+        function noBack() {
+            window.history.forward();
+        }
+        noBack();
+        window.onload = noBack;
+        window.onpageshow = function(evt) { if (evt.persisted) noBack() }
+        window.onunload = function() { void (0) }
+
+        // Ajax Update Panel Progress Loader
+        // Get the instance of PageRequestManager.
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        // Add initializeRequest and endRequest
+        prm.add_initializeRequest(prm_InitializeRequest);
+        prm.add_endRequest(prm_EndRequest);
+
+        // Called when async postback begins
+        function prm_InitializeRequest(sender, args) {
+            // get the divAjaxImageLoader and set it to visible
+            var panelShadow = $get('divShadow');
+            var panelProgressLoader = $get('divAjaxImageLoader');
+            var panelFooter = $get('footer');
+            panelShadow.style.display = 'block';
+            panelProgressLoader.style.display = 'block';
+            var grdwidth = parseInt($('#blockWrapper').innerWidth()) + 'px';
+            panelShadow.style.width = grdwidth;
+            panelFooter.style.width = grdwidth;
+            // Disable button that caused a postback
+            //$get(args._postBackElement.id).disabled = true;
+        }
+
+        // Called when async postback ends        
+        function prm_EndRequest(sender, args) {
+            // get the divAjaxImageLoader and hide it again
+            var panelShadow = $get('divShadow');
+            var panelProgressLoader = $get('divAjaxImageLoader');
+
+            panelShadow.style.display = 'none';
+            panelProgressLoader.style.display = 'none';
+            var panelFooter = $get('footer');
+            var grdwidth = parseInt($('#blockWrapper').innerWidth()) + 'px';
+            panelFooter.style.width = grdwidth;
+            // Enable button that caused a postback
+            //$get(sender._postBackSettings.sourceElement.id).disabled = false;
+
+            IEDropDownFixedWidthIssueFix();
+        }
+        
+        function ReturnMenu()
+        {          
+            $(".menuPanel").toggle("slide", { direction: 'left' });
+
+            if ($('.menuPanel').position().left != 0)
+                window.history.pushState('page', 'Title', window.location.href + "?HdnCtrl=1");
+            else
+                window.history.pushState('page', 'Title', window.location.href.replace('?HdnCtrl=1',''));
+
+            var panelFooter = $get('footer');
+            var grdwidth1 = "100%";
+            if ($('.menuPanel').position().left != 0) grdwidth1 = parseInt($('#blockWrapper').innerWidth()) + 'px';
+            panelFooter.style.width = grdwidth1;
+        }
+    </script>
+
+    <div id="divShadow">
+    </div>
+    <div id="divShadowPopUp">
+    </div>
+    <table id="blockWrapper">
+        <tr>
+            <td>
+                <div id="header">
+                    <div class="logo">
+                        <a href="#">
+                            <img id="logo" runat="server" src="~/images/2Banner_IMPAL_Logo.png" alt="IMPAL" title="IMPAL " />
+                        </a>
+                    </div>
+                    <div class="banner">
+                        <div class="userinfo">
+                            <p class="branch">
+                                <asp:Label ID="lblBranchName" runat="server"></asp:Label>
+                            </p>
+                            <p class="logtime">
+                                <asp:Label ID="lblLoggedTime" runat="server"></asp:Label>
+                            </p>
+                        </div>
+                        <div class="logout">
+                            <%--<a href="#">
+                                <asp:ImageButton ID="btHelp" ImageUrl="~/images/iHelp_n34.png" runat="server" OnClick="btHelp_Click" />
+                            </a>--%>
+                            <a href="#">
+                                <asp:ImageButton ID="btLogout" ImageUrl="~/images/iLogout_n.png" runat="server" OnClick="btLogout_Click" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="content">
+                    <table id="contentArea">
+                        <tr>
+                            <td class="menuPanel" runat="server" id="menuPanel">
+                                <div class="menuPanelHolder" style="width: 250px">
+                                    <asp:UpdatePanel ID="updateAccordion" runat="server">
+                                        <ContentTemplate>
+                                            <asp:Accordion ID="myAccordion" runat="server" SuppressHeaderPostbacks="false" CssClass="accordion"
+                                                HeaderCssClass="accordHead" HeaderSelectedCssClass="accordHeadActvie">
+                                            </asp:Accordion>
+                                        </ContentTemplate>
+                                    </asp:UpdatePanel>
+                                </div>
+                                <div class="clear-all">
+                                </div>
+                            </td>
+                            <td class="contentPanel">
+                                <div class="ShowHideMenuHolder">
+                                    <img id="ShowHideMenu" runat="server" src="~/images/iMenuButton.png" alt="Show / Hide Menu" onclick="javascript:ReturnMenu()" />
+                                </div>
+                                <div id="SiteMapPathHolder" runat="server" class="SiteMapPathHolder">
+                                    <asp:SiteMapPath ID="siteMapPathBreadCrumb" runat="server" SkinID="BreadCrumb">
+                                    </asp:SiteMapPath>
+                                </div>
+                                <div class="clear-all">
+                                    <div class="contentPanelBox">
+                                        <div id="divAjaxImageLoader" style="display: none">
+                                            <asp:Image runat="server" ID="imgAjaxLoader" ImageUrl="~/images/iLoaders.gif" AlternateText="Loading....." />
+                                        </div>
+                                        <asp:ContentPlaceHolder ID="CPHDetails" runat="server">                                        
+                                        </asp:ContentPlaceHolder>
+                                        <div class="clear-all">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="clear-all">
+                </div>
+                <div id="footer">
+                    <div class="copyright">
+                        <%--<img id="copyright" runat="server" src="~/images/CSC_FooterLogo.png" alt="CSC" />
+                        <span>Copyright 2012 Computer Science Corporation - All rights reserved</span>--%>
+                        <span>© DXC Technology Company 2020 - All rights reserved</span>
+                    </div>
+                    <%--<div class="feedback">
+                        <img id="feedback" runat="server" src="~/images/ifeedback.png" alt="Feedback" /><span>Feedback</span>
+                    </div>
+                    <div class="helpcenter">
+                        <img id="helpcenter" runat="server" src="~/images/iHelp_n.png" alt="Help" /><span>Help
+                            Centre</span></div>--%>
+                </div>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+
+<script type="text/javascript">
+    objRootNode = document.getElementById("ctl00_tvLeftMenun0");
+    if (objRootNode) objRootNode.style.display = "none";
+
+    var panelFooter = $get('footer');
+    var grdwidth1 = parseInt($('#blockWrapper').innerWidth()) + 'px';
+    panelFooter.style.width = grdwidth1;
+</script>
+
+</html>

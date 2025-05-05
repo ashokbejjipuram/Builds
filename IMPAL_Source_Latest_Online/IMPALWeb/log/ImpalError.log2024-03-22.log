@@ -1,0 +1,29 @@
+
+ 2024-03-22 02:06:15,710   [11]   ERROR  WriteException  IMPALWeb.ExtraPurchaseOrder 
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function usp_GetDPO_PartNumbers_EPO has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at IMPALLibrary.Transactions.POIndentCWHTran.GetDPOSupplierPartNumberEPO(String strBranch, String strSupplier, String strPartNumber, String strIndentNumber, String strEPOtype) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Ordering\POIndentCWH.cs:line 433
+   at IMPALWeb.ExtraPurchaseOrder.btnSearch_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Ordering\ExtraPurchaseOrder.aspx.cs:line 1142
+ClientConnectionId:2206eed8-83c8-4602-89d2-8ff086c17d58
+Error Number:8144,State:2,Class:16
+
+ 2024-03-22 02:56:36,215   [18]   ERROR  WriteException  IMPALWeb.Reports.Ordering.Listing.PurchaseOrderReprint 
+System.ArgumentException: The value can not be null or an empty string.
+Parameter name: query
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.GetSqlStringCommand(String query)
+   at IMPALLibrary.Masters.PONumber.PONumbers.GetPONumber(String strPOType, String strReportType, String strBranchCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\PONumber\PONumbers.cs:line 207
+   at IMPALWeb.Reports.Ordering.Listing.PurchaseOrderReprint.fnPopulatePONumber(String strPOType, String strReportType) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Reports\Ordering\Listing\PurchaseOrderReprint.aspx.cs:line 197

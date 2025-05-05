@@ -1,0 +1,15 @@
+
+ 2024-09-13 13:29:26,583   [8]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Sales/Sales Statement/CreditNote.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.XmlSiteMapProvider.AddNodeInternal(SiteMapNode node, SiteMapNode parentNode, XmlNode xmlNode)
+   at System.Web.XmlSiteMapProvider.ConvertFromXmlNode(Queue queue)
+   at System.Web.XmlSiteMapProvider.BuildSiteMap()
+   at System.Web.XmlSiteMapProvider.get_RootNode()
+   at System.Web.SiteMap.get_RootNode()
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 189
+
+ 2024-09-13 13:29:26,631   [8]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Sales/Sales Statement/CreditNote.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 312
+   at IMPALWeb.Main.Page_Load(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 65

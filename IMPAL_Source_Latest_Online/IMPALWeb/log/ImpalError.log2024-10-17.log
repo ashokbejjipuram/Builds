@@ -1,0 +1,5 @@
+
+ 2024-10-17 21:37:36,514   [7]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: Object reference not set to an instance of an object.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in E:\Ashok Builds\Builds\MyProjects\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in E:\Ashok Builds\Builds\MyProjects\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44

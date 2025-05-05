@@ -1,0 +1,537 @@
+
+ 2023-12-02 03:36:07,240   [39]   ERROR  WriteException  IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.ExportDataSetToExcel(DataSet ds, String strReportName) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 588
+   at IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive.btnReport_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\General Ledger\GeneralLedgerHoLive.aspx.cs:line 540
+
+ 2023-12-02 15:39:20,474   [31]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 434
+
+ 2023-12-02 15:39:20,607   [31]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 447
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.FirstGridViewRow() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 191
+   at IMPALWeb.ECreditApplication.rbType_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 140
+
+ 2023-12-02 15:42:18,479   [38]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.InvalidCastException: Unable to cast object of type 'System.Collections.Generic.List`1[IMPALLibrary.Masters.CustomerDetails.CustomerDtls]' to type 'System.Data.DataTable'.
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 431
+
+ 2023-12-02 15:42:18,554   [38]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.InvalidCastException: Unable to cast object of type 'System.Collections.Generic.List`1[IMPALLibrary.Masters.CustomerDetails.CustomerDtls]' to type 'System.Data.DataTable'.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 449
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 220
+
+ 2023-12-02 19:27:18,344   [40]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 430
+
+ 2023-12-02 19:27:59,626   [40]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 453
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 220
+
+ 2023-12-02 19:29:41,391   [25]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 430
+
+ 2023-12-02 19:29:42,475   [25]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 453
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 220
+
+ 2023-12-02 19:30:46,373   [44]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 430
+
+ 2023-12-02 19:30:46,378   [44]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 453
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 220
+
+ 2023-12-02 19:44:40,593   [8]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 430
+
+ 2023-12-02 19:44:44,044   [8]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 453
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 220
+
+ 2023-12-02 19:46:29,145   [8]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 430
+
+ 2023-12-02 19:46:29,150   [8]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 453
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 220
+
+ 2023-12-02 19:51:52,913   [17]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplication.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 74
+
+ 2023-12-02 19:51:52,994   [17]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 86
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 440
+
+ 2023-12-02 19:51:53,013   [17]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 447
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.FirstGridViewRow() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 191
+   at IMPALWeb.ECreditApplication.rbType_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 140
+
+ 2023-12-02 19:52:41,380   [17]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplication.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 74
+
+ 2023-12-02 19:52:41,384   [17]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 86
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 440
+
+ 2023-12-02 19:52:41,389   [17]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 447
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.FirstGridViewRow() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 191
+   at IMPALWeb.ECreditApplication.rbType_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 140
+
+ 2023-12-02 19:54:38,501   [29]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplication.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 74
+
+ 2023-12-02 19:55:07,457   [29]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplication.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 74
+
+ 2023-12-02 19:55:07,462   [29]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 86
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 440
+
+ 2023-12-02 19:55:07,468   [29]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 447
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.FirstGridViewRow() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 191
+   at IMPALWeb.ECreditApplication.rbType_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 140
+
+ 2023-12-02 19:57:00,115   [12]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 425
+
+ 2023-12-02 19:57:00,185   [12]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 450
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.FirstGridViewRow() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 191
+   at IMPALWeb.ECreditApplication.rbType_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 140
+
+ 2023-12-02 19:58:20,679   [27]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 425
+
+ 2023-12-02 19:58:27,056   [27]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 450
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 219
+
+ 2023-12-02 19:59:51,601   [14]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 425
+
+ 2023-12-02 19:59:51,608   [14]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplication.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 450
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 219
+
+ 2023-12-02 20:07:53,705   [25]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 222
+
+ 2023-12-02 20:08:35,896   [21]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 222
+
+ 2023-12-02 20:14:40,930   [17]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentException: Column 'SNo' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at IMPALWeb.ECreditApplication.AddNewRow() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 590
+   at IMPALWeb.ECreditApplication.btnAdd_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 345
+
+ 2023-12-02 20:16:21,970   [17]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentException: Column 'SNo' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at IMPALWeb.ECreditApplication.AddNewRow() in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 590
+   at IMPALWeb.ECreditApplication.btnAdd_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 345
+
+ 2023-12-02 20:18:24,621   [6]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentException: Column 'Branch_Code' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 233
+
+ 2023-12-02 20:29:13,814   [22]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 65
+
+ 2023-12-02 20:29:13,896   [22]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 77
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 158
+
+ 2023-12-02 20:30:02,573   [8]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 65
+
+ 2023-12-02 20:30:16,463   [8]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 77
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 158
+
+ 2023-12-02 20:30:41,835   [22]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 65
+
+ 2023-12-02 20:31:05,155   [22]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 77
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 158
+
+ 2023-12-02 20:31:25,044   [18]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 65
+
+ 2023-12-02 20:31:25,050   [18]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 77
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 158
+
+ 2023-12-02 20:32:58,152   [8]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 65
+
+ 2023-12-02 20:33:16,365   [8]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 77
+   at IMPALWeb.ECreditApplicationHO.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 318
+
+ 2023-12-02 20:33:16,384   [8]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 324
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 149
+
+ 2023-12-02 20:39:09,980   [29]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 67
+
+ 2023-12-02 20:39:10,059   [29]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 79
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 187
+
+ 2023-12-02 20:39:38,048   [21]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 67
+
+ 2023-12-02 20:44:51,506   [44]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 67
+
+ 2023-12-02 20:44:51,592   [44]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 79
+   at IMPALWeb.ECreditApplicationHO.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 349
+
+ 2023-12-02 20:44:52,134   [44]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 356
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 178
+
+ 2023-12-02 20:45:07,890   [28]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 67
+
+ 2023-12-02 20:45:07,909   [28]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 79
+   at IMPALWeb.ECreditApplicationHO.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 349
+
+ 2023-12-02 20:45:13,397   [28]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 356
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 178
+
+ 2023-12-02 20:49:15,746   [42]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 67
+
+ 2023-12-02 20:50:07,114   [42]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 79
+   at IMPALWeb.ECreditApplicationHO.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 349
+
+ 2023-12-02 20:50:07,169   [42]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.grvGroupDealers_OnRowDataBound(Object sender, GridViewRowEventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 356
+   at System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 178
+
+ 2023-12-02 20:51:36,748   [42]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 67
+
+ 2023-12-02 20:51:36,755   [42]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.ECreditApplicationHO.LoadDropDownLists[T](List`1 ListData, DropDownList DDlDropDown, String value_field, String text_field, Boolean bselect, String DefaultText) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 79
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 187
+
+ 2023-12-02 20:55:19,247   [6]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 148

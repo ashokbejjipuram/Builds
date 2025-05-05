@@ -1,0 +1,35 @@
+﻿<Root>
+  <STREQ>
+    <STREQType Desc="-- Select --" Code="0" />
+    <STREQType Desc="STOCK TRANSFER-MANUAL" Code="031" />
+    <STREQType Desc="DISTRESS STOCK TRANSFER-MANUAL" Code="051" />
+    <STREQType Desc="STOCK TRANSFER" Code="131" />
+    <STREQType Desc="DISTRESS STOCK TRANSFER" Code="151" />
+    <STREQType Desc="STDN-INWARD" Code="251" />
+  </STREQ>
+
+  <PurchaseReturnEntry>
+    <TransactionType Desc="PURCHASE RETURN" Code="161" />
+  </PurchaseReturnEntry>
+
+  <WarrantyClaimEntry>
+    <TransactionType Desc="WARRANTY CLAIM" Code="181" />
+  </WarrantyClaimEntry>
+
+  <WarrantyClaimEntryShipTo>
+    <TransactionType Desc="-- Select --" Code="0" />
+    <TransactionType Desc="KARUNA MOTORS, BANGALORE" Code="KARUNA MOTORS, #47/1, H.SIDDAIAH ROAD, BANGALORE-560027, KARNATAKA, PH:080-41142376/22222376 - 29 - Karnataka, GSTIN:29AANFK2702J1Z5" />
+    <TransactionType Desc="SRI GAJALAKSHMI SALES AND SERVICE, CHENNAI" Code="SRI GAJALAKSHMI SALES AND SERVICE, 138, SAVITHRI COMPLEX, BYE-PASSROAD, REDHILLS CHENNAI-600052, TAMILNADU, PH:9840413095 - 33 - Tamil Nadu, GSTIN:33ALBPR0165P1ZW" />
+    <TransactionType Desc="POINEER AUTO ELECTRICALS, TRIVANDRUM" Code="POINEER AUTO ELECTRICALS, TC-23/1356-1, OPP. KSEB,CITY ROAD, MELARANNOOR, TRIVANDRUM - 695002, KERALA, PH:8921254564 - 32 - Kerala, GSTIN:UNREGISTERED, B2C" />
+    <TransactionType Desc="LUCAS - TVS, PADI" Code="PADI, CHENNAI, TAMIL NADU - 600050 - 33 - Tamil Nadu, GSTIN:33AAACL3763E1ZU" />
+    <TransactionType Desc="SRI ANGALAMMAN AUTO ELECTRICAL, ARIYALUR" Code="M/S.SRI ANGALAMMAN AUTO ELECTRICAL, NO.35G/1, MELA AGRAHARAM STREET, TRICHY MAIN ROAD, ARIYALUR, TAMILNADU-621704 - 33 - Tamil Nadu, GSTIN:33AAACL3763E1ZU" />
+  </WarrantyClaimEntryShipTo>
+
+  <WarrantyClaimHandlingChargesEntry>
+    <TransactionType Desc="HANDLING CHARGES" Code="HANDLING CHARGES" />
+  </WarrantyClaimHandlingChargesEntry>
+
+  <WarrantyClaimLabourChargesEntry>
+    <TransactionType Desc="LABOUR CHARGES" Code="LABOUR CHARGES" />
+  </WarrantyClaimLabourChargesEntry>
+</Root>

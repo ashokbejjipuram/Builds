@@ -1,0 +1,35 @@
+﻿<%-- Register AjaxControlToolkit with TagPrefix as ajaxToolkit --%>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<%-- Ajax Combo Box Skins --%>
+<ajaxToolkit:ComboBox 
+    SkinID = "ComboBoxNormal"
+    runat="server" 
+    CssClass="comboBoxNormal" 
+    >
+</ajaxToolkit:ComboBox>
+
+<ajaxToolkit:ComboBox 
+    SkinID = "ComboBoxFocused"
+    runat="server" 
+    CssClass="comboBoxFocused" 
+    >
+</ajaxToolkit:ComboBox>
+
+<ajaxToolkit:ComboBox 
+    SkinID = "ComboBoxDisabled"
+    runat="server" 
+    CssClass="comboBoxDisabled" 
+    >
+</ajaxToolkit:ComboBox>
+
+
+<%-- Ajax Auto Complete Extender Box Skins --%>
+<ajaxToolkit:AutoCompleteExtender 
+    SkinID = "AutoCompleteNormal"
+    runat="server" 
+    CompletionListCssClass="autocomplete_completionListElement" 
+    CompletionListHighlightedItemCssClass="autocomplete_highlightedListItem" 
+    CompletionListItemCssClass="autocomplete_listItem" 
+    >
+</ajaxToolkit:AutoCompleteExtender>

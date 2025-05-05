@@ -1,0 +1,14 @@
+﻿<%-- Required Validator Skins --%>
+<asp:RequiredFieldValidator   
+     SkinID="Error"   
+     runat="server"  
+     CssClass="llabelError"
+     >  
+</asp:RequiredFieldValidator> 
+
+<asp:RequiredFieldValidator   
+     SkinID="GridViewLabelError"   
+     runat="server"  
+     CssClass="gridviewLabelError"
+     >  
+</asp:RequiredFieldValidator> 

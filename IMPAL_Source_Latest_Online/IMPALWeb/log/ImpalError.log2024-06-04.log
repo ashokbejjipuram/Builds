@@ -1,0 +1,16 @@
+
+ 2024-06-04 12:02:54,729   [9]   ERROR  WriteException  IMPALLibrary.Transactions.SalesEntity 
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.TimeoutException: Transaction Timeout
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.BeginCommit(InternalTransaction tx, Boolean asyncCommit, AsyncCallback asyncCallback, Object asyncState)
+   at System.Transactions.CommittableTransaction.Commit()
+   at System.Transactions.TransactionScope.InternalDispose()
+   at System.Transactions.TransactionScope.Dispose()
+   at IMPALLibrary.Transactions.SalesTransactions.GetGSTOutwardRegisterDetailsHO(String zone, String state, String branch, String Date1, String Date2) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Sales\Sales.cs:line 2559
+
+ 2024-06-04 12:02:54,897   [9]   ERROR  WriteException  IMPALWeb.Reports.Finance.GSTReports.GSTOutwardRegisterHO 
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.TimeoutException: Transaction Timeout
+   --- End of inner exception stack trace ---
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALLibrary.Transactions.SalesTransactions.GetGSTOutwardRegisterDetailsHO(String zone, String state, String branch, String Date1, String Date2) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Sales\Sales.cs:line 2563
+   at IMPALWeb.Reports.Finance.GSTReports.GSTOutwardRegisterHO.btnReport_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOreports\Finance\GST Reports\GSTOutwardRegisterHO.aspx.cs:line 154

@@ -1,0 +1,149 @@
+﻿.mrg-R10
+{
+    margin-right: 10px;
+}
+.mrg-L10
+{
+    margin-left: 10px;
+}
+.mrg-L20
+{
+    margin-left: 20px;
+}
+.mrg-T10
+{
+    margin-top: 10px;
+}
+.mrg-B10
+{
+    margin-bottom: 10px;
+    
+}
+
+.ColumnDiv1
+{
+   background-color:#F5F5F5;
+   vertical-align:top;
+   width: 30%;      
+   text-align: left;   
+   float:left;   
+}
+
+.ColumnDiv2
+{
+   background-color:#F5F5F5;
+   vertical-align:top;
+   width: 30%;      
+   text-align: left;      
+   float:left;
+}
+
+.ColumnDiv3
+{
+   background-color:#F5F5F5;
+   vertical-align:top;
+   width: 30%;      
+   text-align: left;      
+   float:left;
+}
+
+.ColumnDivTD2
+{
+   background-color:#F5F5F5;
+   vertical-align:top;
+   width: 60%;      
+   text-align: left;      
+   float:left;
+}
+
+span.labels
+{
+     font-family:@Arial Unicode MS;
+     font-size:8;
+     color:Black;     
+     width:140px;
+     border:0;
+     background-color:#D4EAF9;
+     float:left;     
+}
+input.textBox
+{
+     width:150px;
+     border:0;
+     background-color:#E5E6E9;
+     float:right;
+}
+input.smalltextBox
+{
+     width:90px;
+     border:0;
+     background-color:#E5E6E9;
+     float:right;
+}
+.grdTextBox
+{
+     width:50px;
+     border:1;
+     background-color:#D4EAF9;
+}
+.grdTextBoxNoEdit
+{
+     width:50px;
+     border:0;
+     background-color:Transparent;
+     border-style:none;
+     font-color:black;
+     text-align:right;
+}
+input.button
+{   border:1;
+    background-color:ThreeDFace;     
+    font-family:@Arial Unicode MS;
+    font-size:8;
+    color:Black;     
+    width:100px;    
+}
+select.option
+{
+     font-family:@Arial Unicode MS;
+     font-size:8;
+     color:Black;     
+     width:190px;
+     border:0;
+     background-color:#eeeeee;     
+}
+.SubHeader
+{
+     font-family:@Arial Unicode MS;
+     font-size:8;
+     color:Black;     
+     font-weight:bold;
+     border: 0px solid #000000;
+     width:50%;
+}
+
+.TxtBox
+{
+    width:120px;
+        
+}
+
+.tdRed
+{
+    font-family:@Arial Unicode MS;
+    font-size:8;
+    color:red;     
+}
+
+.DateInGrid
+{
+    width:16px;
+    height:16px;    
+}
+
+.modalBackground
+{
+    background-color: #ccc;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}

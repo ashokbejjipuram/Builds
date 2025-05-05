@@ -1,0 +1,35 @@
+
+ 2023-12-07 20:19:05,897   [9]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Impal_Archive.dbo.outstanding_report'.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetPaymentPatternDetails(String BranchCode, String CustomerCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 395
+   at IMPALWeb.ECreditApplication.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 515
+ClientConnectionId:e62329ba-c399-4353-a9d1-f99c15b803d3
+Error Number:208,State:1,Class:16
+
+ 2023-12-07 20:19:56,864   [10]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Impal_Archive.dbo.outstanding_report'.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetPaymentPatternDetails(String BranchCode, String CustomerCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 395
+   at IMPALWeb.ECreditApplication.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 515
+ClientConnectionId:e62329ba-c399-4353-a9d1-f99c15b803d3
+Error Number:208,State:1,Class:16
+
+ 2023-12-07 21:16:07,295   [48]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.IndexOutOfRangeException: HO_Approval_Status_Remarks
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.System.Data.IDataRecord.get_Item(String name)
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetEcreditApplicationDetails(String BranchCode, String ApplicationNo) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 679
+   at IMPALWeb.ECreditApplication.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 399
+
+ 2023-12-07 21:22:47,829   [50]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: 'ddlDealerClassification' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at IMPALWeb.ECreditApplication.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 482
+
+ 2023-12-07 21:23:20,629   [49]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.ArgumentOutOfRangeException: 'ddlDealerClassification' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at IMPALWeb.ECreditApplication.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 482

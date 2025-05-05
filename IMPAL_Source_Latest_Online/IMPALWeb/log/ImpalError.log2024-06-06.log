@@ -1,0 +1,21 @@
+
+ 2024-06-06 12:36:32,320   [11]   ERROR  WriteException  IMPALWeb.InwardEntry 
+System.ArgumentOutOfRangeException: 'ddlSupplierName' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at IMPALWeb.InwardEntry.ddlInwardNumber_OnSelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\InwardEntry.aspx.cs:line 639
+
+ 2024-06-06 12:39:46,464   [13]   ERROR  WriteException  IMPALWeb.InwardEntry 
+System.InvalidOperationException: Both DataSource and DataSourceID are defined on 'ddlSupplierName'.  Remove one definition.
+   at System.Web.UI.WebControls.DataBoundControl.EnsureSingleDataSource()
+   at System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   at System.Web.UI.WebControls.DataBoundControl.GetData()
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at IMPALWeb.InwardEntry.ddlInwardNumber_OnSelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\InwardEntry.aspx.cs:line 644
+
+ 2024-06-06 13:26:11,367   [16]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at IMPALWeb.ECreditApplication.btnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 1248

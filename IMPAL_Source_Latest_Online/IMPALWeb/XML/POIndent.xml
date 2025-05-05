@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Root>
+	<POIndent>
+		<IndentType Desc="" Code="0" />
+    <IndentType Desc="SF-FSN" Code="SF"/>
+		<IndentType Desc="NIL - ABC FMS" Code="NABCFMS" />
+		<IndentType Desc="ABC FMS" Code="ABCFMS" />
+	</POIndent>
+</Root>
+
+

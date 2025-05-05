@@ -1,0 +1,32 @@
+
+ 2024-03-20 11:32:48,655   [9]   ERROR  WriteException  IMPALWeb.PurchaseReturnNew 
+System.ArgumentException: Column 'SerialNo' does not belong to table Table1.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at IMPALLibrary.Transactions.StockTransferTransactions.GetInwardDetailsForPurchaseReturn(String InwardNumber, String BranchCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Inventory\StockTransfer.cs:line 375
+   at IMPALWeb.PurchaseReturnNew.ddlInwardNumber_OnSelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\PurchaseReturnNew.aspx.cs:line 159
+
+ 2024-03-20 11:35:03,008   [18]   ERROR  WriteException  IMPALWeb.PurchaseReturnNew 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.PurchaseReturnNew.BindExistingRows(List`1 InwardItem) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\PurchaseReturnNew.aspx.cs:line 706
+
+ 2024-03-20 11:35:03,085   [18]   ERROR  WriteException  IMPALWeb.PurchaseReturnNew 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.PurchaseReturnNew.BindExistingRows(List`1 InwardItem) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\PurchaseReturnNew.aspx.cs:line 729
+   at IMPALWeb.PurchaseReturnNew.ddlInwardNumber_OnSelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\PurchaseReturnNew.aspx.cs:line 196
+
+ 2024-03-20 12:20:18,469   [66]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch 
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '23/02' to data type int.
+   at IMPALLibrary.Transactions.Finance.DebitCredit.AddNewDebitCreditNoteCustBranch(DebitCreditNoteEntityGST& DrCrNoteEntity) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Finance\DebitCredit.cs:line 846
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.AddDebitCreditNote(GridView dataGrid) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 417
+ClientConnectionId:3bf6b885-b689-43e5-91ff-5f0fda4a14c0
+Error Number:245,State:1,Class:16
+
+ 2024-03-20 12:20:18,621   [66]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch 
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '23/02' to data type int.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 43
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.AddDebitCreditNote(GridView dataGrid) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 439
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteCustomerBranch.BtnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteCustomerBranch.aspx.cs:line 294
+ClientConnectionId:3bf6b885-b689-43e5-91ff-5f0fda4a14c0
+Error Number:245,State:1,Class:16

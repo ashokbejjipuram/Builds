@@ -1,0 +1,2915 @@
+﻿/* Generic Styles */
+
+/* Import Fonts */
+@font-face {
+    font-family: SEGMCSB;
+    src: url("fonts/SEGMCSB.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGOE__0;
+    src: url("fonts/SEGOE__0.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGOEB_0;
+    src: url("fonts/SEGOEB_0.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGOEPR.TTF;
+    src: url("fonts/SEGOEPR.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGOEPRB;
+    src: url("fonts/SEGOEPRB.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGOEUI_1;
+    src: url("fonts/SEGOEUI_1.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGOEUIB_1;
+    src: url("fonts/SEGOEUIB_1.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGOEUII_1;
+    src: url("fonts/SEGOEUII_1.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGOEUIL_0;
+    src: url("fonts/SEGOEUIL_0.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGOEUIZ_1;
+    src: url("fonts/SEGOEUIZ_1.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGUISB_0;
+    src: url("fonts/SEGUISB_0.TTF") /* EOT file for IE */
+}
+@font-face {
+    font-family: SEGUISYM;
+    src: url("fonts/SEGUISYM.TTF") /* EOT file for IE */
+}
+
+/* CSS Reset */
+html {
+    position: relative;
+    min-height: 99.9%;
+}
+   
+body {
+	margin: 0 0 40px; /* bottom = footer height */
+	min-width: 999px;
+    min-height: 100%;
+	background-color: #fff;
+	font-family: SEGMCSB, SEGOE__0, SEGOEB_0, SEGOEPR, SEGOEPRB, SEGOEUI_1, 
+	                SEGOEUIB_1, SEGOEUII_1, SEGOEUIL_0, SEGOEUIZ_1, SEGUISB_0, SEGUISYM, 
+	                "Segoe UI", "Segoe UI Light", "Segoe UI Semibold", "Segoe UI Symbol";
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a:link {
+	color:#0051bf;
+}
+a:visited {
+	color:#006cff;
+}
+a:hover {
+	color:#006cff;
+}
+a:active {
+	color:#702812;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+img {
+	border:none;	
+}
+
+.hide {
+	display:none !important;	
+}
+
+.hidden-content {
+	visibility:hidden;	
+}
+
+.clear-all {
+	clear:both;	
+}
+
+table {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ASP Net CSS Override */
+form {
+    height: 100%;
+    min-height: 100%;
+}
+
+/* Main Wrapper */
+#blockWrapper {
+    min-width: 999px;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*#ctl00_CPHDetails_DivTop
+{
+  
+    width:700px;
+}*/
+
+/* Merged Scroll Bar Styles */
+#contentArea .menuPanel .menuPanelHolder, 
+#contentArea .contentPanel, .reportPopUp{
+	overflow: auto;
+    sscrollbar-base-color: #dfdede;
+    scrollbar-Face-Color: #ccc;
+    scrollbar-arrow-color: #dfdede;
+    scrollbar-track-color: #dfdede;
+}
+/*
+
+, 
+.reportViewerHolder 
+
+,
+#divItemDetails, 
+.gridViewScroll
+*/
+
+/* Ajax Calendar Extender GridView Fix */
+.gridViewAjaxCalendarExtender {
+}
+.gridViewAjaxCalendarExtender .ajax__calendar_container {
+    border: 1px solid #646464;
+    background-color: #fff;
+    color: #000;
+    z-index: 1050;
+}
+.gridViewAjaxCalendarExtender .ajax__calendar_container th {
+    padding: 0px;
+}
+.gridViewAjaxCalendarExtender .ajax__calendar_container td {
+    padding: 0px;
+    min-width: 1px;
+    border: 0 solid #646464;
+    background-color: #fff;
+}
+
+.gridViewAjaxCalendarExtender .ajax__calendar_other .ajax__calendar_day, .MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: #000;
+}
+.gridViewAjaxCalendarExtender .ajax__calendar_hover .ajax__calendar_day, 
+.gridViewAjaxCalendarExtender .ajax__calendar_hover .ajax__calendar_month, 
+.gridViewAjaxCalendarExtender .ajax__calendar_hover .ajax__calendar_year {    
+    border-left: 1px solid #d9ecff;   
+    border-right: 1px solid #d9ecff;
+    background-color: #deeeff;
+    color: #000;
+}
+.gridViewAjaxCalendarExtender .ajax__calendar_active .ajax__calendar_day, 
+.gridViewAjaxCalendarExtender .ajax__calendar_active .ajax__calendar_month, 
+.gridViewAjaxCalendarExtender .ajax__calendar_active .ajax__calendar_year {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Ajax Progress Bar Loader */
+#divShadow {           
+    z-index:1001;         
+    position: absolute;     
+    top: 0%;     
+    left: 0%;     
+    width: 100%;     
+    height: 100%;        
+    background-color: #fff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    display: none;  
+} 
+
+#divAjaxImageLoader {
+    z-Index:1004;
+    position:absolute;   
+    top: 37%;     
+    left: 46%;     
+    padding: 30px;
+    width: 128px;
+    height: 128px;
+    /*border: 5px solid #dbe1ec;*/
+}
+#divAjaxImageLoader img {
+    width: 128px;
+    height: 128px;
+}
+
+/* Ajax Progress Bar Percentage Loader */
+#divShadowForBar {           
+    z-index:1001;         
+    position: absolute;     
+    top: 0%;     
+    left: 0%;     
+    width: 1000px;     
+    height: 100%;        
+    background-color: #fff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    display: none;  
+} 
+
+#divAjaxProgressBarLoader {
+    z-Index:1002;
+    position:absolute;   
+    top: 37%;     
+    left: 46%;     
+    padding: 30px;
+    width: 128px;
+    height: 128px;
+    /*border: 5px solid #dbe1ec;*/
+}
+#divAjaxProgressBarLoader input 
+{
+    color: #ff0000;
+}
+
+#tblProgressBar {
+    margin-right: 10px;
+    width: 200px;
+}
+#tblProgressBar td{
+    height: 10px;
+    border: 1px solid #ccc;
+}
+#tblProgressBar td.progress{
+    border-right: 0px solid #ccc;
+    background-color: #00ff00;
+}
+#tblProgressBar td.progressPercent{
+    border: 0;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    display: none;
+}
+
+.labelProgressBar{
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* IE Dropdown Fixed Width Issue Fix */
+fieldset
+{
+	display:block;
+	padding:15px;
+	margin:20px auto;
+	border:2px solid #999
+}
+
+legend
+{
+	font-weight:700
+}
+
+
+/**
+ * Example select element CSS.
+ */
+#fixed-select-css,
+#unfixed-select-css
+{
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+
+#select-styleable
+{
+	width:300px;
+	padding:5px;
+	margin:5px;
+	border:5px solid #c00
+}
+
+
+
+/**
+ * Overlay CSS.
+ */
+.select-overlay
+{
+    background-color: #fff;
+}
+
+.select-overlay span
+{
+	display:block;
+	float:left;
+	clear:both;
+	background:transparent url(../../images/bg-ie-select-width.png) no-repeat 0 0
+}
+
+
+/* Overlay CSS for Internet Explorer 6 and 7 */
+.ie6 .select-overlay span,
+.ie7 .select-overlay span
+{
+	width:18px;
+	height:22px;
+	background-position:0 -20px
+}
+
+.ie6 .select-overlay-hover span,
+.ie7 .select-overlay-hover span
+{
+	background-position:-18px -20px
+}
+
+.ie6 .select-overlay-active span,
+.ie7 .select-overlay-active span
+{
+	background-position:-18px -20px
+}
+
+
+/* Overlay CSS for Internet Explorer 8 with no borders or padding */
+.ie8 .select-overlay span
+{
+	width:18px;
+	height:20px;
+	background-position:0 0
+}
+
+.ie8 .select-overlay-hover span
+{
+	background-position:-18px 0
+}
+
+.ie8 .select-overlay-active span
+{
+	background-position:-18px 0
+}
+
+
+/* Overlay CSS for Internet Explorer 8 with borders and padding */
+#select-styleable-container.ie8 .select-overlay span
+{
+	width:17px;
+	height:20px;
+	background-position:-36px 0
+}
+
+#select-styleable-container.ie8 .select-overlay-hover span
+{
+	background-position:-53px 0
+}
+
+#select-styleable-container.ie8 .select-overlay-active span
+{
+	background-position:-53px 0
+}
+
+/* Report Popup */
+#divShadowPopUp {           
+    z-index:1000;         
+    position: absolute;     
+    top: 0%;     
+    left: 0%;     
+    width: 100%;     
+    height: 100%;        
+    background-color: #fff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    display: none;  
+} 
+
+#divReportPopUp {           
+    z-index:1003;          
+    border: 1px solid #ccc;     
+    background-color: #fff;
+} 
+
+/* Header */
+#loginHeader {
+	background: url('../../images/IMPAL_Banner_BG.png') repeat-x;
+	width: 100%;
+	height: 144px;
+}
+#loginHeader .logo 
+{
+	float: left;
+    line-height: 0;
+    margin: 8px 10px;
+    padding: 0;
+}
+#loginHeader .CSCLogo 
+{
+	float: right;
+    line-height: 0;
+    margin: 8px 10px;
+    padding: 0;
+}
+
+#errorHeader {
+	background: url('../../images/IMPAL_Banner_BG.png') repeat-x;
+	width: 100%;
+	height: 144px;
+}
+#errorHeader .logo 
+{
+	float: left;
+    line-height: 0;
+    margin: 8px 10px;
+    padding: 0;
+}
+#errorHeader .CSCLogo 
+{
+	float: right;
+    line-height: 0;
+    margin: 8px 10px;
+    padding: 0;
+}
+
+#header {
+	width: 100%;
+	height: 45px;
+	background: url('../../images/2Banner_HeaderN.png') repeat-x;
+}
+#header .logo {
+	float: left;
+    margin: 0 0;
+    padding: 0;
+    background-color: #fff;
+    line-height: 0;
+}
+#header .logo img{
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-right: 150px;
+	background: url('../../images/2Banner_Header.png') repeat-x;
+}
+#header .banner {
+	float: right;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+#header .userinfo {
+	float: left;
+	margin-right: 10px;
+}
+#header .userinfo .branch {
+    font-size: 13px;
+    text-align: right;
+}
+#header .userinfo .logtime {
+    padding-top: 7px;
+    font-size: 12px;
+    text-align: right;
+}
+#header .logout {
+	float: right;
+	margin-right: 5px;
+	height: 34px;
+}
+
+/* Login Content */
+#loginContent {
+    margin: 0 0 10px 0;
+    /*background-color: #f5fffc;*/
+}
+
+#login {
+    margin: 0 0 10px 0;
+    width: 100%;
+    height: 488px;
+}
+#login td 
+{
+    padding-top: 50px;
+    border: 0px solid #00ff00;
+    vertical-align: top;
+}
+#login .loginLeft {
+    width: 50%;
+    background: url('../../images/SplitterLine_IMPAL_Login.png') no-repeat right top;
+}
+#login .loginLeft #sliderContent {
+    margin-left: 37px;
+    padding-top: 24px;
+    width: 70%;
+    line-height: 150%;
+    text-align: justify;
+}
+#login .loginLeft #sliderContent h3 {
+    color: #ff5500;
+	/*font-family: "Segoe UI Semibold";*/
+    font-size: 13px;
+}
+#login .loginLeft #sliderContent p {
+    font-size: 12px;
+}
+#login .loginLeft #sliderContent a {
+    color: #1818a1;
+    font-weight: normal;
+    font-size: 10px;
+}
+#login .loginRight {
+    width: 50%;
+    padding-left: 50px;
+}
+#login .loginRight p.signin{
+    margin: 0;
+    text-align: left;
+}
+#login .loginRight h2 {
+    color: #323232;
+	/*font-family: "Segoe UI Light";*/
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 40px;
+}
+#login .loginRight p{
+}
+#login .loginRight .llabel {
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+#login .loginRight .llabelError {
+    margin-top: 5px;
+    color: #bf1d38;
+    font-style: normal;
+    font-size: 12px;
+}
+#login .loginRight .lselect {
+    margin-top: 5px;
+    padding: 5px 0 5px 6px;
+    width: 240px;
+    height: 30px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+#login .loginRight .ltextbox {
+    margin-top: 5px;
+    padding: 5px 0 5px 6px;
+    width: 230px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+#login .loginRight .lbutton {
+    padding:5px;
+    width:74px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+}
+
+/* Error Content */
+#errorContent {
+    margin: 0 0 10px 0;
+    /*background-color: #f5fffc;*/
+}
+
+#error {
+    margin: 0 0 10px 0;
+    width: 100%;
+    height: 488px;
+}
+#error td 
+{
+    padding-top: 50px;
+    border: 0px solid #00ff00;
+    vertical-align: top;
+}
+#error .errorLeft {
+    width: 50%;
+    background: url('../../images/SplitterLine_IMPAL_Login.png') no-repeat right top;
+}
+#error .errorLeft #errorContentDisplay {
+    margin-left: 20%;
+    padding-top: 0;
+    width: 80%;
+    line-height: 150%;
+    text-align: justify;
+}
+#error .errorLeft #errorContentDisplay h3 {
+    color: #ff5500;
+	/*font-family: "Segoe UI Semibold";*/
+    font-size: 32px;
+}
+#error .errorLeft #errorContentDisplay p {
+    font-size: 18px;
+    text-align: center;
+}
+#error .errorLeft #errorContentDisplay a {
+    color: #1818a1;
+    font-weight: normal;
+    font-size: 10px;
+}
+#error .errorRight {
+    width: 50%;
+    padding-left: 50px;
+}
+#error .errorRight h2 {
+    color: #323232;
+	/*font-family: "Segoe UI Light";*/
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 26px;
+}
+#error .errorRight p{
+}
+#error .errorRight .llabel {
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+#error .errorRight .llabelError {
+    margin-top: 5px;
+    color: #bf1d38;
+    font-style: normal;
+    font-size: 12px;
+}
+#error .errorRight .lselect {
+    margin-top: 5px;
+    padding: 5px 0 5px 6px;
+    width: 240px;
+    height: 30px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+#error .errorRight .ltextbox {
+    margin-top: 5px;
+    padding: 5px 0 5px 6px;
+    width: 230px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+#error .errorRight .lbutton {
+    padding:5px;
+    width:74px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.errorContent {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.errorContent .issue h2 {
+    color: #ff5500;
+    font-size: 32px;
+}
+
+.errorContent .issue h3 {
+    font-size: 18px;
+}
+
+.errorContent .contact h2 {
+    margin-top: 20px;
+    color: #323232;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.errorContent .contact h3 {
+    color: #323232;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* Home Screen */
+#indiaMapIMPAL {
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    width: 730px;
+    border: 0;
+    overflow: hidden;
+}
+#indiaMapIMPAL td.indiaMapIMPALHolder {
+	text-align: center;
+}
+
+#indiaMapIMPAL td.prevNextButtonsHolder {
+	text-align: center;
+}
+#indiaMapIMPAL td.prevNextButtonsHolder .prev span {
+    margin: 0 auto;
+    margin-right: 450px;
+    width: 39px;
+    height: 38px;
+    display: inline-block;
+    background: url('../../images/prev_d.png') no-repeat top left;
+}
+#indiaMapIMPAL td.prevNextButtonsHolder .prev span:hover {
+    background: url('../../images/prev_a.png') no-repeat top left;
+}
+#indiaMapIMPAL td.prevNextButtonsHolder .next span {
+    margin: 0 auto;
+    width: 39px;
+    height: 38px;
+    display: inline-block;
+    background: url('../../images/next_d.png') no-repeat top left;
+}
+#indiaMapIMPAL td.prevNextButtonsHolder .next span:hover {
+    background: url('../../images/next_a.png') no-repeat top left;
+}
+
+#ImpalDetails {  
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+#ImpalDetails li {
+    text-align: center;
+}
+#ImpalDetails li span {
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+}
+#ImpalDetails li span img {
+    /*
+    width: 300px;
+    height: 350px;
+    */
+    border: 0;
+    vertical-align: top;
+}
+#ImpalDetails li p {
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.roundabout-holder {
+    margin: 0 auto;
+    padding: 0;
+    height: 450px;
+    width: 500px;
+    list-style: none;
+}
+.roundabout-moveable-item {
+    padding: 2px 5px;
+    padding-top: 5px;
+    width: 350px;
+    height: 450px;
+    cursor: pointer;
+    background-color: #f7f8fb;
+    border: 1px solid #eee;
+    vertical-align: bottom;
+}
+.roundabout-in-focus {
+    cursor: auto;
+}
+
+/* Master Content */
+#content {
+	margin: 0;
+	width:100%;	
+	min-height: 100%;
+	height: 100%;
+}
+#contentArea {
+    margin: 0;
+    width: 100%;
+	min-height: 100%;
+	height: 100%;
+}
+#contentArea td {
+}
+#contentArea .menuPanel {
+	margin: 0;
+	padding: 0;
+	width: 250px;	
+	min-width: 250px;
+	border-top: 1px solid #dfdede;
+	border-right: 1px solid #dfdede;
+	border-bottom: 1px solid #dfdede;
+    background-color: #dfdede;
+	vertical-align: top;
+}
+#contentArea .menuPanel .menuPanelHolder {
+	margin: 0;
+	padding: 0;
+    min-height: 530px;
+    background-color: #dfdede;
+	vertical-align: top;
+}
+#contentArea .contentPanel {
+	margin: 0;
+	min-width: 720px;
+    min-height: 530px;
+	border-top: 1px solid #dfdede;
+	border-bottom: 1px solid #dfdede;
+	vertical-align: top;
+}
+
+#contentArea .contentPanel .ShowHideMenuHolder {
+	float: left;
+	margin: 5px 5px;
+    padding: 0 0 0 0;
+    height: 30px;
+}
+#contentArea .contentPanel .ShowHideMenuHolder img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#contentArea .contentPanel .SiteMapPathHolder {
+	float: left;
+	margin: 5px 5px;
+    padding: 0 0 0 0;
+    height: 30px;
+}
+
+#contentArea .contentPanel .contentPanelBox{
+	margin: 5px 5px;
+	padding: 0;
+	min-width: 820px;
+	min-height: 490px;
+    border: 1px solid #dfdede;
+    /*background-color: #f5fffc;*/
+	text-align: left;
+}
+
+/* Tree View Menu Accordion SiteMap*/
+.accordion {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.accordion a {
+}
+.accordion a:active {
+}
+.accordion a:visited {
+}
+
+.accordHead {
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+    background: url('../../images/iarrowthick.png') no-repeat 95% 50%;
+    background-color: #dfdede;
+    display: block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.accordHead img {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    vertical-align: middle;
+}
+.accordHead span {
+    padding: 0 0 0 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #2c2c2c;
+    vertical-align: middle;
+}
+
+.accordHead:hover {
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+    background: url('../../images/iarrowthickwhite.png') no-repeat 95% 50%;
+    background-color: #1818a1;
+    display: block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.accordHead:hover img {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.accordHead:hover span {
+    padding: 0 0 0 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.accordHeadActvie {
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+    background: url('../../images/iarrowthickwhite.png') no-repeat 95% 50%;
+    background-color: #1818a1;
+    display: block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.accordHeadActvie img {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.accordHeadActvie span {
+    padding: 0 0 0 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: middle;
+}
+
+/* Accordion Header Master Icon */
+.accordHead .Master, .accordHead:hover .Master, .accordHeadActvie .Master {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    background: url('../../images/iMaster.png') no-repeat 100% 0%;
+    vertical-align: middle;
+}
+.accordHead:hover .Master, .accordHeadActvie .Master {
+    background: url('../../images/iMaster_a.png') no-repeat 100% 0%;
+}
+
+/* Accordion Header Ordering Icon */
+.accordHead .Ordering, .accordHead:hover .Ordering, .accordHeadActvie .Ordering {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    background: url('../../images/iOrder.png') no-repeat 100% 0%;
+    vertical-align: middle;
+}
+.accordHead:hover .Ordering, .accordHeadActvie .Ordering {
+    background: url('../../images/iOrder_a.png') no-repeat 100% 0%;
+}
+
+/* Accordion Header Inventory Icon */
+.accordHead .Inventory, .accordHead:hover .Inventory, .accordHeadActvie .Inventory {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    background: url('../../images/iInven.png') no-repeat 100% 0%;
+    vertical-align: middle;
+}
+.accordHead:hover .Inventory, .accordHeadActvie .Inventory {
+    background: url('../../images/iInven_a.png') no-repeat 100% 0%;
+}
+
+/* Accordion Header Query Icon */
+.accordHead .Query, .accordHead:hover .Query, .accordHeadActvie .Query {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    background: url('../../images/iInven.png') no-repeat 100% 0%;
+    vertical-align: middle;
+}
+.accordHead:hover .Query, .accordHeadActvie .Query {
+    background: url('../../images/iInven_a.png') no-repeat 100% 0%;
+}
+
+/* Accordion Header Sales Icon */
+.accordHead .Sales, .accordHead:hover .Sales, .accordHeadActvie .Sales {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    background: url('../../images/iSales.png') no-repeat 100% 0%;
+    vertical-align: middle;
+}
+.accordHead:hover .Sales, .accordHeadActvie .Sales {
+    background: url('../../images/iSales_a.png') no-repeat 100% 0%;
+}
+
+/* Accordion Header Finance Icon */
+.accordHead .Finance, .accordHead:hover .Finance, .accordHeadActvie .Finance {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    background: url('../../images/iSales.png') no-repeat 100% 0%;
+    vertical-align: middle;
+}
+.accordHead:hover .Finance, .accordHeadActvie .Finance {
+    background: url('../../images/iSales_a.png') no-repeat 100% 0%;
+}
+
+/* Accordion Header Reports Icon */
+.accordHead .Reports, .accordHead:hover .Reports, .accordHeadActvie .Reports {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    background: url('../../images/iRepor.png') no-repeat 100% 0%;
+    vertical-align: middle;
+}
+.accordHead:hover .Reports, .accordHeadActvie .Reports {
+    background: url('../../images/iRepor_a.png') no-repeat 100% 0%;
+}
+
+/* Accordion Header SysAdmin Icon */
+.accordHead .SysAdmin, .accordHead:hover .SysAdmin, .accordHeadActvie .SysAdmin {
+    width: 28px;
+    height: 23px;
+    border: 0;
+    background: url('../../images/iSysA.png') no-repeat 100% 0%;
+    vertical-align: middle;
+}
+.accordHead:hover .SysAdmin, .accordHeadActvie .SysAdmin {
+    background: url('../../images/iSysA_a.png') no-repeat 100% 0%;
+}
+
+/* Tree Menu View */ /*3b68b5*/
+.treeviewMain {
+}
+
+.treeviewNodeStyle {
+}
+.treeviewNodeStyle a {
+    color: #2c2c2c;
+}
+.treeviewNodeStyle a:link {
+    color: #2c2c2c;
+}
+.treeviewNodeStyle a:active {
+    color: #2c2c2c;
+}
+.treeviewNodeStyle a:visited {
+    color: #2c2c2c;
+}
+
+.treeviewRootNodeStyle {
+}
+
+.treeviewParentNodeStyle {
+}
+.treeviewParentNodeStyle a {    
+}
+
+.treeviewLeafNodeStyle {
+    color: #2c2c2c;
+}
+.treeviewLeafNodeStyle a {
+    width: 100%;
+    border: 1px solid #fff;
+    color: #2c2c2c;
+}
+.treeviewLeafNodeStyle a:link {
+    color: #2c2c2c;
+}
+.treeviewLeafNodeStyle a:active {
+    color: #2c2c2c;
+}
+.treeviewLeafNodeStyle a:visited {
+    color: #2c2c2c;
+}
+
+.treeviewHoverNodeStyle {
+    width: 100%;
+    background-color: #3b68b5;
+    color: #fff;
+}
+.treeviewHoverNodeStyle a {
+    width: 100%;
+    color: #fff;
+}
+.treeviewHoverNodeStyle a:hover {
+    width: 100%;
+    color: #fff;
+}
+
+.treeviewSelectedNodeStyle {
+    width: 100%;
+    background-color: #3b68b5;
+    color: #fff;
+}
+.treeviewSelectedNodeStyle a {
+    color: #fff;
+}
+.treeviewSelectedNodeStyle a:link {
+    color: #fff;
+}
+.treeviewSelectedNodeStyle a:active {
+    color: #fff;
+}
+.treeviewSelectedNodeStyle a:visited {
+    color: #fff;
+}
+.treeviewSelectedNodeStyle a:hover {
+    color: #fff;
+}
+
+.treeviewTreeNodeStyleLevel1 {
+    font-size: 12px;
+    font-weight: bold;
+}
+.treeviewTreeNodeStyleLevel1 a {
+    padding: 2px;
+    padding-left: 3px;
+    color: #2c2c2c;
+}
+.treeviewTreeNodeStyleLevel2 {
+    font-size: 12px;
+    font-weight: bold;
+}
+.treeviewTreeNodeStyleLevel2 a {
+    padding: 2px;
+    padding-left: 3px;
+    color: #2c2c2c;
+}
+.treeviewTreeNodeStyleLevel3 {
+    font-size: 12px;
+    font-weight: bold;
+}
+.treeviewTreeNodeStyleLevel3 a {
+    padding: 2px;
+    padding-left: 3px;
+    color: #2c2c2c;
+}
+.treeviewTreeNodeStyleLevel4 {
+    font-size: 12px;
+    font-weight: bold;
+}
+.treeviewTreeNodeStyleLevel4 a {
+    padding: 2px;
+    padding-left: 3px;
+    color: #2c2c2c;
+}
+.treeviewTreeNodeStyleLevel5 {
+    font-size: 12px;
+    font-weight: bold;
+}
+.treeviewTreeNodeStyleLevel5 a {
+    padding: 2px;
+    padding-left: 3px;
+    color: #2c2c2c;
+}
+
+/* Site Map Path Navigation CSS */
+.SiteMapPath {
+    margin: 0;
+    padding: 0;
+    color: #353535;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+.SiteMapPath a {
+    color: #353535;
+}
+.SiteMapPath a:link {
+    color: #353535;
+}
+.SiteMapPath a:active {
+    color: #353535;
+}
+.SiteMapPath a:visited {
+    color: #353535;
+}
+/* root level */
+.SiteMapPath>span>a { /*1-span*/
+    z-index: 999;
+}
+/* node level 1 */
+.SiteMapPath>span+span { /*2-span*/
+    z-index: 998;
+}
+.SiteMapPath>span+span+span>a { /*3-span*/
+    z-index: 997;
+}
+/* node level 2 */
+.SiteMapPath>span+span+span+span { /*4-span*/
+    z-index: 996;
+}
+.SiteMapPath>span+span+span+span+span>a { /*5-span*/
+    z-index: 995;
+}
+/* node level 3 */
+.SiteMapPath>span+span+span+span+span+span { /*6-span*/
+    z-index: 994;
+}
+.SiteMapPath>span+span+span+span+span+span+span>a { /*7-span*/
+    z-index: 993;
+}
+/* node level 4 */
+.SiteMapPath>span+span+span+span+span+span+span+span { /*8-span*/
+    z-index: 992;
+}
+.SiteMapPath>span+span+span+span+span+span+span+span+span>a { /*9-span*/
+    z-index: 991;
+}
+/* node level 5 */
+.SiteMapPath>span+span+span+span+span+span+span+span+span+span { /*10-span*/
+    z-index: 990;
+}
+.SiteMapPath>span+span+span+span+span+span+span+span+span+span+span>a { /*11-span*/
+    z-index: 989;
+}
+.SiteMapPathRootNodeStyle {
+    padding: 5px 20px 0 20px;
+    min-height: 25px;
+    border-left: 1px solid #dedfdf;
+	background:transparent url(../../images/bg-crumbs.png) no-repeat 100% 0%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.SiteMapPathRootNodeStyle:hover {
+	background:transparent url(../../images/bg-crumbs.png) no-repeat 100% -48px;
+}
+.SiteMapPathNodeStyle {
+    margin-left: -14px;
+    padding: 5px 20px 0 34px;
+    min-height: 25px;
+    border-left: 1px solid #dedfdf;
+	background:transparent url(../../images/bg-crumbs.png) no-repeat 100% 0%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.SiteMapPathNodeStyle:hover {
+	background:transparent url(../../images/bg-crumbs.png) no-repeat 100% -48px;
+	color: #353535
+}
+.SiteMapPathCurrentNodeStyle {
+    margin-left: -14px;
+    padding: 5px 20px 0 34px;
+    min-height: 25px;
+    border-left: 1px solid #dedfdf;
+	background:transparent url(../../images/bg-crumbs.png) no-repeat 100% 0%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.SiteMapPathCurrentNodeStyle:hover {
+	background:transparent url(../../images/bg-crumbs.png) no-repeat 100% -48px;
+}
+.SiteMapPathPathSeparatorStyle {
+    display: none;
+}
+
+/* Grid View */
+.GridViewStyle {
+    margin: 5px 20px;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: 0; 
+    border: 2px solid #ccc;
+    background-color:#f7f7f7;
+}
+.GridViewTransactionStyle  {
+    margin: 5px 0;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: 0; 
+    border: 2px solid #ccc;
+    background-color:#f7f7f7;
+}
+
+/* Header, Item and Pager Scroller Styles */
+.GridViewScrollStyle {
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: 0; 
+    border: 1px solid #ccc;
+    background-color:#f7f7f7;
+}
+
+.GridviewScrollHeader th {     
+    padding: 5px 3px 3px 3px; 
+    white-space: nowrap; 
+    border-right: 1px solid #bbb; 
+    border-bottom: 1px solid #bbb; 
+    background-color: #ddd; 
+    color: #323232;
+    font-size: 14px;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: bottom; 
+} 
+.GridviewScrollHeader td {     
+    padding: 5px 3px 3px 3px; 
+    white-space: nowrap; 
+    border-right: 1px solid #bbb; 
+    border-bottom: 1px solid #bbb; 
+    background-color: #ddd; 
+    color: #323232;
+    font-size: 14px;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: bottom; 
+} 
+.GridviewScrollHeader a {
+    text-decoration:none; 
+    color:#323232;
+    display:block; 
+    text-align:left; 
+    font-weight:normal;
+}
+
+.GridviewScrollPager { 
+    background-color:#ddd;
+    border-bottom: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+} 
+.GridviewScrollPager td { 
+    border-bottom: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+} 
+.GridviewScrollPager a { 
+    padding: 2px 10px 2px 10px; 
+    border: 2px solid #ccc;
+    color:#323232; 
+    text-decoration: none; 
+}
+.GridviewScrollPager span {
+    font-weight:bold; 
+    color:#FFFFFF; 
+    text-decoration:none; 
+    padding:2px 10px 2px 10px;
+}
+
+.GridviewScrollFoooter table {
+}
+.GridviewScrollFoooter table td {
+}
+.GridviewScrollFoooter td { 
+    padding: 5px 3px 3px 3px; 
+    white-space: nowrap; 
+    border-right: 1px solid #bbb; 
+    border-bottom: 1px solid #bbb; 
+    background-color: #ededed;
+    color: #323232;
+    font-size: 12px;
+    vertical-align: top;
+    text-align: left;
+    white-space: nowrap;
+}
+.GridviewScrollFoooter a {
+}
+.GridviewScrollFoooter span {
+}
+
+.GridViewScrollEmptyRow {
+    min-width: 500px;
+}
+
+.GridviewScrollRow td, .GridviewScrollAltRow td, .GridviewScrollSelectedRow td, .GridviewScrollEditRow td { 
+    padding: 3px 3px 3px 3px; 
+    white-space: nowrap; 
+    border-right: 1px solid #bbb; 
+    border-bottom: 1px solid #bbb; 
+    background-color: #ededed;
+    color: #323232;
+    font-size: 12px;
+    vertical-align: bottom;
+    text-align: left;
+}
+.GridviewScrollRow td {
+}
+.GridviewScrollAltRow td {
+}
+.GridviewScrollSelectedRow td {
+}
+.GridviewScrollEditRow td {
+    white-space: nowrap;
+}
+.GridViewScrollStyle td {
+}
+
+/*Header and Pager styles*/
+.HeaderStyle, .PagerStyle {
+    background-color:#ddd;
+    border: 2px solid #bbb;
+}
+.GridViewTransactionStyle .HeaderStyle  {
+    border-top: 0;
+    border-left: 0;
+}
+
+.HeaderStyle th {
+    padding: 5px 3px 3px 3px; 
+    border: 2px solid #bbb;
+    color: #323232;
+    font-size: 14px;
+    text-align: left;
+    white-space: nowrap;
+}
+.GridViewTransactionStyle .HeaderStyle th {
+    border-top: 0;
+    border-left: 0;
+}
+.HeaderStyle a {
+    text-decoration:none; 
+    color:#323232;
+    display:block; 
+    text-align:left; 
+    font-weight:normal;
+}
+.PagerStyle table {
+    text-align:center;
+    margin:auto;
+}
+.PagerStyle table td {
+    border:0px; 
+    padding:5px;
+}
+.PagerStyle td { 
+    border: 2px solid #ccc;
+}
+.PagerStyle a {
+    padding: 2px 10px 2px 10px; 
+    border: 2px solid #ccc;
+    color:#323232; 
+    text-decoration: none; 
+}
+.PagerStyle a:hover {
+    background-color: #fff;
+    color:#353535;         
+    font-weight:bold; 
+    text-decoration:none; 
+}
+.PagerStyle span {
+    padding: 2px 10px 2px 10px; 
+    border: 2px solid #ccc;
+    background-color: #fff;
+    color:#353535;         
+    font-weight:bold; 
+    text-decoration:none; 
+}
+.FoooterStyle table {
+    text-align:center;
+    margin:auto;
+}
+.FoooterStyle table td {
+    border:0px; 
+    padding:0;
+    /*background-color: #fff;*/
+    vertical-align: top;
+}
+.FoooterStyle td { 
+    border: 2px solid #ccc;
+    /*background-color: #fef9ce;*/
+    white-space: nowrap;
+}
+.FoooterStyle a {
+    color:#fff; 
+    text-decoration: none; 
+    padding: 2px 10px 2px 10px; 
+    border: 2px solid #ccc;
+}
+.FoooterStyle span {
+    font-weight:bold; 
+    color:#fff; 
+    text-decoration:none; 
+    padding:2px 10px 2px 10px;
+}
+
+/*RowStyles*/
+.EmptyRowStyle {
+    min-width: 500px;
+}
+
+.RowStyle td, .AltRowStyle td, .SelectedRowStyle td, .EditRowStyle td {
+    min-width: 100px;
+    border: 2px solid #bbb;
+    background-color: #ededed;
+    color: #323232;
+    font-size: 12px;
+    vertical-align: top;
+    text-align: left;
+    white-space: nowrap;
+}
+.RowStyle td {
+    padding: 5px;
+}
+.AltRowStyle td {
+    padding: 5px;
+}
+.SelectedRowStyle td {
+}
+.EditRowStyle td {
+    padding: 0;
+    white-space: nowrap;
+}
+.GridViewStyle td {
+}
+/* GridView Edit Control Style */
+.gridviewLabel  {
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewLabelEmptyRow {
+    color: #323232;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
+.gridviewLabelError {
+    margin-top: 5px;
+    color: #bf1d38;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewTextBox {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewTextBoxHidden {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewTextBoxSmall {
+    padding: 0 0 0 6px;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewTextBoxBig {
+    padding: 0 0 0 6px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewTextBoxFooter {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewDropDownList {
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewDropDownListEscape {
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewDropDownListFooter {
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewButton {
+    margin: 0 auto;
+    margin-top: 5px;
+    padding:5px;
+    width:74px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    
+}
+.gridviewButtonFooter {
+    margin: 0 auto;
+    padding:5px;
+    width:74px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+}
+.gridviewLinkButton {
+	color:#0051bf;
+    font-style: normal;
+    font-size: 12px;
+}
+.gridviewLinkButton:hover {
+	color:#006cff;
+}
+.gridviewImageEdit {
+    margin-top: 6px;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.gridviewRadioButton {
+    padding:5px;
+    width: 140px;
+    height: 20px;
+    color: #323232;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline;
+}
+.gridviewRadioButton label{
+    padding-left: 5px;
+}
+.gridviewRadioButton input[type="radio"] {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+}
+
+/* Controls */
+.labelNormal {
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.labelNormalPopup {
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.labelNormalPopupContent {
+    padding: 2px 6px 10px 2px;
+    width: 90%;
+    height: 16px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+    white-space: nowrap;
+    display: block;
+}
+.labelSubTitle {
+    color: #1818a1;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.textBoxNormal {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxFocused {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxDisabled {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxNormalSmall {
+    padding: 0 0 0 6px;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxFocusedSmall {
+    padding: 0 0 0 6px;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxDisabledSmall {
+    padding: 0 0 0 6px;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxNormalBig {
+    padding: 0 0 0 6px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxFocusedBig {
+    padding: 0 0 0 6px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxDisabledBig {
+    padding: 0 0 0 6px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxNormalPopup {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxFocusedPopup {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxDisabledPopup {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.textBoxMultilineNormal {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxMultilineFocused {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxMultilineDisabled {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.textBoxMultilineNormalFiveColBig {
+    padding: 0 0 0 6px;
+    width: 93%;
+    height: 60px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxMultilineFocusedFiveColBig {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxMultilineDisabledFiveColBig {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.textBoxCalendarExtenderNormal {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxCalendarExtenderFocused {
+    padding: 0 0 0 6px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.textBoxCalendarExtenderDisabled {
+    padding: 0 0 0 0;
+    width: 130px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.dropDownListNormal {
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListFocused {
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListDisabled {
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListNormalSmall {
+    padding: 0 0 0 6px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListFocusedSmall {
+    padding: 0 0 0 6px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListDisabledSmall {
+    padding: 0 0 0 6px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListNormalBig {
+    padding: 0 0 0 6px;
+    width: 210px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListFocusedBig {
+    padding: 0 0 0 6px;
+    width: 210px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListDisabledBig {
+    padding: 0 0 0 6px;
+    width: 210px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListNormalPopup {
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListFocusedPopup {
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.dropDownListDisabledPopup {
+    padding: 0 0 0 6px;
+    width: 140px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.comboBoxNormal {
+    color: #323232;
+}
+.comboBoxFocused {
+    color: #323232;
+}
+.comboBoxDisabled {
+    color: #323232;
+}
+.comboBoxNormal .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input,
+.comboBoxFocused .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input,
+.comboBoxDisabled .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input {
+    margin: 0;
+    padding: 0 0 0 6px;
+    width: 112px;
+    height: 20px;
+    border: 1px solid #d4d4d4;
+    border-right: 0px none;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+    position: relative;       
+}
+.comboBoxDisabled .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input {
+    background-color: #d3d3d3;
+    color: #323232;
+}
+.comboBoxNormal .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button,
+.comboBoxFocused .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button,
+.comboBoxDisabled .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    color: #323232;
+}
+.comboBoxNormal .ajax__combobox_itemlist,
+.comboBoxFocused .ajax__combobox_itemlist,
+.comboBoxDisabled .ajax__combobox_itemlist {
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.comboBoxDisabled .ajax__combobox_itemlist {
+    background-color: #d3d3d3;
+    color: #323232;
+}
+
+.autocomplete_completionListElement {
+    background-color: #fff;
+    color: #323232;
+    border: buttonshadow;
+    border-width: 1px;
+    border-style: solid;
+    cursor: 'default';
+    overflow: auto;
+    height: 200px;
+    text-align: left;
+    list-style-type: none;
+}
+.autocomplete_highlightedListItem {
+    background-color: #00f;
+    color: #fff;
+}
+.autocomplete_listItem {
+    background-color: #fff;
+    color: #323232;
+}
+
+.listBoxNormal {
+    padding: 0 0 0 6px;
+    width: 140px;
+    border: 1px solid #d4d4d4;
+    /*background-color: #f7f8fb;*/
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.listBoxFocused {
+    padding: 0 0 0 6px;
+    width: 140px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+.listBoxDisabled {
+    padding: 0 0 0 6px;
+    width: 140px;
+    border: 1px solid #d4d4d4;
+    background-color: #d3d3d3;
+    color: #323232;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.buttonNormal {
+    padding:5px;
+    width:74px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+}
+.buttonNormalBig {
+    padding:5px;
+    width:148px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+}
+.buttonNormalPopup {
+    padding:5px;
+    width:74px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+}
+.buttonArrowLeft {
+    padding:5px;
+    width:74px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+}
+.buttonArrowRight {
+    padding:5px;
+    width:74px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+}
+.buttonViewReport {
+    padding:5px;
+    width:150px;
+    height: 24px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.imageButtonSearch {    
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+.imageButtonSearch:hover {
+    width: 20px;
+    height: 20px;
+}
+.imageButtonSearchPopup {
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+.imageButtonSearchPopup:hover {
+    width: 20px;
+    height: 20px;
+}
+.imageButtonExitPopup {
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+.imageButtonExitPopup:hover {
+    width: 20px;
+    height: 20px;
+}
+.imageButtonEdit {
+}
+.imageButtonEditPopup {
+}
+.imageButtonCalendar {
+    margin-top: 1px;
+    vertical-align: top;
+}
+.imageButtonCalendarPopup {
+    margin-top: 1px;
+    vertical-align: top;
+}
+
+.imageEdit {
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.radioButtonNormal {
+    padding:5px;
+    width: 140px;
+    height: 20px;
+    color: #323232;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+}
+.radioButtonNormal label{
+    padding-left: 2px;
+    padding-right: 10px;
+}
+.radioButtonNormal input[type="radio"] {
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+}
+
+/* Transaction Screen */
+#divItemDetails {
+}
+.gridViewScroll {
+    margin-left: 20px;
+    width: 1024px;
+    height: 160px;
+    z-index: 1040;
+}
+.gridViewScroll600px {
+    width: 600px;
+}
+
+.gridViewFullPage {
+}
+.gridViewScrollFullPage {
+    margin: 5px 20px;
+    display: block;
+    z-index: 1030;
+}
+
+.subFormPanelGray {
+    width: 500px;
+    height: 210px;
+    background-color: #ccc;
+    color: #353535;    
+    display: inherit;
+}
+.subFormPanelGrayInvisible {
+    width: 500px;
+    height: 210px;
+    background-color: #ccc;
+    color: #353535;    
+    display: none;
+}
+
+.subFormTitle {
+    margin: 10px 0 5px 0;
+    padding: 5px 3px;
+    padding-left: 20px;
+    width: 200px;
+    height: 17px;
+    background: url('../../images/SectionHeadingBg.png') no-repeat right top;
+    background-color: #ccc;
+    color: #1818a1;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+    text-transform: uppercase;
+}
+.subFormTitleExtender250 {
+    width: 250px;
+}
+.subFormTitleExtender300 {
+    width: 300px;
+}
+.subFormTitleExtender350 {
+    width: 350px;
+}
+.subFormTitleExtender450 {
+    width: 450px;
+}
+.subFormTitleExtender550 {
+    width: 550px;
+}
+
+.subFormTable {
+    margin: 5px 5px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.subFormTable td {
+    padding: 0;
+    padding-bottom: 2px;
+    /*width: 25%;*/
+    vertical-align: middle;
+}
+.subFormTable td.label {
+    padding-left: 2px;
+    padding-right: 7px;
+    width: 150px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: right;
+}
+.subFormTable td.inputcontrols {
+    padding-top: 5px;
+    padding-right: 3px;
+    width: 190px;
+    white-space: nowrap;
+}
+.subFormTable td.labelColSpan2 {
+    padding-left: 2px;
+    padding-right: 7px;
+    width: 220px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: right;
+}
+.subFormTable td.inputcontrolsColSpan2 {
+    padding-top: 5px;
+    padding-right: 3px;
+    width: 270px;
+    white-space: nowrap;
+}
+.subFormTable td span.asterix {
+    color: #bf1d38
+}
+
+.transactionButtons {
+    width: 100%;
+    height: 42px;
+    background-color: #b2aea5;
+    background: url('../../images/formfooterbg.png') repeat-x;
+    text-align: center;
+}
+.transactionButtonsHolder {
+    padding: 15px 10px 5px 5px;
+}
+
+/* Modal Popup Screen */
+.modalIconHolder {
+    display: inline;
+}
+
+.divPopup {
+    z-index: 1003;
+    padding: 3px 0 5px 0;
+    border: 6px solid #d4d4d4;
+    background-color: #fff;
+}
+
+.modalPopupBackground {  
+    top: 0%;     
+    left: 0%;     
+    width: 100%;     
+    height: 100%;        
+    background-color: #fff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.modalImageExit {
+    padding-right: 5px;
+    width: 100%;
+    text-align: right;
+}
+
+.modalExtenderTitle {
+    margin: 10px 0 5px 0;
+    padding: 5px 3px;
+    padding-left: 20px;
+    /*width: 200px;*/
+    height: 17px;
+    background: url('../../images/SectionHeadingBg.png') no-repeat right top;
+    background-color: #ccc;
+    color: #1818a1;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+}
+.modalExtenderTitleExtender250 {
+    /*width: 250px;*/
+}
+.modalExtenderTitleExtender300 {
+    /*width: 300px;*/
+}
+.modalExtenderTitleExtender350 {
+    /*width: 350px;*/
+}
+.modalExtenderTitleExtender450 {
+    /*width: 450px;*/
+}
+.modalExtenderTitleExtender550 {
+    /*width: 550px;*/
+}
+
+.modalExtenderTable {
+    margin: 5px 5px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+.modalExtenderTable td {
+    padding: 0;
+    padding-bottom: 2px;
+    /*width: 25%;*/
+    vertical-align: middle;
+    border: 0;
+    background-color: #fff;
+}
+.modalExtenderTable td.label {
+    padding-left: 2px;
+    padding-right: 7px;
+    width: 150px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: right;
+}
+.modalExtenderTable td.inputcontrols {
+    padding-top: 5px;
+    padding-right: 3px;
+    width: 190px;
+    white-space: nowrap;
+}
+.modalExtenderTable td span.asterix {
+    color: #bf1d38
+}
+
+.modalExtenderButtons {
+    width: 100%;
+    /*height: 42px;*/
+    background-color: #b2aea5;
+    /*background: url('../../images/formfooterbg.png') repeat-x;*/
+    text-align: right;
+}
+.modalExtenderButtonsHolder {
+    padding: 5px 10px 5px 5px;
+}
+
+/* Reports Screen */
+.reportFormTitle {
+    margin: 10px 0 5px 0;
+    padding: 5px 3px;
+    padding-left: 20px;
+    width: 200px;
+    height: 17px;
+    background: url('../../images/SectionHeadingBg.png') no-repeat right top;
+    background-color: #ccc;
+    color: #1818a1;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+}
+.reportFormTitleExtender250 {
+    width: 250px;
+}
+.reportFormTitleExtender300 {
+    width: 300px;
+}
+.reportFormTitleExtender350 {
+    width: 350px;
+}
+.reportFormTitleExtender450 {
+    width: 450px;
+}
+.reportFormTitleExtender550 {
+    width: 550px;
+}
+
+.reportFilters {
+    margin: 0;
+    padding: 2px 0 0 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.reportFiltersTable {
+    margin: 0;
+    margin-left: 20px;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.reportFiltersTable td {
+    padding: 0;
+    vertical-align: middle;
+}
+.reportFiltersTable td.label {
+    padding-right: 7px;
+    width: 120px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: right;
+}
+.reportFiltersTable td.inputcontrols {
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 160px;
+    white-space: nowrap;
+}
+.reportFiltersTable td span.asterix {
+    color: #bf1d38
+}
+
+.reportButtons {
+    margin: 10px 0 0 0;
+    height: 30px;
+    text-align: left;
+}
+
+.reportViewerHolder {
+    margin: 5px 0 0 10px;
+    padding: 2px 0 0 10px;
+    /*width: 930px;
+    min-width: 730px;
+    height: 400px;
+    min-height: 400px;*/
+}
+
+.reportPopUp {
+    width: 930px;
+    min-width: 730px;
+    height: 400px;
+    min-height: 400px;
+}
+
+/* Footer */
+#footer {
+    /*
+	background:url('~/images/sprite_image.png') no-repeat 0 -180px;
+	clear:left;
+	float: left;
+    width: 100%;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+	background-color: #f7f8fb;
+    border-top: 1px solid #d9d9d9;
+    display: block;
+}
+#footer .flogin{
+}
+#footer .ferror{
+}
+#footer .fmaster{
+}
+
+#footer .copyright {
+    float: left;
+    margin-top: 7px;
+    margin-left: 20px;
+    height: 34px;
+}
+#footer .copyright span{
+    height: 34px;
+    font-size: 12px;
+    vertical-align: top;
+}
+#footer .theme {
+    float: left;
+    margin-top: 5px;
+    margin-left: 50%;
+    padding: 2px;
+    height: 34px;
+}
+#footer .theme .buttonThemeWhite{
+    width: 15px;
+    height: 15px;
+    border: 1px dotted #353535;
+    background-color: #fff;
+    font-size: 12px;
+    vertical-align: top;
+    cursor: pointer;
+}
+#footer .theme .buttonThemeGray{
+    width: 15px;
+    height: 15px;
+    border: 1px dotted #353535;
+    background-color: #ccc;
+    font-size: 12px;
+    vertical-align: top;
+    cursor: pointer;
+}
+#footer .helpcenter {
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+    height: 34px;
+}
+#footer .helpcenter span {
+    height: 34px;
+    font-size: 12px;
+    vertical-align: top;
+}
+#footer .feedback {
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+    height: 34px;
+    vertical-align: middle;
+}
+#footer .feedback span {
+    height: 34px;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+	/* Added Style for AutoComplete textBox
+	*/
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 1000003;
+	cursor: default;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	z-index: 1000002!important;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	font: menu;
+	font-size: 12px;
+	line-height: 16px;
+	overflow: hidden;
+	z-index: 1000001;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+
+/* Grid Item Reset */
+.itemResetHolder{
+    display: block;
+    width: 220px;
+    vertical-align: top;
+}
+.itemReset {
+    float: left;
+    padding-top: 7px;
+    display: inline;
+}
+.itemResetButton {
+    float: right;
+    display: inline;
+}
+
+/*  *---End */
+
+
+
+ 
+#modalContainer {
+	background-color:transparent;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	z-index:10000;
+	background-image:url(tp.png); /* required by MSIE to prevent actions on lower z-index elements */
+}
+ 
+#alertBox {
+	position:relative;
+	width:300px;
+	min-height:100px;
+	margin-top:50px;
+	border:2px solid #000;
+	background-color:Green;
+	background-image:url(alert.png);
+	background-repeat:no-repeat;
+	background-position:20px 30px;
+}
+ 
+#modalContainer > #alertBox {
+	position:relative;
+}
+ 
+#alertBox h1 {
+	margin:0;
+	font:bold 0.9em verdana,arial;
+	background-color:#78919B;
+	color:#FFF;
+	border-bottom:1px solid #000;
+	padding:2px 0 2px 5px;
+}
+ 
+#alertBox p {
+	font:13px verdana,arial;
+	height:50px;
+	color:White;
+	padding-left:5px;
+	margin-left:55px;
+}
+ 
+#alertBox #closeBtn {
+	display:block;
+	position:relative;
+	margin:5px auto;
+	padding:3px;
+	border:2px solid #000;
+	width:70px;
+	font:0.7em verdana,arial;
+	text-transform:uppercase;
+	text-align:center;
+	color:#FFF;
+	background-color:#78919B;
+	text-decoration:none;
+}
+ 
+/* unrelated styles */
+ 
+#mContainer {
+	position:relative;
+	width:600px;
+	margin:auto;
+	padding:5px;
+	border-top:2px solid #000;
+	border-bottom:2px solid #000;
+	font:0.7em verdana,arial;
+}
+ 
+ah1 {
+	margin:0;
+	padding:4px;
+	font:bold 1.5em verdana;
+	color:#FFF;
+}
+
+#modalContainer div 
+{
+	width:300px;
+	border:1px solid #FFF;
+}
+ 
+code {
+	font-size:1.2em;
+	color:#069;
+}
+ 
+#credits {
+	position:relative;
+	margin:25px auto 0px auto;
+	width:350px; 
+	font:0.7em verdana;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	height:90px;
+	padding-top:4px;
+}
+ 
+#credits img {
+	float:left;
+	margin:5px 10px 5px 0px;
+	border:1px solid #000000;
+	width:80px;
+	height:79px;
+}
+ 
+.important {
+	background-color:#F5FCC8;
+	padding:2px;
+}
+ 
+code span {
+	color:green;
+}
+
+.unselectable
+{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.selector_cat
+{
+    border: none;
+    width: 487px;
+    height: 95px;
+}

@@ -1,0 +1,42 @@
+﻿<Root>
+  <InwardEntry>
+    <TransactionType Desc="-- Select --" Code="0" />
+    <TransactionType Desc="Free Of Cost(171)" Code="171" />
+    <TransactionType Desc="GRN(201)" Code="201" />
+    <!--<TransactionType Desc="Factory Direct Order(461)" Code="461" />-->
+        
+    <FreightIndicator Desc="To Pay" Code="T" />
+    <FreightIndicator Desc="Paid" Code="P" />
+    
+    <OSIndicator Desc="OS" Code="O" />
+    <OSIndicator Desc="LS" Code="L" />
+
+    <ReasonForReturn Desc="-- Select --" Code="0" />
+    <ReasonForReturn Desc="Not Required" Code="1" />
+    <ReasonForReturn Desc="Damaged" Code="2" />
+    <InwardEntryValueDifference desc="Cost" value="50.00"/>
+  </InwardEntry>
+  <GRNEntry>    
+    <PackageStatus Desc="Good" Code="G" />
+    <PackageStatus Desc="Damaged" Code="D" />
+    
+    <LRTransfer Desc="No" Code="N" />
+    <LRTransfer Desc="Yes" Code="Y" />    
+  </GRNEntry>
+  <StockTransferEntry>
+    <!--<TransactionType Desc="" Code="0" />-->
+    <TransactionType Desc="STDN Outward(131)" Code="131" />
+    <!--<TransactionType Desc="Distress Stock Transfer(151)" Code="151" />-->
+    <!--<TransactionType Desc="ST Transfer Return(241)" Code="241" />-->
+  </StockTransferEntry>
+
+  <StockTransferReceipt>
+    <!--<TransactionType Desc="" Code="0" />-->    
+    <TransactionType Desc="STDN Inward(251)" Code="251" />
+    <!--<TransactionType Desc="Distress Stock Transfer(151)" Code="151" />-->
+  </StockTransferReceipt>  
+  <CostToCostInward>
+    <TransactionType Desc="Cost To Cost STDN Inward(481)" Code="481" />
+  </CostToCostInward>
+
+</Root>

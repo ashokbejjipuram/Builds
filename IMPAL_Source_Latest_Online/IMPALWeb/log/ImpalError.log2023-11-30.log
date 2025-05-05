@@ -1,0 +1,35 @@
+
+ 2023-11-30 17:58:27,086   [44]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at IMPALWeb.ECreditApplication.IndianMoneyConversion(String strValue) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 1028
+   at IMPALWeb.ECreditApplication.ddlSisCust_SelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 370
+
+ 2023-11-30 17:59:00,245   [58]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at IMPALWeb.ECreditApplication.IndianMoneyConversion(String strValue) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 1028
+   at IMPALWeb.ECreditApplication.ddlSisCust_SelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 370
+
+ 2023-11-30 18:02:45,465   [60]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at IMPALWeb.ECreditApplication.IndianMoneyConversion(String strValue) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 1028
+   at IMPALWeb.ECreditApplication.ddlSisCust_SelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 370
+
+ 2023-11-30 18:09:36,529   [52]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): The name 'insert into Sister_Customer_Master select Branch_Code,Customer_Code,Customer_Name,'CHEA064','A',NULL from Customer_Master WITH (NOLOCK) Where Customer_Code in (ATRA001','SSRA009','TPTR008)' is not a valid identifier.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.AddECrdeitApplicationForm(ECreditApplicationCust ecreditAppln) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 220
+   at IMPALWeb.ECreditApplication.btnSubmit_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 896
+ClientConnectionId:59406f7f-586d-4aff-a1b5-c5356a71d901
+Error Number:203,State:2,Class:16
+
+ 2023-11-30 18:12:02,770   [44]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): The name 'insert into Sister_Customer_Master select Branch_Code,Customer_Code,Customer_Name,'CHEA064','A',NULL from Customer_Master WITH (NOLOCK) Where Customer_Code in ('ATRA001','AGTA016','CALA003')' is not a valid identifier.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.AddECrdeitApplicationForm(ECreditApplicationCust ecreditAppln) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 220
+   at IMPALWeb.ECreditApplication.btnSubmit_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 896
+ClientConnectionId:59406f7f-586d-4aff-a1b5-c5356a71d901
+Error Number:203,State:2,Class:16

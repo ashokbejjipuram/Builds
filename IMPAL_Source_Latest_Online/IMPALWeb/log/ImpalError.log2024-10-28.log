@@ -1,0 +1,8 @@
+
+ 2024-10-28 16:31:05,143   [5]   ERROR  WriteException  IMPALWeb.AutoInwardEntry 
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at IMPALLibrary.Transactions.InwardTransactions.AddNewAutoInwardEntry(InwardEntity& inwardEntity) in E:\Ashok Builds\Builds\MyProjects\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Inventory\Inward.cs:line 444
+   at IMPALWeb.AutoInwardEntry.SubmitHeaderAndItems() in E:\Ashok Builds\Builds\MyProjects\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\AutoInwardEntry.aspx.cs:line 609
+   at IMPALWeb.AutoInwardEntry.BtnSubmit_Click(Object sender, EventArgs e) in E:\Ashok Builds\Builds\MyProjects\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\AutoInwardEntry.aspx.cs:line 147
+ClientConnectionId:a2c2283c-c567-4845-a6cf-676028715929
+Error Number:241,State:1,Class:16

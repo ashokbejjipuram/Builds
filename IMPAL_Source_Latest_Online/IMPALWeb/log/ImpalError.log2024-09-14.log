@@ -1,0 +1,20 @@
+
+ 2024-09-14 12:28:16,210   [96]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier 
+System.ArgumentOutOfRangeException: 'ddlDebitCreditNote' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier.BindDebitCredit(String DocumentNumber) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteSupplier.aspx.cs:line 652
+
+ 2024-09-14 12:28:16,243   [96]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier 
+System.ArgumentOutOfRangeException: 'ddlDebitCreditNote' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier.BindDebitCredit(String DocumentNumber) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteSupplier.aspx.cs:line 690
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier.ViewDebitCredit(String DocumentNumber) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteSupplier.aspx.cs:line 627
+
+ 2024-09-14 12:28:16,253   [96]   ERROR  WriteException  IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier 
+System.ArgumentOutOfRangeException: 'ddlDebitCreditNote' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier.ViewDebitCredit(String DocumentNumber) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteSupplier.aspx.cs:line 631
+   at IMPALWeb.Transactions.Finance.General_Ledger.DebitCreditNoteSupplier.BtnSubmit_Click(Object sender, EventArgs e) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Finance\GeneralLedger\DebitCreditNoteSupplier.aspx.cs:line 363

@@ -1,0 +1,14 @@
+﻿<Root>
+	<STREQ>
+		<STREQType Desc="-- Select --" Code="0" />
+		<STREQType Desc="STOCK TRANSFER-MANUAL" Code="031" />
+		<STREQType Desc="DISTRESS STOCK TRANSFER-MANUAL" Code="051" />
+		<STREQType Desc="STOCK TRANSFER" Code="131" />
+		<STREQType Desc="DISTRESS STOCK TRANSFER" Code="151" />
+		<STREQType Desc="STDN-INWARD" Code="251" />
+	</STREQ>
+
+  <PurchaseReturnEntry>
+    <TransactionType Desc="PURCHASE RETURN" Code="161" />
+  </PurchaseReturnEntry>
+</Root>

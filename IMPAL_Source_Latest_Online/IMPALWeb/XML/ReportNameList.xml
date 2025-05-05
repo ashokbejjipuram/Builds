@@ -1,0 +1,610 @@
+<?xml version="1.0"?>
+<Reports>
+
+  <!--HO Reports Start-->
+  <Report ReportName="stock_value_Zone_HO" ReportCategory="Ordering" ReportPath="\HOreports\CrystalReports\stock_value_Zone_HO.rpt"/>
+  <Report ReportName="stock_value_State_HO" ReportCategory="Ordering" ReportPath="\HOreports\CrystalReports\stock_value_State_HO.rpt"/>
+  <Report ReportName="stock_value_Branch_HO" ReportCategory="Ordering" ReportPath="\HOreports\CrystalReports\stock_value_Branch_HO.rpt"/>
+  <Report ReportName="DateWiseSalesValue_Zone_HO" ReportCategory="Sales" ReportPath="\HOreports\CrystalReports\DateWiseSalesValue_Zone_HO.rpt"/>
+  <Report ReportName="DateWiseSalesValue_State_HO" ReportCategory="Sales" ReportPath="\HOreports\CrystalReports\DateWiseSalesValue_State_HO.rpt"/>
+  <Report ReportName="DateWiseSalesValue_Branch_HO" ReportCategory="Sales" ReportPath="\HOreports\CrystalReports\DateWiseSalesValue_Branch_HO.rpt"/>
+  <Report ReportName="DateWiseSalesValue_new_HO" ReportCategory="Sales" ReportPath="\HOreports\CrystalReports\DateWiseSalesValue_new_HO.rpt"/>
+  <Report ReportName="BranchReconcilationHO" ReportCategory="Finance" ReportPath="\HOReports\CrystalReports\impal-reports-crprecon-HO.rpt"/>
+  <Report ReportName="GLreportHO" ReportCategory="Finance" ReportPath="\HOReports\CrystalReports\impal_generalledger-HO.rpt"/>
+  <Report ReportName="GLsummaryHO" ReportCategory="Finance" ReportPath="\HOReports\CrystalReports\impal_Generalledger-summ-HO.rpt"/>
+  
+  <!--Inventory Start-->
+  <Report ReportName="StockSheetList" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\stocksheetlist.rpt"/>
+  <Report ReportName="SupplyShortageRegister" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\impal_reports_Shortage_Qty.rpt"/>
+  <Report ReportName="StockAdjustment" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\stockadjustment2.rpt"/>
+  <Report ReportName="OpeningStock" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\stockadjustment1.rpt"/>
+  <Report ReportName="StockVariance" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\stockvariance.rpt"/>
+  <Report ReportName="StockVarianceSummary" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\stockvariance_summ.rpt"/>
+  <Report ReportName="GoodsInward" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\impal-reports-grn.rpt"/>
+  <Report ReportName="GoodsOutward" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\GoodsoutwardRegister.rpt"/>
+  <Report ReportName="StockTransfer" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\BranchLine-StockTransferStatement.rpt"/>
+  <Report ReportName="AreaWiseStock" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\full_stock.rpt"/>
+  <Report ReportName="impal_editlistfortran" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\impal_editlistfortran.rpt"/>
+  <Report ReportName="impal_inventorytag" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\impal_inventorytag.rpt"/>
+  <Report ReportName="StockTransferEntryReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\po_pp_invoice_stdn.rpt"/>
+  <!--Aging Start-->
+  <Report ReportName="Inv_sum_lessthan3" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_sum_lessthan3.rpt"/>
+  <Report ReportName="Inv_sum_bet_3to6m" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_sum_bet_3to6m.rpt"/>
+  <Report ReportName="Inv_sum_bet_6to1yr" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_sum_bet_6to1yr.rpt"/>
+  <Report ReportName="Inv_sum_bet_1to2yr" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_sum_bet_1to2yr.rpt"/>
+  <Report ReportName="Inv_sum_greaterthan_2yr" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_sum_greaterthan_2yr.rpt"/>
+
+  <Report ReportName="Aging_AllBranches" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Aging_AllBranches.rpt"/>
+  <Report ReportName="Inv_det_lessthan3_allbranches" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_lessthan3_allbranches.rpt"/>
+  <Report ReportName="Inv_det_bet_3to6m_allbranches" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_bet_3to6m_allbranches.rpt"/>
+  <Report ReportName="Inv_det_bet_6to1yr_allbranches" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_bet_6to1yr_allbranches.rpt"/>
+  <Report ReportName="Inv_det_bet_1to2yr_allbranches" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_bet_1to2yr_allbranches.rpt"/>
+  <Report ReportName="Inv_det_greaterthan_2yr_allbranches" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_greaterthan_2yr_allbranches.rpt"/>
+  <Report ReportName="Inv_det_givenperiod_allbranches" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_givenperiod_allbranches.rpt"/>
+
+  <Report ReportName="Inv_det_lessthan3" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_lessthan3.rpt"/>
+  <Report ReportName="Inv_det_bet_3to6m" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_bet_3to6m.rpt"/>
+  <Report ReportName="Inv_det_bet_6to1yr" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_bet_6to1yr.rpt"/>
+  <Report ReportName="Inv_det_bet_1to2yr" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_bet_1to2yr.rpt"/>
+  <Report ReportName="Inv_det_greaterthan_2yr" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_greaterthan_2yr.rpt"/>
+  <Report ReportName="Inv_det_givenperiod" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_givenperiod.rpt"/>
+  <Report ReportName="Inv_det_partno_All" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\Inv_det_partno_All.rpt"/>
+  <Report ReportName="PartNo_Aging" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\PartNo_Aging.rpt"/>
+  <Report ReportName="PartNo_Aging_less3" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\PartNo_Aging_less3.rpt"/>
+  <Report ReportName="PartNo_Aging_3to6" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\PartNo_Aging_3to6.rpt"/>
+  <Report ReportName="PartNo_Aging_6to12" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\PartNo_Aging_6to12.rpt"/>
+  <Report ReportName="PartNo_Aging_above12" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\PartNo_Aging_above12.rpt"/>
+  <Report ReportName="PartNo_Aging_12to24" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\PartNo_Aging_12to24.rpt"/>
+  <Report ReportName="PartNo_Aging_above24" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\PartNo_Aging_above24.rpt"/>  
+  <!--Aging End-->
+
+  <!--Inventory End-->
+  <!--Sales Start-->
+  <Report ReportName="LineWiseSales_Report" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Line Wise Sales Value21_750.rpt"/>
+  <Report ReportName="LineWiseSales_Summary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Line Wise Sales Value21_summary.rpt" />
+  <Report ReportName="impal-reports-manbills" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal-reports-manbills.rpt" />
+  <Report ReportName="DateWiseSalesValue_new" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\DateWiseSalesValue_new.rpt" />
+  <Report ReportName="LineWiseSalesWithAreaAndTarget" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\LineWiseSalesWithAreaAndTarget.rpt" />
+  <Report ReportName="LineWiseSalesWithAreaAndTarget_Town" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\LineWiseSalesWithAreaAndTarget_Town.rpt" />
+  <Report ReportName="LineWiseSalesWithAreaAndTarget_TownWise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\LineWiseSalesWithAreaAndTarget_TownWise.rpt" />
+  <Report ReportName="impal_LRSalesdetails" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal_LRSalesdetails.rpt" />
+  <Report ReportName="impal-reports-canbills" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal-reports-canbills.rpt" />
+  <Report ReportName="Sales_Man_Target_Sales_Comparison" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Man_Target_Sales_Comparison.rpt" />
+  <Report ReportName="ZoneBranchWeeklySales" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\ZoneBranchWeeklySales.rpt" />
+  <Report ReportName="TargetSales" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal_targetsalesreport.rpt"/>
+  <Report ReportName="CustLineInvSales" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\sales_Statement.rpt"/>
+  <Report ReportName="CustLineInvSalesSummary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\sales_StatementSummary.rpt"/>
+  <Report ReportName="CustLineInvSalesLineSummary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\sales_StatementSummary_line.rpt"/>
+  <Report ReportName="STDN_Inward" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales-stdn-inward.rpt" />
+  <Report ReportName="STDN_Outward" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales-stdn-outward.rpt" />
+  <Report ReportName="SalesListing_Custwise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal_salestransactioncustomerwise.rpt" />
+  <Report ReportName="SalesListingItemwise_Report" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Impal_Salestransactionpartnumber.rpt" />
+  <Report ReportName="SalesListingItemwise_Branch" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal_salestransactionpartnumber_Summary.rpt" />
+  <Report ReportName="SalesListingItemwise_Part" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal_salestransactionpartnumber_Summary1.rpt" />
+  <Report ReportName="SalesListingItemwise_Part1" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Impal_salestransactionpartnumber1.rpt" />
+  <Report ReportName="BI_MaruthiSales" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\BI_MARUTHI_SALES.rpt" />
+  <Report ReportName="SalesEditList" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal-listing-saleeditlist.rpt" />
+  <Report ReportName="OustandingDays" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Os_temp_Custwise_outstanding.rpt"/>
+  <Report ReportName="PackingSlip" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\packingslip.rpt"/>
+
+
+  <Report ReportName="po_pp_invoice" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice.rpt" />
+  <Report ReportName="po_pp_invoice_vatinv" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_vatinv.rpt" />
+  <Report ReportName="po_pp_invoice_vatret" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_vatret.rpt" />
+  <Report ReportName="po_pp_invoice_vatoth" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_vatoth.rpt" />
+  <Report ReportName="po_pp_invoice_vatstu" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_vatstu.rpt" />
+  <Report ReportName="po_pp_invoice_stdn" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_stdn.rpt" />
+  <Report ReportName="po_pp_invoice_invGST" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_invGST.rpt" />
+  <Report ReportName="po_pp_invoice_invGST_QR" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_invGST_QR.rpt" />
+  <Report ReportName="po_pp_invoice_stdnGST" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_stdnGST.rpt" />
+  <Report ReportName="po_pp_invoice_stdnGST_QR" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_stdnGST_QR.rpt" />
+  <Report ReportName="po_pp_invoice_PurchaseReturn" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\po_pp_invoice_PurchaseReturn.rpt" />
+  <Report ReportName="po_pp_invoice_PurchaseReturn_QR" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\po_pp_invoice_PurchaseReturn_QR.rpt" />
+  <Report ReportName="po_pp_invoiceProforma" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\po_pp_invoice_invProforma.rpt" />
+  <Report ReportName="WarrantyClaim_Lucas" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\WarrantyClaim_Lucas.rpt" />
+  <Report ReportName="WarrantyClaim_Lucas_HandlingCharges" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\WarrantyClaim_Lucas_HandlingCharges.rpt" />
+  <Report ReportName="WarrantyClaim_Lucas_LabourCharges" ReportCategory="Inventory" ReportPath="\Reports\CrystalReports\WarrantyClaim_Lucas_LabourCharges.rpt" />
+
+  <!--Sales Analysis Start-->
+  <Report ReportName="LineWise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Line_Wise_Sales_Analysis_With_Previous_Year.rpt"/>
+  <Report ReportName="LineWise-Dtls" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Line_Wise_Sales_Analysis_With_Previous_Year_details.rpt" />
+  <Report ReportName="LineWise-Qty" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Line_Wise_Sales_Analysis_With_Previous_Year_quantity.rpt" />
+  <Report ReportName="LineWise-TownWise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Line_Wise_Sales_Analysis_With_Previous_Year_town_wise.rpt" />
+  <Report ReportName="TownWise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\town-line-sales.rpt" />
+  <Report ReportName="TownWiseSummary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\town-line-sales-summ.rpt" />
+  <Report ReportName="SeqSalesQty" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\seq_sales_qty_detail.rpt" />
+  <Report ReportName="SeqSalesVal" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\seq_sales_value_detail.rpt" />
+  <Report ReportName="SeqSalesQtySummary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\seq_sales_qty_summary.rpt" />
+  <Report ReportName="SeqSalesValSummary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\seq_sales_value_summary.rpt" />
+  <Report ReportName="CustomerWise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\customer-line-sales.rpt" />
+  <Report ReportName="CustomerWiseSummary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\customer-line-sales-summ.rpt" />
+  <Report ReportName="SalesManPerformance" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Impal_SalesManPerformance.rpt" />
+  <Report ReportName="SalesManPerformanceSummary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Impal_salesmanPerformance_Summary.rpt" />
+
+  <Report ReportName="Town-SalesMan" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Town-Salesmanwise.rpt"/>
+  <Report ReportName="SalesMan-Town" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Salesman-Townwise.rpt" />
+  <Report ReportName="Customer-Line" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Cust-Suppwise.rpt" />
+  <Report ReportName="Line-Customer" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Supp-Custwise.rpt" />
+  <Report ReportName="Town-Line" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Town-Suppwise.rpt" />
+  <Report ReportName="Line-Town" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Supp-Townwise.rpt" />
+  <Report ReportName="Line-SalesMan" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Supp-Salesmanwise.rpt" />
+  <Report ReportName="SalesMan-Line" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Salesman-Suppwise.rpt" />
+  <Report ReportName="SalesMan-Customer" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Salesman-Custwise.rpt" />
+  <Report ReportName="Customer-SalesMan" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Cust-Salesmanwise.rpt" />
+  <Report ReportName="Town-Customer" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Statement_Town-Custwise.rpt" />
+  <!--Sales Analysis End-->
+
+  <!--Sales Comparison-->
+  <Report ReportName="impal-reports-linestockcomp" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal-reports-linestockcomp.rpt"/>
+  <Report ReportName="linewisesales_compqty" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\linewisesales_compqty.rpt"/>
+  <Report ReportName="zonewise_salescomp1_new" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\zonewise_salescomp1_new.rpt"/>
+  <Report ReportName="impal_statewisesalescomparision" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal_statewisesalescomparision.rpt"/>
+  <Report ReportName="cumul_salescomp_linewise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\cumul_salescomp_linewise.rpt"/>
+  <Report ReportName="impal_targetvssalescomp" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal_targetvssalescomp.rpt"/>
+  <Report ReportName="partnosalesdetails" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\partnosalesdetails.rpt"/>
+  <Report ReportName="linewisesales_periods" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\linewisesales_periods.rpt"/>
+  <Report ReportName="PartNowisesales_periods" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\PartNowisesales_periods.rpt"/>
+  <Report ReportName="line-wise-top20-V" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\line-wise-top20-V.rpt"/>
+  <Report ReportName="line-wise-top20-q" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\line-wise-top20-q.rpt"/>
+  <Report ReportName="Sales_Stmt_line_Summary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Stmt_line_Summary.rpt"/>
+  <Report ReportName="sales_stmt_Branch_Summary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\sales_stmt_Branch_Summary.rpt"/>
+  <Report ReportName="sales_stmt_Town_Summary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\sales_stmt_Town_Summary.rpt"/>
+  <Report ReportName="Sales_Stmt_Cust_line_Summary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sales_Stmt_Cust_line_Summary.rpt"/>
+  <Report ReportName="sales_stmt_Cust_line_Detail" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\sales_stmt_Cust_line_Detail.rpt"/>
+  <Report ReportName="impal_reports_monthwisecompchk" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal_reports_monthwisecompchk.rpt"/>
+
+  <!--Sales Statement Start-->
+  <Report ReportName="TurnOverDiscount" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\turnoverdiscount_new.rpt" />
+  <Report ReportName="StockLedger" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\stock_ledger_new.rpt" />
+  <Report ReportName="PartyDoc" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\party-doc.rpt" />
+  <Report ReportName="BranchRanking" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\brnch_rank.rpt" />
+  <Report ReportName="PickSlipRegister" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\pick_slip1.rpt" />
+  <Report ReportName="HubBolt" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\hubboltsales.rpt" />
+  <Report ReportName="HubBolt-Customer" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\hubboltsalescustomer.rpt" />
+  <Report ReportName="HubBolt-Stock" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\hubboltstock.rpt" />
+  <Report ReportName="SegmentLine" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\segmentline.rpt" />
+  <Report ReportName="SegmentLine-Matrix" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\segmentline_Matrix.rpt" />
+  <Report ReportName="CreditNote" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\typeandlinewisecreditnote.rpt" />
+  <Report ReportName="CustomerOutstanding" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal_reports_outstanding_query.rpt" />
+  <Report ReportName="ORCStatement" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal-reports-ORC-Statement.rpt" />
+  <Report ReportName="ORCClaims" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\impal-reports-ORC-Claim.rpt" />
+  <Report ReportName="TDPartWise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\turnoverdiscount_partno1.rpt" />
+  <Report ReportName="TDCustomerWise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\turnoverdiscount_CUSTOMERWISE1.rpt" />
+  <Report ReportName="TDSLBWise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\turnoverdiscount_slbwise1.rpt" />
+  <Report ReportName="aging_salevalue" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\aging_salevalue.rpt" />
+  <Report ReportName="aging_salevalue_STDN" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\aging_salevalue_STDN.rpt" />
+  <Report ReportName="aging_salevalue-branchwise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\aging_salevalue-branchwise.rpt" />
+  <Report ReportName="aging_salevalue-supplierwise" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\aging_salevalue-supplierwise.rpt" />
+  <Report ReportName="SFL-Detail" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\SFL_TOD_Detail.rpt" />
+  <Report ReportName="SFL-Summary" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\Sfl_Tod_Summary.rpt" />
+  <Report ReportName="SFL-SocketTODPolicy" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\SFL_Socket_TOD.rpt" />
+  <Report ReportName="Segmentwise-TOD" ReportCategory="Sales" ReportPath="\Reports\CrystalReports\segmentwise_turnoverdiscount.rpt" />
+  <!--Sales Statement End-->
+
+  <!--Sales End-->
+  <!--SLB Start-->
+  <Report ReportName="Impal-report-costslb-gpworking" ReportCategory="SLB" ReportPath="\Reports\CrystalReports\Impal-report-costslb-gpworking.rpt"/>
+  <Report ReportName="Impal-report-SLBstruc-summary" ReportCategory="SLB" ReportPath="\Reports\CrystalReports\Impal-report-SLBstruc-summary.rpt"/>
+  <Report ReportName="Impal-report-SLBstruc-detail" ReportCategory="SLB" ReportPath="\Reports\CrystalReports\Impal-report-SLBstruc-detail.rpt"/>
+  <Report ReportName="Impal-report-SLB_TOD_GP" ReportCategory="SLB" ReportPath="\Reports\CrystalReports\Impal-report-SLB_TOD_GP.rpt"/>
+  <Report ReportName="Impal-report-GPstatement" ReportCategory="SLB" ReportPath="\Reports\CrystalReports\Impal-report-GPstatement.rpt"/>
+  <Report ReportName="Impal-report-IPL-billing" ReportCategory="SLB" ReportPath="\Reports\CrystalReports\Impal-report-IPL-billing.rpt"/>
+  <Report ReportName="Impal-report-Nondepot" ReportCategory="SLB" ReportPath="\Reports\CrystalReports\Impal-report-Nondepot.rpt"/>
+  <Report ReportName="Impal-report-spltod-approval" ReportCategory="SLB" ReportPath="\Reports\CrystalReports\Impal-report-spltod-approval.rpt"/>
+  <!--SLB END-->
+
+  <!--CYBER WH START-->
+  <Report ReportName="Impal-report-branch_transfer_request" ReportCategory="Cyber WH" ReportPath="\Reports\CrystalReports\Impal-report-branch_transfer_request.rpt"/>
+  <Report ReportName="Impal-report-branch_transfer_missed_stmt_new" ReportCategory="Cyber WH" ReportPath="\Reports\CrystalReports\Impal-report-branch_transfer_missed_stmt_new.rpt"/>
+  <Report ReportName="Impal-report-Ho_transfer_request" ReportCategory="No STDN Req" ReportPath="\Reports\CrystalReports\Impal-report-Ho_transfer_request.rpt"/>
+  <!--Cyber Wh end-->
+  <!--Gross Profit Start-->
+  <Report ReportName="BeforeCn_Branch" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\impal_reports_gpbranchwiseonsales.rpt"/>
+  <Report ReportName="BeforeCn_State" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\impal_reports_gpstatewiseonsales.rpt"/>
+  <Report ReportName="BeforeCn_Zone" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\impal_reports_gpzonewiseonsales.rpt"/>
+  <Report ReportName="AfterCn_Branch" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\impal_reports_gpbranchwiseonnet.rpt"/>
+  <Report ReportName="AfterCn_State" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\impal_reports_gpstatewiseonnet.rpt"/>
+  <Report ReportName="AfterCn_Zone" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\impal_reports_gpzonewiseonnet.rpt"/>
+  <Report ReportName="AfterCnSummary" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\Impal_report_GpSummary.rpt"/>
+  <Report ReportName="TrialBal_Branch" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\impal_report_GpTrialBalance_Branch.rpt"/>
+  <Report ReportName="TrialBal_State" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\impal_report_GpTrialBalance_State.rpt"/>
+  <Report ReportName="TrialBal_Zone" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\impal_report_GpTrialBalance_Zone.rpt" />
+  <Report ReportName="Monthly_BrGP" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\GpStatement_InvWise.rpt" />
+  <Report ReportName="Monthly_LnGP" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\GpStatement_InvWise_Line.rpt" />
+  <Report ReportName="Monthly_TownSalesmanGP" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\GP_Profit_Statement_Town-Salesmanwise.rpt" />
+  <Report ReportName="Monthly_SalesmanTownGP" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\GP_Profit_Statement_Salesman-Townwise.rpt" />
+  <Report ReportName="Monthly_CustLineGP" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\GP_Profit_Statement_Cust-Suppwise.rpt" />
+  <Report ReportName="Monthly_LineCustGP" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\GP_Profit_Statement_Supp-Custwise.rpt" />
+  <Report ReportName="Monthly_TownLineGP" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\GP_Profit_Statement_Town-Suppwise.rpt" />
+  <Report ReportName="Monthly_LineTownGP" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\GP_Profit_Statement_Supp-Townwise.rpt" />
+  <Report ReportName="Monthly_LineTownCustGP" ReportCategory="Gross Profit" ReportPath="\Reports\CrystalReports\GP_Profit_Statement_Supp-Town-Custwise.rpt" />
+  <!--Gross Profit End-->
+
+  <!--Insurance Start-->
+  <Report ReportName="InwardPending" ReportCategory="Insurance" ReportPath="\Reports\CrystalReports\pendingstatement.rpt"/>
+  <Report ReportName="InwardSupplier" ReportCategory="Insurance" ReportPath="\Reports\CrystalReports\pendingstatementsupplierwise.rpt"/>
+  <Report ReportName="OutwardCoveringLetter" ReportCategory="Insurance" ReportPath="\Reports\CrystalReports\coveringletter.rpt"/>
+  <Report ReportName="CreditAdvice" ReportCategory="Insurance" ReportPath="\Reports\CrystalReports\creditadvice.rpt"/>
+  <Report ReportName="CoverLetterForCA" ReportCategory="Insurance" ReportPath="\Reports\CrystalReports\disbursementcoveringletter.rpt"/>
+  <Report ReportName="ClaimClassification" ReportCategory="Insurance" ReportPath="\Reports\CrystalReports\inwardclaims.rpt"/>
+  <!--Insurance End-->
+
+  <!--Ordering Start-->
+
+  <!--stock Start-->
+  <!--stock value-->
+  <Report ReportName="stock_value1" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\stock_value1.rpt"/>
+  <Report ReportName="worksheet1_ABCFMS_Nil" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\worksheet1_ABCFMS_Nil.rpt"/>
+  <Report ReportName="worksheet1_ABCFMS" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\worksheet1_ABCFMS.rpt"/>
+  <Report ReportName="Worksheet1_SFFMS" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Worksheet1_SFFMS.rpt"/>
+  <Report ReportName="worksheet1_SCHEME" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\worksheet1_Scheme.rpt"/>
+
+  <!--stock list-->
+  <Report ReportName="stock_list" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\stock_list.rpt"/>
+  <Report ReportName="price_list" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\price_list.rpt"/>
+  <Report ReportName="Salesman_list" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Salesman_list.rpt"/>
+  <Report ReportName="StockListnew" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\StockListnew.rpt"/>
+  <Report ReportName="StockListnewGST" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\StockListnewGST.rpt"/>
+  <Report ReportName="StockList_Segment_long" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\StockList_Segment_long.rpt"/>
+  <Report ReportName="StockList_Segment_short" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\StockList_Segment_short.rpt"/>
+  <Report ReportName="StockListnew_Segment" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\StockListnew_Segment.rpt"/>
+  <Report ReportName="BI_stock_list" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\BI_StockList.rpt"/>
+  <Report ReportName="SegmentStockList_New" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\SegmentStockList_New.rpt"/>
+  <Report ReportName="SegmentStockList_JLN_New" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\SegmentStockList_JLN_New.rpt"/>
+  <Report ReportName="SegmentStockList_UKD_New" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\SegmentStockList_UKD_New.rpt"/>
+  
+  <!--br line excess-->
+  <Report ReportName="Impal_brlineexcess" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Impal_brlineexcess.rpt"/>
+  <!--line br excess-->
+  <Report ReportName="Impal_linebrexcess" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Impal_linebrexcess.rpt"/>
+  <!--Branch item surplus-->
+  <Report ReportName="StockListnew_aging" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\StockListnew_aging.rpt"/>
+  <!--StockListBranches.aspx-->
+  <Report ReportName="surplus1" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\surplus1.rpt"/>
+  <!--Stockvalue aging-->
+  <Report ReportName="aging_stockvalue-branchwise" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\aging_stockvalue-branchwise.rpt"/>
+  <Report ReportName="aging_stockvalue-supplierwise" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\aging_stockvalue-supplierwise.rpt"/>
+  <Report ReportName="aging_stockvalue" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\aging_stockvalue.rpt"/>
+  <!--stock end-->
+
+  <!--oooh start-->
+  <Report ReportName="Impal_OOOH" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Impal_OOOH.rpt"/>
+  <Report ReportName="Impal_QtrOOOHbranch" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Impal_QtrOOOHbranch.rpt"/>
+  <Report ReportName="Consoli_Line_wise" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Consoli_Line_wise.rpt"/>
+  <Report ReportName="Impal_QtrOOOHline" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Impal_QtrOOOHline.rpt"/>
+  <!--oooh end-->
+  <!--Stock Comparison start-->
+  <Report ReportName="zoneline_stockcomp1" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\zoneline_stockcomp1.rpt"/>
+  <Report ReportName="Impal-Reports-Annualstock" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Impal-Reports-Annualstock.rpt"/>
+  <Report ReportName="impal-Reports-Areamanagerstock" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\impal-Reports-Areamanagerstock.rpt"/>
+  <Report ReportName="impal-Reports-Areamanagerstock1" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\impal-Reports-Areamanagerstock1.rpt"/>
+  <!--Stock Comparison end-->
+
+  <!--Listing Start-->
+  <Report ReportName="BackOrder" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\BackOrder.rpt"/>
+  <Report ReportName="LinewiseOrederPlacedCRP" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\linewiseorderplacedCRP.rpt"/>
+  <Report ReportName="LinewiseOrederPlaced" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\linewiseorderplaced.rpt"/>
+  <Report ReportName="LinewiseOrederPlaced_BrSumm" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\linewiseorderplacedsummary_branch.rpt"/>
+  <Report ReportName="LinewiseOrederPlaced_lnSumm" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\linewiseorderplacedsummary_line.rpt"/>
+  <Report ReportName="LinewiseOrederPlaced_Suppl" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\supp-linewiseorderplaced.rpt"/>
+  <Report ReportName="LinewiseOrederPlaced_LossOfSale" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Impal-tran-Lossofsale.rpt"/>
+  <Report ReportName="LinewisePendingOrders" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\linewisePendingOrder_New.rpt"/>
+  <Report ReportName="LinewisePendingOrders_LnSumm" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\linewisependingorder_summ_new.rpt"/>
+  <Report ReportName="LinewisePendingOrders_PtSumm" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\partwisependingorders_summ.rpt"/>
+  <Report ReportName="LinewisePendingOrders_Customer" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\linewisePendingOrder_Cust.rpt"/>
+  <Report ReportName="LinewisePendingOrders_Aging" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\linewisePendingOrder_Aging.rpt"/>
+  <Report ReportName="CancelledOrderDetails_HO" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\canceled_order_I.rpt"/>
+  <Report ReportName="CancelledOrderDetails_Branch" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\canceled_order_C.rpt"/>
+  <Report ReportName="RoadPermitIssued" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\road_permit.rpt"/>
+  <Report ReportName="ZBLOrderInflow" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\full_state.rpt"/>
+  <Report ReportName="CustomerPOList" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Impal_Customerpolist.rpt"/>
+  <Report ReportName="OrderSummary" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\order_summary.rpt"/>
+  <Report ReportName="DatewisePurchaseOrder" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Date Wise Purchase Order Value.rpt"/>
+  <Report ReportName="LinewisePurchaseOrder" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\Line Wise Purchase Order Value.rpt"/>
+  <Report ReportName="PurchaseFigComparision" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\purchasefigcomp.rpt"/>
+  <Report ReportName="Purchase_Direct" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\po_pp_reportDPO.rpt"/>
+  <Report ReportName="Purchase_Direct_Old" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\po_pp_reportDPO_old.rpt"/>
+  <Report ReportName="Purchase_Indent" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\po_pp_report.rpt"/>
+  <Report ReportName="Purchase_worksheet" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\po_pp_reportWPO.rpt"/>
+  <Report ReportName="Purchase_worksheetEPO" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\po_pp_reportEPO.rpt"/>
+  <Report ReportName="Worksheet_ABC" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\worksheet1_ABCFMS.rpt"/>
+  <Report ReportName="Worksheet_ABC_NIL" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\worksheet1_ABCFMS_Nil.rpt"/>
+  <Report ReportName="po_pp_reportDPO_Crp" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\po_pp_reportDPO_Crp.rpt"/>
+  <Report ReportName="po_pp_reportWPO_CRP" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\po_pp_reportWPO_CRP.rpt"/>
+  <Report ReportName="BranchWise_Ponumber_Cancelled" ReportCategory="Ordering" ReportPath="\Reports\CrystalReports\BranchWise_Ponumber_Cancelled.rpt"/>
+  <!--Listing Ends-->
+
+  <!--Ordering End-->
+
+
+  <!--Master Start-->
+  <!--GeneralLedger Starts-->
+  <Report ReportName="GLClassification" ReportCategory="Master" ReportPath="\Reports\CrystalReports\glclassification.rpt"/>
+  <Report ReportName="GLGroup" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Glgroup.rpt"/>
+  <Report ReportName="GLMaster" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Glmaster.rpt"/>
+  <Report ReportName="GLSubMaster" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_GlSubMaster.rpt"/>
+  <Report ReportName="GLAccMaster" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_GlAccount.rpt"/>
+  <Report ReportName="GLBudgetMaster" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_glbudget.rpt"/>
+  <Report ReportName="GLChartOfAccMaster" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Chartofacc.rpt"/>
+  <Report ReportName="AccountSetup" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\accountsetup.rpt"/>
+  <!--GeneralLedger Ends-->
+  <!--Item Starts-->
+  <Report ReportName="ApplicationSegment" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\app_segment.rpt"/>
+  <Report ReportName="ItemType" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\item_type.rpt"/>
+  <Report ReportName="ProductGroup" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\product_group.rpt"/>
+  <Report ReportName="VehicleType" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\vehicle_type.rpt"/>
+  <Report ReportName="ItemRate" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\impal_Branchitemprice.rpt"/>
+  <Report ReportName="BranchItemPrice" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\impal_Branchitemprice.rpt"/>
+  <Report ReportName="ItemLocation" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\impal_itemlocation.rpt"/>
+  <Report ReportName="ItemDetails" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\impal_item_master.rpt"/>
+  <!--Item Ends-->
+  <!--Supplier Starts-->
+  <Report ReportName="SupplierDepot" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Depot_Master.rpt"/>
+  <Report ReportName="Product" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Supplier_Product.rpt"/>
+  <Report ReportName="Impal_Supplier" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Supplier.rpt"/>
+  <Report ReportName="Impal_Supplier_Line" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Supplier_Line.rpt"/>
+
+  <!--Supplier Ends-->
+  <!--Insurance Starts-->
+  <Report ReportName="Classification" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\insuranceclassification.rpt"/>
+  <Report ReportName="Documents" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\insurancedocument.rpt"/>
+  <Report ReportName="ClDocReport" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\insurance.rpt"/>
+  <!--Insurance Ends-->
+  <!--Branch Start-->
+  <Report ReportName="BRZone" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Zone.rpt"/>
+  <Report ReportName="BRState" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_State.rpt"/>
+  <Report ReportName="BRClassification" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Branch_Classification.rpt"/>
+  <Report ReportName="BRAreaManager" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\impal_branch_areamanager.rpt"/>
+  <Report ReportName="BRAreaManagerBranch" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\areamanbranch.rpt"/>
+  <Report ReportName="BRTarget" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\target.rpt"/>
+  <Report ReportName="BRMaster" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Branch.rpt"/>
+  <Report ReportName="BRNeighboringBranch" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\neighbranch.rpt"/>
+  <!--Branch End-->
+
+  <!--FixedAssets Start-->
+  <Report ReportName="FAGroup" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Fixed_Asset_Group.rpt"/>
+  <Report ReportName="FALocation" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\impal_fixedassetlocation.rpt"/>
+  <Report ReportName="FASubGroup" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Fixed_Asset_Sub_Group.rpt"/>
+  <!--FixedAssets End-->
+
+  <!--Bank Start-->
+  <Report ReportName="Bank" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Bank.rpt"/>
+  <Report ReportName="Branch" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_bank_branch.rpt"/>
+  <!--Bank End-->
+
+  <!--Customer Start-->
+  <Report ReportName="Customer" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\customer.rpt"/>
+  <Report ReportName="Town" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_town.rpt"/>
+
+
+  <!--SLB Start-->
+  <Report ReportName="CustomerSLB" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_SLB_Customer.rpt"/>
+  <Report ReportName="SLBReport" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_SLB.rpt"/>
+  <Report ReportName="SLBDetailReport" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_SLB_Detail.rpt" />
+
+  <!--SLB End-->
+  <!--Sales Tax Start-->
+  <Report ReportName="SalesTaxReport" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Salestax.rpt"/>
+  <Report ReportName="Impal_Salestax_Branch_Product" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Salestax_Branch_Product.rpt"/>
+  <Report ReportName="Impal_branchSTform" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_branchSTform.rpt"/>
+  <!--Sales Tax End-->
+  <!--Sales Man Start-->
+  <Report ReportName="Impal_Sales_Man" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Sales_Man.rpt"/>
+  <Report ReportName="Impal_Sales_Man_Target" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_Sales_Man_Target.rpt"/>
+
+  <!--Sales Man End-->
+
+  <!--Others Start-->
+  <Report ReportName="TransactionType" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_trans_type.rpt"/>
+  <Report ReportName="PartyType" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_party_type.rpt"/>
+  <Report ReportName="ClearingAgent" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_clearing_agent.rpt"/>
+  <Report ReportName="CashDiscountMaster" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_cash_discount.rpt"/>
+  <Report ReportName="DynLocking" ReportCategory="Masters" ReportPath="\Reports\CrystalReports\Impal_dynamic_locking.rpt"/>
+  <!--Others End-->
+
+
+  <!--Master End-->
+
+  <!--Finance Start-->
+  <Report ReportName="STListing" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-salestaxlisting.rpt"/>
+  <Report ReportName="STListing_VAT" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_vat_tax_sales_report.rpt"/>
+  <Report ReportName="STListing_DVAT" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-Reports-Dvat30.rpt"/>
+  <Report ReportName="STListing_DVATD" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-Reports-Dvat31-Dealers.rpt"/>
+  <Report ReportName="STListing_VATC" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-Reports-Dvat30-Summ.rpt"/>
+  <Report ReportName="STListing_CNS" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-Reports-Dvat30-CNSumm.rpt"/>
+  <Report ReportName="impal-reports-salestaxlisting_GST" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-salestaxlisting_GST.rpt"/>
+  <Report ReportName="STSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-salestaxsummary.rpt"/>
+  <Report ReportName="STInterState-Customer" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-salesinvoicecustomerwise.rpt"/>
+  <Report ReportName="CentralServiceTaxAct" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_cstact.rpt"/>
+  <Report ReportName="CForm-Supplier" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_cform.rpt"/>
+  <Report ReportName="CForm-SupplierNew" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_cform1.rpt"/>
+  <Report ReportName="CForm-Customer" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_cform_customer.rpt"/>
+  <Report ReportName="AnnexureE1" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_e1Annexure.rpt"/>
+  <Report ReportName="CForm-Summary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_cform_summary.rpt"/>
+  <Report ReportName="InterStatePurchase" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-interstatepurchasereport.rpt"/>
+  <Report ReportName="LocalStatePurchase" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-localpurchasereport.rpt"/>
+  <Report ReportName="PurchaseTaxDvatOld" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-tran-purchaseTax-Dvat31_old.rpt"/>
+  <Report ReportName="PurchaseTaxDvatSTDN" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-tran-purchaseTaxStdn-Dvat31.rpt"/>
+  <Report ReportName="STUDepotForm" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_studepotform.rpt"/>
+  <Report ReportName="FormPendingPos" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_reports_formpending.rpt"/>
+  <Report ReportName="FormSalesSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_summaryformsales.rpt"/>
+  <Report ReportName="PurchaseReportSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\purchase_report.rpt"/>
+  <Report ReportName="VATListing" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Vattax_listing.rpt"/>
+  <Report ReportName="VATSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Vattax_summary.rpt"/>
+  <Report ReportName="ITCListing" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\ITCListing.rpt"/>
+  <Report ReportName="VATBihar" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Vattax_listingforpat1.rpt"/>
+  <Report ReportName="POTaxSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\potax_summary.rpt"/>
+  <!--Account Receivables Start-->
+  <Report ReportName="impal_fdnregister" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_fdnregister.rpt"/>
+  <Report ReportName="impal_listing_sales_journal_New" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_listing_sales_journal_New.rpt"/>
+  <Report ReportName="impal_listing_sales_journal_summ" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_listing_sales_journal_summ.rpt"/>
+  <Report ReportName="impal_listing_sales_journal_New_UpState" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_listing_sales_journal_New_UpState.rpt"/>
+  <Report ReportName="impal_CNjournal" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_CNjournal.rpt"/>
+  <Report ReportName="impal_CN_journal_summ" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_CN_journal_summ.rpt"/>
+  <Report ReportName="impal_DNjournal" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_DNjournal.rpt"/>
+  <Report ReportName="impal_DN_journal_summ" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_DN_journal_summ.rpt"/>
+  <Report ReportName="impal_listing_sales_journal_New_GST" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_listing_sales_journal_New_GST.rpt"/>
+  <Report ReportName="impal_stockDeptorsmonthly" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_stockDeptorsmonthly.rpt"/>
+  <Report ReportName="impal_outstandingpercent" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_outstandingpercent.rpt"/>
+  <Report ReportName="sales_breakup" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\sales_breakup.rpt"/>
+  <Report ReportName="FYRecReceipt" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Receipt.rpt"/>
+  <Report ReportName="impal_outstandingpercenttown" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_outstandingpercenttown.rpt"/>
+
+  <!--Head Office Reports Start-->
+  <Report ReportName="PymtReportBMSPaid" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_BmsReport_Paid.rpt"/>
+  <Report ReportName="PymtReportBMS" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_BmsReport.rpt"/>
+  <Report ReportName="PymtReportBMSDetail" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_BmsPymt_Detail.rpt"/>
+  <Report ReportName="PymtReportBMSSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_BmsPymt_Summary.rpt"/>
+  <Report ReportName="CorpChequeSlipReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_reports_cheque_slip.rpt"/>
+  <Report ReportName="CorpChequeSlipDetailsDateWise" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-CrpCqSlipSummary.rpt"/>
+  <Report ReportName="InvoiceEditSlipReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\InvoiceEntryEditSlip.rpt"/>
+  <Report ReportName="CorpBranchSupplierInvoicePaid" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-reports-BrLineCrpinvoice.rpt"/>
+  <Report ReportName="CorpSupplierBranchInvoicePaid" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-reports-BrLineCrpinvoice.rpt"/>
+  <!--Head Office Reports End-->
+  <!--Account Receivables End-->
+  <!--General Ledger Start-->
+  <Report ReportName="impal_CNjournal_branch" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_CNjournal_branch.rpt"/>
+  <Report ReportName="impal_DCadvicereg-summ" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_DCadvicereg-summ.rpt"/>
+  <Report ReportName="impal_DCnotereg-summ" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_DCnotereg-summ.rpt"/>
+  <Report ReportName="impal_DNjournal_branch" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_DNjournal_branch.rpt"/>
+  <Report ReportName="DebitCreditNote_New" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitCreditNote_New.rpt"/>
+  <Report ReportName="DebitCreditAdvice1" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitCreditAdvice.rpt"/>
+  <Report ReportName="DebitCreditAdvice_Int" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitCreditAdvice_Int.rpt"/>
+  <Report ReportName="DebitCreditAdvice_Cust" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitCreditAdvice_Cust.rpt"/>
+  <Report ReportName="DebitCreditAdvice_New" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitCreditAdvice_New.rpt"/>
+  <Report ReportName="DebitCreditAdvice_Int_New" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitCreditAdvice_Int_New.rpt"/>
+  <Report ReportName="DebitCreditAdvice_Cust_New" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitCreditAdvice_Cust_New.rpt"/>
+  <Report ReportName="DebitNote_Shortage" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitNote_Shortage.rpt"/>
+  <Report ReportName="DebitNote_Shortage_Register" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitNote_Shortage_Register.rpt"/>
+  <Report ReportName="impal-reports-journalvoucher" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-journalvoucher.rpt"/>
+  <Report ReportName="impal-reports-journalvoucher-summ" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-journalvoucher-summ.rpt"/>
+  <Report ReportName="impal-reports-placc-summary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-placc-summary.rpt"/>
+  <Report ReportName="impal-reports-placc-detail" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-placc-detail.rpt"/>
+  <Report ReportName="Budget_variance" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Budget_variance.rpt"/>
+  <Report ReportName="impal-reports-balancesheet-detail" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-balancesheet-detail.rpt"/>
+  <Report ReportName="impal-reports-balancesheet-summary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-balancesheet-summary.rpt"/>
+  <Report ReportName="impal-report-state-acc-pending" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-report-state-acc-pending.rpt"/>
+  <Report ReportName="Impal-report-State-Acc-pending_both" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-report-State-Acc-pending_both.rpt"/>
+  <Report ReportName="pending_documents1" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\pending_documents1.rpt"/>
+  <Report ReportName="Impal-tran-DRS-StatementOfAccounts" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-tran-DRS-StatementOfAccounts.rpt"/>
+  <Report ReportName="SupplierReconciliation" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-report-supplier-Reconsilation.rpt"/>
+  <Report ReportName="SupplierReconciliationCredit" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-reports-Supplier-Recons-credit.rpt"/>
+  <Report ReportName="SupplierReconciliationDebit" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-reports-Supplier-Recons-Debit.rpt"/>
+  <Report ReportName="Impal-report-State-Acc-br" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-report-State-Acc-br.rpt"/>
+  <Report ReportName="Impal-report-State-Acc-cust" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-report-State-Acc-cust.rpt"/>
+  <Report ReportName="Impal-report-State-Acc-custA4" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-report-State-Acc-custA4.rpt"/>
+  <Report ReportName="Impal-report-State-Acc-custA4_Mails" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-report-State-Acc-custA4-Mails.rpt"/>
+  <Report ReportName="Impal-report-State-Acc-supp" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-report-State-Acc-supp.rpt"/>
+  <Report ReportName="Impal-report-State-Acc-town" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-report-State-Acc-town.rpt"/>
+  <Report ReportName="Impal-report-State-Acc-townA4" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-report-State-Acc-townA4.rpt"/>
+  <Report ReportName="Impal-report-State-Acc-salesmanA4" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-report-State-Acc-salesmanA4.rpt"/>
+  <Report ReportName="TB_Audit" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\TB_Audit.rpt"/>
+  <Report ReportName="impal-reports-trialbalance" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-trialbalance.rpt"/>
+  <Report ReportName="Opening_Balance" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Opening_Balance.rpt"/>
+  <Report ReportName="Impal_confirm_bal" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_confirm_bal.rpt"/>
+  <Report ReportName="Impal_confirm_supp" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_confirm_supp.rpt"/>
+  <Report ReportName="GL-Report" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_generalledger.rpt"/>
+  <Report ReportName="GL-Summary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_Generalledger-summ.rpt"/>
+  <Report ReportName="CashDiscount" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Cash_Discount_Cust.rpt"/>
+  <!--General Ledger  End-->
+  
+  
+
+  <!--Cash and Bank Start-->
+  <Report ReportName="PettyCashPageReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\pettycash.rpt"/>
+  
+  <Report ReportName="PettyCashReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\PettyCashRegister.rpt"/>
+  <Report ReportName="PettyCashSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\PettyCashRegistersub.rpt"/>
+  <Report ReportName="DailyReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-dailyreports.rpt"/>
+  <Report ReportName="FundRemittanceStmt" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\FundsRemittanceStatement.rpt"/>
+  <Report ReportName="MonthEndOS" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\MonthEndOutstandingPercentage.rpt"/>
+  <Report ReportName="MonthEndOSSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\MonthEndOutstandingPercentage_Summary.rpt"/>
+  <Report ReportName="BankChallan" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\BankChallan.rpt"/>
+  <Report ReportName="CashDiscountReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\CashDiscountAllowedInInvoicesStatement.rpt"/>
+  <Report ReportName="CashDiscountSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_cdstatement.rpt"/>
+  <Report ReportName="ClassifiedOutstanding_Townwise" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_reports_outstandingdetails_town_wise.rpt"/>
+  <Report ReportName="ClassifiedOutstanding_Report" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_reports_outstandingdetails.rpt"/>
+  <Report ReportName="ClassifiedOutstanding_Report90days" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_reports_outstandingdetails_120days.rpt"/>
+  <Report ReportName="CollectionAging_Report" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_reports_collectiondetails.rpt"/>
+  <Report ReportName="CollectionAging_Documentwise" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Collection_aging_docwise.rpt"/>
+  <Report ReportName="LiabilityList_Branchwise" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\LiabilityListBranchwiseSupplier.rpt"/>
+  <Report ReportName="LiabilityList_Supplierwise" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\LiabilityListSupplierwiseBranch.rpt"/>
+  <Report ReportName="CashBook_Report" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-cashbook.rpt"/>
+  <Report ReportName="Collection_Report" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-report-dtcollection.rpt"/>
+  <Report ReportName="ChequeDishonoured_Report" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal-reports-chequedishonoured.rpt"/>
+  <Report ReportName="FundsTransferReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\fundstfr-headoffice.rpt"/>
+  <Report ReportName="FundsTransferSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\fundstfr-headoffice-summ.rpt"/>
+  <!--Cash and Bank End-->
+  <!--Fixed Assets Start-->
+  <Report ReportName="FixedAssetsSchedule" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_faschedule.rpt"/>
+  <Report ReportName="Fixed_Assets_Register" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Fixed_Assets_Register.rpt"/>
+  <Report ReportName="Fixed_Assets_Sales" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Fixed_Assets_Sales.rpt"/>
+  <Report ReportName="Fixed_Assets_Transfer" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Fixed_Assets_Transfer.rpt"/>
+  <Report ReportName="Vehicle_maintenance" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Vehicle_maintenance.rpt"/>
+  <!--Fixed Assets End-->
+
+  <!--Accounts Payable Start-->
+  <Report ReportName="LocalPayment" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_supplierlocalpayment.rpt"/>
+  <Report ReportName="PurchaseJournal" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_listing_purchase_journal.rpt"/>
+  <Report ReportName="PurchaseJournalSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_listing_purchase_journal_summ.rpt"/>
+  <Report ReportName="CreditNoteDetail" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_CNjournal_supplier.rpt"/>
+  <Report ReportName="CreditNoteSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_CN_purchase_journal_summ.rpt"/>
+  <Report ReportName="DebitNoteDetail" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_DNjournal_supplier.rpt"/>
+  <Report ReportName="DebitNoteSummary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\impal_DN_purchase_journal_summ.rpt"/>
+  <Report ReportName="PurchaseBreak" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\purchase_break.rpt"/>
+  <Report ReportName="HoPaymentReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-Tran-Pymt-advice.rpt"/>
+  <Report ReportName="BMSPaymentAdviceReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal_BmsReport_Pymt_Advice.rpt"/>
+  <Report ReportName="BMSPaymentReport" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Bmschequeslip.rpt"/>
+  <!--Accounts Payable end-->
+
+  <!--Stock Start-->
+  <Report ReportName="InwardInsuranceStatement" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\InwardInsuranceStatement.rpt"/>
+  <Report ReportName="InwardNonInsuranceStatement" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\InwardNonInsuranceStatement.rpt"/>
+  <Report ReportName="GoodClearedStatement" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\GoodClearedStatement.rpt"/>
+  <Report ReportName="GoodNonClearedStatement" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\GoodNonClearedStatement.rpt"/>
+  <Report ReportName="Agewise_Branch" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Pendingdocs-Branch.rpt"/>
+  <Report ReportName="Agewise_Line" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Pendingdocs-Line.rpt"/>
+  <Report ReportName="Agewise_Document" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Pendingdocs-documentwise.rpt"/>
+  <Report ReportName="stocktransferinward_Detail" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\stocktransferinward.rpt"/>
+  <Report ReportName="stocktransferinward_Summary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\stocktransferinward-summ.rpt"/>
+  <Report ReportName="stocktransferoutward_Detail" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\stocktransferoutward.rpt"/>
+  <Report ReportName="stocktransferoutward_Summary" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\stocktransferoutward-summ.rpt"/>
+
+  <!--Stock End-->
+  <!--Finance End-->
+  
+  <!--Transaction Reports Start-->
+  <!--Finance Start-->
+
+  <!--Payable start-->
+  <Report ReportName="ChequeSlipReport_Branch" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\chequeslip_branch.rpt"/>
+  <Report ReportName="ChequeSlipReport_COR" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\chequeslip_COR.rpt"/>
+  <!--Payable end-->
+  
+  <!--Cash And Bank Start-->
+  <Report ReportName="MainCash" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\maincash.rpt"/>
+  <Report ReportName="MainCashSupplier" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\maincash_supplier.rpt"/>
+  <Report ReportName="MainChequeSlip" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\mainchequeslip.rpt"/>
+  <Report ReportName="MainCashCor" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\maincash_cor.rpt"/>
+  <Report ReportName="MainChequeSlipCor" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\mainchequeslip_cor.rpt"/>
+  <Report ReportName="VendorPayment" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\VendorPayment.rpt"/>
+  <Report ReportName="VendorPaymentCor" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\VendorPayment_Cor.rpt"/>
+  <!--Cash And Bank End-->
+  
+  <!--General Ledger Start-->
+  <Report ReportName="DebitCreditAdvice" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\DebitCreditAdvice_New.rpt"/>
+  <!--General Ledger End-->
+  <!--Finance End-->
+  
+  <!--Ordering Start-->
+  
+  <!--PO Indent CWH Start-->
+  <Report ReportName="NilABCFMS" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-dummy-AbcFms_Nil.rpt"/>
+  <Report ReportName="ABCFMS" ReportCategory="Finance" ReportPath="\Reports\CrystalReports\Impal-dummy-AbcFms.rpt"/>
+  <!--PO Indent CWH End-->
+  
+  <!--Ordering End-->
+  <!--Transaction Reports End-->
+
+
+</Reports>

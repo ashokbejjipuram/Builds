@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<Menu>
+<rootnode Type="Master">
+	<rootitem Value="General Ledger">
+    <Node Value="GL Classification" NavigateUrl="~/Masters/GLClassification.aspx"></Node>
+		<Node Value="GL Group" NavigateUrl="~/Masters/GeneralLedger/GLGroup.aspx"></Node>
+		<Node Value="GL Master" NavigateUrl="~/Masters/GeneralLedger/GLMaster.aspx"></Node>
+		<Node Value="GL Sub Master" NavigateUrl="~/Masters/GeneralLedger/GLSubMaster.aspx"></Node>
+    <Node Value="GL Account Master" NavigateUrl="~/Masters/GeneralLedger/GLAccMaster.aspx"></Node>
+	</rootitem>
+	<rootitem Value="Branch">
+      <Node Value="Zone" NavigateUrl="~/Masters/Branch/Zone.aspx"></Node>
+      <Node Value="State" NavigateUrl="~/Masters/Branch/StateMaster.aspx"></Node>
+      <Node Value="Classfication" NavigateUrl="~/Masters/Branch/BranchClassification.aspx"></Node>
+      <Node Value="AreaManager" NavigateUrl="~/Masters/Branch/AreaManager.aspx"></Node>
+      <Node Value="AreaManager - Branch" NavigateUrl="~/Masters/Branch/AreaManagerBranch.aspx"></Node>
+      <Node Value="Target" NavigateUrl="~/Masters/Branch/BranchTarget.aspx"></Node>
+    </rootitem>
+	<rootitem Value="Supplier">
+      <Node Value="Depot" NavigateUrl="~/Masters/Supplier/Depot.aspx"></Node>
+      <Node Value="Product" NavigateUrl="~/Masters/Supplier/Product.aspx"></Node>
+  </rootitem>
+	<rootitem Value="Item">
+      <Node Value="Item Type" NavigateUrl="~/Masters/Item/ItemType.aspx"></Node>
+      <Node Value="Application Segment " NavigateUrl="~/Masters/Item/ApplicationSegment.aspx"></Node>
+      <Node Value="Vehicle Type" NavigateUrl="~/Masters/Item/VehicleType.aspx"></Node>
+      <Node Value="Product Group" NavigateUrl="~/Masters/Item/ProductGroup.aspx"></Node>
+  </rootitem>
+  <rootitem Value="Customer">
+    <Node Value="Town" NavigateUrl="~/Masters/Customer/Town.aspx"></Node>
+  </rootitem>
+  <rootitem Value="SLB">
+    <Node Value="SLB" NavigateUrl="~/Masters/SLB/SLB.aspx"></Node>
+    <Node Value="Customer SLB" NavigateUrl="~/Masters/SLB/CustomerSLB.aspx"></Node>
+  </rootitem>
+  <rootitem Value="FixedAsset">
+      <Node Value="Group" NavigateUrl="~/Masters/FixedAssets/Group.aspx"></Node>
+      <Node Value="Location" NavigateUrl="~/Masters/FixedAssets/Location.aspx"></Node>
+  </rootitem>
+  <rootitem Value="Bank">
+    <Node Value="Bank" NavigateUrl="~/Masters/Bank/Bank.aspx"></Node>
+  </rootitem>
+  <rootitem Value="Insurance">
+    <Node Value="Documents" NavigateUrl="~/Masters/Insurance/Documents.aspx"></Node>
+    <Node Value="Classification" NavigateUrl="~/Masters/Insurance/Classification.aspx"></Node>
+    <Node Value="Classification-Documents" NavigateUrl="~/Masters/Insurance/ClassificationDocuments.aspx"></Node>
+  </rootitem>
+</rootnode>
+  
+
+<rootnode Type="Ordering">
+	<rootitem Value="PO Indent CWH"  NavigateUrl=""/>
+  <rootitem Value="DirectPO" >
+    <Node Value="Direct Purchase Order"  NavigateUrl="~/Transactions/Ordering/DirectPurchaseOrder.aspx"></Node>
+  </rootitem>
+
+ 
+	<rootitem Value="Stock Transfer Request"  NavigateUrl="" />
+  <rootitem Value="Insurance Claim"  NavigateUrl="">
+    <Node Value="Direct Purchase Order"  NavigateUrl="~/Transactions/Ordering/Insurance_Claim.aspx"></Node>
+    
+  </rootitem>
+</rootnode>
+  <rootnode Type="Inventory">
+    <rootitem Value="Inward Entry" NavigateUrl="~/Transactions/Inventory/InwardEntry.aspx">
+      <Node Value="Inward Entry" NavigateUrl="~/Transactions/Inventory/InwardEntry.aspx"></Node>
+    </rootitem>
+    <rootitem Value="GRN Entry"  NavigateUrl="">
+      <Node Value="GRN Entry" NavigateUrl="~/Transactions/Inventory/GRNEntry.aspx"></Node>
+    </rootitem>
+    <rootitem Value="Stock Transfer Entry"  NavigateUrl="">
+      <Node Value="Stock Transfer Entry" NavigateUrl="~/Transactions/Inventory/StockTransferEntry.aspx"></Node>
+    </rootitem>
+    <rootitem Value="Stock Transfer Receipt"  NavigateUrl="">
+     <Node Value="Stock Transfer Receipt" NavigateUrl="~/Transactions/Inventory/StockTransferReceipt.aspx"></Node>
+    </rootitem>
+    <rootitem Value="Stock Diversion"  NavigateUrl="">
+      <Node Value="Stock Diversion" NavigateUrl="~/Transactions/Inventory/Stock_Diversion.aspx"></Node>
+    </rootitem>
+    <rootitem Value="Stock Adjustment"  NavigateUrl="">
+      <Node Value="Stock Adjustment" NavigateUrl="~/Transactions/Inventory/Stock_Adjustment.aspx"></Node>
+    </rootitem>
+    <rootitem Value="OS LS Updation"  NavigateUrl="">
+      <Node Value="OS LS Updation" NavigateUrl="~/Transactions/Inventory/OS_LS_Updation.aspx"></Node>
+    </rootitem>
+    <rootitem Value="Query">
+      <Node Value="Consignment Balance" NavigateUrl="~/Transactions/Inventory/Query/ConsignmentBalance.aspx"></Node>
+      <Node Value="Consignment Summary" NavigateUrl="~/Transactions/Inventory/Query/ConsignmentSummary.aspx"></Node>
+      <Node Value="Consignment Detail" NavigateUrl="~/Transactions/Inventory/Query/ConsignmentDetails.aspx"></Node>
+      <Node Value="Goods in Transit - Inward" NavigateUrl="~/Transactions/Inventory/Query/GoodsInTransit_Inward.aspx"></Node>
+      <Node Value="Goods in Transit - Supplier" NavigateUrl="~/Transactions/Inventory/Query/GoodsInTransit_Supplier.aspx"></Node>
+      <Node Value="Goods in Transit - Transfer" NavigateUrl="~/Transactions/Inventory/Query/GoodsInTransit_Transfer.aspx"></Node>
+
+    </rootitem>
+  </rootnode>
+
+
+ <rootnode Type="Sales">
+   <rootitem Value="ST Form Collection"  NavigateUrl="">
+     <Node Value="ST Form Collection" NavigateUrl="~/Transactions/sales/ST_FormCollection.aspx"></Node>
+   </rootitem>
+	<rootitem Value="Sales Invoice Mergered"  NavigateUrl="" />	
+
+</rootnode>
+
+
+ <rootnode Type="Finance">
+	
+	<rootitem Value="Receivable">
+		<Node Value="Invoice" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="Receipts" NavigateUrl="~/GLSubMaster.aspx"></Node>
+	</rootitem>
+
+	<rootitem Value="Payable">
+		<Node Value="Misc. Bills" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="Cheque Slip" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="B M S" NavigateUrl="~/GLSubMaster.aspx"></Node>
+	</rootitem>
+
+	<rootitem Value="Cash Bank" >
+		<Node Value="Petty Cash" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="C B Receipts" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="C B Payment" NavigateUrl="~/GLSubMaster.aspx"></Node>
+	</rootitem>
+	<rootitem Value="Fixed Assets">
+		<Node Value="Master" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="Deprecition" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="Maintenance" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="Sale" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="Transfer" NavigateUrl="~/GLSubMaster.aspx"></Node>
+	</rootitem>
+	<rootitem Value="General Ledger">
+		<Node Value="Journal Voucher" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="Business Trip" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="Debit/Credit Note" NavigateUrl="~/GLSubMaster.aspx"></Node>
+		<Node Value="Debit/Credit Advice" NavigateUrl="~/GLSubMaster.aspx"></Node>
+	</rootitem>
+
+</rootnode>
+
+ <rootnode Type="Reports">
+	
+   <!--Ordering Starts here-->
+	<rootitem Value="Ordering">
+   
+      <Node Value="Stock"  NavigateUrl="" >
+        <Nodeitem Value="Worksheet" NavigateUrl="~/Reports/Ordering/Stock/Worksheet.aspx"  />
+        <Nodeitem Value="Stock Value" NavigateUrl="~/Reports/Ordering/Stock/StockValue.aspx" />
+        <Nodeitem Value="Stock List" NavigateUrl="~/Reports/Ordering/Stock/StockList.aspx" />
+        <Nodeitem Value="Branch\Line-Excess Inv" NavigateUrl="~/Reports/Ordering/Stock/brlineexcess.aspx" />
+        <Nodeitem Value="Line\Branch-Excess inv" NavigateUrl="~/Reports/Ordering/Stock/linebrexcess.aspx" />
+        <Nodeitem Value="Branch/Item-Surplus List" NavigateUrl="~/Reports/Ordering/Stock/BranchItemSurplusList.aspx" />
+        <Nodeitem Value="Stock List-Branches" NavigateUrl="~/Reports/Ordering/Stock/StockListBranches.aspx" />
+        <Nodeitem Value="Stock Value-Aging"  NavigateUrl="~/Reports/Ordering/Stock/StockValueAging.aspx" />
+      </Node>
+      <Node Value="OO/OH"  NavigateUrl="" >
+        <Nodeitem Value="Consolidated-Branch\Line" NavigateUrl="~/Reports/Ordering/OOOH/Consolidated-Branch_Line.aspx" />
+        <Nodeitem Value="Quarterly_Comparison-Line_Branch" NavigateUrl="~/Reports/Ordering/OOOH/Quarterly_Comparison-Line_Branch.aspx" />
+      </Node>
+    <Node Value="Listing"  NavigateUrl="" >
+      <Nodeitem Value="Back Order" NavigateUrl="~/Reports/Ordering/Listing/BackOrder.aspx" />
+      <Nodeitem Value="Road Permit Issued Details" NavigateUrl="~/Reports/Ordering/Listing/RoadPermitIssued.aspx" />
+      <Nodeitem Value="Linewise Order Placed" NavigateUrl="~/Reports/Ordering/Listing/LWOrderPlaced.aspx" />
+      <Nodeitem Value="Zone/Branch/Line Order Inflow Statement " NavigateUrl="~/Reports/Ordering/Listing/ZBLOrderInflow.aspx" />
+      <Nodeitem Value="Order Summary" NavigateUrl="~/Reports/Ordering/Listing/OrderSummaryReport.aspx"/>
+      <Nodeitem Value="Datewise Purchase Order" NavigateUrl="~/Reports/Ordering/Listing/DatewisePurchaseOrder.aspx"/>
+      <Nodeitem Value="Linewise Purchase Order" NavigateUrl="~/Reports/Ordering/Listing/LinewisePurchaseOrder.aspx"/>
+      <Nodeitem Value="Customer PO List" NavigateUrl="~/Reports/Ordering/Listing/CustomerPOList.aspx"/>
+      <Nodeitem Value="Purchase Figure Comparision" NavigateUrl="~/Reports/Ordering/Listing/PurchaseFigComparision.aspx"/>
+    </Node>
+   
+	</rootitem>
+   
+ <!--Ordering ends here-->
+   
+	<rootitem Value="Inventory">
+			<Nodeitem Value="Stock Sheet List" NavigateUrl="~/Reports/Inventory/StockSheetList.aspx"/>
+			<Nodeitem Value="Supplier Shortage Register" NavigateUrl="~/Reports/Inventory/SupplyShortageRegister.aspx" />
+			<Nodeitem Value="Edit List for Items Entered" NavigateUrl="~/Reports/Inventory/EditItemsList.aspx" />
+      <Nodeitem Value="Stock Variance" NavigateUrl="~/Reports/Inventory/StockVariance.aspx" />
+      <Nodeitem Value="Opening Stock" NavigateUrl="~/Reports/Inventory/OpeningStock.aspx" />
+      <Nodeitem Value="Goods Inward Register" NavigateUrl="~/Reports/Inventory/GoodsInwardRegister.aspx" />
+      <Nodeitem Value="Goods Outward Register" NavigateUrl="~/Reports/Inventory/GoodsOutwardRegister.aspx" />
+    <Nodeitem Value="Inventory Tag Report" NavigateUrl="~/Reports/Inventory/InventoryTagReport.aspx"  />
+      <Nodeitem Value="Branch/Line - Stock Transfer" NavigateUrl="~/Reports/Inventory/StockTransfer.aspx" />
+      <Nodeitem Value="Zone/Branch/State/Age Full Stock" NavigateUrl="~/Reports/Inventory/AreaWiseStock.aspx" />
+    <Nodeitem Value="EditListforTransaction" NavigateUrl="~/Reports/Inventory/EditListforTransaction.aspx" />
+	    <Node Value="Aging"  NavigateUrl="">
+        <Nodeitem Value="Part# Details" NavigateUrl="~/Reports/Inventory/Aging/Part_Details.aspx"/>
+        <Nodeitem Value="Part# Summary" NavigateUrl="~/Reports/Inventory/Aging/Part_summary.aspx"/>
+        <Nodeitem Value="All Branches-Part# Detail" NavigateUrl="~/Reports/Inventory/Aging/AllbranchesPartdetail.aspx"/>
+      </Node>
+	</rootitem>
+   <rootitem Value="Sales">
+     <Node Value="Sales Listing"  NavigateUrl="" >
+       <Nodeitem Value="Line wise sales" NavigateUrl="~/Reports/Sales/SalesListing/Sales-LineWiseSales.aspx" />
+       <Nodeitem Value="Date wise sales value" NavigateUrl="~/Reports/Sales/SalesListing/DateWiseSalesValue.aspx" />
+       <Nodeitem Value="Manual Bills" NavigateUrl="~/Reports/Sales/SalesListing/ManualBills.aspx" />
+       <Nodeitem Value="Cancelled Bills" NavigateUrl="~/Reports/Sales/SalesListing/CancelledBills.aspx" />
+       <Nodeitem Value="Line wise sales (Target)" NavigateUrl="~/Reports/Sales/SalesListing/LineWiseSales_Target.aspx" />
+       <Nodeitem Value="Transaction type/line - sales" NavigateUrl="~/Reports/Sales/SalesListing/TransactionTypeLineSales.aspx" />
+       <Nodeitem Value="LR /FDO Sales details" NavigateUrl="~/Reports/Sales/SalesListing/LRFDOSalesDetails.aspx" />
+       <Nodeitem Value="Zone/Branch - Weekly sales" NavigateUrl="~/Reports/Sales/SalesListing/ZoneBranchWeeklySales.aspx" />
+       <Nodeitem Value="Target sales report" NavigateUrl="~/Reports/Sales/SalesListing/TargetSalesReport.aspx" />
+     </Node>
+     <Node Value="Sales Analysis"  NavigateUrl="" >
+       <Nodeitem Value="Line wise with Previous Year" NavigateUrl="~/Reports/Sales/SalesAnalysis/LineWise.aspx" />
+       <Nodeitem Value="Customer with Previous Year" NavigateUrl="~/Reports/Sales/SalesAnalysis/CustomerWise.aspx" />
+       <Nodeitem Value="Town with Previous Year" NavigateUrl="~/Reports/Sales/SalesAnalysis/TownWise.aspx" />
+       <Nodeitem Value="Sales Man Performance" NavigateUrl="~/Reports/Sales/SalesAnalysis/SalesManPerformance.aspx" />
+     </Node>
+     <Node Value="Sales Statement"  NavigateUrl="" >
+       <Nodeitem Value="Turnover Discount Eligibility details " NavigateUrl="~/Reports/Sales/Sales Statement/TDEDetails.aspx" />
+       <Nodeitem Value="Sales Invoice - Reprint" NavigateUrl="~/Reports/Sales/SalesStatement/SalesInvoiceReprint.aspx" />
+       <Nodeitem Value="Sales Invoice Old - Reprint" NavigateUrl="~/Reports/Sales/SalesStatement/SalesInvoiceReprintOld.aspx" />
+       <Nodeitem Value="Party_Document" NavigateUrl="~/Reports/Sales/SalesStatement/Party_Document.aspx" />
+     </Node>
+     <Node Value="Sales Comparison"  NavigateUrl="" >
+       <Nodeitem Value="Line Wise" NavigateUrl="~/Reports/Sales/Sales Comparison/LineWise.aspx" />
+       <Nodeitem Value="Line Wise in Quantity" NavigateUrl="~/Reports/Sales/Sales Comparison/LinewiseinQty.aspx" />
+       <Nodeitem Value="Zone Wise" NavigateUrl="~/Reports/Sales/Sales Comparison/ZoneWise.aspx"  />
+       <Nodeitem Value="State Wise" NavigateUrl="~/Reports/Sales/Sales Comparison/StateWise.aspx" />
+       <Nodeitem Value="Cumulative(linewise)" NavigateUrl="~/Reports/Sales/Sales Comparison/Cumulativecomparison.aspx" />
+       <Nodeitem Value="Target Vs Sales" NavigateUrl="~/Reports/Sales/Sales Comparison/TargetVsSales.aspx" />
+       <Nodeitem Value="Linewisetop20" NavigateUrl="~/Reports/Sales/Sales Comparison/Linewisetop20.aspx" />
+       <Nodeitem Value="Part# sales comparison" NavigateUrl="~/Reports/Sales/Sales Comparison/Part_number_sales_details.aspx" />
+       <Nodeitem Value="STU-LineWise" NavigateUrl="~/Reports/Sales/Sales Comparison/STU_Linewise.aspx" />
+       <Nodeitem Value="STU-PartWise" NavigateUrl="~/Reports/Sales/Sales Comparison/STU_Partwise.aspx" />
+      
+     </Node>
+   </rootitem>
+
+	<rootitem Value="Finance">
+		<Node Value="Stock"  NavigateUrl="" >
+			<Nodeitem Value="Worksheet" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock Value" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock List" NavigateUrl="~/GLSubMaster.aspx" />
+
+		</Node>
+		<Node Value=""  NavigateUrl="" >
+			<Nodeitem Value="Worksheet" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock Value" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock List" NavigateUrl="~/GLSubMaster.aspx" />
+
+		</Node>
+	</rootitem>
+
+	<rootitem Value="SLB">
+		<Node Value="Stock"  NavigateUrl="" >
+			<Nodeitem Value="Worksheet" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock Value" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock List" NavigateUrl="~/GLSubMaster.aspx" />
+		</Node>
+
+	</rootitem>
+	<rootitem Value="Gross Profit">
+		<Node Value="Stock"  NavigateUrl="" >
+			<Nodeitem Value="Worksheet" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock Value" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock List" NavigateUrl="~/GLSubMaster.aspx" />
+
+		</Node>
+		<Node Value=""  NavigateUrl="" >
+			<Nodeitem Value="Worksheet" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock Value" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem Value="Stock List" NavigateUrl="~/GLSubMaster.aspx" />
+
+		</Node>
+	</rootitem>
+
+	<rootitem Value="Insurance">
+		<Node Value="Stock"  NavigateUrl="" >
+			<Nodeitem value="Worksheet" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem value="Stock Value" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem value="Stock List" NavigateUrl="~/GLSubMaster.aspx" />
+		</Node>
+		<Node Value=""  NavigateUrl="" >
+			<Nodeitem value="Worksheet" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem value="Stock Value" NavigateUrl="~/GLSubMaster.aspx" />
+			<Nodeitem value="Stock List" NavigateUrl="~/GLSubMaster.aspx" />
+
+		</Node>
+	</rootitem>
+
+	<rootitem Value="Cyber WH">
+			<Node value="BranchTransferRequest" NavigateUrl="~/BranchTransferRequest.aspx" />
+			<Node value="Stock Value" NavigateUrl="~/GLSubMaster.aspx" />
+			<Node value="Stock List" NavigateUrl="~/GLSubMaster.aspx" />
+</rootitem>
+   
+</rootnode>
+ <rootnode Type="SysAdmin">
+
+	<rootitem Value="Security">
+		 
+		<Node Value="Reset Password"  NavigateUrl="~/Security/ResetPassword.aspx" />
+    <Node Value="Change Password "  NavigateUrl="~/Security/ChangePassword.aspx" />
+	</rootitem>
+
+	<rootitem Value="Transfer">
+		<Node Value="Group"  NavigateUrl="~/GLSubMaster.aspx" />
+		<Node Value="User"  NavigateUrl="~/GLSubMaster.aspx" />
+	</rootitem>	
+	<rootitem Value="BackUp" NavigateUrl="~/GLGroup.aspx"/>	
+	<rootitem Value="Restore" NavigateUrl="~/GLGroup.aspx"/>	
+	
+
+</rootnode>
+</Menu>

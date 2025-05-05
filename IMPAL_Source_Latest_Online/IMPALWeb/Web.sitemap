@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Home Page"  description="IMPAL - Home Page">
+    <!-- Master Screens -->
+    <siteMapNode url="" title="Master"  description="IMPAL - Master" roles="BACC,CORR,CORA,BMGR,BADM,ADMN,HISD,UISD" ShowMenu="true" ImageUrl="~/images/iMaster.png" BigImageUrl="~/images/iMaster.png">
+      <!--<siteMapNode url="" title="General Ledger" description="IMPAL - General Ledger" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/GeneralLedger/GLClassification.aspx" title="GL Classification"  description="IMPAL - GL Classification" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/GeneralLedger/GLGroup.aspx" title="GL Group"  description="IMPAL - GL Group" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/GeneralLedger/GLGroupReport.aspx" title="GL Group Report"  description="IMPAL - GL Group Report" roles="" ShowMenu="false" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/GeneralLedger/GLMaster.aspx" title="GL Master"  description="IMPAL - GL Master" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/GeneralLedger/GLSubMaster.aspx" title="GL Sub Master"  description="IMPAL - GL Sub Master" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/GeneralLedger/GLAccMaster.aspx" title="GL Account Master"  description="IMPAL - GL Account Master" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/GeneralLedger/ChartOfAccountMaster.aspx" title="Chart of Account"  description="Chart of Account" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/GeneralLedger/GLAccountSetup.aspx" title="GL Account Setup"  description="GL Account Setup" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/GeneralLedger/BudgetMaster.aspx" title="Budget Master"  description="Budget Master" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+
+      <!--<siteMapNode url="" title="Branch" description="IMPAL - Branch" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/Branch/Zone.aspx" title="Zone" description="IMPAL - Zone" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Branch/StateMaster.aspx" title="State" description="IMPAL - State" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Branch/BranchClassification.asp-x" title="Classification" description="IMPAL - Classification" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Branch/BranchMaster.aspx" title="Branch" description="IMPAL - Branch" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Branch/AreaManager.aspx" title="AreaManager" description="IMPAL - AreaManager" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Branch/AreaManagerBranch.aspx" title="AreaManager - Branch" description="IMPAL - AreaManager - Branch" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Branch/NeighboringBranches.aspx" title="NeighboringBranches" description="IMPAL - NeighboringBranches" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Branch/BranchTarget.aspx" title="Target" description="IMPAL - Target" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+
+      <!--<siteMapNode url="" title="Supplier" description="IMPAL - Supplier" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/Supplier/SupplierDetails.aspx" title="Supplier" description="IMPAL - Supplier" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Supplier/Product.aspx" title="Product" description="IMPAL - Product" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Supplier/Depot.aspx" title="Depot" description="IMPAL - Depot" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Supplier/SupplierLine.aspx" title="Line" description="IMPAL - Line" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+
+      <siteMapNode url="" title="Item" description="IMPAL - Item" roles="BADM,ADMN" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <!--<siteMapNode url="~/Masters/Item/ItemType.aspx" title="Item Type" description="IMPAL - Item Type" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Item/ApplicationSegment.aspx" title="Application Segment" description="IMPAL - Application Segment" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Item/VehicleType.aspx" title="Vehicle Type" description="IMPAL - Vehicle Type" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Item/ProductGroup.aspx" title="Product Group" description="IMPAL - Product Group" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+        <siteMapNode url="~/Masters/Item/ItemDetails.aspx" title="Item" description="IMPAL - Item" roles="BADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Item/ItemLocation.aspx" title="Item Location" description="IMPAL - Item Location" roles="BADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Item/BranchItemPrice.aspx" title="Branch Item Price" description="IMPAL - Branch Item Price " roles="BADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Item/BranchItemPrice_Old.aspx" title="Branch-ItemPrice" description="IMPAL - Branch-ItemPrice " roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Item/BranchItemPriceHO.aspx" title="Branch Item Price" description="IMPAL - Branch Item Price" roles="ADMN" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Item/BranchItemPriceBulkUploadHO.aspx" title="Branch Item Price - Bulk" description="IMPAL - Branch Item Price - Bulk" roles="ADMN" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <!--<siteMapNode url="~/Masters/Item/ItemRate.aspx" title="Item Rate" description="IMPAL - Item Rate" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+      </siteMapNode>
+
+      <siteMapNode url="" title="SalesMan" description="IMPAL - SalesMan" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/SalesMan/SalesMan.aspx" title="SalesMan" description="IMPAL - SalesMan" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/SalesMan/SalesManTarget.aspx" title="SalesMan Target " description="IMPAL - Sales Man Target " roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+
+
+      <!--<siteMapNode url="" title="Sales Tax" description="IMPAL - Sales Tax" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/SalesTax/SaleTax.aspx" title="Sales Tax" description="IMPAL - Sales Tax" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/SalesTax/BranchProductAndSalesTax.aspx" title="Product SalesTax" description="IMPAL - Product SalesTax" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/SalesTax/BranchProductAndPurchaseTax.aspx" title="Product PurchaseTax" description="IMPAL - Product PurchaseTax" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/SalesTax/BranchSalesTaxForms.aspx" title="Branch Sales Tax Forms" description="IMPAL - Branch Sales Tax Forms" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+
+      <siteMapNode url="" title="Customer" description="IMPAL - Customer" roles="BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/Customer/TownMaster.aspx" title="Town" description="IMPAL - Town" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Customer/Customer.aspx" title="Customer" description="IMPAL - Customer" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Customer/ECreditApplication.aspx" title="E Credit Application" description="IMPAL - E Eredit Application" roles="BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="Vendor" description="IMPAL - Vendor" roles="CORR,CORA,BACC,HISD,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/Vendor/Vendor.aspx" title="Vendor" description="IMPAL - Vendor" roles="CORR,CORA,BACC,HISD,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="SLB" description="IMPAL - SLB" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/SLB/SLB.aspx" title="SLB" description="IMPAL - SLB" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <!--<siteMapNode url="~/Masters/SLB/SLBQuery.aspx" title="SLB Query" description="IMPAL - SLB Query" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+        <siteMapNode url="~/Masters/SLB/SLBDetails.aspx" title="SLB Detail" description="SLB Detail" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/SLB/CustomerSLB.aspx" title="Customer SLB" description="IMPAL - Customer SLB" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+
+      <!--<siteMapNode url="" title="FixedAsset" description="IMPAL - FixedAsset" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/FixedAssets/Group.aspx" title="Group" description="IMPAL - Group" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/FixedAssets/subGroup.aspx" title="SubGroup" description="IMPAL - SubGroup" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/FixedAssets/Location.aspx" title="Location" description="IMPAL - Location" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Bank" description="IMPAL - Bank" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/Bank/Bank.aspx" title="Bank" description="IMPAL - Bank" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Bank/Branch.aspx" title="Branch" description="IMPAL - Branch" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Insurance" description="IMPAL - Insurance" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/Insurance/Documents.aspx" title="Documents" description="IMPAL - Documents" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Insurance/Classification.aspx" title="Classification" description="IMPAL - Classification" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Insurance/ClassificationDocuments.aspx" title="Classification-Documents" description="IMPAL - Classification-Documents" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Others" description="IMPAL - Others" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Masters/Others/TransactionType.aspx" title="Transaction Type" description="IMPAL - Documents" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Others/PartyType.aspx" title="Party Type" description="IMPAL - Documents" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Others/CashDiscount.aspx" title="Cash Discount" description="IMPAL - Documents" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Others/ClearingAgent.aspx" title="Clearing Agent" description="IMPAL - Documents" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Others/ItemPosting.aspx" title="Item Posting" description="IMPAL - Documents" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Others/CustomerSlab.aspx" title="Customer Slab" description="IMPAL - Customerslab" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Masters/Others/DynamicLocking.aspx" title="Dynamic Locking" description="IMPAL - Customerslab" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+    </siteMapNode>
+
+    <!-- Ordering Screens -->
+    <siteMapNode url="" title="Ordering"  description="IMPAL - Ordering" roles="BEDP,ORDD,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/iOrder.png" BigImageUrl="~/images/iOrder.png">
+      <siteMapNode url="~/Transactions/Ordering/POIndentCWH.aspx" title="PO Indent CWH" description="IMPAL - PO Indent CWH" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Ordering/DirectPurchaseOrderHO.aspx" title="Direct Purchase Order - HO" description="IMPAL - Direct Purchase Order - HO" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Reports/Ordering/Listing/LWOrderPlacedCRP.aspx" title="Linewise Order Placed" description="IMPAL - Linewise Order Placed" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Ordering/BulkOrderUploadHO.aspx" title="Bulk Order Upload - HO" description="IMPAL - Bulk Order Upload - HO" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Ordering/BulkStdnUploadHO.aspx" title="Bulk STDN Upload - HO" description="IMPAL - Bulk STDN Upload - HO" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Ordering/IndentSupplimentaryOrder.aspx" title="Indent/Supplimentary Order" description="IMPAL - Indent/Supplimentary Order" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Ordering/ExtraPurchaseOrder.aspx" title="Extra Purchase Order" description="IMPAL - Extra Purchase Order" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <!--<siteMapNode url="~/Transactions/Ordering/StockTranReq.aspx" title="Stock Transfer Request" description="IMPAL - Stock Transfer Request" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Ordering/POIndentCorp.aspx" title="PO Indent - CCWH(Corp)" description="PO Indent - CCWH(Corp)" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+      <!--siteMapNode url="~/Transactions/Ordering/InsuranceClaim.aspx" title="Insurance Claim" description="IMPAL - Insurance Claim" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode-->
+      <siteMapNode url="~/Transactions/Ordering/CancelOrder.aspx" title="Pendig Order - Cancellation" description="IMPAL - Pending Order Cancellation" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+    </siteMapNode>
+
+    <!-- Query Screens  -->
+    <siteMapNode url="" title="Query" description="IMPAL - Query" roles="BEDP,BACC,BMGR,BADM" ShowMenu="true" ImageUrl="~/images/iInven.png" BigImageUrl="~/images/iInven.png">
+      <siteMapNode url="~/Transactions/Inventory/Query/ConsignmentBalance.aspx" title="Consignment Balance" description="IMPAL - Consignment Balance" roles="BEDP,BACC,BMGR,BADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/Query/ConsignmentSummary.aspx" title="Consignment Summary" description="IMPAL - Consignment Summary" roles="BEDP,BACC,BMGR,BADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/Query/ConsignmentDetails.aspx" title="Consignment Detail" description="IMPAL - Consignment Detail" roles="BEDP,BACC,BMGR,BADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/Query/AllBranchStockDetails.aspx" title="All Branch Stock Details" description="IMPAL - All Branch Stock Details" roles="BEDP,BACC,BMGR,BADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <!--<siteMapNode url="~/Transactions/Inventory/Query/GoodsInTransit_Inward.aspx" title="Goods in Transit - Inward" description="IMPAL - Goods in Transit - Inward" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/Query/GoodsInTransit_Supplier.aspx" title="Goods in Transit - Supplier" description="IMPAL - Goods in Transit - Supplier" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/Query/GoodsInTransit_Transfer.aspx" title="Goods in Transit - Transfer" description="IMPAL - Goods in Transit - Transfer" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+    </siteMapNode>
+
+    <!-- Inventory Screens -->
+    <siteMapNode url="" title="Inventory" description="IMPAL - Inventory" roles="BEDP,BMGR,BACC,BADM,ADM1,BWCL,EXEC,IAUD" ShowMenu="true" ImageUrl="~/images/iInven.png" BigImageUrl="~/images/iInven.png">
+      <siteMapNode url="~/Transactions/Inventory/InwardEntry.aspx" title="Manual Inward Entry" description="IMPAL - Manual Inward Entry" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/AutoInwardEntry.aspx" title="Auto Inward Entry" description="IMPAL - Auto Inward Entry" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/GRNFinalEntry.aspx" title="GRN Final Entry Approval" description="IMPAL - GRN Final Entry Approval" roles="BEDP,BMGR,BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/PurchaseReturnEDP.aspx" title="Purchase Return" description="IMPAL - Purchase Return" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/PurchaseReturnNew.aspx" title="Purchase Return" description="IMPAL - Purchase Return" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/PurchaseReturnFinal.aspx" title="Purchase Return - Approval" description="IMPAL - Purchase Return - Approval" roles="BMGR,BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/WarrantyClaimLucas.aspx" title="Warranty Claim - Lucas" description="IMPAL - Warranty Claim - Lucas" roles="BWCL" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/WarrantyClaimLucasHandlingCharges.aspx" title="Warranty Claim - Lucas - Handling Charges" description="IMPAL - Warranty Claim - Lucas - Handling Charges" roles="BWCL" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/WarrantyClaimLucasLabourCharges.aspx" title="Warranty Claim - Lucas - Labour Charges" description="IMPAL - Warranty Claim - Lucas - Labour Charges" roles="BWCL" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/WarrantyClaimLucasUpload.aspx" title="Warranty Claim - Lucas - Upload" description="IMPAL - Warranty Claim - Lucas - Upload" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/StockTransferEntryEDP.aspx" title="Stock Transfer Entry" description="IMPAL - Stock Transfer Entry" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/StockTransferEntryFinal.aspx" title="Stock Transfer Entry Approval" description="IMPAL - Stock Transfer Entry Approval" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/StockTransferEntryFinalHO.aspx" title="Stock Transfer Entry Approval" description="IMPAL - Stock Transfer Entry Approval" roles="IAUD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/StockTransferReceiptOnline.aspx" title="Stock Transfer Receipt" description="IMPAL - Stock Transfer Receipt" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/StockTransferReceiptFinal.aspx" title="Stock Transfer Receipt Approval" description="IMPAL - Stock Transfer Receipt Approval" roles="BMGR,BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/CostToCostInward.aspx" title="Cost To Cost Inward" description="IMPAL - Cost To Cost Inward" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/Stock_Diversion.aspx" title="Stock Diversion" description="IMPAL - Stock Diversion" roles="BADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/Stock_DiversionBulk.aspx" title="Stock Diversion - Bulk" description="IMPAL - Stock Diversion - Bulk" roles="ADM1" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/Stock_Adjustment.aspx" title="Stock Adjustment" description="IMPAL - Stock Adjustment" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Inventory/ItemLocationNew.aspx" title="Item Location - New" description="IMPAL - Item Location - New" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <!--<siteMapNode url="~/Transactions/Inventory/OS_LS_Updation.aspx" title="OS LS Updation" description="IMPAL - OS LS Updation" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+    </siteMapNode>
+
+    <!-- Sales Screens -->
+    <siteMapNode url="" title="Sales"  description="IMPAL - Sales" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/iSales.png" BigImageUrl="~/images/iSales.png">
+      <!--<siteMapNode url="~/Transactions/Sales/ST_FormCollection.aspx" title="ST Form Collection" description="IMPAL - ST Form Collection" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+      <siteMapNode url="~/Transactions/Sales/CustomerSalesReq.aspx" title="Customer Sales Request" description="IMPAL - Customer Sales Request" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Sales/SalesInvoice.aspx" title="Sales Invoice" description="IMPAL - Sales Invoice" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Sales/CustomerOutstanding.aspx" title="Customer Outstanding Query" description="IMPAL - Customer Outstanding Query" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Sales/EWayBillReport.aspx" title="E-Way Bill Report" description="IMPAL - E-Way Bill Report" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Sales/PackingSlip.aspx" title="Packing Slip" description="IMPAL - Packing Slip" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/Transactions/Sales/ProformaInvoice.aspx" title="Proforma Invoice" description="IMPAL - Proforma Invoice" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+    </siteMapNode>
+
+    <!-- Finance Screens -->
+    <siteMapNode url="" title="Finance"  description="IMPAL - Finance" roles="BMGR,BACC,CORR,CORA,HISD,UISD" ShowMenu="true" ImageUrl="~/images/iSales.png" BigImageUrl="~/images/iSales.png">
+      <siteMapNode url="" title="Receivable" description="IMPAL - Receivable" roles="BACC,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Transactions/Finance/Receivable/Invoice.aspx" title="Invoice" description="IMPAL - Invoice" roles="" ShowMenu="false" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Receivable/Receipts.aspx" title="Receipts" description="IMPAL - Receipts" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Receivable/PDCRegister.aspx" title="PDC Register" description="IMPAL - PDC Register" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Receivable/ReceiptsCancellation.aspx" title="Receipts Cancellation" description="IMPAL - Receipts Cancellation" roles="CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Payable" description="IMPAL - Payable" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Transactions/Finance/Payable/MiscBills.aspx" title="Misc. Bills" description="IMPAL - Misc. Bills" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/ChequeSlip.aspx" title="Cheque Slip" description="IMPAL - Cheque Slip" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/BMSEntry.aspx" title="BMS Entry" description="IMPAL - B M S" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/InvoiceCNEntry.aspx" title="Invoice / CN Entry" description="IMPAL - Invoice / CN Entry" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/BMSPaymentAdvice.aspx" title="BMS Payment Advice" description="IMPAL - BMS Payment Advice" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/BMSPayment.aspx" title="BMS Payment" description="IMPAL - BMS Payment" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/GroupCoConversion.aspx" title="Group Co. Conversion" description="IMPAL - Group Co. Conversion" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/LiabilityPayment.aspx" title="Liability Payment" description="IMPAL - Liability Payment" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/StatementPaymentUpload.aspx" title="Statement Payment - Upload" description="IMPAL - Statement Payment - Upload" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/HOPayment.aspx" title="Headoffice Payment" description="IMPAL - Headoffice Payment" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/HOSFLPayment.aspx" title="Headoffice SFL Payment" description="IMPAL - Headoffice SFL Payment" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/OtherPayment.aspx" title="Other Payment" description="IMPAL - Other Payment" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/SFLPayment.aspx" title="SFL Payment" description="IMPAL - SFL Payment" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/PaymentReportBms.aspx" title="Pymt Report (BMS)" description="IMPAL - Pymt Report (BMS)" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/PaymentReportLiability.aspx" title="Pymt Report - Liability" description="IMPAL - Pymt Report - Liability" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/PaymentReportHOLocal.aspx" title="Pymt Report - HO.Local" description="IMPAL - Pymt Report - HO.Local" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/CorpChequeSlipReport.aspx" title="Cheque Slip Report" description="IMPAL - Cheque Slip Report" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/InvoiceEditSlipReport.aspx" title="Invoice Edit Slip Report" description="IMPAL - Invoice Edit Slip Report" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/CorpChequeSlipDetails.aspx" title="Corp Cheque Slip Details" description="IMPAL - Corp Cheque Slip Details" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/CorpBranchSupplierInvoicePaid.aspx" title="Corp Branch/Supplier Invoice Paid" description="IMPAL - Corp Branch/Supplier Invoice Paid" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/Payable/CorpSupplierBranchInvoicePaid.aspx" title="Corp Supplier/Branch Invoice Paid" description="IMPAL - Corp Supplier/Branch Invoice Paid" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Cash Bank" description="IMPAL - Cash Bank" roles="BMGR,BACC,CORR,CORA,CORP,HISD,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/PettyCash.aspx" title="Petty Cash" description="IMPAL - Petty Cash" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/CashAndBankReceiptNew.aspx" title="C B Receipts" description="IMPAL - C B Receipts" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/CashAndBankReceipt.aspx" title="C B Receipts" description="IMPAL - C B Receipts" roles="CORR,CORA,CORP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/CashAndBankReceiptExcel.aspx" title="C B Receipts Excel" description="IMPAL - C B Receipts Excel" roles="CORR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/CashAndBankReceiptNEFT.aspx" title="C B Receipts - Branch NEFT" description="IMPAL - C B Receipts - Branch NEFT" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/CashAndBankReceiptNEFTExcel.aspx" title="C B Receipts - Branch NEFT Excel" description="IMPAL - C B Receipts - Branch NEFT Excel" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/CashAndBankPayment.aspx" title="C B Payments" description="IMPAL - C B Payments" roles="BACC,CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/CashAndBankPaymentExcel.aspx" title="C B Payments Excel" description="IMPAL - C B Payments Excel" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/CashAndBankPaymentNew.aspx" title="C B Payments Regular with Excel" description="IMPAL - C B Payments Regular with Excel" roles="CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/CashAndBankCancellation.aspx" title="C B Cancellation" description="IMPAL - C B Cancellation" roles="CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/ChequeReturn.aspx" title="Cheque Return" description="IMPAL - Cheque Return" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/InterBranchPayment.aspx" title="Inter Branch Payment" description="IMPAL - Inter Branch Payment" roles="BACC,CORR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/VendorBooking.aspx" title="Vendor Booking" description="IMPAL - Vendor Booking" roles="BACC,CORR,CORA,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/VendorBookingFinal.aspx" title="Vendor Booking - Approval" description="IMPAL - Vendor Booking Approval" roles="BMGR,CORA,HISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/CashAndBank/VendorPayment.aspx" title="Vendor Payment" description="IMPAL - Vendor Payment" roles="BACC,CORR,CORA,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <!--<siteMapNode url="~/Transactions/Finance/CashAndBank/TDSPayment.aspx" title="TDS Payment" description="IMPAL - TDS Payment" roles="BACC,CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+      </siteMapNode>
+      <!--<siteMapNode url="" title="Fixed Assets" description="IMPAL - Fixed Assets" roles="" ShowMenu="false" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="" title="Master" description="IMPAL - Master" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="" title="Deprecition" description="IMPAL - Deprecition" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="" title="Maintenance" description="IMPAL - Maintenance" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="" title="Sale" description="IMPAL - Sale" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="" title="Transfer" description="IMPAL - Transfer" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+      <siteMapNode url="" title="General Ledger" description="IMPAL - General Ledger" roles="BMGR,BACC,CORR,CORA,CORP,UISD,HISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/JournalVoucher.aspx" title="Journal Voucher" ShowMenu="true" description="Journal Voucher" roles="BACC,UISD" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/JournalVoucherAdm.aspx" title="Journal Voucher" ShowMenu="true" description="Journal Voucher" roles="CORP" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/JournalVoucherHO.aspx" title="Journal Voucher" ShowMenu="true" description="Journal Voucher" roles="CORR,CORA,CORP" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/JournalVoucherExcel.aspx" title="Journal Voucher - Excel" ShowMenu="true" description="Journal Voucher - Excel" roles="CORR,CORA,CORP" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/JournalVoucherFinal.aspx" title="Journal Voucher - Approval" ShowMenu="true" description="Journal Voucher - Approval" roles="BMGR,CORA,CORP,HISD" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <!--<siteMapNode url="" title="Business Trip" description="IMPAL - Business Trip" roles="CORR,CORA" ShowMenu="false" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/DebitCreditNoteSupplier.aspx" title="Debit/Credit Note-Supplier" description="IMPAL - Debit/Credit Note" roles="BACC,CORR,CORA,CORP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/DebitCreditNoteCustomerBranch.aspx" title="Debit/Credit Note-Cust/Branch" description="IMPAL - Debit/Credit Note" roles="BACC,CORR,CORA,CORP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/CashDiscount.aspx" title="Cash Discount" description="IMPAL - Cash Discount" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/CashDiscountFinal.aspx" title="Cash Discount - Approval" description="IMPAL - Cash Discount - Approval" roles="BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transactions/Finance/GeneralLedger/TODGeneration.aspx" title="TOD Generation" description="IMPAL - TOD Generation" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+
+    <!-- HO Admin Finance Screens -->
+    <siteMapNode url="" title="Finance"  description="IMPAL - Finance" roles="CORP" ShowMenu="true" ImageUrl="~/images/iSales.png" BigImageUrl="~/images/iSales.png">
+      <siteMapNode url="" title="Receivable" description="IMPAL - Receivable" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOAdmin/Finance/Receivable/Receipts.aspx" title="Receipts" description="IMPAL - Receipts" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Cash Bank" description="IMPAL - Cash Bank" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOAdmin/Finance/CashAndBank/CashAndBankReceipt.aspx" title="C B Receipts" description="IMPAL - C B Receipts" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/CashAndBank/CashAndBankPayment.aspx" title="C B Payments" description="IMPAL - C B Payments" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/CashAndBank/CashAndBankReceiptExcel.aspx" title="C B Receipts Excel" description="IMPAL - C B Receipts Excel" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/CashAndBank/CashAndBankPaymentExcel.aspx" title="C B Payments Excel" description="IMPAL - C B Payments Excel" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/CashAndBank/VendorBooking.aspx" title="Vendor Booking" description="IMPAL - Vendor Booking" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/CashAndBank/VendorPayment.aspx" title="Vendor Payment" description="IMPAL - Vendor Payment" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="General Ledger" description="IMPAL - General Ledger" roles="CORP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOAdmin/Finance/GeneralLedger/JournalVoucher.aspx" title="Journal Voucher" ShowMenu="true" description="Journal Voucher" roles="CORP" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/GeneralLedger/JournalVoucherExcel.aspx" title="Journal Voucher - Excel" ShowMenu="true" description="Journal Voucher - Excel" roles="CORP" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/GeneralLedger/JournalVoucherFinal.aspx" title="Journal Voucher - Approval" ShowMenu="true" description="Journal Voucher - Approval" roles="CORP" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/GeneralLedger/DebitCreditNoteSupplier.aspx" title="Debit/Credit Note-Supplier - GST" description="IMPAL - Debit/Credit Note - GST" roles="CORP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/GeneralLedger/DebitCreditNoteCustomerBranch.aspx" title="Debit/Credit Note-Cust/Branch - GST" description="IMPAL - Debit/Credit Note - GST" roles="CORP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/GeneralLedger/CashDiscount.aspx" title="Cash Discount" description="IMPAL - Cash Discount" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Finance/GeneralLedger/CashDiscountFinal.aspx" title="Cash Discount - Approval" description="IMPAL - Cash Discount - Approval" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="" title="Master" description="IMPAL - Masters" roles="HADM,SADM,CFOE,DMDE,EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+      <siteMapNode url="" title="Customer" description="IMPAL - Customer" roles="HADM,SADM,CFOE,DMDE,EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOAdmin/Masters/Customer/CustomerCreditLimit.aspx" title="Customer Credit Limit" description="IMPAL - Customer Credit Limit" roles="SADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Masters/Customer/ECreditApplicationHO.aspx" title="E Credit Application Approval" description="IMPAL - E Credit Application Approval" roles="SADM,CFOE,DMDE" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Masters/Customer/TCSExemption.aspx" title="TCS Exemption Status" description="IMPAL - TCS Exemption Status" roles="HADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Masters/Customer/NEFTDetailsCorrection.aspx" title="NEFT Details Correction" description="IMPAL - NEFT Details Correction" roles="HADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOAdmin/Masters/Customer/CustomerStatus.aspx" title="Customer Status" description="IMPAL - Customer Status" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Supplier" description="IMPAL - Supplier" roles="BUPL" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+      <siteMapNode url="~/HOAdmin/Supplier/SupplierInvoicesUpload.aspx" title="Supplier Invoices - Upload" description="IMPAL - Supplier Invoices - Upload" roles="BUPL" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="" title="HO Reports"  description="IMPAL - HO Reports" roles="EXEC,EAUD,CADM,ZAUD,ADMN" ShowMenu="true" ImageUrl="~/images/iRepor.png" BigImageUrl="~/images/iRepor.png">
+      <siteMapNode url="" title="Stock" description="IMPAL - Stock" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOreports/Ordering/Stock/StockValueHO.aspx" title="Stock Value - HO" description="IMPAL - Stock Value - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Ordering" description="IMPAL - Ordering" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOReports/Ordering/OrderingReportsHO.aspx" title="Ordering Reports - HO" description="IMPAL - Ordering Reports - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Sales" description="IMPAL - Sales" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOreports/Sales/SalesListing/DateWiseSalesValueNewHO.aspx" title="Date wise sales value - New - HO" description="IMPAL - Date wise sales value - New - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Sales/SalesListing/DateWiseSalesValueHO.aspx" title="Date wise sales value - HO" description="IMPAL - Date wise sales value - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Sales/SalesListing/LineWiseSalesValueHO.aspx" title="Line wise sales value - HO" description="IMPAL - Line wise sales value - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Sales/SalesStatement/CustomerOutstandingHO.aspx" title="Customer Outstanding - HO" description="IMPAL - Customer Outstanding - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="Finance" description="IMPAL - Finance" roles="EXEC,EAUD,CADM,ZAUD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOreports/Finance/General Ledger/TrialBalanceHO.aspx" title="Trial Balance - HO" description="IMPAL - Trial Balance - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/General Ledger/TrialBalanceHoLive.aspx" title="Trial Balance - HO - Live" description="IMPAL - Trial Balance - HO - Live" roles="CADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/General Ledger/BranchReconcilationHO.aspx" title="Branch Reconcilation - HO" description="IMPAL - Branch Reconcilation - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/General Ledger/ClassifiedOutstandingHO.aspx" title="Classified Outstanding - HO" description="IMPAL - Classified Outstanding - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/General Ledger/OutstandingReportsHO.aspx" title="Outstanding Reports - HO" description="IMPAL - Outstanding Reports - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/General Ledger/ProfitLossHO.aspx" title="Profit Loss - HO" description="IMPAL - Profit Loss - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/General Ledger/BalanceSheetHO.aspx" title="Balance Sheet - HO" description="IMPAL - Balance Sheet - HO" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/General Ledger/GeneralLedgerHO.aspx" title="General Ledger - HO" description="IMPAL - General Ledger - HO" roles="EXEC,EAUD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/General Ledger/GeneralLedgerZone.aspx" title="General Ledger - Zone" description="IMPAL - General Ledger - Zone" roles="ZAUD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/General Ledger/GeneralLedgerHoLive.aspx" title="General Ledger - HO - Live" description="IMPAL - General Ledger - HO - Live" roles="CADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="GST Reports" description="IMPAL - GST Reports" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOreports/Finance/GST Reports/GSTInwardRegisterHO.aspx" title="GST Inward Register - HO" description="IMPAL - GST Inward Register - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/GST Reports/GSTOutwardRegisterHO.aspx" title="GST Outward Register - HO" description="IMPAL - GST Outward Register - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Finance/GST Reports/VendorTDSReportHO.aspx" title="Vendor TDS Report - HO" description="IMPAL - Vendor TDS Report - HO" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="Miscellaneous" description="IMPAL - Miscellaneous" roles="ADMN" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/HOreports/Miscellaneous/MiscellaneousHO.aspx" title="Miscellaneous - HO" description="IMPAL - Miscellaneous - HO" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Miscellaneous/CreditLimitHistory.aspx" title="Credit Limit History" description="IMPAL - Credit Limit History" roles="ADMN" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Miscellaneous/DealerCountDetailsHO.aspx" title="Dealer Count Details - New" description="IMPAL - Dealer Count Details - New" roles="ADMN" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/HOreports/Miscellaneous/DataTransferToBI.aspx" title="Data Transfer To BI - New" description="IMPAL - Data Transfer To BI - New" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+
+    <!-- Reports Screens -->
+    <siteMapNode url="" title="Reports"  description="IMPAL - Reports" roles="BEDP,BACC,BMGR,CORR,CORA,ORDD,QADM,ADMN,EXEC,HISD,UISD" ShowMenu="true" ImageUrl="~/images/iRepor.png" BigImageUrl="~/images/iRepor.png">
+      <!-- Reports Screens - Masters Section -->
+      <siteMapNode url="" title="QR Codes" description="IMPAL - QR Codes" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Reports/QR Codes/SalesInvoiceReprintQR.aspx" title="Sales Invoice QR" description="IMPAL - Sales Invoice QR" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/SalesInvoiceReprintQRDuplicate.aspx" title="Sales Invoice QR - Duplicate" description="IMPAL - Sales Invoice QR - Duplicate" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/STDNinvoiceReprintQR.aspx" title="STDN Invoice QR" description="IMPAL - STDN Invoice QR" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/STDNinvoiceReprintQRDuplicate.aspx" title="STDN Invoice QR - Duplicate" description="IMPAL - STDN Invoice QR - Duplicate" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/DebitCreditNoteReprintQR.aspx" title="Debit/Credit Note QR" description="IMPAL - Debit/Credit Note QR" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/DebitCreditNoteReprintQRDuplicate.aspx" title="Debit/Credit Note QR - Duplicate" description="IMPAL - Debit/Credit Note QR - Duplicate" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/PurchaseReturnReprintQR.aspx" title="Purchase Return QR" description="IMPAL - Purchase Return QR" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/PurchaseReturnReprintQRDuplicate.aspx" title="Purchase Return QR - Duplicate" description="IMPAL - Purchase Return QR - Duplicate" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/WarrantyClaimLucasReprintQR.aspx" title="Warranty Claim Lucas QR" description="IMPAL - Warranty Claim Lucas QR" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/WarrantyClaimLucasReprintQRDuplicate.aspx" title="Warranty Claim Lucas QR - Duplicate" description="IMPAL - Warranty Claim Lucas QR - Duplicate" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/WarrantyClaimLucasHandlingChargesReprintQR.aspx" title="Warranty Claim Lucas Handling Charges QR" description="IMPAL - Warranty Claim Lucas Handling Charges QR" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/WarrantyClaimLucasHandlingChargesReprintQRDuplicate.aspx" title="Warranty Claim Lucas Handling Charges QR - Duplicate" description="IMPAL - Warranty Claim Lucas Handling Charges QR - Duplicate" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/WarrantyClaimLucasLabourChargesReprintQR.aspx" title="Warranty Claim Lucas Labour Charges QR" description="IMPAL - Warranty Claim Lucas Labour Charges QR" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/WarrantyClaimLucasLabourChargesReprintQRDuplicate.aspx" title="Warranty Claim Lucas Labour Charges QR - Duplicate" description="IMPAL - Warranty Claim Lucas Labour Charges QR - Duplicate" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/QR Codes/MissingQRCodes.aspx" title="Missing QR Codes" description="IMPAL - Missing QR Codes" roles="QADM" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+
+      <!-- Reports Screens - Masters Section -->
+      <siteMapNode url="" title="Masters" description="IMPAL - Masters" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Reports/Masters/SupplierPriceMaster.aspx" title="Supplier Price Master" description="IMPAL - Supplier Price Master" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+
+      <!-- Reports Screens - Ordering Section -->
+      <siteMapNode url="" title="Ordering" description="IMPAL - Ordering" roles="BEDP,ORDD,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="" title="Stock" description="IMPAL - Stock" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Ordering/Stock/Worksheet.aspx" title="Worksheet" description="IMPAL - Worksheet" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/WorksheetSegment.aspx" title="Worksheet - Segment" description="IMPAL - Worksheet - Segment" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/StockValue.aspx" title="Stock Value" description="IMPAL - Stock Value" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/StockValueNew.aspx" title="Stock Value" description="IMPAL - Stock Value" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/StockList.aspx" title="Stock List" description="IMPAL - Stock List" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/StockListGST.aspx" title="Stock List - GST" description="IMPAL - Stock List - GST" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/brlineexcess.aspx" title="Branch/Line-Excess Inv" description="IMPAL - Branch/Line-Excess Inv" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/linebrexcess.aspx" title="Line/Branch-Excess inv" description="IMPAL - Line/Branch-Excess inv" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/BranchItemSurplusList.aspx" title="Branch-Surplus List" description="IMPAL - Branch-Surplus List" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/StockListBranches.aspx" title="Stock List-Branches" description="IMPAL - Stock List-Branches" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/StockValueAging.aspx" title="Stock Value-Aging" description="IMPAL - Stock Value-Aging" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Stock/ConsignmentStockOut.aspx" title="Consignment - Stock Out" description="IMPAL - Consignment - Stock Out" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+
+        <!--<siteMapNode url="" title="OO/OH" description="IMPAL - OO/OH" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Ordering/OOOH/Consolidated-Branch_Line.aspx" title="Consolidated-Branch/Line" description="IMPAL - Consolidated-Branch/Line" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/OOOH/Consolidated-Line_Branch.aspx" title="Consolidated-Line/Branch" description="IMPAL - Consolidated-Line/Branch" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/OOOH/Quarterly_Comparison-Branch_Line.aspx" title="Quarterly Comparison-Branch/Line" description="IMPAL - Quarterly Comparison-Line_Branch" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/OOOH/Quarterly_Comparison-Line_Branch.aspx" title="Quarterly Comparison-Line/Branch" description="IMPAL - Quarterly Comparison-Branch_Line" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>-->
+
+        <!--<siteMapNode url="" title="Stock Comparison" description="IMPAL - Stock Comparison" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Ordering/StockComparison/ZoneLineComparison.aspx" title="Zone/Line -Stock Comparison" description="IMPAL - Zone/Line -Stock Comparison" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/StockComparison/ConsolidatedZoneWise.aspx" title="Consolidated 3 years Zonewise" description="IMPAL - Consolidated 3 years Zonewise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/StockComparison/AnnualManager.aspx" title="Consolidated Branch/Area Managerwise" description="IMPAL - Consolidated Branch/Area Managerwise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/StockComparison/AnnualManager1.aspx" title="Consolidated Line/Area Managerwise" description="IMPAL - Consolidated Line/Area Managerwise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>-->
+
+        <siteMapNode url="" title="Listing" description="IMPAL - Listing" roles="BEDP,ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Ordering/Listing/BackOrder.aspx" title="Back Order" description="IMPAL - Back Order" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/LWOrderPlaced.aspx" title="Linewise Order Placed" description="IMPAL - Linewise Order Placed" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/LinewisePendingOrders.aspx" title="Linewise Pending Orders" description="IMPAL - Linewise Pending Orders" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/CancelledOrderDetails.aspx" title="Cancelled Order Details" description="IMPAL - Cancelled Order Details" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Ordering/Listing/RoadPermitIssued.aspx" title="Road Permit Issued Details" description="IMPAL - Road Permit Issued Details" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <!--<siteMapNode url="~/Reports/Ordering/Listing/ZBLOrderInflow.aspx" title="Zone/Branch/Line Order Inflow Statement" description="IMPAL - Zone/Branch/Line Order Inflow Statement" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Ordering/Listing/OrderSummaryReport.aspx" title="OrderSummaryReport" description="IMPAL - OrderSummaryReport" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/DatewisePurchaseOrder.aspx" title="DatewisePurchaseOrder" description="IMPAL - DatewisePurchaseOrder" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/LinewisePurchaseOrder.aspx" title="LinewisePurchaseOrder" description="IMPAL - LinewisePurchaseOrder" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Ordering/Listing/PurchaseFigComparision.aspx" title="PurchaseFigComparision" description="IMPAL - PurchaseFigComparision" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Ordering/Listing/CustomerPOList.aspx" title="CustomerPOList" description="IMPAL - CustomerPOList" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/PurchaseOrderReprint.aspx" title="Purchase Order-Reprint" description="IMPAL - Purchase Order-Reprint" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/SupplimentaryOrdersForAutoGRN.aspx" title="Supplimentary Orders For AutoGRN" description="IMPAL - Supplimentary Orders For AutoGRN" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/DirectPurchaseOrderReprintHO.aspx" title="Purchase Order - HO - Reprint" description="IMPAL - Purchase Order - HO - Reprint" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/UltimateIndentOrdersPlaced.aspx" title="Ultimate Indent Orders Placed - Reprint" description="IMPAL - Ultimate Indent Orders Placed - Reprint" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/BulkUploadOrdersPlaced.aspx" title="Bulk Upload Orders Placed - Reprint" description="IMPAL - Bulk Upload Orders Placed - Reprint" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/PendingSTDNs.aspx" title="Pending STDNs at Branch" description="IMPAL - Pending STDNs at Branch" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Ordering/Listing/Rule11SalesReport.aspx" title="Rule-11 Sales Report" description="IMPAL - Rule-11 Sales Report" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <!--<siteMapNode url="~/Reports/Ordering/Listing/PurchaseOrderReprintCorp.aspx" title="Purchase Order-Reprint (CORP)" description="IMPAL - Purchase Order-Reprint  (CORP)" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Ordering/Listing/OrderLockedDetailsCorp.aspx" title="Order Locked Details (By Corp)" description="IMPAL - Order Locked Details (By Corp)" roles="ORDD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+        </siteMapNode>
+      </siteMapNode>
+
+      <!-- Reports Screens - Inventory Section -->
+      <siteMapNode url="" title="Inventory" description="IMPAL - Inventory" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <!--<siteMapNode url="~/Reports/Inventory/StockSheetList.aspx" title="Stock Sheet List" description="IMPAL - Stock Sheet List" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+        <siteMapNode url="~/Reports/Inventory/SupplyShortageRegister.aspx" title="Supplier Shortage Register" description="IMPAL - Supplier Shortage Register" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Inventory/EditItemsList.aspx" title="Edit List for Items Entered" description="IMPAL - Edit List for Items Entered" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Inventory/StockVariance.aspx" title="Stock Variance" description="IMPAL - Stock Variance" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Inventory/OpeningStock.aspx" title="Opening Stock" description="IMPAL - Opening Stock" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Inventory/GoodsInwardRegister.aspx" title="Goods Inward Register" description="IMPAL - Goods Inward Register" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Inventory/GoodsOutwardRegister.aspx" title="Goods Outward Register" description="IMPAL - Goods Outward Register" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <!--<siteMapNode url="~/Reports/Inventory/StockTransfer.aspx" title="Branch/Line - Stock Transfer" description="IMPAL - Branch/Line - Stock Transfer" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+        <siteMapNode url="~/Reports/Inventory/InventoryTagReport.aspx" title="Inventory Tag Report" description="IMPAL - Inventory Tag Report" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <!--<siteMapNode url="~/Reports/Inventory/AreaWiseStock.aspx" title="Zone/Branch/State/Age Full Stock" description="IMPAL - Zone/Branch/State/Age Full Stock" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+        <siteMapNode url="~/Reports/Inventory/EditListforTransaction.aspx" title="Edit List for Transaction" description="IMPAL - Edit List for Transaction" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Inventory/GRNeditlist.aspx" title="GRN Edit List" description="IMPAL - GRN Edit List" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <!--<siteMapNode url="~/Reports/Inventory/GoodsInTransit.aspx" title="Goods In Transit" description="IMPAL - Goods In Transit" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="" title="Aging" description="IMPAL - Aging" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Reports/Inventory/Aging/Part_Details.aspx" title="Part# Details" description="IMPAL - Part# Details" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Inventory/Aging/Part_summary.aspx" title="Part# Summary" description="IMPAL - Part# Summary" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Inventory/Aging/AllbranchesPartdetail.aspx" title="All Branches-Part# Detail" description="IMPAL - All Branches-Part# Detail" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>-->
+      </siteMapNode>
+
+      <!-- Reports Screens - Sales Section -->
+      <siteMapNode url="" title="Sales" description="IMPAL - Sales" roles="BEDP,BACC,BMGR,EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="" title="Sales Listing" description="IMPAL - Sales Listing" roles="BEDP,BMGR,BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Sales/SalesListing/Sales-LineWiseSales.aspx" title="Line wise sales" description="IMPAL - Line wise sales" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/Sales-LineWiseSalesNew.aspx" title="Line wise sales" description="IMPAL - Line wise sales" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/SalesEditList.aspx" title="Sales Edit List" description="IMPAL - Sales Edit List" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/DateWiseSalesValue.aspx" title="Date wise sales value" description="IMPAL - Date wise sales value" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/DateWiseSalesValueNew.aspx" title="Date wise sales value" description="IMPAL - Date wise sales value" roles="BEDP,BMGR,BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/CustomerLineInvoiceSales.aspx" title="Customer/Line/Invoice Sales" description="IMPAL - Customer/Line/Invoice Sales" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/SalesListing_Itemwise.aspx" title="Sales Listing(Item wise)" description="IMPAL - Sales Listing(Item wise)" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/SalesListing_Customerwise.aspx" title="Sales Listing(Customer wise)" description="IMPAL - Sales Listing(Customer wise)" roles="BMGR,BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Sales/SalesListing/ManualBills.aspx" title="Manual Bills" description="IMPAL - Manual Bills" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Sales/SalesListing/CancelledBills.aspx" title="Cancelled Bills" description="IMPAL - Cancelled Bills" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/LineWiseSales_Target.aspx" title="Line wise sales (Target)" description="IMPAL - Line wise sales (Target)" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/LineWiseSales_Target_Town.aspx" title="Line wise sales Town (Target)" description="IMPAL - Line wise sales Town (Target)" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/SalesManTargetComparison.aspx" title="Sales Man Target Sales Comparison" description="IMPAL - Sales Man Target Sales Comparison" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Sales/SalesListing/LRFDOSalesDetails.aspx" title="LR /FDO Sales details" description="IMPAL - LR /FDO Sales details" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <!--<siteMapNode url="~/Reports/Sales/SalesListing/ZoneBranchWeeklySales.aspx" title="Zone/Branch - Weekly sales" description="IMPAL - Zone/Branch - Weekly sales" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Sales/SalesListing/TargetSalesReport.aspx" title="Target sales report" description="IMPAL - Target sales report" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/STDNInwardOutward.aspx" title="STDN Inward/Outward" description="IMPAL - STDN Inward/Outward" roles="BEDP,BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesListing/BI_MaruthiSales.aspx" title="BI Maruthi Sales" description="IMPAL - BI Maruthi Sales" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="" title="Sales Analysis" description="IMPAL - Sales Analysis" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/LineWise.aspx" title="Line wise with Previous Year" description="IMPAL - Line wise with Previous Year" roles="BEDP,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/LineWiseNew.aspx" title="Line wise with Previous Year" description="IMPAL - Line wise with Previous Year" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/CustomerWise.aspx" title="Customer with Previous Year" description="IMPAL - Customer with Previous Year" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/TownWise.aspx" title="Town with Previous Year" description="IMPAL - Town with Previous Year" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/SalesManPerformance.aspx" title="Sales Man Performance" description="IMPAL - Sales Man Performance" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/SalesAnalysis.aspx" title="Sales Man Analysis" description="IMPAL - Sales Man Analysis" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/SeqSales.aspx" title="Sequential Sales" description="IMPAL - Sequential Sales" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/SalesManKRA.aspx" title="Salesman KRA" description="IMPAL - Salesman KRA" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/SalesManDealer.aspx" title="Salesman Dealer" description="IMPAL - Salesman Dealer" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/MonthlyVision.aspx" title="Monthly Vision" description="IMPAL - Monthly Vision" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Sales/SalesAnalysis/PartNoCoverage.aspx" title="Part Number Coverage" description="IMPAL - Part Number Coverage" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Sales/SalesAnalysis/MiniWorkSheet.aspx" title="Mini WorkSheet" description="IMPAL - Mini WorkSheet" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="" title="Sales Comparison" description="IMPAL - Sales Comparison" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Sales/Sales Comparison/LineWise.aspx" title="Line Wise" description="IMPAL - Line Wise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Comparison/LinewiseinQty.aspx" title="Line Wise in Quantity" description="IMPAL - Line Wise in Quantity" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Sales/Sales Comparison/ZoneWise.aspx" title="Zone Wise" description="IMPAL - Zone Wise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Comparison/StateWise.aspx" title="State Wise" description="IMPAL - State Wise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Sales/Sales Comparison/MonthWise.aspx" title="Month Wise" description="IMPAL - Month Wise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png" />
+          <!--<siteMapNode url="~/Reports/Sales/Sales Comparison/Cumulativecomparison.aspx" title="Cumulative(linewise)" description="IMPAL - Cumulative(linewise)" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Sales/Sales Comparison/TargetVsSales.aspx" title="Target Vs Sales" description="IMPAL - Target Vs Sales" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Comparison/Linewisetop20.aspx" title="LineWise-Top20" description="IMPAL - LineWise-Top20" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Comparison/Part_number_sales_details.aspx" title="Part# Sales Comparison" description="IMPAL - Part# Sales Comparison" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Sales/Sales Comparison/STU_Linewise.aspx" title="STU-LineWise" description="IMPAL - STU-LineWise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Comparison/STU_Partwise.aspx" title="STU-PartWise" description="IMPAL - STU-PartWise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+        </siteMapNode>
+
+        <siteMapNode url="" title="Sales Statement" description="IMPAL - Sales Statement" roles="BEDP,BACC,BMGR,EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Sales/Sales Statement/TDEDetails.aspx" title="Turnover Discount Eligibility Details" description="IMPAL - Turnover Discount Eligibility details" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/StockLedger.aspx" title="Stock Ledger" description="IMPAL - Stock Ledger" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/PartyDoc.aspx" title="Party/Document - Sales Offtake" description="IMPAL - Party/Document - Sales Offtake" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Sales/Sales Statement/BranchRanking.aspx" title="Branch Ranking" description="IMPAL - Branch Ranking" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Sales/Sales Statement/PickSlipRegister.aspx" title="Pick Slip Register" description="IMPAL - Pick Slip Register" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/HubBolt.aspx" title="Hub Bolt Sales Statement" description="IMPAL - Hub Bolt Sales Statement" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/SegmentLine.aspx" title="Segment/Line Sales Statement" description="IMPAL - Segment/Line Sales Statement" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/CreditNote.aspx" title="Credit Note - Linewise Detail" description="IMPAL - Credit Note - Linewise Detail" roles="BEDP,BACC,EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/SalesInvoiceReprint.aspx" title="Sales Invoice - Reprint" description="IMPAL - Sales Invoice - Reprint" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/SalesInvoiceReprintOld.aspx" title="Sales Invoice Old - Reprint" description="IMPAL - Sales Invoice Old - Reprint" roles="BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/ProformaInvoiceReprint.aspx" title="Proforma Invoice - Reprint" description="IMPAL - Proforma Invoice - Reprint" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/ORCStatement.aspx" title="ORC Statement" description="IMPAL - ORC Statement" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/SaleValueAging.aspx" title="Sale Value-Aging" description="IMPAL - Sale Value-Aging" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/TurnoverDiscount.aspx" title="Turnover Discount - PartNo Wise" description="IMPAL - Turnover Discount Eligibility Details" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/TODSales.aspx" title="SFL TOD Sales" description="IMPAL - SFL TOD Sales" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Sales/Sales Statement/SegmentTODSales.aspx" title="Segmentwise TOD Sales" description="IMPAL - Segmentwise TOD Sales" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <!-- Reports Screens - Finance Section -->
+      <siteMapNode url="" title="Finance" description="IMPAL - Finance" roles="BACC,BMGR,CORR,CORA,ADMN,HISD,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="" title="Accounts Receivable" description="IMPAL - Accounts Receivable" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Finance/Account Receivable/OutstandingPercentage.aspx" title="Outstanding Percentage(Branch)" description="IMPAL - Outstanding Percentage(Branch)" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Account Receivable/FDNregister.aspx" title="FDN Register" description="IMPAL - FDN Register" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Account Receivable/SalesJournal.aspx" title="Sales Journal" description="IMPAL - Sales Journal" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Account Receivable/SalesJournalGST.aspx" title="Sales Journal - GST" description="IMPAL - Sales Journal - GST" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Account Receivable/StockMonthlyStatement.aspx" title="Stock/Debtors Monthly Statement" description="IMPAL - Stock/Debtors Monthly Statement" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Account Receivable/OutstandingPercentageTown.aspx" title="Outstanding Percentage(Town)" description="IMPAL - Outstanding Percentage(Town)" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Finance/Account Receivable/SalesBreakup.aspx" title="Sales Breakup" description="IMPAL - Sales Breakup" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Finance/Account Receivable/PaymentPattern.aspx" title="Payment Pattern" description="IMPAL - Payment Pattern" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="" title="Accounts Payable" description="IMPAL - Accounts Payable" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Finance/Accounts Payable/LocalPayments.aspx" title="Local Payments" description="IMPAL - Local Payments" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Accounts Payable/PurchaseJournal.aspx" title="Purchase Journal" description="IMPAL - Purchase Journal" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Accounts Payable/PurchaseJournalGST.aspx" title="Purchase Journal - GST" description="IMPAL - Purchase Journal - GST" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Accounts Payable/PurchaseBreak.aspx" title="Purchase Break" description="IMPAL - Purchase Break" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Accounts Payable/HoPaymentReport.aspx" title="Payment Advice - Report" description="IMPAL - Payment Advice" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="" title="Sales Tax" description="IMPAL - Sales Tax" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Finance/SalesTax/GSTreports.aspx" title="Sales Tax - GST - Reports" description="IMPAL - Sales Tax - GST - Reports" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/Listing.aspx" title="Sales Tax Listing" description="IMPAL - Sales Tax Listing" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/ListingGST.aspx" title="Sales Tax Listing - GST" description="IMPAL - Sales Tax Listing - GST" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/Summary.aspx" title="Sales Tax Summary" description="IMPAL - Sales Tax Summary" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/SummaryGST.aspx" title="Sales Tax Summary - GST" description="IMPAL - Sales Tax Summary - GST" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Finance/SalesTax/InterStateCustomer.aspx" title="Inter State Sales - Customer Wise" description="IMPAL - Inter State Sales - Customer Wise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/Register.aspx" title="Register Under Sec 6(2)(b)" description="IMPAL - Register Under Sec 6(2)(b)" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/CFormSupplier.aspx" title="CForm-Supplier Wise" description="IMPAL - CForm-Supplier Wise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/CFormSupplierNew.aspx" title="CForm-Supplier Wise-New" description="IMPAL - CForm-Supplier Wise - New" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/CFormCustomer.aspx" title="CForm-Customer Wise" description="IMPAL - CForm-Customer Wise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/AnnexureE1.aspx" title="Annexure to E1 Form" description="IMPAL - Annexure To E1 Form" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/CFormSummary.aspx" title="Summary for CForm Annexure" description="IMPAL - Summary for CForm Annexure" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Finance/SalesTax/InterStatePurchase.aspx" title="Inter State Purchase" description="IMPAL - Inter State Purchase" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/LocalStatePurchase.aspx" title="Local State Purchase" description="IMPAL - Local State Purchase" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Finance/SalesTax/LocalStatePurchaseTax.aspx" title="Local State Purchase Tax" description="IMPAL - Local State Purchase Tax" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Finance/SalesTax/STUDepotForm.aspx" title="STU Depot D Form Register" description="IMPAL - STU Depot D Form Register" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Finance/SalesTax/FormPendingPosition.aspx" title="Form Pending Position" description="IMPAL - Form Pending Position" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/FormSalesSummary.aspx" title="Summary of Form Sales" description="IMPAL - Summary of Form Sales" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Finance/SalesTax/PurchaseReportSummary.aspx" title="Purchase Report Summary" description="IMPAL - Purchase Report Summary" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/POTaxListing.aspx" title="PO Tax Listing" description="IMPAL - PO Tax Listing" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/SalesTax/POTaxSummary.aspx" title="PO Tax Summary" description="IMPAL - PO Tax Summary" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="" title="Cash and Bank" description="IMPAL - Cash and Bank" roles="BACC,CORR,CORA,ADMN" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/CashDiscountAllowed.aspx" title="Cash Discount Allowed" description="Cash Discount Allowed" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/ClassifiedOutstanding.aspx" title="Classified Outstanding" description="Classified Outstanding" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/ClassifiedOutstandingBackUp.aspx" title="Classified Outstanding" description="Classified Outstanding" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/CollectionAging.aspx" title="Collection Aging" description="Collection Aging" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/LiabilityList_Branchwise.aspx" title="Liability List-Branch wise" description="Liability List-Branch wise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/LiabilityList_Supplierwise.aspx" title="Liability List-Supplier wise" description="Liability List-Supplier wise" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/CashBook.aspx" title="Cash Book" description="Cash Book" roles="BACC,CORR,CORA" ShowMenu="true"  ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/ChequeDishonouredStatement.aspx" title="Cheque Dishonoured Statement" description="Cheque Dishonoured Statement" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Finance/Cash and Bank/PettyCashRegister.aspx" title="Petty Cash Register" description="IMPAL - Petty Cash Register" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/BankChallan.aspx" title="Bank Challan" description="IMPAL - Bank Challan" roles="BACC,CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/DailyReport.aspx" title="Daily Report" description="IMPAL - Daily Report" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/CollectionReport.aspx" title="Collection Report" description="IMPAL - Collection Report" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/TravellingExpenses.aspx" title="Travelling Expenses" description="IMPAL - Travelling Expenses" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/FundsRemittanceStmt.aspx" title="Funds Remittance Statement" description="IMPAL - Funds Remittance Statement" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Finance/Cash and Bank/FundsTransfer.aspx" title="Funds Transfer" description="IMPAL - Funds Transfer" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/MonthEndOS.aspx" title="MonthEnd OS%" description="IMPAL - MonthEnd OS%" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/VendorBookingDetails.aspx" title="Vendor Booking Details" description="Vendor Booking Details" roles="BACC,CORR,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/NEFTdetailsHO.aspx" title="NEFT Details" description="NEFT Details" roles="CORR,CORA,ADMN" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/PDCRegisterReport.aspx" title="PDC Register Report" description="PDC Register Report" roles="BACC,CORA,ADMN" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Cash and Bank/TempReceiptsBmApp.aspx" title="Temp Receipts Details - APP" description="Temp Receipts Details - APP" roles="BACC,CORA" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="" title="Stock" description="IMPAL -Stock" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Finance/Stock/InwardInsuranceStatement.aspx" title="Inward Ins/Non-Ins Statement" description="Inward Insurance/Non-Insurance Statement" roles="BACC" ShowMenu="true"  ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Stock/GoodsClearedStatement.aspx" title="Goods Clr/Un-Clr Statement" description="Goods Cleared/Un-Cleared Statement" roles="BACC" ShowMenu="true"  ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Stock/StockTransferInward.aspx" title="Stock Transfer Inward Journal" description="Stock Transfer Inward Journal" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Stock/StockTransferOutward.aspx" title="Stock Transfer Outward Journal" description="Stock Transfer Outward Journal" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+        <!--<siteMapNode url="" title="Fixed Assets" description="IMPAL -Fixed Assets" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Finance/Fixed Assets/FixedAssetsSchedule.aspx" title="Fixed Assets Schedule" description="IMPAL - Fixed Assets Schedule" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Fixed Assets/FixedAssetsRegister.aspx" title="Fixed Assets Register" description="IMPAL - Fixed Assets Register" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Fixed Assets/SalesOfFixedAssets.aspx" title="Sales of Fixed Assets" description="IMPAL - Sales of Fixed Assets" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Fixed Assets/TransferofFixedAssets.aspx" title="Transfer of Fixed Assets" description="IMPAL - Transfer of Fixed Assets" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/Fixed Assets/VehicleMaintenenceStatement.aspx" title="Vehicle Maintenance Stat" description="IMPAL - Vehicle Maintenance Statement" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>-->
+
+        <siteMapNode url="" title="General Ledger" description="IMPAL - General Ledger" roles="BACC,BMGR,CORR,CORA,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Finance/General Ledger/TrialBalance.aspx" title="Trial Balance" description="IMPAL - Trial Balance" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/OpeningBalance.aspx" title="Opening Balance" description="IMPAL - Opening Balance" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/GeneralLedger.aspx" title="General Ledger - Live" description="IMPAL - General Ledger - Live" roles="" ShowMenu="false" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/GeneralLedgerBackUp.aspx" title="General Ledger" description="IMPAL - General Ledger" roles="BACC,CORR,CORA,UISD,HISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/BranchReconcilation.aspx" title="Branch Reconcilation" description="IMPAL - Branch Reconcilation" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/SupplierReconciliation.aspx" title="Supplier Wise Inv Recon" description="IMPAL - Supplier Wise Invoice Reconciliation" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <!--<siteMapNode url="~/Reports/Finance/General Ledger/DebitCreditAdviceRegister.aspx" title="Debit/Credit Advice Register" description="IMPAL - Debit/Credit Advice Register" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/BudgetVariance.aspx" title="Budget Variance" description="IMPAL - Budget Variance" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+          <siteMapNode url="~/Reports/Finance/General Ledger/DebitCreditNote.aspx" title="Debit Credit Note" description="IMPAL - Debit Credit Note" roles="BACC,CORR,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/DebitCreditNoteNew.aspx" title="Debit Credit Note with QR" description="IMPAL - Debit Credit Note  with QR" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/ShortageDebitNote.aspx" title="Supplier Shortage Debit Note" description="IMPAL - Supplier Shortage Debit Note" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/ShortageDebitNoteRegister.aspx" title="Supplier Shortage Register" description="IMPAL - Supplier Shortage Register" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/DebitCreditAdvice.aspx" title="Debit Credit Advice" description="IMPAL - Debit Credit Advice" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/JournalVoucherRegister.aspx" title="Journal Voucher Register" description="IMPAL - Journal Voucher Register" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/StatementOfAccount.aspx" title="Statement Of Account - PrePrint" description="IMPAL - Statement Of Account - PrePrint" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/StatementOfAccountA4.aspx" title="Statement Of Account - A4" description="IMPAL - Statement Of Account - A4" roles="BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/StatementOfAccountMailsHO.aspx" title="Statement Of Account - Mails" description="IMPAL - Statement Of Account - Mails" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/ConfirmationBalance.aspx" title="Confirmation of Balance" description="IMPAL - Confirmation of Balance" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/PendingBills.aspx" title="List Of Pending Bills" description="IMPAL - List Of Pending Bills" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/ProfitLoss.aspx" title="Profit and Loss" description="IMPAL - Profit and Loss" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/BalanceSheet.aspx" title="Balance Sheet" description="IMPAL - Balance Sheet" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/CashDiscountReprint.aspx" title="Cash Discount Reprint" description="IMPAL - Cash Discount" roles="BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/SalesInvoiceValueCheck.aspx" title="Sales Invoice - Check with GL" description="IMPAL - Sales Invoice - Check with GL" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/General Ledger/GRNValueCheck.aspx" title="GRN Value - Check with GL" description="IMPAL - GRN Value - Check with GL" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="" title="GST Reports" description="IMPAL - GST Reports" roles="BACC,CORR,CORA,HISD,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/Reports/Finance/GST Reports/GSTInwardRegister.aspx" title="GST Inward Register" description="IMPAL - GST Inward Register" roles="BACC,CORR,CORA,HISD,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="~/Reports/Finance/GST Reports/GSTOutwardRegister.aspx" title="GST Outward Register" description="IMPAL - GST Outward Register" roles="BACC,CORR,CORA,HISD,UISD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <!-- Reports Screens - SLB Section CFormSummary-->
+      <!--<siteMapNode url="" title="SLB" description="IMPAL - SLB" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Reports/SLB/cost_slb_gpworking.aspx" title="COST/SLB/GP Working" description="IMPAL - COST/SLB/GP Working" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/SLB/slb_structure_summary.aspx" title="SLB Structure-Summary" description="IMPAL - SLB Structure-Summary" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/SLB/slb_structure_detail.aspx" title="SLB Structure-Detail" description="IMPAL - SLB Structure-Detail" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/SLB/slbwithtod_gpdetails.aspx" title="SLB with TOD and GP Details" description="IMPAL - SLB with TOD and GP Details" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/SLB/gpstatementforlines.aspx" title="GP Statement for selected lines" description="IMPAL - GP Statement for selected lines" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/SLB/ipl-depotbilling.aspx" title="IPL Depot Billing" description="IMPAL - IPL Depot Billing" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/SLB/spltod-approval.aspx" title="Special TOD approval Format" description="IMPAL - Special TOD approval Format" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+
+      <!-- Reports Screens - Gross Profit Section -->
+      <siteMapNode url="" title="Gross Profit" description="IMPAL - Gross Profit" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Reports/Gross Profit/Cumulative.aspx" title="Cumulative" description="IMPAL - Cumulative" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Gross Profit/Monthly.aspx" title="Monthly" description="IMPAL - Monthly" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <!--<siteMapNode url="~/Reports/Gross Profit/BeforeCN.aspx" title="Before CN" description="IMPAL - Before CN" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Gross Profit/AfterCN.aspx" title="After CN" description="IMPAL - After CN" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Gross Profit/AfterCN_Summary.aspx" title="After CN(Summary)" description="IMPAL - After CN(Summary)" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Gross Profit/TrialBalance.aspx" title="Trial Balance" description="IMPAL - Trial Balance" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+      </siteMapNode>
+
+      <siteMapNode url="" title="Miscellaneous" description="IMPAL - Miscellaneous" roles="BMGR,BEDP,BACC,EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Reports/Miscellaneous/Miscellaneous.aspx" title="Miscellaneous" description="IMPAL - Miscellaneous" roles="BMGR,BEDP,BACC,EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Miscellaneous/DealerCountDetails.aspx" title="Customer Master - New" description="IMPAL - Customer Master - New" roles="BMGR,BACC,BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Miscellaneous/NewSegmentSales.aspx" title="New Segment Sales" description="IMPAL - New Segment Sales" roles="BEDP" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Miscellaneous/StockLedger.aspx" title="Stock Ledger" description="IMPAL - Stock Ledger" roles="BEDP,BACC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <!--<siteMapNode url="" title="Stock" description="IMPAL - Stock" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="" title="Worksheet" description="IMPAL - Worksheet" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="" title="Stock Value" description="IMPAL - Stock Value" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="" title="Stock List" description="IMPAL - Stock List" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="" title="Stock" description="IMPAL - Stock" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="" title="Worksheet" description="IMPAL - Worksheet" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="" title="Stock Value" description="IMPAL - Stock Value" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          <siteMapNode url="" title="Stock List" description="IMPAL - Stock List" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        </siteMapNode>-->
+
+
+      <!-- Reports Screens - Insurance Section -->
+      <!--<siteMapNode url="" title="Insurance" description="IMPAL - Insurance" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Reports/Insurance/InwardPending.aspx" title="Inward-Pending" description="IMPAL - Inward-Pending" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Insurance/InwardSupplier.aspx" title="Inward(Supplier)" description="IMPAL - Inward(Supplier)" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Insurance/OutwardCoveringLetter.aspx" title="Outward Covering Letter" description="IMPAL - Outward Covering Letter" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Insurance/CreditAdvice.aspx" title="Credit Advice" description="IMPAL - Credit Advice" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Insurance/CoveringLetterForCA.aspx" title="Covering Letter For CA" description="IMPAL - Covering Letter For CA" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Insurance/ClaimClassification.aspx" title="Claim Classification" description="IMPAL - Claim Classification" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+
+      <!-- Reports Screens - Cyber WH Section -->
+      <!--<siteMapNode url="" title="Cyber WH" description="IMPAL - Cyber WH" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Reports/Cyber WH/BranchTransferRequest.aspx" title="Branch Transfer Request" description="IMPAL - Branch Transfer Request" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Reports/Cyber WH/MissedOrder.aspx" title="Missed Order" description="IMPAL - Missed Order" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+
+      <!--<siteMapNode url="~/Reports/Cyber WH/ExcessFreight.aspx" title="Excess Freight" description="IMPAL - Excess Freight" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">-->
+      <!--<siteMapNode url="" title="Stock" description="IMPAL - Stock" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+            <siteMapNode url="" title="Worksheet" description="IMPAL - Worksheet" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+            <siteMapNode url="" title="Stock Value" description="IMPAL - Stock Value" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+            <siteMapNode url="" title="Stock List" description="IMPAL - Stock List" roles="BEDP,BACC,BMGR" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          </siteMapNode>-->
+      <!--<siteMapNode url="~/Reports/NoSTDNReq/HOTransferRequest.aspx" title="HO STDN Req" description="IMPAL - HO STDN Req" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+    </siteMapNode>
+
+    <!-- Dashboard Screens -->
+    <!--<siteMapNode url="" title="DashBoard"  description="IMPAL - DashBoard" roles="" ShowMenu="true" ImageUrl="~/images/iRepor.png" BigImageUrl="~/images/iRepor.png">
+      <siteMapNode url="" title="Sales DashBoard" description="IMPAL - Sales DashBoard" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Dashboard/SalesDashboard/SalesbyBranch.aspx" title="Sales By Branch" description="IMPAL - Sales by Branch" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/SalesDashboard/SalesbyLine.aspx" title="Sales By Line" description="IMPAL - Sales by Line" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/SalesDashboard/SalesbySegment.aspx" title="Sales By Segment" description="IMPAL - Sales by Segment" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Finance DashBoard" description="IMPAL - Finance DashBoard" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Dashboard/FinanceDashboard/GrossProfit.aspx" title="Gross Profit" description="IMPAL - GrossProfit" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/FinanceDashboard/Class_OS_MonthWise_AgePercentageWise.aspx" title="Classification of Outstanding MonthWise - Age/Percenatge Wise" description="IMPAL - Classification of Outstanding MonthWise - Age/Percenatge Wise" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/FinanceDashboard/NoOfDaysSameOS.aspx" title="Same month O/S divided by Same month Sales based on number of days" description="IMPAL - Same month O/S divided by Same month Sales based on number of days" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/FinanceDashboard/OSGovtTrans.aspx" title="Government/Transport undertaking outstandings" description="IMPAL - GOVERNMENT / TRANSPORT UNDERTAKINGS OUTSTANDING" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/FinanceDashboard/Outstanabove2Lh.aspx" title="List of dealers  and  STU With O/S " description="IMPAL - LIST OF DEALERS  / STU'S WITH O/S " roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/FinanceDashboard/OutStandIndus.aspx" title="Industrial dealers outstanding" description="IMPAL - INDUSTRIAL DEALERS OUTSTANDING " roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/FinanceDashboard/DailyReport.aspx" title="Daily Report" description="IMPAL - Finance Daily Report " roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/FinanceDashboard/Collection_Outstanding.aspx" title="Classification and Outstanding" description="IMPAL - Classification and Outstanding" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/FinanceDashboard/MonthEnd_Collection.aspx" title="MonthEnd Collection" description="IMPAL - MonthEnd Collection" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Dashboard/FinanceDashboard/OutStandingDetailsList.aspx" title="OutStandingAbove90and180" description="IMPAL - OutStandingAbove90and180" roles="EXEC" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>-->
+
+    <!--<siteMapNode url="" title="MIS Report"  description="IMPAL - MIS Report" roles="MD" ShowMenu="true" ImageUrl="~/images/iRepor.png" BigImageUrl="~/images/iRepor.png">
+      <siteMapNode url="" title="Spare Parts" description="SpareParts" roles="MD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="" title="Current Month" description="Current Month" roles="MD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+          <siteMapNode url="~/MIS/SpareParts/CurMonSalesBR_MD.aspx" title="Branchwise Sales" description="IMPAL - Branchwise Sales" roles="MD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+          -->
+    <!--<siteMapNode url="~/MIS/SpareParts/SalesbyBranch.aspx" title="Linewise Sales" description="IMPAL - Linewise Sales" roles="MD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+				  <siteMapNode url="~/MIS/SpareParts/SalesbyBranch.aspx" title="Statewise Sales" description="IMPAL - Statewise Sales" roles="MD" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+    <!--
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>-->
+
+    <!-- SysAdmin Screens -->
+    <siteMapNode url="" title="SysAdmin"  description="IMPAL - SysAdmin" roles="" ShowMenu="true" ImageUrl="~/images/iSysA.png" BigImageUrl="~/images/iSysA.png">
+      <!--<siteMapNode url="" title="Security" description="IMPAL - Security" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Security/ResetPassword.aspx" title="Reset Password" description="IMPAL - Reset Password" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Security/ChangePassword.aspx" title="Change Password" description="IMPAL - Change Password" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Security/Parameter.aspx" title="Parameter" description="IMPAL - Parameter" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Security/Users.aspx" title="Users" description="IMPAL - Users" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Security/Roles.aspx" title="Roles" description="IMPAL - Roles" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      </siteMapNode>-->
+      <siteMapNode url="" title="Transfer" description="IMPAL - Transfer" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png">
+        <siteMapNode url="~/Transfer/Download.aspx" title="Download" description="IMPAL - Download" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/DownloadAllBranch.aspx" title="Download - All Branches" description="IMPAL - Download - All Branches" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/Upload.aspx" title="Upload" description="IMPAL - Upload" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/UploadOrder.aspx" title="Upload - HO Order" description="IMPAL - Upload - HO Order" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/UploadPayment.aspx" title="Upload - Payment" description="IMPAL - Upload [Payment]" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <!--<siteMapNode url="~/Transfer/UploadWorkSheet.aspx" title="Upload WorkSheet" description="IMPAL - Upload WorkSheet" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/DownloadPayment.aspx" title="Download - Payment" description="IMPAL - Download [Payment]" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/UploadPaymentCOR.aspx" title="Upload - Payment HO" description="IMPAL - Upload [Payment HO]" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/DownloadToBranch.aspx" title="Download - Branch" description="IMPAL - Download" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/DownloadnewCRP.aspx" title="Download New (CRP)" description="IMPAL - Download New (CRP)" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/SupplimentaryUpload.aspx" title="Supplimentary Upload" description="IMPAL - Supplimentary Upload" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+        <siteMapNode url="~/Transfer/ExcelUpload.aspx" title="Excel Upload" description="IMPAL - Excel Upload" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+      </siteMapNode>
+      <!--<siteMapNode url="~/SysAdmin/Backup.aspx" title="BackUp" description="IMPAL - BackUp" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>
+      <siteMapNode url="~/SysAdmin/Restore.aspx" title="Restore" description="IMPAL - Restore" roles="" ShowMenu="true" ImageUrl="~/images/ilink.png" BigImageUrl="~/images/ilink.png"></siteMapNode>-->
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,1532 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--This is used to populate the aging dropdown in the StockList-Branches page in Ordering-->
+<root>
+  <rootnode Type="Time" >
+    <rootitem Value=" " Description=" " >  </rootitem>
+    <rootitem Value="0" Description="&lt;4 Weeks" >  </rootitem>
+    <rootitem Value="1" Description="4-6 Weeks" > </rootitem>
+    <rootitem Value="2" Description="6-8 Weeks">  </rootitem>
+    <rootitem Value="3" Description="8-12 Weeks"> </rootitem>
+    <rootitem Value="4" Description="12-24 Weeks"> </rootitem>
+    <rootitem Value="5" Description="&gt;24 Weeks">  </rootitem>
+    <rootitem Value="6" Description="6-12 Months"> </rootitem>
+    <rootitem Value="7" Description="12-24 Months"> </rootitem>
+    <rootitem Value="8" Description="&gt;24 Months"> </rootitem>
+  </rootnode>
+
+  <rootnode Type="DirectPurchaseOrder">
+    <!--<rootitem Value="201" Description="G R N" />-->
+    <rootitem Value="202" Description="SUPPLIMENTARY" />
+    <!--<rootitem Value="451" Description="INDENT-HEX/LUCAS/SOCKET" />-->
+    <!--<rootitem Value="452" Description="INDENT-STU" />-->
+    <!--<rootitem Value="451" Description="INDENT" />-->
+  </rootnode>
+
+  <rootnode Type="DirectPurchaseOrderHexSocket">
+    <rootitem Value="0" Description="" />
+    <rootitem Value="320" Description="320-SUNDRAM FASTENERS LIMITED" />
+    <rootitem Value="330" Description="330-LUCAS -TVS" />
+    <rootitem Value="410" Description="410-SUNDRAM FASTENERS LIMITED" />
+  </rootnode>
+
+  <rootnode Type="List">
+    <rootitem Value="0" Description="Stock List - A4" />
+    <rootitem Value="1" Description="Stock List" />
+    <rootitem Value="2" Description="Segment Stock List"/>
+    <rootitem Value="3" Description="PartNo Aging"/>
+    <!--<rootitem Value="1" Description="Price List"/>
+    <rootitem Value="2" Description="Salesman Price list" />
+    <rootitem Value="3" Description="Stock List2" />    
+    <rootitem Value="4" Description="Stocklist Segment" />
+    <rootitem Value="5" Description="BI Stock List" />-->
+  </rootnode>
+
+  <rootnode Type="ListMGT">
+    <rootitem Value="0" Description="Stock List - A4" />
+    <rootitem Value="1" Description="Stock List" />
+    <rootitem Value="2" Description="Segment Stock List"/>
+    <rootitem Value="3" Description="PartNo Aging"/>
+    <rootitem Value="4" Description="Segment Stock List - JLN"/>
+    <rootitem Value="5" Description="Segment Stock List - UKD"/>
+    <!--<rootitem Value="1" Description="Price List"/>
+    <rootitem Value="2" Description="Salesman Price list" />
+    <rootitem Value="3" Description="Stock List2" />    
+    <rootitem Value="4" Description="Stocklist Segment" />
+    <rootitem Value="5" Description="BI Stock List" />-->
+  </rootnode>
+
+  <rootnode Type="LinewWiseTargetMGT">
+    <rootitem Value="0" Description="0" />
+    <rootitem Value="[7001,11913]" Description="DELHI WHOLE SALE - MGT" />
+    <rootitem Value="[7002,7015,12230]" Description="DELHI RETAIL - MGT" />
+    <rootitem Value="[7005,7008,7010,7012,7013,7014,11855]" Description="DELHI- GURGAON - MGT" />
+    <rootitem Value="[12852,11464,11465,11583,11584,11585,11623]" Description="DELHI- WESTREN UP - MGT" />
+    <rootitem Value="[11821,11822,11823,11833,11824,11825,11826,11827,11828,11829,11831,11832,11834,11835,11836,11837,11838,11839,11840,11841,11846,11847,11848,11849]" Description="DELHI-HALDWANI - MGT" />
+    <rootitem Value="[12852,7001,7002,7005,7008,7010,7012,7013,7014,7015,11464,11465,11583,11584,11585,11623,11821,11822,11823,11833,11824,11825,11826,11827,11828,11829,11831,11832,11834,11835,11836,11837,11838,11839,11840,11841,11846,11847,11848,11849,11855,11913,12230]" Description="DAILY REPORTS ALL TOWNS - MGT" />
+  </rootnode>
+
+  <rootnode Type="ListGST">
+    <rootitem Value="0" Description="Stock List(Others)" />
+    <rootitem Value="1" Description="Stock List(160,220,390)" />
+  </rootnode>
+
+  <rootnode Type="Ordering_Reports">
+    <rootitem Value="Order Process Query" Description="Order Process Query" />
+    <rootitem Value="Daily Vision Report" Description="Daily Vision Report" />
+    <rootitem Value="Full Stock List Aging Qty" Description="Full Stock List Aging Qty" />
+    <rootitem Value="Credit Note Details" Description="Credit Note Details" />
+    <rootitem Value="BI Focus Sales Summary Report" Description="BI Focus Sales Summary Report" />
+    <rootitem Value="Gogo Combo Kits Sales Summary Report" Description="Gogo Combo Kits Sales Summary Report" />
+    <rootitem Value="Contitech Sales Summary Report" Description="Contitech Sales Summary Report" />
+    <rootitem Value="BI Air Brake Parts Sales Summary Report" Description="BI Air Brake Parts Sales Summary Report" />
+    <rootitem Value="Ceekay Sales Summary Report" Description="Ceekay Sales Summary Report" />
+    <rootitem Value="MEI Sales Summary Report" Description="MEI Sales Summary Report" />
+    <rootitem Value="BI Rotor Sales Summary Report" Description="BI Rotor Sales Summary Report" />
+    <rootitem Value="BI Coolant Sales Summary Report" Description="BI Coolant Sales Summary Report" />
+    <rootitem Value="ABI Blue Sales Summary Report" Description="Abi Blue Sales Summary Report" />
+    <rootitem Value="Contitech Sales Summary Report" Description="Contitech Sales Summary Report" />
+    <rootitem Value="Motul Sales Summary Report" Description="Motul Sales Summary Report" />
+    <rootitem Value="Bi Strg Fluid Sales Summary Report" Description="Bi Strg Fluid Sales Summary Report" />
+    <rootitem Value="Valeo Wiper Sales Summary Report" Description="Valeo Wiper Sales Summary Report" />
+    <rootitem Value="Flat Blade Sales Summary Report" Description="Flat Blade Sales Summary Report" />
+    <rootitem Value="Gogo PS Sales Stock Quantity" Description="Gogo PS Sales Stock Quantity" />
+    <rootitem Value="SF Spl Part Nos Sales Stock Quantity" Description="SF Spl Part Nos Sales Stock Quantity" />
+    <rootitem Value="BI Focus Sales Stock Quantity" Description="BI Focus Sales Stock Quantity" />
+    <rootitem Value="Valeo Wiper Sales Stock Quantity" Description="Valeo Wiper Sales Stock Quantity" />
+    <rootitem Value="Gogo GCK Sales Stock Quantity" Description="Gogo GCK Sales Stock Quantity" />
+    <rootitem Value="Flat Blade Sales Stock Quantity" Description="Flat Blade Sales Stock Quantity" />
+    <rootitem Value="BI Air Brake Sales Stock Quantity" Description="BI Air Brake Sales Stock Quantity" />
+    <rootitem Value="BI Rotor Sales Stock Quantity" Description="BI Rotor Sales Stock Quantity" />
+    <rootitem Value="Typewise Order Placed Reports" Description="Typewise Order Placed Reports" />
+    <rootitem Value="Full Stock List Inward Date" Description="Full Stock List Inward Date" />
+    <rootitem Value="Linewise Daily Inward Details" Description="Linewise Daily Inward Details" />
+    <rootitem Value="Daily_Monitor_Abv_One_year" Description="Daily_Monitor_Abv_One_year" />
+    <rootitem Value="Daily_Monitor_Abv_6_Months" Description="Daily_Monitor_Abv_6_Months" />
+    <rootitem Value="Stdn_Surplus_Aging" Description="Stdn_Surplus_Aging" />
+    <rootitem Value="Supplier_Surplus_Aging" Description="Supplier_Surplus_Aging" />
+    <rootitem Value="Samco Sales Summary Report" Description="Samco Sales Summary Report" />
+    <rootitem Value="Samco Sales Stock Quantity" Description="Samco Sales Stock Quantity" />
+    <rootitem Value="3M Sales Summary Report" Description="3M Sales Summary Report" />
+    <rootitem Value="Motherson Cables Sales Summary Report" Description="Motherson Cables Sales Summary Report" />
+    <rootitem Value="Motherson ORVM Sales Summary Report" Description="Motherson ORVM Sales Summary Report" />
+    <rootitem Value="Motherson Lighting Sales Summary Report" Description="Motherson Lighting Sales Summary Report" />
+    <rootitem Value="3M Sales Stock Quantity" Description="3M Sales Stock Quantity" />
+    <rootitem Value="Purchase Return Report" Description="Purchase Return Report" />
+    <rootitem Value="Valeo Vision Report" Description="Valeo Vision Report" />
+    <rootitem Value="Valeo Clutches Stock Quantity" Description="Valeo Clutches Stock Quantity" />
+    <rootitem Value="Monthly Inward Register" Description="Monthly Inward Register" />
+    <rootitem Value="HO Edit List" Description="HO Edit List" />
+    <rootitem Value="Motul Vision Report" Description="Motul Vision Report" />
+    <rootitem Value="Motul Sales Stock Quantity" Description="Motul Sales Stock Quantity" />
+    <rootitem Value="EPO Stock List" Description="EPO Stock List" />
+    <rootitem Value="CONTITECH PART NOS REPORT" Description="CONTITECH PART NOS REPORT" />
+    <rootitem Value="Stock Aging Inward Stdn Report" Description="Stock Aging Inward Stdn Report" />
+    <rootitem Value="BI Friction Sales Value" Description="BI Friction Sales Value" />
+    <rootitem Value="BI Non Friction Sales Value" Description="BI Non Friction Sales Value" />
+    <rootitem Value="Pending Order Report" Description="Pending Order Report" />
+    <rootitem Value="Order Process Detail Report" Description="Order Process Detail Report" />
+    <rootitem Value="BI Target Vision Report" Description="BI Target Vision Report" />
+    <rootitem Value="Credit Note Value" Description="Credit Note Value" />
+    <rootitem Value="Stock In Transit Report" Description="Stock In Transit Report" />
+
+
+  </rootnode>
+
+  <rootnode Type="Inventory_Reports">
+    <rootitem Value="InventoryReport1" Description="Inventory Report1" />
+    <rootitem Value="InventoryReport2" Description="Inventory Report2" />
+    <rootitem Value="InventoryReport3" Description="Inventory Report3" />
+    <rootitem Value="InventoryReport4" Description="Inventory Report4" />
+    <rootitem Value="InventoryReport5" Description="Inventory Report5" />
+    <rootitem Value="InventoryReport6" Description="Inventory Report6" />
+    <rootitem Value="InventoryReport7" Description="Inventory Report7" />
+    <rootitem Value="InventoryReport8" Description="Inventory Report8" />
+    <rootitem Value="InventoryReport9" Description="Inventory Report9" />
+    <rootitem Value="InventoryReport10" Description="Inventory Report10" />
+    <rootitem Value="InventoryReport11" Description="Inventory Report11" />
+    <rootitem Value="InventoryReport12" Description="Inventory Report12" />
+    <rootitem Value="InventoryReport13" Description="Inventory Report13" />
+    <rootitem Value="InventoryReport14" Description="Inventory Report14" />
+    <rootitem Value="InventoryReport15" Description="Inventory Report15" />
+    <rootitem Value="InventoryReport16" Description="Inventory Report16" />
+    <rootitem Value="InventoryReport17" Description="Inventory Report17" />
+    <rootitem Value="InventoryReport18" Description="Inventory Report18" />
+    <rootitem Value="InventoryReport19" Description="Inventory Report19" />
+    <rootitem Value="InventoryReport20" Description="Inventory Report20" />
+  </rootnode>
+
+  <rootnode Type="Miscellaneous-Reports-HO">
+    <rootitem Value="MiscellaneousReport1" Description="Miscellaneous Report1" />
+    <rootitem Value="MiscellaneousReport2" Description="Miscellaneous Report2" />
+    <rootitem Value="MiscellaneousReport3" Description="Miscellaneous Report3" />
+    <rootitem Value="MiscellaneousReport4" Description="Miscellaneous Report4" />
+    <rootitem Value="MiscellaneousReport5" Description="Miscellaneous Report5" />
+    <rootitem Value="MiscellaneousReport6" Description="Miscellaneous Report6" />
+    <rootitem Value="MiscellaneousReport7" Description="Miscellaneous Report7" />
+    <rootitem Value="MiscellaneousReport8" Description="Miscellaneous Report8" />
+    <rootitem Value="MiscellaneousReport9" Description="Miscellaneous Report9" />
+    <rootitem Value="MiscellaneousReport10" Description="Miscellaneous Report10" />
+    <rootitem Value="MiscellaneousReport11" Description="Miscellaneous Report11" />
+    <rootitem Value="MiscellaneousReport12" Description="Miscellaneous Report12" />
+    <rootitem Value="MiscellaneousReport13" Description="Miscellaneous Report13" />
+    <rootitem Value="MiscellaneousReport14" Description="Miscellaneous Report14" />
+    <rootitem Value="MiscellaneousReport15" Description="Miscellaneous Report15" />
+    <rootitem Value="MiscellaneousReport16" Description="Miscellaneous Report16" />
+    <rootitem Value="MiscellaneousReport17" Description="Miscellaneous Report17" />
+    <rootitem Value="MiscellaneousReport18" Description="Miscellaneous Report18" />
+    <rootitem Value="MiscellaneousReport19" Description="Miscellaneous Report19" />
+    <rootitem Value="MiscellaneousReport20" Description="Miscellaneous Report20" />
+  </rootnode>
+
+  <rootnode Type="Miscellaneous-Reports">
+    <!--<rootitem Value="Gogo 2% Report" Description="Gogo 2% Report" />		
+				
+		<rootitem Value="Back Order" Description="Back Order"/>
+		<rootitem Value="Coupon Issued Report" Description="Coupon Issued Report"/>
+		<rootitem Value="Agewise Sales" Description="Agewise Sales" />
+		<rootitem Value="Agewise Stdn Sold" Description="Agewise Stdn Sold" />
+		<rootitem Value="Typewise Order Placed Reports" Description="Typewise Order Placed Reports" />
+		<rootitem Value="Daily Vision Report Branch" Description="Daily Vision Report Branch" />		
+		<rootitem Value="Linewise Gp Statement" Description="Linewise Gp Statement" />		
+		<rootitem Value="Sales Man Collection Report" Description="Sales Man Collection Report" />
+    <rootitem Value="Branch Surplus Stock" Description="Branch Surplus Stock" />-->
+
+    <rootitem Value="BI Rotor and Pads" Description="BI Rotor and Pads" />
+    <rootitem Value="Coupon Master Report" Description="Coupon Master Report" />
+    <rootitem Value="Customer Sequential Sales Report" Description="Customer Sequential Sales Report" />
+    <rootitem Value="Finance Daily Report" Description="Finance Daily Report" />
+    <rootitem Value="Gogo CD Report" Description="Gogo CD Report" />
+    <rootitem Value="Grn Edit List" Description="GRN Edit List" />
+    <rootitem Value="GST Paid Report" Description="GST Paid Report" />
+    <rootitem Value="Inward Report with Location" Description="Inward Report with Location"/>
+    <rootitem Value="Negative GP Report" Description="Negative GP Report" />
+    <rootitem Value="New Additions Report Detail" Description="New Additions Report Detail" />
+    <rootitem Value="New Additions Report Summary" Description="New Additions Report Summary" />
+    <rootitem Value="Outward Report with Location" Description="Outward Report with Location"/>
+    <rootitem Value="Sales Man Fpo" Description="Sales Man Fpo" />
+    <rootitem Value="Sales Man Target New Introductions" Description="Sales Man Target New Introductions" />
+    <rootitem Value="Sequential Report" Description="Sequential Report" />
+    <rootitem Value="Stock List for Inventory" Description="Stock List for Inventory" />
+    <rootitem Value="Daily Vision Report" Description="Daily Vision Report" />
+    <rootitem Value="Contitech_Reports_Partno" Description="Contitech_Reports_Partno" />
+    <rootitem Value="Linewise Dealer Count" Description="Linewise Dealer Count" />
+    <rootitem Value="Linewise Part Count" Description="Linewise Part Count" />
+    <rootitem Value="Dealerwise Line Count" Description="Dealerwise Line Count" />
+    <rootitem Value="Dealerwise Linewise Part Count" Description="Dealerwise Linewise Part Count" />
+    <rootitem Value="Indent Pending Stock Report" Description="Indent Pending Stock Report" />
+    <rootitem Value="Surplus Report More Than 6 Months" Description="Surplus Report More Than 6 Months" />
+    <rootitem Value="Sales Man Line Target Achieved Report" Description="Sales Man Line Target Achieved Report" />
+    <rootitem Value="Oil Sales in Ltrs" Description="Oil Sales in Ltrs" />
+    <rootitem Value="More than 1 Year StockSales Report" Description="More than 1 Year StockSales Report" />
+    <rootitem Value="Gogo Tod Report" Description="Gogo Tod Report" />
+    <rootitem Value="New TOD Summary Report" Description="New TOD Summary Report" />
+    <rootitem Value="EPO Stock List" Description="EPO Stock List" />
+    <rootitem Value="New Tod Report" Description="New Tod Report" />
+    <rootitem Value="Distinct Sales Cust Count Part Count Report" Description="Distinct Sales Cust Count Part Count Report" />
+
+
+
+  </rootnode>
+
+  <rootnode Type="DealerCountDetails-Reports">
+    <rootitem Value="S" Description="Summary" />
+    <rootitem Value="D" Description="Details" />
+  </rootnode>
+
+  <rootnode Type="Outstanding_Reports">
+    <rootitem Value="Regular Report" Description="Regular Report" />
+    <rootitem Value="Regular Report %" Description="Regular Report %" />
+    <rootitem Value="Over 90 (1 lac and above)" Description="Over 90 (1 lac and above)" />
+    <rootitem Value="Over 90 (2-3 lacs)" Description="Over 90 (2-3 lacs)" />
+    <rootitem Value="Over 90 (3 lacs)" Description="Over 90 (3 lacs)" />
+    <rootitem Value="STU Details" Description="STU Details" />
+    <rootitem Value="Group and Sister Concern" Description="Group and Sister Concern" />
+    <rootitem Value="Top 30 Dealers" Description="Top 30 Dealers" />
+    <rootitem Value="Over 180 Days" Description="Over 180 Days" />
+    <rootitem Value="Zonewise Comparison" Description="Zonewise Comparison" />
+    <rootitem Value="Daily Monthly Collection Report New" Description="Daily Monthly Collection Report New" />
+    <rootitem Value="Industrial Dealers Report" Description="Industrial Dealers Report" />
+    <rootitem Value="Since Recd Over90 1 Lac" Description="Since Recd Over90 1 Lac" />
+    <rootitem Value="Since Recd Over90_2_3Lac" Description="Since Recd Over90_2_3Lac" />
+    <rootitem Value="Since Recd Over90_3Lac" Description="Since Recd Over90_3Lac" />
+    <rootitem Value="Since Recd Over90" Description="Since Recd Over90" />
+    <rootitem Value="Since Recd Over180" Description="Since Recd Over180" />
+    <rootitem Value="Weekly Collection Report" Description="Weekly Collection Report" />
+    <rootitem Value="Since Received Top 30" Description="Since Received Top 30" />
+    <rootitem Value="Daily_Monthly_Collection_Report_MonthEnd" Description="Daily_Monthly_Collection_Report_MonthEnd" />
+    <rootitem Value="Supplier Shortage Report" Description="Supplier Shortage Report" />
+    <rootitem Value="Impal Inward Register" Description="Impal Inward Register" />
+    <rootitem Value="CAPL Inward Register" Description="CAPL Inward Register" />
+    <rootitem Value="Stock In Transit Report" Description="Stock In Transit Report" />
+    <rootitem Value="Brake Oil Order Placed In Ltrs" Description="Brake Oil Order Placed In Ltrs" />
+  </rootnode>
+
+  <rootnode Type="StockLedger-Report">
+    <rootitem Value="Detail" Description="Detail" />
+    <rootitem Value="Summary" Description="Summary" />
+  </rootnode>
+
+  <rootnode Type="NewSegmentSales-Report">
+    <rootitem Value="Detail" Description="Detail" />
+    <rootitem Value="Summary" Description="Summary" />
+  </rootnode>
+
+  <rootnode Type="MonthWise">
+    <rootitem Value="0" Description="Customer/LineWise Summary" />
+    <rootitem Value="1" Description="Customer/MonthWise Detail"/>
+    <rootitem Value="2" Description="Customer/MonthWise Summary" />
+    <rootitem Value="3" Description="Town/MonthWise Summary" />
+    <rootitem Value="4" Description="Branch/MonthWise Summary" />
+    <rootitem Value="5" Description="Report" />
+  </rootnode>
+
+  <rootnode Type="Finance-SalesJournal">
+    <rootitem Value="Sales Journal Detail" Description="Sales Journal Detail" />
+    <rootitem Value="Sales Journal Summary" Description="Sales Journal Summary"/>
+    <rootitem Value="CreditNote Detail" Description="CreditNote Detail" />
+    <rootitem Value="CreditNote Summary" Description="CreditNote Summary" />
+    <rootitem Value="DebitNote Detail" Description="DebitNote Detail" />
+    <rootitem Value="DebitNote Summary" Description="DebitNote Summary" />
+  </rootnode>
+
+  <rootnode Type="Finance-SalesJournalUP">
+    <rootitem Value="Sales Journal Detail" Description="Sales Journal Detail" />
+    <rootitem Value="Sales Journal Summary" Description="Sales Journal Summary"/>
+    <rootitem Value="CreditNote Detail" Description="CreditNote Detail" />
+    <rootitem Value="CreditNote Summary" Description="CreditNote Summary" />
+    <rootitem Value="DebitNote Detail" Description="DebitNote Detail" />
+    <rootitem Value="DebitNote Summary" Description="DebitNote Summary" />
+    <rootitem Value="Sales Journal Detail - UPstate" Description="Sales Journal Detail - UPstate" />
+  </rootnode>
+
+  <rootnode Type="Finance-SalesJournal_GST">
+    <rootitem Value="SalesJournalGSTExcel" Description="Sales Journal - GST - Excel" />
+    <!--<rootitem Value="SalesJournalGST" Description="Sales Journal - GST - Report" />-->
+  </rootnode>
+
+  <rootnode Type="SalesTax_GST_Reports">
+    <rootitem Value="PurchaseReport" Description="Purchase Report" />
+    <rootitem Value="SalesReport" Description="Sales Report" />
+    <rootitem Value="STDNinward" Description="STDN Inward" />
+    <rootitem Value="STDNoutward" Description="STDN Outward" />
+    <rootitem Value="SalesCreditNote" Description="Sales Credit Note" />
+    <rootitem Value="SalesDebitNote" Description="Sales Debit Note" />
+    <rootitem Value="SupplierCreditNote" Description="Supplier Credit Note" />
+    <rootitem Value="SupplierDebitNote" Description="Supplier Debit Note" />
+    <rootitem Value="BranchCreditNote" Description="Branch Credit Note" />
+    <rootitem Value="BranchDebitNote" Description="Branch Debit Note" />
+    <rootitem Value="PurchaseReturn" Description="Purchase Return" />
+  </rootnode>
+
+  <rootnode Type="Finance-SalesTaxListing_GST">
+    <rootitem Value="SalesTaxListingGSTExcel" Description="SalesTax Listing - GST - Excel" />
+    <!--<rootitem Value="SalesTaxListingGST" Description="SalesTax Listing - GST - Report" />-->
+  </rootnode>
+
+  <rootnode Type="Finance-SalesTaxSummary_GST">
+    <rootitem Value="SalesTaxSummaryGSTExcel" Description="SalesTax Summary - GST - Excel" />
+    <!--<rootitem Value="SalesTaxSummaryGST" Description="SalesTax Summary - GST - Report" />-->
+  </rootnode>
+
+  <rootnode Type="RptType-List2">
+    <rootitem Value="0" Description="Report" />
+  </rootnode>
+
+  <rootnode Type="RptType-ListGST">
+    <rootitem Value="0" Description="Prior to Jul2016" />
+    <rootitem Value="1" Description="Jul2016-May2017" />
+    <rootitem Value="2" Description="May2017-Jun2017" />
+    <rootitem Value="3" Description="After GST" />
+  </rootnode>
+
+  <rootnode Type="RptType-ListGSTOthers">
+    <rootitem Value="0" Description="Prior to Jul2016" />
+    <rootitem Value="1" Description="Jul2016-Jun2017" />
+    <rootitem Value="2" Description="After GST" />
+  </rootnode>
+
+  <rootnode Type="RptType-List1">
+    <rootitem Value="1" Description="Long Description Report"/>
+    <rootitem Value="2" Description="Short Description Report" />
+    <rootitem Value="3" Description="No Segment Report" />
+  </rootnode>
+
+  <rootnode Type="RptType-List3">
+    <rootitem Value="3" Description="Report-Regular and STDN" />
+    <rootitem Value="1" Description="Report-Regular"/>
+    <rootitem Value="2" Description="Report-STDN" />
+  </rootnode>
+  <!--This is used to populate the DropDownList of OS/LS in Inventory-->
+  <rootnode Type="Station">
+    <rootitem Value="Both" Description="Both"/>
+    <rootitem Value="O" Description="OS"/>
+    <!--Out Station-->
+    <rootitem Value="L" Description="LS"/>
+    <!--Local Station-->
+
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of Aging in Part#details page in Inventory/Aging-->
+  <rootnode Type="Aging">
+    <rootitem Value="0" Description="&lt;3 Months"></rootitem>
+    <rootitem Value="1" Description="3-6 Months" ></rootitem>
+    <rootitem Value="2" Description="6-12 Months"></rootitem>
+    <rootitem Value="3" Description="1-2 Years"></rootitem>
+    <rootitem Value="4" Description="&gt;2 Years"> </rootitem>
+    <rootitem Value="5" Description="Part No Aging"></rootitem>
+    <rootitem Value="6" Description="Given period"></rootitem>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of Aging Summary in PartSummary page in Inventory/Aging-->
+  <rootnode Type="Aging Summary">
+    <rootitem Value="0" Description="&lt;3 Months"></rootitem>
+    <rootitem Value="1" Description="3-6 Months" ></rootitem>
+    <rootitem Value="2" Description="6-12 Months"></rootitem>
+    <rootitem Value="3" Description="1-2 Years"></rootitem>
+    <rootitem Value="4" Description="&gt;2 Years"> </rootitem>
+  </rootnode>
+
+  <rootnode Type="Aging_PartNo">
+    <rootitem Value="0" Description="&lt;3 Months"></rootitem>
+    <rootitem Value="1" Description="3-6 Months" ></rootitem>
+    <rootitem Value="2" Description="6-12 Months"></rootitem>
+    <rootitem Value="3" Description=">12 Months"></rootitem>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of Aging in Allbranchespartnumber page in Inventory/Aging-->
+  <rootnode Type="Aging Branch">
+    <rootitem Value="0" Description="&lt;3 Months"></rootitem>
+    <rootitem Value="1" Description="3-6 Months" ></rootitem>
+    <rootitem Value="2" Description="6-12 Months"></rootitem>
+    <rootitem Value="3" Description="1-2 Years"></rootitem>
+    <rootitem Value="4" Description="&gt;2 Years"> </rootitem>
+    <rootitem Value="5" Description="Given period"></rootitem>
+  </rootnode>
+
+  <rootnode Type="LineWiseSalesValueReport">
+    <rootitem Value="Report" Description="Report" />
+    <rootitem Value="Summary" Description="Summary"/>
+  </rootnode>
+
+  <rootnode Type="InvoiceType">
+    <rootitem Value="D" Description="Sales Invoice" />
+    <!--<rootitem Value="I" Description="Stock Transfer"/>-->
+  </rootnode>
+
+  <rootnode Type="ProformaInvoiceType">
+    <rootitem Value="I" Description="Proforma Invoice"/>
+  </rootnode>
+
+  <rootnode Type="HBSalesStatementReport">
+    <rootitem Value="PartNumber Wise" Description="PartNumber Wise" />
+    <rootitem Value="CustomerWise" Description="CustomerWise"/>
+    <rootitem Value="Stock" Description="Stock" />
+  </rootnode>
+
+  <rootnode Type="ReportType-SegmentLineSales">
+    <rootitem Value="Report" Description="Report" />
+    <rootitem Value="MatrixReport" Description="Matrix Report"/>
+  </rootnode>
+
+
+  <rootnode Type="ReportType-ORCStatement">
+    <rootitem Value="ORCStatement" Description="Statement" />
+    <rootitem Value="ORCClaims" Description="Claims"/>
+  </rootnode>
+
+
+  <rootnode Type="ReportType-TurnOverDiscount">
+    <rootitem Value="Report" Description="Report" />
+    <rootitem Value="Customer" Description="Customer"/>
+    <rootitem Value="SLBWise" Description="SLBWise-Summary"/>
+  </rootnode>
+
+  <rootnode Type="ReportType-Std">
+    <rootitem Value="Report" Description="Report" />
+    <rootitem Value="Summary" Description="Summary"/>
+  </rootnode>
+
+  <rootnode Type="ReportType-ValQtyDtl">
+    <rootitem Value="Value" Description="Value" />
+    <rootitem Value="Quantity" Description="Quantity"/>
+    <rootitem Value="Details" Description="Details"/>
+  </rootnode>
+
+  <rootnode Type="ReportType-DtlSumm">
+    <rootitem Value="Detail" Description="Detail" />
+    <!--<rootitem Value="Summary" Description="Summary" />-->
+  </rootnode>
+
+  <rootnode Type="StkVar_ReportType-DtlSumm">
+    <rootitem Value="Detail" Description="Detail" />
+    <rootitem Value="Summary" Description="Summary" />
+  </rootnode>
+
+  <rootnode Type="ReportType-SFLTODSales">
+    <rootitem Value="Detail" Description="Detail" />
+    <rootitem Value="Summary" Description="Summary" />
+    <rootitem Value="Socket TOD Policy" Description="Socket TOD Policy" />
+  </rootnode>
+
+  <rootnode Type="ReportType-Segment">
+    <rootitem Value="1" Description="BI Friction" />
+    <rootitem Value="2" Description="BI Non-Friction" />
+    <rootitem Value="3" Description="DOT 3" />
+    <rootitem Value="4" Description="DOT 4" />
+    <rootitem Value="5" Description="USP" />
+    <rootitem Value="6" Description="Non USP" />
+    <rootitem Value="7" Description="PE Kits" />
+  </rootnode>
+
+  <rootnode Type="LineWiseSelect">
+    <rootitem Value="Quantity" Description="Quantity" />
+    <rootitem Value="Value" Description="Value"/>
+  </rootnode>
+
+  <rootnode Type="ReportType-SalesMen">
+    <rootitem Value="Report" Description="Report" />
+    <rootitem Value="Summary" Description="Summary"/>
+  </rootnode>
+
+  <rootnode Type="Month" >
+    <rootitem Value="0" Description=" Select Month " >  </rootitem>
+    <rootitem Value="01" Description="January" >  </rootitem>
+    <rootitem Value="02" Description="February" > </rootitem>
+    <rootitem Value="03" Description="March">  </rootitem>
+    <rootitem Value="04" Description="April"> </rootitem>
+    <rootitem Value="05" Description="May"> </rootitem>
+    <rootitem Value="06" Description="June">  </rootitem>
+    <rootitem Value="07" Description="July"> </rootitem>
+    <rootitem Value="08" Description="August"> </rootitem>
+    <rootitem Value="09" Description="September"> </rootitem>
+    <rootitem Value="10" Description="October"> </rootitem>
+    <rootitem Value="11" Description="November"> </rootitem>
+    <rootitem Value="12" Description="December"> </rootitem>
+  </rootnode>
+
+  <rootnode Type="RepType-Aging">
+    <rootitem Value="0" Description="Report"/>
+    <rootitem Value="1" Description="Summary"/>
+  </rootnode>
+
+  <rootnode Type="RepType-SaleValueAging">
+    <rootitem Value="S" Description="Sale"/>
+    <rootitem Value="T" Description="StockTransfer"/>
+  </rootnode>
+
+  <rootnode Type="RepType-StockValueAging1">
+    <rootitem Value="1" Description="Branchwise"/>
+    <rootitem Value="2" Description="Supplierwise"/>
+  </rootnode>
+
+  <rootnode Type="RepType-StockValueAging">
+    <rootitem Value="0" Description="Report"/>
+    <rootitem Value="1" Description="Branchwise"/>
+    <rootitem Value="2" Description="Supplierwise"/>
+  </rootnode>
+
+  <rootnode Type="RepType-StockValueAging2">
+    <rootitem Value="0" Description="Report"/>
+  </rootnode>
+
+  <!--This is used to populate TagType in InventoryTag Report-->
+  <rootnode Type="TagType">
+    <rootitem Value="A" Description="General"/>
+    <rootitem Value="P" Description="Special"/>
+    <rootitem Value="R" Description="Regular"/>
+  </rootnode>
+
+  <!--This is used to populate Report Type in Linewise order Placed page in Listing-->
+  <rootnode Type="ReportType-LineWise">
+    <rootitem Value="Report" Description="Report" />
+    <rootitem Value="Supplementary" Description="Supplementary" />
+    <rootitem Value="Branch Summary" Description="Branch Summary" />
+    <rootitem Value="Line Summary" Description="Line Summary" />
+    <rootitem Value="Loss Of Sale" Description="Loss Of Sale" />
+  </rootnode>
+
+  <rootnode Type="ReportType-LineWiseCRP">
+    <rootitem Value="Report" Description="Report" />
+    <!--<rootitem Value="Supplementary" Description="Supplementary" />
+    <rootitem Value="Branch Summary" Description="Branch Summary" />
+    <rootitem Value="Line Summary" Description="Line Summary" />
+    <rootitem Value="Loss Of Sale" Description="Loss Of Sale" />-->
+  </rootnode>
+
+  <!--This is used to populate Report Type in Linewise Pending Orders page in Listing-->
+  <rootnode Type="ReportType-LineWisePending">
+    <rootitem Value="Detail" Description="Detail" />
+    <rootitem Value="Line Summary" Description="Line Summary" />
+    <rootitem Value="Part Summary" Description="Part Summary" />
+    <rootitem Value="Customer" Description="Customer" />
+    <rootitem Value="Aging" Description="Aging" />
+  </rootnode>
+
+  <rootnode Type="Report-BackOrder">
+    <rootitem Value="1" Description="Back Order"/>
+    <!--<rootitem Value="2" Description="Loss of Sale" />-->
+  </rootnode>
+
+  <rootnode Type="ReportType-BackOrder">
+    <rootitem Value="1" Description="Line / Customer / PartNo Wise"/>
+    <rootitem Value="2" Description="Customer / Line / PartNo Wise" />
+  </rootnode>
+
+  <rootnode Type="ReportType-LossOfSale">
+    <rootitem Value="3" Description="Line / Customer / PartNo Wise"/>
+    <rootitem Value="4" Description="Customer / Line / PartNo Wise" />
+  </rootnode>
+
+  <!--This is used to populate Cancel report type in Cancelled Order Details page in Listing-->
+  <rootnode Type="ReportType-Cancel">
+    <rootitem Value="CANCEL By H.O" Description="CANCEL By H.O" />
+    <rootitem Value="CANCEL By Branch" Description="CANCEL By Branch" />
+  </rootnode>
+
+  <rootnode Type="ReportType-SalesAnalysis">
+    <rootitem Value="Town-SalesMan" Description="Town-SalesMan" />
+    <rootitem Value="SalesMan-Town" Description="SalesMan-Town" />
+    <rootitem Value="Customer-Line" Description="Customer-Line" />
+    <rootitem Value="Line-Customer" Description="Line-Customer" />
+    <rootitem Value="Town-Line" Description="Town-Line" />
+    <rootitem Value="Line-Town" Description="Line-Town" />
+    <rootitem Value="Line-SalesMan" Description="Line-SalesMan" />
+    <rootitem Value="SalesMan-Line" Description="SalesMan-Line" />
+    <rootitem Value="SalesMan-Customer" Description="SalesMan-Customer" />
+    <rootitem Value="Customer-SalesMan" Description="Customer-SalesMan" />
+    <rootitem Value="Town-Customer" Description="Town-Customer" />
+  </rootnode>
+
+  <rootnode Type="ReportType-SeqSales">
+    <rootitem Value="Quantity-Detail" Description="Quantity-Detail" />
+    <rootitem Value="Value-Detail" Description="Value-Detail" />
+    <rootitem Value="Quantity-Summary" Description="Quantity-Summary" />
+    <rootitem Value="Value-Summary" Description="Value-Summary" />
+  </rootnode>
+
+  <rootnode Type="ReportType-HubBoltSalesStmt">
+    <rootitem Value="PartWise" Description="Part# Wise" />
+    <rootitem Value="CustomerWise" Description="Customer Wise" />
+    <rootitem Value="StockWise" Description="Stock" />
+  </rootnode>
+
+  <rootnode Type="WorkSheet">
+    <!--<rootitem Value="" Description=""/>-->
+    <rootitem Value="ABC FMS Worksheet" Description="ABC FMS Worksheet"/>
+    <!--<rootitem Value="ABC FMS Nil Stock" Description="ABC FMS Nil Stock"/>-->
+    <!--<rootitem Value="Direct Purchase Order" Description="Direct Purchase Order"/>-->
+  </rootnode>
+
+  <rootnode Type="WorkSheetSF">
+    <rootitem Value="" Description=""/>
+    <rootitem Value="ABC FMS Worksheet" Description="ABC FMS Worksheet"/>
+    <rootitem Value="ABC FMS Nil Stock" Description="ABC FMS Nil Stock"/>
+    <rootitem Value="SF FSN Worksheet" Description="SF FSN Worksheet - TOP 100"/>
+  </rootnode>
+  <!--This is used to populate Report Type in InventoryTag Report-->
+  <rootnode Type="ReportType">
+    <rootitem Value="Report" Description="Report"/>
+    <rootitem Value="Reprint" Description="Reprint"/>
+  </rootnode>
+  <!--To populate PO Type in PurchaseOrderReprint.aspx-->
+  <rootnode Type="POType">
+    <rootitem Value="D" Description="Supplimentary/Old Order" />
+    <rootitem Value="I" Description="Indent Order"/>
+    <rootitem Value="W" Description="Worksheet Order"/>
+    <rootitem Value="N" Description="Worksheet - DPO"/>
+    <rootitem Value="E" Description="Worksheet - EPO"/>
+  </rootnode>
+  <!--To populate Report Type in PurchaseOrderReprint.aspx-->
+  <rootnode Type="POReportType">
+    <rootitem Value="1" Description="Report"/>
+    <!--<rootitem Value="2" Description="Worksheet Reprint" />-->
+  </rootnode>
+  <!-- To POpulate Report Type in CustomerLineInvoiceSales.aspx-->
+  <rootnode Type="CustSalesReportType">
+    <rootitem Value="1" Description=" Detail Report"/>
+    <rootitem Value="2" Description="Customer Summary" />
+    <rootitem Value="3" Description="Line/Customer Summary" />
+  </rootnode>
+
+  <!--This is used to populate Depot Type in SLB IPL DEPOT BILLING-->
+  <rootnode Type="depot">
+    <rootitem Value="IPL Depot" Description="IPL Depot"/>
+    <rootitem Value="IPL Non Depot" Description="IPL Non Depot"/>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of SFL Plants-->
+  <rootnode Type="Plants">
+    <rootitem Value="410" Description="SF HEX - MDS"/>
+    <rootitem Value="411" Description="SF HEX - KPM"/>
+    <rootitem Value="412" Description="SF HEX - PONDY"/>
+    <rootitem Value="413" Description="SF HEX - UKD"/>
+    <rootitem Value="414" Description="SF HEX - MANDAGAPATTU"/>
+    <rootitem Value="320" Description="SF SOCKET - PONDY"/>
+    <rootitem Value="321" Description="SF SOCKET - MDS"/>
+  </rootnode>
+
+  <!--This is used to populate Report Type in STDN Inward/Outward page in Sales Listing-->
+  <rootnode Type="ReportType-STDNIn/Out">
+    <rootitem Value="Inward" Description="Inward" />
+    <rootitem Value="Outward" Description="Outward" />
+  </rootnode>
+
+  <!--This is used to populate Report Type in Sales Listing (Item wise) page in Sales Lisitng-->
+  <rootnode Type="ReportType-SalesListing_ItemWise">
+    <rootitem Value="Report" Description="Report" />
+    <!--<rootitem Value="Branchwise" Description="Branchwise" />
+    <rootitem Value="Partwise" Description="Partwise" />-->
+  </rootnode>
+
+  <!--This is used to populate Report Type in Finance\SalesTax\Listing-->
+  <rootnode Type="ReportType-STLisitng-Delhi">
+    <rootitem Value="Report" Description="Sales Tax Report" />
+    <rootitem Value="VAT" Description="VAT Tax Report" />
+    <rootitem Value="DVAT" Description="VAT Form - DVAT31 Summary" />
+    <rootitem Value="DVATD" Description="VAT FORM-DVAT31 DealerWise" />
+    <rootitem Value="VATC" Description="VAT CUSTOMER Summary" />
+    <rootitem Value="CNS" Description="CREDIT NOTE Summary" />
+  </rootnode>
+
+  <rootnode Type="ReportType-LocalPOTax-Delhi">
+    <rootitem Value="PurchaseCst" Description="Purchase-Cst" />
+    <rootitem Value="PurchaseVat" Description="Purchase-Vat" />
+    <rootitem Value="STDNIO" Description="STDN Inward - Other State" />
+    <rootitem Value="STDNIL" Description="STDN Inward - Local State" />
+  </rootnode>
+
+  <rootnode Type="ReportType-STLisitng">
+    <rootitem Value="Report" Description="Sales Tax Report" />
+    <rootitem Value="VAT" Description="VAT Tax Report" />
+  </rootnode>
+
+  <!--This is used to populate B/S/Z in Gross Profit page-->
+  <rootnode Type="B/S/Z">
+    <rootitem Value="" Description="" />
+    <rootitem Value="Branch" Description="Branch" />
+    <rootitem Value="State" Description="State" />
+    <rootitem Value="Zone" Description="Zone" />
+  </rootnode>
+
+  <!--This is used to populate Report Type in Gross Profit - Monthly page-->
+  <rootnode Type="ReportType_GPMontly">
+    <rootitem Value="Branch GP" Description="Branch GP" />
+    <rootitem Value="Line GP" Description="Line GP" />
+    <rootitem Value="Town-Salesman GP" Description="Town-Salesman GP" />
+    <rootitem Value="Salesman-Town GP" Description="Salesman-Town GP" />
+    <rootitem Value="Customer-Line GP" Description="Customer-Line GP" />
+    <rootitem Value="Line-Customer GP" Description="Line-Customer GP" />
+    <rootitem Value="Town-Line GP" Description="Town-Line GP" />
+    <rootitem Value="Line-Town GP" Description="Line-Town GP" />
+    <rootitem Value="Line-Town-Customer GP" Description="Line-Town-Customer GP" />
+  </rootnode>
+
+  <!--This is used to populate for Master/SalesTax/SalesTax - Page -->
+
+  <rootnode Type="CalculationIndicator">
+    <rootitem Value="1" Description="Excise Duty" />
+    <rootitem Value="2" Description="List Price"/>
+    <rootitem Value="3" Description="After Discount" />
+    <rootitem Value="4" Description="Sales Tax Amount" />
+    <rootitem Value="5" Description="Selling Price" />
+    <rootitem Value="6" Description="Cost Price" />
+    <rootitem Value="7" Description="Additional Surcharge" />
+    <rootitem Value="8" Description="Invoice Value" />
+  </rootnode>
+
+  <rootnode Type="SalesTaxType">
+    <rootitem Value="ST" Description="ST" />
+    <rootitem Value="SC" Description="SC"/>
+    <rootitem Value="ASC" Description="ASC" />
+    <rootitem Value="TOT" Description="TOT" />
+    <rootitem Value="CESS" Description="CESS" />
+    <rootitem Value="RST" Description="RST" />
+    <rootitem Value="AST" Description="AST" />
+    <rootitem Value="VAT" Description="VAT" />
+  </rootnode>
+
+  <!--This is used to populate for Master/Salesman/SalesMan - Page -->
+  <rootnode Type="SalesManStatus">
+    <rootitem Value="A" Description="Active" />
+    <rootitem Value="I" Description="InActive"/>
+  </rootnode>
+
+  <!--This is used to populate Report Type in Finance\GeneralLedger\Debit/Credit Advice Register-->
+
+  <rootnode Type="Debit/Credit Advice Register">
+    <rootitem Value="Debit Note Detail" Description="Debit Note Detail" />
+    <rootitem Value="Credit Note Detail" Description="Credit Note Detail"/>
+    <rootitem Value="Debit Note Summary" Description="Debit Note Summary" />
+    <rootitem Value="Credit Note Summary" Description="Credit Note Summary" />
+  </rootnode>
+
+  <!--This is used to populate Report Type in Finance\SalesTax\POTaxListing-->
+  <rootnode Type="ReportType-POTaxListing">
+    <rootitem Value="Report" Description="Report" />
+    <rootitem Value="Summary" Description="Summary" />
+    <rootitem Value="ITC" Description="ITC Listing" />
+    <rootitem Value="Bihar" Description="VAT Report for Bihar" />
+  </rootnode>
+
+  <!--This is used to populate Report Type in Finance\GeneralLedger\List of Pending Bills-->
+
+  <rootnode Type="PendingBills">
+    <rootitem Value="Debit Report" Description="Debit Report" />
+    <rootitem Value="Debit/Credit Report" Description="Debit/Credit Report"/>
+    <rootitem Value="Pending Documents" Description="Pending Documents" />
+    <rootitem Value="Weekly Plan" Description="Weekly Plan" />
+  </rootnode>
+
+  <!--This is used to populate Customer DropDown in Finance\GeneralLedger\Statement of Account-->
+  <rootnode Type="StatementOfAccount">
+    <rootitem Value="Customer" Description="Customer" />
+    <rootitem Value="SalesMan" Description="SalesMan" />
+    <rootitem Value="Branch" Description="Branch"/>
+    <rootitem Value="Supplier" Description="Supplier" />
+  </rootnode>
+
+  <rootnode Type="StatementOfAccountA4">
+    <rootitem Value="Customer" Description="Customer" />
+    <rootitem Value="SalesMan" Description="SalesMan" />
+    <rootitem Value="Town" Description="Town" />
+    <!--<rootitem Value="Supplier" Description="Supplier" />-->
+  </rootnode>
+
+  <!--This is used to populate ReportType DropDown in Finance\GeneralLedger\Statement of Account-->
+  <rootnode Type="StatementOfAccount-RptType">
+    <rootitem Value="Report-Customer Wise" Description="Report-Customer Wise" />
+    <rootitem Value="Report-Salesman Wise" Description="Report-Salesman Wise" />
+    <rootitem Value="Report-Town Wise" Description="Report-Town Wise"/>
+    <!--<rootitem Value="New Report" Description="New Report" />-->
+  </rootnode>
+  <!--This is used to populate ReportType DropDown in Finance\GeneralLedger\Statement of Account when Branch or supplier is selected-->
+  <rootnode Type="StatementOfAccount-RptType-Customer">
+    <rootitem Value="Report-Customer Wise" Description="Report-Customer Wise" />
+    <rootitem Value="Report-Town Wise" Description="Report-Town Wise"/>
+  </rootnode>
+
+  <!--This is used to populate Local/Outstation dropdown in finance\Cash&Bank\BankChallan-->
+  <rootnode Type="LocalOutstation">
+    <rootitem Value="LS" Description="Local" />
+    <rootitem Value="OS" Description="Outstation"/>
+  </rootnode>
+
+  <!--This is used to populate Report Type in Finance\GeneralLedger\SupplierReconciliation-->
+  <rootnode Type="ReportType-SupplierReconciliation">
+    <rootitem Value="Paid" Description="Paid Report" />
+    <rootitem Value="Accounted" Description="Paid But Not Acctd" />
+    <rootitem Value="NotAccounted" Description="Acctd But Not Paid" />
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of Item ABC Indicator-->
+  <rootnode Type="ItemABCIndicator">
+    <rootitem Value="A" Description="A"/>
+    <rootitem Value="B" Description="B"/>
+    <rootitem Value="C" Description="C"/>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of Item FSN indicator -->
+  <rootnode Type="ItemFSNIndicator">
+    <rootitem Value="F" Description="Fast-Moving"/>
+    <rootitem Value="S" Description="Slow-Moving"/>
+    <rootitem Value="N" Description="Non-Moving"/>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of Item Status -->
+  <rootnode Type="ItemStatus">
+    <rootitem Value="A" Description="Active"/>
+    <rootitem Value="I" Description="Inactive"/>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of Customer Credit Limit Indicator -->
+  <rootnode Type="CustomerCreditIndicator">
+    <rootitem Value="CD" Description="Cash DisCount"/>
+    <rootitem Value="CR" Description="Credit"/>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of Customer Credit Limit Indicator -->
+  <rootnode Type="CustomerStatus">
+    <rootitem Value="A" Description="Active"/>
+    <rootitem Value="I" Description="Inactive"/>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of Vendor Status -->
+  <rootnode Type="VendorStatus">
+    <rootitem Value="A" Description="Active"/>
+    <rootitem Value="I" Description="Inactive"/>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of supplierline ED indicator -->
+  <rootnode Type="SupplierLineEDindicator">
+    <rootitem Value="A" Description="Amount"/>
+    <rootitem Value="P" Description="Percent"/>
+  </rootnode>
+
+  <!--This is used to populate the DropDownList of supplier  Auto Locking -->
+  <rootnode Type="SupplierAutoLocking">
+    <rootitem Value="Y" Description="Yes"/>
+    <rootitem Value="N" Description="No"/>
+  </rootnode>
+
+  <!--This is used to populate Insurance in Stock in Finance-->
+  <rootnode Type="ReportType-InwardInsurance">
+    <rootitem Value="Y" Description="Yes" />
+    <rootitem Value="N" Description="No" />
+  </rootnode>
+
+  <!--This is used to populate Statement in Stock in Finance-->
+  <rootnode Type="ReportType-GoodsCleared">
+    <rootitem Value="Y" Description="Cleared" />
+    <rootitem Value="N" Description="Uncleared" />
+  </rootnode>
+
+  <!--This is used to populate Report Type in Stock in Finance-->
+  <rootnode Type="ReportType-GoodsClearedStatement">
+    <rootitem Value="Report" Description="Report" />
+    <!--<rootitem Value="AgeWise-Branch" Description="AgeWise-Branch" />
+    <rootitem Value="AgeWise-Line" Description="AgeWise-Line" />
+    <rootitem Value="AgeWise-Document-E1" Description="AgeWise-Document-E1" />-->
+  </rootnode>
+
+  <!--This is used to populate Report Type in Stock in Finance-->
+  <rootnode Type="ReportType-StockTransfer">
+    <rootitem Value="Detail" Description="Detail" />
+    <rootitem Value="Summary" Description="Summary" />
+  </rootnode>
+
+  <!--This is used to populate Report Type in Cash and Bank in Finance-->
+  <rootnode Type="ReportType-CollectionAging">
+    <rootitem Value="Report" Description="Report" />
+    <!--<rootitem Value="Documentwise" Description="Documentwise" />-->
+  </rootnode>
+
+  <!--This is used to populate Report Type in Cash and Bank in Finance-->
+  <rootnode Type="ClassifiedOutstanding">
+    <!--<rootitem Value="Report" Description="Report" />
+    <rootitem Value="Report-Above 90 Days" Description="Report-Above 90 Days" />-->
+    <rootitem Value="Excel Report" Description="Excel Report" />
+  </rootnode>
+
+  <!--This is used to populate Ref Type in Payable in Finance-->
+  <rootnode Type="RefType-ChequeSlip">
+    <rootitem Value="0" Description="" />
+    <rootitem Value="SV" Description="Purchase Invoice" />
+  </rootnode>
+
+  <rootnode Type="RefType-ChequeSlipCORP">
+    <rootitem Value="0" Description="" />
+    <rootitem Value="BM" Description="BMS" />
+    <rootitem Value="SV" Description="Purchase Invoice" />
+    <rootitem Value="IV" Description="Invoice" />
+    <rootitem Value="DN" Description="Debit note" />
+    <rootitem Value="CN" Description="Credit note" />
+  </rootnode>
+
+  <rootnode Type="PymtReportBMS">
+    <rootitem Value="PymtReportBMS" Description="Payment" />
+    <rootitem Value="PymtReportBMSPaid" Description="Paid" />
+  </rootnode>
+
+  <rootnode Type="BMSPymtReportLiability">
+    <rootitem Value="PymtReportBMSDetail" Description="Detail" />
+    <rootitem Value="PymtReportBMSSummary" Description="Summary" />
+  </rootnode>
+
+  <rootnode Type="CorpChequeSlipDetails">
+    <rootitem Value="DateWise" Description="Date Wise" />
+    <rootitem Value="ChequeNoWise" Description="Chq.No Wise" />
+  </rootnode>
+
+  <!--This is used to populate Report Type in Cash and Bank in Finance-->
+  <rootnode Type="ReportType-CashDiscount">
+    <rootitem Value="Report" Description="Report" />
+    <rootitem Value="Summary" Description="Summary" />
+  </rootnode>
+
+  <!--This is used to populate Report Type in Cash and Bank in Finance-->
+  <rootnode Type="ReportType-VendorBooking">
+    <!--<rootitem Value="Report" Description="Report" />-->
+    <rootitem Value="Excel" Description="Excel" />
+  </rootnode>
+
+  <!--This is used to populate Report Type in Finance\General Ledger\TrialBalance-->
+  <rootnode Type="TrialBalance">
+    <rootitem Value="Report" Description="Report" />
+    <rootitem Value="AuditDetail" Description="Audit Detail" />
+  </rootnode>
+
+  <rootnode Type="TrialBalanceBranch">
+    <rootitem Value="Report" Description="Report" />
+    <!--<rootitem Value="AuditDetail" Description="Audit Detail" />-->
+  </rootnode>
+
+  <rootnode Type="ClassifiedOutstandingHO">
+    <rootitem Value="Report" Description="Report" />
+  </rootnode>
+
+  <!--This is used to populate user Type in Finance\General Ledger\ConfirmationBalance-->
+  <rootnode Type="CustomerSupplier">
+    <rootitem Value="C" Description="Customer" />
+    <rootitem Value="S" Description="Supplier" />
+  </rootnode>
+
+  <!--This is used to populate dropdownlist DebitCreditnote in DebitCreditAdvice Screen-->
+  <rootnode Type="CustomerSupplierBranch">
+    <!--<rootitem Value="Supplier" Description="Supplier" />-->
+    <rootitem Value="Customer" Description="Customer" />
+    <rootitem Value="Branch" Description="Branch" />
+    <rootitem Value="Vendor" Description="Vendor" />
+  </rootnode>
+
+
+  <!--<rootitem Value="001" Description="CASH SALES-MANUAL" />
+    <rootitem Value="011" Description="ABS KIT (WABCO) BILLING" />
+    <rootitem Value="021" Description="AUTOMOBILE SPARE PARTS SALES FOR EXPORT" />
+    <rootitem Value="031" Description="STOCK TRANSFER-MANUAL" />
+    <rootitem Value="041" Description="DISTRESS SALES" />
+    <rootitem Value="051" Description="DISTRESS STOCK TRANSFER-MANUAL" />
+    <rootitem Value="061" Description="PURCHASE RETURN-MANUAL" />
+    <rootitem Value="071" Description="FREE OF COST - MANUAL" />
+    <rootitem Value="081" Description="WARRANTY - MANUAL" />
+    <rootitem Value="091" Description="STOCK ADJUSTMENT NEGATIVE MANUAL" />
+    <rootitem Value="101" Description="CASH SALES" />
+    <rootitem Value="111" Description="CREDIT SALES" />
+    <rootitem Value="121" Description="AUTOMOBILE SPARE PARTS SALES FOR EXPORT" />
+    <rootitem Value="131" Description="STOCK TRANSFER" />
+    <rootitem Value="141" Description="DISTRESS SALES-COMPUTER" />
+    <rootitem Value="151" Description="DISTRESS STOCK TRANSFER" />
+    <rootitem Value="161" Description="PURCHASE RETURN" />
+    <rootitem Value="171" Description="FREE OF COST" />
+    <rootitem Value="181" Description="WARRANTY CLAIM" />
+    <rootitem Value="191" Description="STOCK ADJUSTMENT NEGATIVE" />
+    <rootitem Value="201" Description="G R N" />
+    <rootitem Value="211" Description="SALES RETURN CASH" />
+    <rootitem Value="221" Description="SALES RETURN CREDIT" />
+    <rootitem Value="231" Description="INTER STATE SALES RETURN" />
+    <rootitem Value="241" Description="STOCK TRANSFER RETURN" />
+    <rootitem Value="251" Description="STOCK TRANSFER RECEIPT" />
+    <rootitem Value="261" Description="STOCK ADJUSTMENT POSITIVE" />
+    <rootitem Value="321" Description="GOVT CO - MANUAL" />
+    <rootitem Value="331" Description="COAL FIELDS - MANUAL" />
+    <rootitem Value="341" Description="STU - MANUAL" />
+    <rootitem Value="351" Description="SCHEME ORDER " />
+    <rootitem Value="361" Description="EXPORT SALES" />
+    <rootitem Value="371" Description="LORRY RECEIPT TRANSFER - MANUAL" />
+    <rootitem Value="411" Description="PURCHASE" />
+    <rootitem Value="421" Description="PURCHASE GOVERNMENT" />
+    <rootitem Value="431" Description="PURCHASE COIAL FIELDS" />
+    <rootitem Value="441" Description="PURCHASE STU" />
+    <rootitem Value="451" Description="INDENT SALES" />
+    <rootitem Value="461" Description="FACTORY DIRECT ORDER" />
+    <rootitem Value="471" Description="LORRY RECEIPT TRANSFER" />
+    <rootitem Value="481" Description="COST TO COST SALES" />
+    <rootitem Value="501" Description="SCHEDULE ORDER" />
+    <rootitem Value="601" Description="RECEIPTS - MANUAL" />
+    <rootitem Value="611" Description="CHEQUE SLIPS-MANUAL" />
+    <rootitem Value="621" Description="JOURNAL VOUCHER-MANUAL" />
+    <rootitem Value="631" Description="PETTY CASH - MANUAL" />
+    <rootitem Value="641" Description="DEBIT ADVICE - MANUAL" />
+    <rootitem Value="642" Description="FREIGHT DEBIT NOTE (FDN)" />
+    <rootitem Value="651" Description="CD CREDIT NOTE" />
+    <rootitem Value="652" Description="RETURN OF GOODS - CREDIT ADVICE" />
+    <rootitem Value="653" Description="WARRANTY CLAIMS" />
+    <rootitem Value="654" Description="GOODS RECALLED" />
+    <rootitem Value="655" Description="REVERSAL OF INVOICE" />
+    <rootitem Value="656" Description="ERROR IN BILLING" />
+    <rootitem Value="657" Description="GOODS BILLED BUT NOT SUPPLIED" />
+    <rootitem Value="658" Description="TURNOVER DISCOUNT" />
+    <rootitem Value="701" Description="RECEIPTS" />
+    <rootitem Value="702" Description="PAY-IN-SLIP" />
+    <rootitem Value="711" Description="CHEQUE SLIPS" />
+    <rootitem Value="721" Description="JOURNAL VOUCHER" />
+    <rootitem Value="731" Description="PETTY CASH" />
+    <rootitem Value="741" Description="DEBIT ADVICE" />
+    <rootitem Value="742" Description="DEBIT ADVICE - FDN" />
+    <rootitem Value="751" Description="CREDIT ADVICE" />
+    <rootitem Value="752" Description="RETURN OF GOODS - CREDIT ADVICE" />
+    <rootitem Value="753" Description="CREDIT ADVICE-DEF RETURN OR GIT" />
+    <rootitem Value="754" Description="GOODS RECALLED" />
+    <rootitem Value="755" Description="REVERSAL OF INVOICE" />
+    <rootitem Value="756" Description="ERROR IN BILLING" />
+    <rootitem Value="757" Description="GOODS BILLED BUT NOT SUPPLIED" />
+    <rootitem Value="758" Description="SPECIAL TURNOVER DISCOUNT" />
+    <rootitem Value="761" Description="SUPPLIER COUPON CN" />
+    <rootitem Value="762" Description="REVERSAL OF SUPP INV/CST/OCTROI REIMB CN" />
+    <rootitem Value="763" Description="INCENTIVE / REBATE CN" />
+    <rootitem Value="764" Description="SCHEME ITEM CN" />
+    <rootitem Value="765" Description="SUPPLIER CN TO DEALERS" />
+    <rootitem Value="766" Description="WARRANTY CLAIM CN" />
+    <rootitem Value="767" Description="SF 15% INDUSTRAIL ITEMS CN" />
+    <rootitem Value="768" Description="SF 6% TATA ITEMS CN" />
+    <rootitem Value="769" Description="SUPPLIER FOC CN" />
+    <rootitem Value="770" Description="SUPPLIER CASH DISCOUNT CN" />
+    <rootitem Value="801" Description="CASH BILLS - MANUAL" />
+    <rootitem Value="811" Description="SUPPLIER CREDIT BILLS-MANUAL" />
+    <rootitem Value="821" Description="BUSINESS TRIP - MANUAL" />
+    <rootitem Value="831" Description="CASH & BANK - MANUAL" />
+    <rootitem Value="841" Description="VENDOR BOOKING" />
+    <rootitem Value="851" Description="VENDOR PAYMENT" />
+    <rootitem Value="861" Description="FIXED ASSETS TRANSFER - MANUAL" />
+    <rootitem Value="871" Description="DEPRECIATION - MANAUL" />
+    <rootitem Value="881" Description="SALE OF FIXED ASSETS - MANUAL" />
+    <rootitem Value="891" Description="FIXED ASSETS MAINTAINENCE - MANUAL" />
+    <rootitem Value="901" Description="CASH BILLS" />
+    <rootitem Value="911" Description="SUPPLIER CREDIT BILLS" />
+    <rootitem Value="921" Description="BUSINESS TRIP" />
+    <rootitem Value="931" Description="CASH & BANK" />
+    <rootitem Value="941" Description="PAY IN SLIP" />
+    <rootitem Value="961" Description="FIXED ASSETS TRANSFER" />
+    <rootitem Value="971" Description="DEPRECIATION" />
+    <rootitem Value="981" Description="SALE OF FIXED ASSETS" />
+    <rootitem Value="991" Description="FIXED ASSETS MAINTAINENCE" />-->
+
+  <rootnode Type="DebitCreditCustomerCAtransactionTypeCurYear">
+    <rootitem Value="651" Description="CD CREDIT NOTE" />
+    <rootitem Value="751" Description="CREDIT ADVICE" />
+    <rootitem Value="753" Description="CREDIT ADVICE-DEF RETURN OR GIT" />
+    <rootitem Value="756" Description="ERROR IN BILLING" />
+    <rootitem Value="757" Description="GOODS BILLED BUT NOT SUPPLIED" />
+    <rootitem Value="754" Description="GOODS RECALLED" />
+    <rootitem Value="752" Description="RETURN OF GOODS - CREDIT ADVICE" />
+    <rootitem Value="755" Description="REVERSAL OF INVOICE" />
+    <rootitem Value="758" Description="SPECIAL TURNOVER DISCOUNT" />
+    <rootitem Value="658" Description="TURNOVER DISCOUNT" />
+    <rootitem Value="653" Description="WARRANTY CLAIMS" />
+  </rootnode>
+
+  <rootnode Type="DebitCreditCustomerCAtransactionTypePrevYear">
+    <rootitem Value="651" Description="CD CREDIT NOTE" />
+    <rootitem Value="751" Description="CREDIT ADVICE" />
+    <rootitem Value="753" Description="CREDIT ADVICE-DEF RETURN OR GIT" />
+    <rootitem Value="758" Description="SPECIAL TURNOVER DISCOUNT" />
+    <rootitem Value="658" Description="TURNOVER DISCOUNT" />
+    <rootitem Value="653" Description="WARRANTY CLAIMS" />
+  </rootnode>
+
+  <rootnode Type="DebitCreditCustomerDAtransactionType">
+    <rootitem Value="741" Description="DEBIT ADVICE" />
+    <rootitem Value="742" Description="DEBIT ADVICE - FDN" />
+  </rootnode>
+
+  <rootnode Type="DebitCreditBranchCAtransactionType">
+    <rootitem Value="751" Description="CREDIT ADVICE" />
+  </rootnode>
+
+  <rootnode Type="DebitCreditBranchDAtransactionType">
+    <rootitem Value="741" Description="DEBIT ADVICE" />
+  </rootnode>
+
+  <rootnode Type="DebitCreditSupplierDAvsAutoTOD">
+    <!--<rootitem Value="741" Description="DEBIT ADVICE" />-->
+    <rootitem Value="761" Description="SUPPLIER COUPON CN" />
+    <rootitem Value="762" Description="REVERSAL OF SUPPLIER INVOICE" />
+    <!--<rootitem Value="763" Description="INCENTIVE / REBATE CN" />-->
+    <!--<rootitem Value="764" Description="SCHEME ITEM CN" />
+		<rootitem Value="765" Description="SUPPLIER CN TO DEALERS" />-->
+    <rootitem Value="766" Description="WARRANTY CLAIM CN" />
+    <!--<rootitem Value="767" Description="SF 15% INDUSTRAIL ITEMS CN" />
+		<rootitem Value="768" Description="SF 6% TATA ITEMS CN" />
+		<rootitem Value="769" Description="SUPPLIER FOC CN" />
+		<rootitem Value="770" Description="SUPPLIER CASH DISCOUNT CN" />-->
+  </rootnode>
+
+  <rootnode Type="DebitCreditSupplierCAvsAutoTOD">
+    <rootitem Value="751" Description="CREDIT ADVICE" />
+    <!--<rootitem Value="761" Description="SUPPLIER COUPON CN" />
+		<rootitem Value="762" Description="REVERSAL OF SUPP INV/CST/OCTROI REIMB CN" />
+		<rootitem Value="763" Description="INCENTIVE / REBATE CN" />
+		<rootitem Value="764" Description="SCHEME ITEM CN" />
+		<rootitem Value="765" Description="SUPPLIER CN TO DEALERS" />
+		<rootitem Value="766" Description="WARRANTY CLAIM CN" />
+		<rootitem Value="767" Description="SF 15% INDUSTRAIL ITEMS CN" />
+		<rootitem Value="768" Description="SF 6% TATA ITEMS CN" />
+		<rootitem Value="769" Description="SUPPLIER FOC CN" />
+		<rootitem Value="770" Description="SUPPLIER CASH DISCOUNT CN" />-->
+  </rootnode>
+
+  <!--To populate Report Type in PurchaseJournal.aspx-->
+  <rootnode Type="PurchaseJourReportType">
+    <rootitem Value="1" Description="Purchase Journal Detail"/>
+    <rootitem Value="2" Description="Purchase Journal Summary" />
+    <rootitem Value="3" Description="Credit Note Detail" />
+    <rootitem Value="4" Description="Credit Note Summary" />
+    <rootitem Value="5" Description="Debit Note Detail" />
+    <rootitem Value="6" Description="Debit Note Summary" />
+  </rootnode>
+
+  <rootnode Type="Finance-PurchaseJournal_GST">
+    <rootitem Value="PurchaseJournalGSTExcel" Description="PurchaseJournal - GST - Excel" />
+    <!--<rootitem Value="PurchaseJournalGST" Description="PurchaseJournal - GST - Report" />-->
+  </rootnode>
+
+  <rootnode Type="ADisc1Ind">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Net price"/>
+  </rootnode>
+
+  <rootnode Type="ADisc2Ind">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Net price"/>
+    <rootitem Value="3" Description="After discount 1"/>
+  </rootnode>
+
+  <rootnode Type="ADisc3Ind">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Net price"/>
+    <rootitem Value="3" Description="After discount 1"/>
+    <rootitem Value="4" Description="After discount 2"/>
+  </rootnode>
+
+  <rootnode Type="ADisc4Ind">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Net price"/>
+    <rootitem Value="3" Description="After discount 1"/>
+    <rootitem Value="4" Description="After discount 2"/>
+    <rootitem Value="5" Description="After discount 3"/>
+  </rootnode>
+
+  <rootnode Type="ADisc5Ind">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Net price"/>
+    <rootitem Value="3" Description="After discount 1"/>
+    <rootitem Value="4" Description="After discount 2"/>
+    <rootitem Value="5" Description="After discount 3"/>
+    <rootitem Value="6" Description="After discount 4"/>
+  </rootnode>
+
+  <rootnode Type="ExciseDutyInd">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Net price"/>
+    <rootitem Value="3" Description="After discount 1"/>
+    <rootitem Value="4" Description="After discount 2"/>
+    <rootitem Value="5" Description="After discount 3"/>
+    <rootitem Value="6" Description="After discount 4"/>
+    <rootitem Value="7" Description="After discount 5"/>
+    <rootitem Value="8" Description="Amount"/>
+  </rootnode>
+
+
+  <rootnode Type="AdditionalSurchargeInd">
+    <rootitem Value="1" Description="Sales Tax" />
+    <rootitem Value="2" Description="Surcharge"/>
+  </rootnode>
+
+  <rootnode Type="CESSCalculationIndicator">
+    <rootitem Value="1" Description="After octroi" />
+    <rootitem Value="2" Description="Selling price"/>
+  </rootnode>
+
+
+  <rootnode Type="InsuranceIndicator">
+    <rootitem Value="1" Description="After other levies 2" />
+    <rootitem Value="2" Description="Selling price"/>
+  </rootnode>
+
+  <rootnode Type="WarehouseSCIndicator">
+    <rootitem Value="1" Description="Before sales tax" />
+    <rootitem Value="2" Description="After sales tax"/>
+    <rootitem Value="3" Description="After insurance"/>
+  </rootnode>
+
+
+  <rootnode Type="FreightCalculationIndicator">
+    <rootitem Value="1" Description="After warehouse SC" />
+    <rootitem Value="2" Description="Selling price"/>
+    <rootitem Value="3" Description="Amount"/>
+  </rootnode>
+
+  <rootnode Type="TOTInd">
+    <rootitem Value="1" Description="After warehouse SC" />
+    <rootitem Value="2" Description="Selling price"/>
+    <rootitem Value="3" Description="Amount"/>
+  </rootnode>
+
+  <rootnode Type="BonusCalculationInd">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Net price"/>
+    <rootitem Value="3" Description="After discount 1"/>
+    <rootitem Value="4" Description="After discount 2" />
+    <rootitem Value="5" Description="After discount 3"/>
+    <rootitem Value="6" Description="After discount 4"/>
+    <rootitem Value="7" Description="After discount 5" />
+    <rootitem Value="8" Description="Amount"/>
+  </rootnode>
+
+  <rootnode Type="CouponInd">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Net price"/>
+    <rootitem Value="3" Description="After discount 1"/>
+    <rootitem Value="4" Description="After discount 2" />
+    <rootitem Value="5" Description="After discount 3"/>
+    <rootitem Value="6" Description="After discount 4"/>
+    <rootitem Value="7" Description="After discount 5" />
+    <rootitem Value="8" Description="Amount"/>
+  </rootnode>
+
+
+  <rootnode Type="SplTODInd">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Selling price"/>
+    <rootitem Value="3" Description="After dealers discount"/>
+  </rootnode>
+
+  <rootnode Type="TODSLBType">
+    <rootitem Value="" Description="--Select--" />
+    <rootitem Value="L" Description="On List" />
+    <rootitem Value="N" Description="On Nett"/>
+    <!--<rootitem Value="R" Description="NettRate"/>-->
+  </rootnode>
+
+  <rootnode Type="TODMarketTypeRegularGOGO">
+    <rootitem Value="A" Description="--NA--" />
+  </rootnode>
+
+  <rootnode Type="TODMarketTypeSpecialGOGO">
+    <rootitem Value="" Description="-Select-" />
+    <rootitem Value="W" Description="DELHI WHOLESALE" />
+    <rootitem Value="U" Description="DELHI UP" />
+    <rootitem Value="G" Description="DELHI GURGAON" />
+    <rootitem Value="R" Description="DELHI RETAIL" />
+  </rootnode>
+
+  <rootnode Type="TODSLBTypeGOGO">
+    <rootitem Value="" Description="-Select-" />
+    <rootitem Value="M" Description="Monthly" />
+    <!--<rootitem Value="Y" Description="Annual"/>-->
+  </rootnode>
+
+  <rootnode Type="TODCustTypeGOGO">
+    <rootitem Value="" Description="--Select--" />
+    <rootitem Value="L" Description="Local" />
+    <rootitem Value="O" Description="Outstation"/>
+  </rootnode>
+
+  <rootnode Type="CalculationIndicator">
+    <rootitem Value="1" Description="SLB (NE) &amp; GP(WS)" />
+    <rootitem Value="2" Description="GP(NE) &amp; HC(WS)"/>
+    <rootitem Value="3" Description="SLB(NE) &amp; HC(WS)"/>
+  </rootnode>
+
+  <rootnode Type="HCInd">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="ED"/>
+  </rootnode>
+
+  <rootnode Type="SLBRoundingOffInd">
+    <rootitem Value="1" Description="Yes" />
+    <rootitem Value="2" Description="No"/>
+  </rootnode>
+
+  <rootnode Type="EDForSellingPriceInd">
+    <rootitem Value="1" Description="Actual ED" />
+    <rootitem Value="2" Description="ED Entry"/>
+  </rootnode>
+
+  <rootnode Type="SplDisc1Ind">
+    <rootitem Value="1" Description="List price" />
+    <rootitem Value="2" Description="Net price"/>
+    <rootitem Value="3" Description="Before bonus"/>
+    <rootitem Value="4" Description="Amount"/>
+  </rootnode>
+
+  <rootnode Type="CBPPayments">
+    <rootitem Value="0" Description="--Select--" />
+    <rootitem Value="P" Description="Payment" />
+    <rootitem Value="F" Description="Fund Transfer" />
+  </rootnode>
+
+  <rootnode Type="CBPPaymentsHO">
+    <rootitem Value="0" Description="--Select--" />
+    <rootitem Value="P" Description="Payment" />
+    <rootitem Value="F" Description="Fund Transfer" />
+    <rootitem Value="C" Description="Cheque Return" />
+  </rootnode>
+
+  <rootnode Type="CBPPaymentsOthers">
+    <!--<rootitem Value="P" Description="Payment" />-->
+    <rootitem Value="Q" Description="Cheque / Draft" />
+  </rootnode>
+
+  <rootnode Type="CBPCashChequeOthers">
+    <rootitem Value="Q" Description="Cheque / Draft" />
+    <!--<rootitem Value="D" Description="NEFT / RTGS" />-->
+  </rootnode>
+
+  <rootnode Type="VendorPayment">
+    <rootitem Value="CA" Description="Cash" />
+    <rootitem Value="CH" Description="Cheque / Draft" />
+    <rootitem Value="DR" Description="NEFT / RTGS" />
+  </rootnode>
+
+  <rootnode Type="CBPCashCheque">
+    <rootitem Value="H" Description="Cash" />
+    <rootitem Value="Q" Description="Cheque / Draft" />
+    <rootitem Value="D" Description="NEFT / RTGS" />
+  </rootnode>
+
+  <rootnode Type="CBPCashChequeNew">
+    <rootitem Value="H" Description="Cash" />
+    <rootitem Value="Q" Description="Cheque / Draft" />
+  </rootnode>
+
+  <rootnode Type="CBPCashChequeOthers">
+    <rootitem Value="Q" Description="Cheque / Draft" />
+    <!--<rootitem Value="D" Description="NEFT / RTGS" />-->
+  </rootnode>
+
+  <rootnode Type="CBPCashChequeDishonor">
+    <rootitem Value="H" Description="Cash" />
+    <rootitem Value="D" Description="NEFT / RTGS" />
+  </rootnode>
+
+  <rootnode Type="CBPPaymentsCHQreturn">
+    <rootitem Value="C" Description="Cheque Return" />
+  </rootnode>
+
+  <rootnode Type="CBPPaymentsCHQreturnRemarks">
+    <rootitem Value="Funds in-Sufficient" Description="Funds in-Sufficient" />
+    <rootitem Value="Post Dated" Description="Post Dated" />
+    <rootitem Value="Difference in Figures and Words" Description="Difference in Figures and Words" />
+    <rootitem Value="Exceed Arrangements" Description="Exceed Arrangements" />
+    <rootitem Value="Drawer Signature Differs" Description="Drawer Signature Differs" />
+    <rootitem Value="Other Reasons" Description="Other Reasons" />
+  </rootnode>
+
+  <rootnode Type="CBPCashChequeHOBranch">
+    <rootitem Value="D" Description="NEFT / RTGS" />
+    <rootitem Value="Q" Description="Cheque / Draft" />
+  </rootnode>
+
+  <rootnode Type="CBPCashChequeHODealer">
+    <rootitem Value="Q" Description="Cheque / Draft" />
+  </rootnode>
+  <rootnode Type="LocalOutStation">
+    <rootitem Value="L" Description="Local" />
+    <rootitem Value="O" Description="Outstation" />
+  </rootnode>
+
+  <rootnode Type="CBRReceipts">
+    <rootitem Value="R" Description="Receipt" />
+  </rootnode>
+
+  <rootnode Type="CBRReceiptTransType">
+    <rootitem Value="" Description="--Select--" />
+    <rootitem Value="A" Description="ADVANCE FROM DEALER" />
+    <rootitem Value="O" Description="OTHERS" />
+  </rootnode>
+
+  <rootnode Type="CBCancellation">
+    <rootitem Value="0" Description="--Select--" />
+    <rootitem Value="P" Description="Payment" />
+    <rootitem Value="R" Description="Receipt" />
+    <rootitem Value="F" Description="Fund Transfer" />
+  </rootnode>
+
+  <rootnode Type="VendorBookingTDStypes">
+    <rootitem Value="0" Description="" />
+    <rootitem Value="0.6" Description="TDS - CONTRACT - 0.6%" />
+    <rootitem Value="1" Description="TDS - CONTRACT - 1%" />
+    <rootitem Value="2" Description="TDS - CONTRACT - 2%" />
+    <rootitem Value="20" Description="TDS - CONTRACT - 20%" />
+    <rootitem Value="5" Description="TDS - COMMISSION - 5%" />
+    <rootitem Value="10" Description="TDS - RENT - 10%" />
+    <rootitem Value="0.1" Description="TDS - PROF CHARGES - 0.1%" />
+    <rootitem Value="2" Description="TDS - PROF CHARGES - 2%" />
+    <rootitem Value="7.3" Description="TDS - PROF CHARGES - 7.3%" />
+    <rootitem Value="10" Description="TDS - PROF CHARGES - 10%" />
+    <rootitem Value="10" Description="TDS - NON RESIDENTS - 10%" />
+  </rootnode>
+
+  <rootnode Type="ReceivableReceipt">
+    <rootitem Value="CA" Description="Cash" />
+    <rootitem Value="CH" Description="Cheque / Draft" />
+    <rootitem Value="DR" Description="NEFT / RTGS" />
+  </rootnode>
+
+  <rootnode Type="ReceivableReceiptChqDishonor">
+    <rootitem Value="CA" Description="Cash" />
+    <rootitem Value="DR" Description="NEFT / RTGS" />
+  </rootnode>
+
+  <rootnode Type="PDCRegister">
+    <rootitem Value="CH" Description="Cheque / Draft" />
+  </rootnode>
+
+  <rootnode Type="ReceivableReceiptNEFT">
+    <rootitem Value="DR" Description="NEFT / RTGS" />
+  </rootnode>
+
+  <!--This is used to populate dropdownlist DebitCreditnote in DebitCreditnoteSupplier Screen-->
+  <rootnode Type="SupplierNote">
+    <!--<rootitem Value="DA" Description="Supplier Credit Note" />
+    <rootitem Value="CA" Description="Supplier Debit Note" />-->
+    <rootitem Value="DA" Description="Supplier CN / Our DA" />
+    <rootitem Value="CA" Description="Supplier DN / Our CA" />
+    <rootitem Value="PC" Description="Purchase Coupon DN Advise by HO" />
+  </rootnode>
+
+  <!--This is used to populate dropdownlist DebitCreditnote in DebitCreditnoteCustomerBranch Screen-->
+  <rootnode Type="CustomerBranchNote">
+    <rootitem Value="DA" Description="Debit Note" />
+    <rootitem Value="CA" Description="Credit Note" />
+  </rootnode>
+
+  <!--This is used to populate Indent type dropdownlist in PO Indent CWH-->
+  <rootnode Type="POIndentCWH">
+    <rootitem Value="" Description="" />
+    <!--<rootitem Value="SFFSN" Description="SF-FSN" />-->
+    <rootitem Value="ABCFMS" Description="ABC FMS" />
+    <!--<rootitem Value="NILABCFMS" Description="NIL - ABC FMS" />-->
+    <!--<rootitem Value="DPO" Description="DIRECT PURCHASE ORDER" />-->
+    <!--<rootitem Value="SCHEME" Description="SCHEME" />-->
+  </rootnode>
+
+  <rootnode Type="ExtraPurchaseOrder">
+    <!--<rootitem Value="" Description="" />-->
+    <rootitem Value="ABCFMS" Description="ABC FMS" />
+    <!--<rootitem Value="DPO" Description="DIRECT PURCHASE ORDER" />-->
+  </rootnode>
+
+  <rootnode Type="EPOType">
+    <rootitem Value="" Description="--Select--" />
+    <!--<rootitem Value="Stock" Description="Stock" />
+    <rootitem Value="MOQ/Shipper" Description="MOQ/Shipper" />-->
+    <rootitem Value="Dealer-Back to Back" Description="Dealer-Back to Back" />
+    <rootitem Value="Scheme-HO" Description="Scheme-HO" />
+    <rootitem Value="Scheme-Branch-State" Description="Scheme-Branch-State" />
+    <rootitem Value="New Part Number" Description="New Part Number" />
+  </rootnode>
+
+  <rootnode Type="EPOsubType-Stock">
+    <rootitem Value="Liquidataion Period 60 Days" Description="Liquidataion Period 60 Days" />
+  </rootnode>
+
+  <rootnode Type="EPOsubType-Scheme">
+    <rootitem Value="" Description="--Select--" />
+    <rootitem Value="M" Description="Monthly" />
+    <rootitem Value="Q" Description="Quarterly" />
+    <rootitem Value="A" Description="Annually" />
+  </rootnode>
+
+  <rootnode Type="EPOsubType-NewPart">
+    <rootitem Value="Liquidataion Period 60 Days" Description="Liquidataion Period 60 Days" />
+  </rootnode>
+
+  <!--<rootnode Type="EPOsubType-MOQ">
+    <rootitem Value="" Description="" />
+  </rootnode>-->
+
+  <!--This is to populate OS Locking dropdown in Master/Branch/Branch page-->
+  <rootnode Type="OSLocking">
+    <rootitem Value="Yes" Description="Yes" />
+    <rootitem Value="No" Description="No" />
+  </rootnode>
+
+  <!--This is to populate OS Locking dropdown in Master/Branch/Branch page-->
+  <rootnode Type="CustomerIndication">
+    <rootitem Value="L" Description="Local" />
+    <rootitem Value="O" Description="Out Station" />
+  </rootnode>
+
+</root>

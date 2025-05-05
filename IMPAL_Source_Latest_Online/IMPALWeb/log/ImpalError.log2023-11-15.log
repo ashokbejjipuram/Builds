@@ -1,0 +1,46 @@
+
+ 2023-11-15 12:13:13,601   [16]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'outstanding_report'.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetPaymentPatternDetails(String BranchCode, String CustomerCode) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 330
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 261
+ClientConnectionId:89076677-f5b0-45ea-904b-7b11f622fc20
+Error Number:208,State:1,Class:16
+
+ 2023-11-15 12:19:43,091   [17]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'usp_Add_ECredit_Application_Form' expects parameter '@Dealer_Multi_Towns', which was not supplied.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.AddECrdeitApplicationForm(ECreditApplicationCust ecreditAppln) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 219
+   at IMPALWeb.ECreditApplication.btnSubmit_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 822
+ClientConnectionId:89076677-f5b0-45ea-904b-7b11f622fc20
+Error Number:201,State:4,Class:16
+
+ 2023-11-15 15:44:59,218   [19]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s, IFormatProvider provider)
+   at IMPALWeb.ECreditApplication.IndianMoneyConversion(String strValue) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 955
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 224
+
+ 2023-11-15 15:45:20,325   [19]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s, IFormatProvider provider)
+   at IMPALWeb.ECreditApplication.IndianMoneyConversion(String strValue) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 955
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 224
+
+ 2023-11-15 15:45:51,466   [23]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s, IFormatProvider provider)
+   at IMPALWeb.ECreditApplication.IndianMoneyConversion(String strValue) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 955
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 224
+
+ 2023-11-15 15:48:12,046   [19]   ERROR  WriteException  IMPALWeb.ECreditApplication 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s, IFormatProvider provider)
+   at IMPALWeb.ECreditApplication.IndianMoneyConversion(String strValue) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 959
+   at IMPALWeb.ECreditApplication.ddlCustomerCode_SelectedIndexChanged(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Masters\Customer\EcreditApplication.aspx.cs:line 224

@@ -1,0 +1,5 @@
+
+ 2024-10-11 15:20:14,550   [138]   ERROR  WriteException  IMPALWeb.Reports.QR_Codes.SalesInvoiceReprintQR 
+System.Exception: Einvoicing JSON Data Upload Failed : 24/03290/ABD/111 : Error Msg : Invalid GSTIN .Please Conact Support and Onboard the GSTIN
+   at IMPALLibrary.EinvAuthGen.EinvoiceAuthentication(String JSONData, String BranchCode, String DocNumber, String Indicator, String Action, String SellerGSTIN, String DocType, String DocDate, DataSet ds) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Common\EinvAuthGen.cs:line 363
+   at IMPALWeb.Reports.QR_Codes.SalesInvoiceReprintQR.btnReport_Click(Object sender, EventArgs e) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Reports\QR Codes\SalesInvoiceReprintQR.aspx.cs:line 136

@@ -1,0 +1,15 @@
+
+ 2024-09-04 11:16:48,161   [15]   ERROR  WriteException  IMPALWeb.StockTransferEntryFinalHO 
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at IMPALLibrary.Transactions.StockTransferTransactions.GetSTDNEntryDetailsByNumber(String BranchCode, String STDNNumber) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Transactions\Inventory\StockTransfer.cs:line 1318
+   at IMPALWeb.StockTransferEntryFinalHO.ddlStockTransferNumber_OnSelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\StockTransferEntryFinalHO.aspx.cs:line 561
+
+ 2024-09-04 11:22:27,041   [46]   ERROR  WriteException  IMPALWeb.StockTransferEntryFinalHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.StockTransferEntryFinalHO.ddlStockTransferNumber_OnSelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\StockTransferEntryFinalHO.aspx.cs:line 663
+
+ 2024-09-04 11:23:42,941   [46]   ERROR  WriteException  IMPALWeb.StockTransferEntryFinalHO 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IMPALWeb.StockTransferEntryFinalHO.ddlStockTransferNumber_OnSelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Inventory\StockTransferEntryFinalHO.aspx.cs:line 663

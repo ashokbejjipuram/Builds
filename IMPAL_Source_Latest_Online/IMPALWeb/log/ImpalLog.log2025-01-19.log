@@ -1,0 +1,4 @@
+2025-01-19 23:34:58,230   [1]   INFO   IMPALWeb.Global [(null)] (null) -  MethodName: Application_Start Message Details: Application started 
+ 
+2025-01-19 23:40:12,263   [45]   INFO   IMPALWeb.Global [(null)] (null) -  MethodName: Application_End Message Details: Application End 
+ 

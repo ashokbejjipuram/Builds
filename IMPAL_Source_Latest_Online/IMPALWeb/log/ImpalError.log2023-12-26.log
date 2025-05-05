@@ -1,0 +1,6 @@
+
+ 2023-12-26 13:13:10,382   [32]   ERROR  WriteException  IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload 
+System.Exception: String or binary data would be truncated.
+The statement has been terminated.
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.UploadFileData(Boolean isHOProcess) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 91
+   at IMPALWeb.HOAdmin.Item.SupplierInvoicesUpload.btnUploadExcel_Click(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Supplier\SupplierInvoicesUpload.aspx.cs:line 44

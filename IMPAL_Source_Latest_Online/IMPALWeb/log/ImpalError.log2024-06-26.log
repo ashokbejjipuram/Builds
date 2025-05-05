@@ -1,0 +1,6 @@
+
+ 2024-06-26 21:18:44,593   [31]   ERROR  WriteException  IMPALWeb.BulkOrderUploadHO 
+System.Web.HttpException (0x80004005): Server cannot clear headers after HTTP headers have been sent.
+   at System.Web.HttpResponse.ClearHeaders()
+   at IMPALWeb.BulkOrderUploadHO.ExportDataSetToExcel(DataSet ds, String strReportName) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Ordering\BulkOrderUploadHO.aspx.cs:line 220
+   at IMPALWeb.BulkOrderUploadHO.BtnSupplierExcelFile_Click(Object sender, EventArgs e) in D:\Ashok Builds\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Transactions\Ordering\BulkOrderUploadHO.aspx.cs:line 191

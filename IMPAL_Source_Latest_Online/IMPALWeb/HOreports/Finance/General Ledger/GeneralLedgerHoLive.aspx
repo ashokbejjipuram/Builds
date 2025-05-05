@@ -1,0 +1,314 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GeneralLedgerHoLive.aspx.cs"
+    Inherits="IMPALWeb.Reports.Finance.General_Ledger.GeneralLedgerHoLive" MasterPageFile="~/Main.Master" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<asp:Content ID="Content" ContentPlaceHolderID="CPHDetails" runat="server">
+
+    <script language="javascript" type="text/javascript">
+        function FnValidate() {
+            var ddlAccPeriod = document.getElementById('<%=ddlAccPeriod.ClientID%>');
+            var ddlBranch = document.getElementById('<%=ddlBranch.ClientID%>');
+            var ddlGLClassification = document.getElementById('<%=ddlGLClassification.ClientID%>');
+            var ddlGLGroup = document.getElementById('<%=ddlGLGroup.ClientID%>');
+            var ddlGLMain = document.getElementById('<%=ddlGLMain.ClientID%>');
+            var ddlGLSub = document.getElementById('<%=ddlGLSub.ClientID%>');
+
+            if (ddlAccPeriod.value <= 0) {
+                alert("Please Select Accounting Period!");
+                ddlAccPeriod.focus();
+                return false;
+            }
+
+            if (ddlGLClassification.value == "") {
+                alert("Please Select GL Classification");
+                ddlGLClassification.focus();
+                return false;
+            }
+
+            //if (ddlGLGroup.value == "") {
+            //    alert("Please Select GL Group");
+            //    ddlGLGroup.focus();
+            //    return false;
+            //}
+
+            //let str = "sridhar,crpadmin1"; //,cfo,mrsriram
+            //if (!(str.includes('<%=Session["UserID"]%>'))) {
+            //    if (ddlGLMain.value == "") {
+            //        alert("Please Select GL Main");
+            //        ddlGLMain.focus();
+            //        return false;
+            //    }
+            //}
+
+            //if (ddlGLSub.value == "") {
+            //    alert("Please Select GL Sub");
+            //    ddlGLSub.focus();
+            //    return false;
+            //}
+
+            //if (ddlBranch.value == "") {
+            //    alert("Please Select Branch!");
+            //    ddlBranch.focus();
+            //    return false;
+            //}
+
+            var txtFromDate = document.getElementById('<%=txtFromDate.ClientID%>');
+            var txtToDate = document.getElementById('<%=txtToDate.ClientID%>');
+            var hidFromDate = document.getElementById('<%=hidFromDate.ClientID%>');
+            var hidToDate = document.getElementById('<%=hidToDate.ClientID%>');
+
+            var oFromDateVal = txtFromDate.value.trim();
+            var oToDateVal = txtToDate.value.trim();
+            if (oFromDateVal == null || oFromDateVal == "") {
+                alert("From Date should not be null!");
+                txtFromDate.focus();
+                return false;
+            }
+            else if (oToDateVal == null || oToDateVal == "") {
+                alert("To Date should not be null!");
+                txtToDate.focus();
+                return false;
+            }
+            if (CheckDates(txtFromDate, txtToDate) == false)
+                return false;
+            else {
+                var oFromDate = oFromDateVal.split("/");
+                var oToDate = oToDateVal.split("/");
+                var oFromDateFormatted = oFromDate[1] + "/" + oFromDate[0] + "/" + oFromDate[2];
+                var oToDateFormatted = oToDate[1] + "/" + oToDate[0] + "/" + oToDate[2];
+                if (hidFromDate != null)
+                    hidFromDate.value = oFromDateFormatted;
+                if (hidToDate != null)
+                    hidToDate.value = oToDateFormatted;
+            }
+
+            fnShowHideBtns();
+        }
+
+        function CheckDates(txtFromDate, txtToDate) {
+            var oFromDateVal = txtFromDate.value.trim();
+            var oToDateVal = txtToDate.value.trim();
+            if (fnIsDate(oFromDateVal) == false) {
+                txtFromDate.focus();
+                return false;
+            }
+            else if (fnIsDate(oToDateVal) == false) {
+                txtToDate.focus();
+                return false;
+            }
+            else {
+                var oSysDate = new Date();
+                var oFromDate = oFromDateVal.split("/");
+                var oToDate = oToDateVal.split("/");
+                var oFromDateFormatted = oFromDate[1] + "/" + oFromDate[0] + "/" + oFromDate[2];
+                var oToDateFormatted = oToDate[1] + "/" + oToDate[0] + "/" + oToDate[2];
+                if (oSysDate < new Date(oFromDateFormatted)) {
+                    alert("From Date should not be greater than System Date");
+                    txtFromDate.value = "";
+                    txtFromDate.focus();
+                    return false;
+                }
+                else if (oSysDate < new Date(oToDateFormatted)) {
+                    alert("To Date should not be greater than System Date");
+                    txtToDate.value = "";
+                    txtToDate.focus();
+                    return false;
+                }
+                else if (new Date(oFromDateFormatted) > new Date(oToDateFormatted)) {
+                    alert("To Date should be greater than From Date");
+                    txtToDate.value = "";
+                    txtToDate.focus();
+                    return false;
+                }
+            }
+        }
+
+        function fnShowHideBtns() {
+            document.getElementById('<%=btnReport.ClientID%>').style.display = "none";
+            document.getElementById('<%=btnBack.ClientID%>').style.display = "inline";
+        }
+    </script>
+
+    <div class="reportFormTitle">
+        General Ledger - Live
+    </div>
+    <div class="reportFilters">
+        <table id="reportFiltersTable" class="reportFiltersTable" runat="server">
+            <tr>
+                <td>
+                    <table id="reportFiltersTable1" class="reportFiltersTable">
+                        <tr>
+                            <td class="label">
+                                <asp:Label ID="lblAccPeriod" runat="server" Text="Accounting Period" SkinID="LabelNormal"></asp:Label>
+                                <span class="asterix">*</span>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="ddlAccPeriod" TabIndex="1" runat="server" SkinID="DropDownListNormal"
+                                    AutoPostBack="true" OnSelectedIndexChanged="ddlAccPeriod_SelectedIndexChanged">
+                                </asp:DropDownList>
+                            </td>
+                            <td class="label">
+                                <asp:Label ID="Label1" Text="Zone" runat="server" SkinID="LabelNormal"></asp:Label>
+                                <span class="asterix">*</span>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="ddlZone" runat="server" DataTextField="ZoneName" DataValueField="ZoneCode"
+                                    TabIndex="1" OnSelectedIndexChanged="ddlZone_OnSelectedIndexChanged" AutoPostBack="True"
+                                    Enabled="false" SkinID="DropDownListNormal" />
+                            </td>
+                            <td class="label">
+                                <asp:Label ID="lblState" Text="State" runat="server" SkinID="LabelNormal"></asp:Label>
+                                <span class="asterix">*</span>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="ddlState" runat="server" DataTextField="StateName" DataValueField="StateCode"
+                                    OnSelectedIndexChanged="ddlState_OnSelectedIndexChanged" TabIndex="2" Enabled="false"
+                                    AutoPostBack="True" SkinID="DropDownListNormal" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <asp:Label ID="lblBranch" runat="server" Text="Branch" SkinID="LabelNormal"></asp:Label>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="ddlBranch" runat="server" DataTextField="BranchName" DataValueField="BranchCode"
+                                    TabIndex="3" Enabled="false" SkinID="DropDownListNormal">
+                                </asp:DropDownList>
+                            </td>
+                            <td class="label">
+                                <asp:Label ID="lblGLClassification" runat="server" Text="GL Classification" SkinID="LabelNormal"></asp:Label>
+                                <span class="asterix">*</span>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="ddlGLClassification" TabIndex="2" runat="server" SkinID="DropDownListNormal"
+                                    AutoPostBack="True" OnSelectedIndexChanged="GLClassification_IndexChanged">
+                                </asp:DropDownList>
+                            </td>
+                            <td class="label">
+                                <asp:Label ID="lblGLGroup" runat="server" Text="GL Group" SkinID="LabelNormal"></asp:Label>
+                                <span class="asterix">*</span>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="ddlGLGroup" TabIndex="3" runat="server" SkinID="DropDownListNormal"
+                                    AutoPostBack="True" Enabled="False" OnSelectedIndexChanged="ddlGLGroup_IndexChanged">
+                                </asp:DropDownList>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <asp:Label ID="lblGLMain" runat="server" Text="GL Main" SkinID="LabelNormal"></asp:Label>
+                                <span class="asterix">*</span>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="ddlGLMain" TabIndex="4" runat="server" AutoPostBack="True"
+                                    Enabled="False" SkinID="DropDownListNormal" OnSelectedIndexChanged="ddlGLMain_IndexChanged">
+                                </asp:DropDownList>
+                            </td>
+                            <td class="label">
+                                <asp:Label ID="lblGLSub" runat="server" Text="GL Sub" SkinID="LabelNormal"></asp:Label>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="ddlGLSub" TabIndex="5" runat="server" AutoPostBack="True" Enabled="False"
+                                    SkinID="DropDownListNormal" OnSelectedIndexChanged="ddlGLSub_IndexChanged">
+                                </asp:DropDownList>
+                            </td>
+                            <td class="label">
+                                <asp:Label ID="lblGLAcc" runat="server" Text="GL Account" SkinID="LabelNormal"></asp:Label>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="cbGLAcc" TabIndex="5" runat="server" AutoPostBack="True" Enabled="False"
+                                    SkinID="DropDownListNormal" OnSelectedIndexChanged="cbGLAcc_IndexChanged">
+                                </asp:DropDownList>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <asp:Label ID="lblFromDate" Text="From Date" runat="server" SkinID="LabelNormal"></asp:Label>
+                                <span class="asterix">*</span>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:TextBox ID="txtFromDate" runat="server" SkinID="TextBoxCalendarExtenderNormal"
+                                    TabIndex="8"></asp:TextBox>
+                                <ajaxToolkit:CalendarExtender ID="calFromdate" Format="dd/MM/yyyy" runat="server"
+                                    TargetControlID="txtFromDate">
+                                </ajaxToolkit:CalendarExtender>
+                                <asp:HiddenField ID="hidFromDate" runat="server" />
+                            </td>
+                            <td class="label">
+                                <asp:Label ID="lblToDate" Text="To Date" runat="server" SkinID="LabelNormal"></asp:Label>
+                                <span class="asterix">*</span>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:TextBox ID="txtToDate" runat="server" SkinID="TextBoxCalendarExtenderNormal"
+                                    TabIndex="9"></asp:TextBox>
+                                <ajaxToolkit:CalendarExtender ID="calTodate" Format="dd/MM/yyyy" runat="server" TargetControlID="txtToDate">
+                                </ajaxToolkit:CalendarExtender>
+                                <asp:HiddenField ID="hidToDate" runat="server" />
+                            </td>
+                            <td class="label">
+                                <asp:Label ID="lblReportType" runat="server" Text="Report Type" SkinID="LabelNormal"></asp:Label>
+                            </td>
+                            <td class="inputcontrols">
+                                <asp:DropDownList ID="ddlReportType" TabIndex="10" runat="server" SkinID="DropDownListNormal"
+                                    DataTextField="DisplayText" DataValueField="DisplayValue">
+                                </asp:DropDownList>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="divCustomerInfo" style="display: none" runat="server">
+                        <div class="reportFormTitle">
+                            Customer Information
+                        </div>
+                        <table class="reportFiltersTable">
+                            <tr>
+                                <td class="label">
+                                    <asp:Label runat="server" ID="lblCustomerCode" Text="Customer Code" SkinID="LabelNormal" />
+                                </td>
+                                <td class="inputcontrols">
+                                    <asp:TextBox ID="txtCustomerCode" runat="server" SkinID="TextBoxDisabled" ReadOnly="true" />
+                                </td>
+                                <td class="label">
+                                    <asp:Label Text="Address1" SkinID="LabelNormal" runat="server" ID="lblAddress1" />
+                                </td>
+                                <td class="inputcontrols">
+                                    <asp:TextBox ID="txtAddress1" runat="server" SkinID="TextBoxDisabled" ReadOnly="true" />
+                                </td>
+                                <td class="label">
+                                    <asp:Label runat="server" ID="lblAddress2" Text="Address2" SkinID="LabelNormal" />
+                                </td>
+                                <td class="inputcontrols">
+                                    <asp:TextBox ID="txtAddress2" runat="server" SkinID="TextBoxDisabled" ReadOnly="true" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="label">
+                                    <asp:Label runat="server" ID="lblAddress3" Text="Address3" SkinID="LabelNormal" />
+                                </td>
+                                <td class="inputcontrols">
+                                    <asp:TextBox ID="txtAddress3" runat="server" SkinID="TextBoxDisabled" ReadOnly="true" />
+                                </td>
+                                <td class="label">
+                                    <asp:Label Text="Address4" SkinID="LabelNormal" runat="server" ID="lblAddress4" />
+                                </td>
+                                <td class="inputcontrols">
+                                    <asp:TextBox ID="txtAddress4" runat="server" SkinID="TextBoxDisabled" ReadOnly="true" />
+                                </td>
+                                <td class="label">
+                                    <asp:Label runat="server" ID="lblLocation" Text="Location" SkinID="LabelNormal" />
+                                </td>
+                                <td class="inputcontrols">
+                                    <asp:TextBox ID="txtLocation" runat="server" SkinID="TextBoxDisabled" ReadOnly="true" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="reportButtons">
+        <asp:Button ID="btnReport" runat="server" OnClick="btnReport_Click" OnClientClick="javaScript:return FnValidate();"
+            Text="Generate Report" SkinID="ButtonViewReport" TabIndex="11" />
+        <asp:Button ID="btnBack" SkinID="ButtonNormal" runat="server" Text="Back" OnClick="btnBack_Click" Style="display: none" />
+    </div>
+</asp:Content>

@@ -1,0 +1,60 @@
+
+ 2024-01-31 17:22:12,865   [38]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Miscellaneous/Miscellaneous.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.XmlSiteMapProvider.AddNodeInternal(SiteMapNode node, SiteMapNode parentNode, XmlNode xmlNode)
+   at System.Web.XmlSiteMapProvider.ConvertFromXmlNode(Queue queue)
+   at System.Web.XmlSiteMapProvider.BuildSiteMap()
+   at System.Web.XmlSiteMapProvider.get_RootNode()
+   at System.Web.SiteMap.get_RootNode()
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 189
+
+ 2024-01-31 17:22:12,933   [38]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Miscellaneous/Miscellaneous.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 312
+   at IMPALWeb.Main.Page_Load(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 65
+
+ 2024-01-31 17:22:19,379   [29]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Miscellaneous/Miscellaneous.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.XmlSiteMapProvider.AddNodeInternal(SiteMapNode node, SiteMapNode parentNode, XmlNode xmlNode)
+   at System.Web.XmlSiteMapProvider.ConvertFromXmlNode(Queue queue)
+   at System.Web.XmlSiteMapProvider.BuildSiteMap()
+   at System.Web.XmlSiteMapProvider.get_RootNode()
+   at System.Web.SiteMap.get_RootNode()
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 189
+
+ 2024-01-31 17:22:19,402   [29]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Miscellaneous/Miscellaneous.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 312
+   at IMPALWeb.Main.Page_Load(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 65
+
+ 2024-01-31 17:22:33,356   [34]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Miscellaneous/Miscellaneous.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.XmlSiteMapProvider.AddNodeInternal(SiteMapNode node, SiteMapNode parentNode, XmlNode xmlNode)
+   at System.Web.XmlSiteMapProvider.ConvertFromXmlNode(Queue queue)
+   at System.Web.XmlSiteMapProvider.BuildSiteMap()
+   at System.Web.XmlSiteMapProvider.get_RootNode()
+   at System.Web.SiteMap.get_RootNode()
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 189
+
+ 2024-01-31 17:22:33,379   [34]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Miscellaneous/Miscellaneous.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 312
+   at IMPALWeb.Main.Page_Load(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 65
+
+ 2024-01-31 17:23:41,189   [78]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Miscellaneous/Miscellaneous.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.XmlSiteMapProvider.AddNodeInternal(SiteMapNode node, SiteMapNode parentNode, XmlNode xmlNode)
+   at System.Web.XmlSiteMapProvider.ConvertFromXmlNode(Queue queue)
+   at System.Web.XmlSiteMapProvider.BuildSiteMap()
+   at System.Web.XmlSiteMapProvider.get_RootNode()
+   at System.Web.SiteMap.get_RootNode()
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 189
+
+ 2024-01-31 17:23:41,215   [78]   ERROR  WriteException  IMPALWeb.Main 
+System.Configuration.ConfigurationErrorsException: Multiple nodes with the same URL '/Reports/Miscellaneous/Miscellaneous.aspx' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at IMPALLibrary.Log.WriteException(Type Source, Exception exp) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\ApplicationLog\LogHandler.cs:line 44
+   at IMPALWeb.Main.LoadAccordionTreeViewMenu() in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 312
+   at IMPALWeb.Main.Page_Load(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\Main.Master.cs:line 65

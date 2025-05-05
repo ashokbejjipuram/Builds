@@ -1,0 +1,15 @@
+
+ 2024-01-29 13:22:27,438   [6]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.IndexOutOfRangeException: Transporter_Name
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetEcreditApplicationDetails(String BranchCode, String ApplicationNo) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 662
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 143
+
+ 2024-01-29 13:23:49,397   [5]   ERROR  WriteException  IMPALWeb.ECreditApplicationHO 
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Impal_Archive.dbo.outstanding_report'.
+   at IMPALLibrary.Masters.ECreditFormCustTransactions.GetPaymentPatternDetails(String BranchCode, String CustomerCode) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALLibrary\Masters\Customer\ECreditApplication.cs:line 399
+   at IMPALWeb.ECreditApplicationHO.ddlApplicationNo_SelectedIndexChanged(Object sender, EventArgs e) in E:\Ashok\Builds\IMPAL_Source_Latest_Online\IMPALWeb\HOAdmin\Masters\Customer\EcreditApplicationHO.aspx.cs:line 316
+ClientConnectionId:857b1340-c463-4793-9c3a-892eba5e2483
+Error Number:208,State:1,Class:16

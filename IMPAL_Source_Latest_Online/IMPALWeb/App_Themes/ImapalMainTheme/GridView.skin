@@ -1,0 +1,95 @@
+<%--
+<asp:GridView 
+    SkinID="GridViewOld" 
+    runat="server" 
+    CssClass="DataWebControlStyle" 
+    >
+    <AlternatingRowStyle CssClass="AlternatingRowStyle" />
+    <RowStyle CssClass="RowStyle" />
+    <HeaderStyle CssClass="HeaderStyle" />   
+    <FooterStyle CssClass="FoooterStyle"/>
+</asp:GridView>
+--%>
+
+<asp:GridView 
+    SkinID="GridView" 
+    runat="server" 
+    CssClass="GridViewStyle" 
+    GridLines="None"
+    AllowPaging="True"
+    ShowFooter="True" 
+    PageSize="15"
+    PagerSettings-Mode="NumericFirstLast"
+    >  
+    <EmptyDataRowStyle CssClass="EmptyRowStyle" />     
+    <HeaderStyle CssClass="HeaderStyle" />    
+    <RowStyle CssClass="RowStyle" />    
+    <AlternatingRowStyle CssClass="AltRowStyle" />  
+    <SelectedRowStyle CssClass="SelectedRowStyle" /> 
+    <EditRowStyle CssClass="EditRowStyle" />  
+    <FooterStyle CssClass="FoooterStyle" />
+    <PagerStyle CssClass="PagerStyle" />    
+</asp:GridView>
+
+<asp:GridView 
+    SkinID="GridViewScroll" 
+    runat="server" 
+    CssClass="GridViewScrollStyle" 
+    GridLines="None"
+    AllowPaging="True"
+    ShowFooter="True" 
+    PageSize="150"
+    >      
+    <EmptyDataRowStyle CssClass="GridViewScrollEmptyRow" />   
+    <HeaderStyle CssClass="GridviewScrollHeader" /> 
+    <RowStyle CssClass="GridviewScrollRow" /> 
+    <AlternatingRowStyle CssClass="GridviewScrollAltRow" />  
+    <SelectedRowStyle CssClass="GridviewScrollSelectedRow" /> 
+    <EditRowStyle CssClass="GridviewScrollEditRow" />  
+    <FooterStyle CssClass="GridviewScrollFoooter" />
+    <PagerStyle CssClass="GridviewScrollPager" />
+</asp:GridView>
+
+<asp:GridView 
+    SkinID="GridViewTransaction"
+    runat="server" 
+    CssClass="GridViewScrollStyle" 
+    GridLines="None"
+    AllowPaging="True"
+    ShowFooter="True" 
+    PageSize="150"
+    >      
+    <EmptyDataRowStyle CssClass="GridViewScrollEmptyRow" />   
+    <HeaderStyle CssClass="GridviewScrollHeader" /> 
+    <RowStyle CssClass="GridviewScrollRow" /> 
+    <AlternatingRowStyle CssClass="GridviewScrollAltRow" />  
+    <SelectedRowStyle CssClass="GridviewScrollSelectedRow" /> 
+    <EditRowStyle CssClass="GridviewScrollEditRow" />  
+    <FooterStyle CssClass="GridviewScrollFoooter" />
+    <PagerStyle CssClass="GridviewScrollPager" />
+</asp:GridView>
+
+<%-- 
+<asp:GridView 
+    SkinID="GridViewTransaction" 
+    runat="server" 
+    CssClass="GridViewTransactionStyle" 
+    GridLines="None"
+    AllowPaging="True"
+    ShowFooter="True" 
+    PageSize="20"
+    >  
+    <EmptyDataRowStyle CssClass="EmptyRowStyle" />     
+    <HeaderStyle CssClass="HeaderStyle" />    
+    <RowStyle CssClass="RowStyle" />    
+    <AlternatingRowStyle CssClass="AltRowStyle" />  
+    <SelectedRowStyle CssClass="SelectedRowStyle" /> 
+    <EditRowStyle CssClass="EditRowStyle" />  
+    <FooterStyle CssClass="FoooterStyle" />
+    <PagerStyle CssClass="PagerStyle" />    
+</asp:GridView>
+--%>
+
+ 
+
+ 
